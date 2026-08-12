@@ -6,4 +6,5 @@
         Form1.RoundPanel(todaysAppPnl, 20)
         Form1.RoundPanel(totalConsultPnl, 20)
     End Sub
+
 End Class
