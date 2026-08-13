@@ -2,7 +2,7 @@
 
 Public Class ContentForm
 
-    Private dashboardPanel As New Dashboard()
+    Public dashboardPanel As New Dashboard()
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -48,5 +48,9 @@ Public Class ContentForm
     Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click
         LogForm.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub ContentForm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        Application.Exit()
     End Sub
 End Class

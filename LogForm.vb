@@ -9,9 +9,14 @@
     End Sub
 
     Private Sub logBtn_Click(sender As Object, e As EventArgs) Handles logBtn.Click
-        MessageBox.Show("Button clicked!")
-
-        ContentForm.Show()
         Me.Hide()
+        ContentForm.Show()
+        ContentForm.contentPanel.Controls.Clear()
+        ContentForm.dashboardPanel.Dock = DockStyle.Fill
+        ContentForm.contentPanel.Controls.Add(ContentForm.dashboardPanel)
+    End Sub
+
+    Private Sub LogForm_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
+        Application.Exit()
     End Sub
 End Class
