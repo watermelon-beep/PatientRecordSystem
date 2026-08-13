@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class ContentForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -25,7 +25,7 @@ Partial Class Form1
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.logoutbtn = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -53,7 +53,7 @@ Partial Class Form1
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(330, 1041)
+        Me.Panel1.Size = New System.Drawing.Size(330, 729)
         Me.Panel1.TabIndex = 0
         '
         'Panel3
@@ -62,7 +62,7 @@ Partial Class Form1
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(0, 237)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(330, 804)
+        Me.Panel3.Size = New System.Drawing.Size(330, 492)
         Me.Panel3.TabIndex = 2
         '
         'TableLayoutPanel1
@@ -70,7 +70,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Button9, 0, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.logoutbtn, 0, 8)
         Me.TableLayoutPanel1.Controls.Add(Me.Button8, 0, 7)
         Me.TableLayoutPanel1.Controls.Add(Me.Button7, 0, 6)
         Me.TableLayoutPanel1.Controls.Add(Me.Button6, 0, 5)
@@ -92,26 +92,26 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(330, 804)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(330, 492)
         Me.TableLayoutPanel1.TabIndex = 0
         '
-        'Button9
+        'logoutbtn
         '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button9.Location = New System.Drawing.Point(3, 715)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(324, 86)
-        Me.Button9.TabIndex = 8
-        Me.Button9.Text = "Logout"
-        Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.logoutbtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.logoutbtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.logoutbtn.FlatAppearance.BorderSize = 0
+        Me.logoutbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.logoutbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.logoutbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.logoutbtn.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.logoutbtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.logoutbtn.Location = New System.Drawing.Point(3, 435)
+        Me.logoutbtn.Name = "logoutbtn"
+        Me.logoutbtn.Size = New System.Drawing.Size(324, 54)
+        Me.logoutbtn.TabIndex = 8
+        Me.logoutbtn.Text = "Logout"
+        Me.logoutbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.logoutbtn.UseVisualStyleBackColor = False
         '
         'Button8
         '
@@ -123,9 +123,9 @@ Partial Class Form1
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button8.Location = New System.Drawing.Point(3, 626)
+        Me.Button8.Location = New System.Drawing.Point(3, 381)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(324, 83)
+        Me.Button8.Size = New System.Drawing.Size(324, 48)
         Me.Button8.TabIndex = 7
         Me.Button8.Text = "Settings"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -141,9 +141,9 @@ Partial Class Form1
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button7.Location = New System.Drawing.Point(3, 537)
+        Me.Button7.Location = New System.Drawing.Point(3, 327)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(324, 83)
+        Me.Button7.Size = New System.Drawing.Size(324, 48)
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Reports"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -159,9 +159,9 @@ Partial Class Form1
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button6.Location = New System.Drawing.Point(3, 448)
+        Me.Button6.Location = New System.Drawing.Point(3, 273)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(324, 83)
+        Me.Button6.Size = New System.Drawing.Size(324, 48)
         Me.Button6.TabIndex = 5
         Me.Button6.Text = "Staff Records"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -177,9 +177,9 @@ Partial Class Form1
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button5.Location = New System.Drawing.Point(3, 359)
+        Me.Button5.Location = New System.Drawing.Point(3, 219)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(324, 83)
+        Me.Button5.Size = New System.Drawing.Size(324, 48)
         Me.Button5.TabIndex = 4
         Me.Button5.Text = "Medical Records"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -195,9 +195,9 @@ Partial Class Form1
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button4.Location = New System.Drawing.Point(3, 270)
+        Me.Button4.Location = New System.Drawing.Point(3, 165)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(324, 83)
+        Me.Button4.Size = New System.Drawing.Size(324, 48)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "Appointments"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -213,9 +213,9 @@ Partial Class Form1
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Location = New System.Drawing.Point(3, 181)
+        Me.Button3.Location = New System.Drawing.Point(3, 111)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(324, 83)
+        Me.Button3.Size = New System.Drawing.Size(324, 48)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Register Patient"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -231,9 +231,9 @@ Partial Class Form1
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(3, 92)
+        Me.Button2.Location = New System.Drawing.Point(3, 57)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(324, 83)
+        Me.Button2.Size = New System.Drawing.Size(324, 48)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Patient Record"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -251,7 +251,7 @@ Partial Class Form1
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button1.Location = New System.Drawing.Point(3, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(324, 83)
+        Me.Button1.Size = New System.Drawing.Size(324, 48)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Dashboard"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -294,17 +294,20 @@ Partial Class Form1
         Me.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.contentPanel.Location = New System.Drawing.Point(330, 0)
         Me.contentPanel.Name = "contentPanel"
-        Me.contentPanel.Size = New System.Drawing.Size(1574, 1041)
+        Me.contentPanel.Size = New System.Drawing.Size(1020, 729)
         Me.contentPanel.TabIndex = 1
         '
-        'Form1
+        'ContentForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1904, 1041)
+        Me.ClientSize = New System.Drawing.Size(1350, 729)
         Me.Controls.Add(Me.contentPanel)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Form1"
+        Me.MinimumSize = New System.Drawing.Size(1024, 600)
+        Me.Name = "ContentForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
@@ -319,7 +322,7 @@ Partial Class Form1
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Button9 As Button
+    Friend WithEvents logoutbtn As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button6 As Button

@@ -1,6 +1,6 @@
 ﻿Imports System.Drawing.Drawing2D
 
-Public Class Form1
+Public Class ContentForm
 
     Private dashboardPanel As New Dashboard()
 
@@ -45,4 +45,8 @@ Public Class Form1
 
     End Sub
 
+    Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click
+        LogForm.Show()
+        Me.Hide()
+    End Sub
 End Class
