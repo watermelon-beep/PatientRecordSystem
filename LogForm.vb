@@ -1,6 +1,8 @@
 ﻿Public Class LogForm
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
 
+    Private Sub userPlaceHolder()
+        usrnmLogtxtbx.Text = "Username"
+        usrnmLogtxtbx.ForeColor = Color.Gray
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
@@ -18,5 +20,24 @@
 
     Private Sub LogForm_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
         Application.Exit()
+    End Sub
+
+
+    Private Sub usrnmLogtxtbx_MouseClick(sender As Object, e As MouseEventArgs) Handles usrnmLogtxtbx.MouseClick
+        usrnmLogtxtbx.Clear()
+    End Sub
+
+    Private Sub LogForm_Load(sender As Object, e As EventArgs) Handles Me.Load
+        ContentForm.RoundPanel(card, 50)
+        userPlaceHolder()
+    End Sub
+
+    Private Sub usrnmLogtxtbx_Leave(sender As Object, e As EventArgs) Handles usrnmLogtxtbx.Leave
+        userPlaceHolder()
+
+    End Sub
+
+    Private Sub usrnmLogtxtbx_TextChanged(sender As Object, e As EventArgs) Handles usrnmLogtxtbx.TextChanged
+
     End Sub
 End Class

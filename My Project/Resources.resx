@@ -121,4 +121,13 @@
   <data name="charImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\charImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChatGPT Image Aug 13, 2026, 06_00_20 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image Aug 13, 2026, 06_00_20 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

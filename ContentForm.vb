@@ -4,11 +4,8 @@ Public Class ContentForm
 
     Public dashboardPanel As New Dashboard()
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles dashboardBtn.Click
 
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         contentPanel.Controls.Clear()
         dashboardPanel.Dock = DockStyle.Fill
         contentPanel.Controls.Add(dashboardPanel)

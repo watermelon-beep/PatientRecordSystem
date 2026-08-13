@@ -33,7 +33,7 @@ Partial Class ContentForm
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.dashboardBtn = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -78,7 +78,7 @@ Partial Class ContentForm
         Me.TableLayoutPanel1.Controls.Add(Me.Button4, 0, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.Button3, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Button2, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Button1, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.dashboardBtn, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -239,23 +239,23 @@ Partial Class ContentForm
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button1
+        'dashboardBtn
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(3, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(324, 48)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Dashboard"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.dashboardBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.dashboardBtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dashboardBtn.FlatAppearance.BorderSize = 0
+        Me.dashboardBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.dashboardBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.dashboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.dashboardBtn.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashboardBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.dashboardBtn.Location = New System.Drawing.Point(3, 3)
+        Me.dashboardBtn.Name = "dashboardBtn"
+        Me.dashboardBtn.Size = New System.Drawing.Size(324, 48)
+        Me.dashboardBtn.TabIndex = 0
+        Me.dashboardBtn.Text = "Dashboard"
+        Me.dashboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.dashboardBtn.UseVisualStyleBackColor = False
         '
         'Panel2
         '
@@ -330,7 +330,7 @@ Partial Class ContentForm
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents dashboardBtn As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents contentPanel As Panel
