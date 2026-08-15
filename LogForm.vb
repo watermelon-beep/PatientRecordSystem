@@ -36,8 +36,4 @@
         userPlaceHolder()
 
     End Sub
-
-    Private Sub usrnmLogtxtbx_TextChanged(sender As Object, e As EventArgs) Handles usrnmLogtxtbx.TextChanged
-
-    End Sub
 End Class

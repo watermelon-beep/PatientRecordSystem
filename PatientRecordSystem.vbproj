@@ -159,5 +159,26 @@
   <ItemGroup>
     <None Include="Resources\ChatGPT Image Aug 13, 2026, 06_00_20 PM.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalPaticn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tdyAppIcn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalconsulticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalconsulticon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalconsulticon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Aug 15, 2026, 04_36_38 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totalconsicn.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

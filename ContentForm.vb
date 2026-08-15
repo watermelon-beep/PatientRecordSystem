@@ -27,6 +27,21 @@ Public Class ContentForm
 
     End Sub
 
+    Public Sub Rounddatagrid(datagrid As DataGridView, radius As Integer)
+
+        Dim path As New GraphicsPath()
+
+        path.StartFigure()
+        path.AddArc(0, 0, radius, radius, 180, 90)
+        path.AddArc(datagrid.Width - radius, 0, radius, radius, 270, 90)
+        path.AddArc(datagrid.Width - radius, datagrid.Height - radius, radius, radius, 0, 90)
+        path.AddArc(0, datagrid.Height - radius, radius, radius, 90, 90)
+        path.CloseFigure()
+
+        datagrid.Region = New Region(path)
+
+    End Sub
+
     Public Sub RoundPanel(pnl As Panel, radius As Integer)
 
         Dim path As New GraphicsPath()
