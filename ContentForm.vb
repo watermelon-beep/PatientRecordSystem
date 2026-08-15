@@ -65,8 +65,4 @@ Public Class ContentForm
     Private Sub ContentForm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         Application.Exit()
     End Sub
-
-    Private Sub contentPanel_Paint(sender As Object, e As PaintEventArgs) Handles contentPanel.Paint
-
-    End Sub
 End Class

@@ -36,8 +36,8 @@ Partial Class ContentForm
         Me.dashboardBtn = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.contentPanel = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.contentPanel = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -104,7 +104,7 @@ Partial Class ContentForm
         Me.logoutbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.logoutbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logoutbtn.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.logoutbtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.logoutbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.logoutbtn.Location = New System.Drawing.Point(3, 435)
         Me.logoutbtn.Name = "logoutbtn"
         Me.logoutbtn.Size = New System.Drawing.Size(324, 54)
@@ -122,7 +122,7 @@ Partial Class ContentForm
         Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button8.Location = New System.Drawing.Point(3, 381)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(324, 48)
@@ -140,7 +140,7 @@ Partial Class ContentForm
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button7.Location = New System.Drawing.Point(3, 327)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(324, 48)
@@ -158,7 +158,7 @@ Partial Class ContentForm
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button6.Location = New System.Drawing.Point(3, 273)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(324, 48)
@@ -176,7 +176,7 @@ Partial Class ContentForm
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button5.Location = New System.Drawing.Point(3, 219)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(324, 48)
@@ -194,7 +194,7 @@ Partial Class ContentForm
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button4.Location = New System.Drawing.Point(3, 165)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(324, 48)
@@ -212,7 +212,7 @@ Partial Class ContentForm
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button3.Location = New System.Drawing.Point(3, 111)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(324, 48)
@@ -230,7 +230,7 @@ Partial Class ContentForm
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Button2.Location = New System.Drawing.Point(3, 57)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(324, 48)
@@ -248,7 +248,7 @@ Partial Class ContentForm
         Me.dashboardBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.dashboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.dashboardBtn.Font = New System.Drawing.Font("SimSun-ExtB", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dashboardBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.dashboardBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.dashboardBtn.Location = New System.Drawing.Point(3, 3)
         Me.dashboardBtn.Name = "dashboardBtn"
         Me.dashboardBtn.Size = New System.Drawing.Size(324, 48)
@@ -272,20 +272,12 @@ Partial Class ContentForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Emoji", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(73, 88)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(254, 84)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Barangay Health Center" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Patient Record" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "System" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'contentPanel
-        '
-        Me.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.contentPanel.Location = New System.Drawing.Point(330, 0)
-        Me.contentPanel.Name = "contentPanel"
-        Me.contentPanel.Size = New System.Drawing.Size(1020, 729)
-        Me.contentPanel.TabIndex = 1
         '
         'PictureBox1
         '
@@ -297,6 +289,14 @@ Partial Class ContentForm
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
+        '
+        'contentPanel
+        '
+        Me.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.contentPanel.Location = New System.Drawing.Point(330, 0)
+        Me.contentPanel.Name = "contentPanel"
+        Me.contentPanel.Size = New System.Drawing.Size(1020, 729)
+        Me.contentPanel.TabIndex = 1
         '
         'ContentForm
         '
