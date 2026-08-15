@@ -36,8 +36,8 @@ Partial Class ContentForm
         Me.dashboardBtn = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.contentPanel = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -242,7 +242,7 @@ Partial Class ContentForm
         'dashboardBtn
         '
         Me.dashboardBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.dashboardBtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dashboardBtn.Dock = System.Windows.Forms.DockStyle.Left
         Me.dashboardBtn.FlatAppearance.BorderSize = 0
         Me.dashboardBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.dashboardBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
@@ -259,7 +259,7 @@ Partial Class ContentForm
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(11, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(11, Byte), Integer))
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Controls.Add(Me.PictureBox1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
@@ -279,16 +279,6 @@ Partial Class ContentForm
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Barangay Health Center" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Patient Record" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "System" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.charImg
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 88)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(82, 84)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'contentPanel
         '
         Me.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill
@@ -296,6 +286,17 @@ Partial Class ContentForm
         Me.contentPanel.Name = "contentPanel"
         Me.contentPanel.Size = New System.Drawing.Size(1020, 729)
         Me.contentPanel.TabIndex = 1
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Aug_13__2026__06_00_20_PM1
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 88)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(82, 84)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'ContentForm
         '
