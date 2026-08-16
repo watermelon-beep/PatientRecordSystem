@@ -114,6 +114,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RoundCorner.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dashboard.resx">
@@ -185,6 +186,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ChatGPT Image Aug 13, 2026, 06_00_20 PM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newPattdyicn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pendingAppIcn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\completeTodIcn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maleIcn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\femaleIcn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

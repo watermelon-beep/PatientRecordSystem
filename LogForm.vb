@@ -1,5 +1,7 @@
 ﻿Public Class LogForm
 
+    Private roundCorner As New RoundCorner()
+
     Private Sub userPlaceHolder()
         usrnmLogtxtbx.Text = "Username"
         usrnmLogtxtbx.ForeColor = Color.Gray
@@ -28,12 +30,11 @@
     End Sub
 
     Private Sub LogForm_Load(sender As Object, e As EventArgs) Handles Me.Load
-        ContentForm.RoundPanel(card, 50)
+        roundCorner.RoundPanel(card, 50)
         userPlaceHolder()
     End Sub
 
     Private Sub usrnmLogtxtbx_Leave(sender As Object, e As EventArgs) Handles usrnmLogtxtbx.Leave
         userPlaceHolder()
-
     End Sub
 End Class

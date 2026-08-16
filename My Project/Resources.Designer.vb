@@ -113,6 +113,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property completeTodIcn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("completeTodIcn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property femaleIcn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("femaleIcn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property logo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("logo", resourceCulture)
@@ -126,6 +146,36 @@ Namespace My.Resources
         Friend ReadOnly Property logoIcon() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("logoIcon", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property maleIcn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("maleIcn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property newPattdyicn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("newPattdyicn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property pendingAppIcn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("pendingAppIcn", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
