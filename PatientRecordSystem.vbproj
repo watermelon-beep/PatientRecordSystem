@@ -114,7 +114,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="RoundCorner.vb" />
+    <Compile Include="RoundCorn.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dashboard.resx">

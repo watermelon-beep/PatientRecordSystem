@@ -1,6 +1,6 @@
 ﻿Imports System.Drawing.Drawing2D
 
-Public Class RoundCorner
+Module RoundCorn
     Public Sub Rounddatagrid(datagrid As DataGridView, radius As Integer)
 
         Dim path As New GraphicsPath()
@@ -43,4 +43,4 @@ Public Class RoundCorner
         pnl.Region = New Region(path)
 
     End Sub
-End Class
+End Module

@@ -59,7 +59,11 @@ Partial Class Dashboard
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.totalFPanel = New System.Windows.Forms.Panel()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.Label19 = New System.Windows.Forms.Label()
         Me.totalMPanel = New System.Windows.Forms.Panel()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
@@ -82,10 +86,6 @@ Partial Class Dashboard
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -106,6 +106,7 @@ Partial Class Dashboard
         Me.Panel8.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.totalFPanel.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.totalMPanel.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel5.SuspendLayout()
@@ -116,7 +117,6 @@ Partial Class Dashboard
         Me.Panel9.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.TableLayoutPanel3.SuspendLayout()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -419,7 +419,7 @@ Partial Class Dashboard
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Aug_13__2026__06_00_20_PM1
+        Me.PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.totalPaticn
         Me.PictureBox1.Location = New System.Drawing.Point(34, 34)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(83, 75)
@@ -489,6 +489,38 @@ Partial Class Dashboard
         Me.totalFPanel.Size = New System.Drawing.Size(200, 253)
         Me.totalFPanel.TabIndex = 1
         '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label18.Location = New System.Drawing.Point(28, 119)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(44, 31)
+        Me.Label18.TabIndex = 6
+        Me.Label18.Text = "43"
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.PatientRecordSystem.My.Resources.Resources.femaleIcn
+        Me.PictureBox8.Location = New System.Drawing.Point(145, 65)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(44, 38)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 5
+        Me.PictureBox8.TabStop = False
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label19.Location = New System.Drawing.Point(15, 75)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(136, 26)
+        Me.Label19.TabIndex = 4
+        Me.Label19.Text = "Total Female"
+        '
         'totalMPanel
         '
         Me.totalMPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
@@ -501,6 +533,17 @@ Partial Class Dashboard
         Me.totalMPanel.Name = "totalMPanel"
         Me.totalMPanel.Size = New System.Drawing.Size(200, 253)
         Me.totalMPanel.TabIndex = 0
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label17.Location = New System.Drawing.Point(28, 124)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(44, 31)
+        Me.Label17.TabIndex = 3
+        Me.Label17.Text = "43"
         '
         'PictureBox7
         '
@@ -752,49 +795,6 @@ Partial Class Dashboard
         Me.Column3.HeaderText = "N/A"
         Me.Column3.Name = "Column3"
         '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label17.Location = New System.Drawing.Point(28, 124)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(44, 31)
-        Me.Label17.TabIndex = 3
-        Me.Label17.Text = "43"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label18.Location = New System.Drawing.Point(28, 119)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(44, 31)
-        Me.Label18.TabIndex = 6
-        Me.Label18.Text = "43"
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.PatientRecordSystem.My.Resources.Resources.femaleIcn
-        Me.PictureBox8.Location = New System.Drawing.Point(145, 65)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(44, 38)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 5
-        Me.PictureBox8.TabStop = False
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label19.Location = New System.Drawing.Point(15, 75)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(136, 26)
-        Me.Label19.TabIndex = 4
-        Me.Label19.Text = "Total Female"
-        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -831,6 +831,7 @@ Partial Class Dashboard
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.totalFPanel.ResumeLayout(False)
         Me.totalFPanel.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.totalMPanel.ResumeLayout(False)
         Me.totalMPanel.PerformLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
@@ -845,7 +846,6 @@ Partial Class Dashboard
         Me.Panel2.ResumeLayout(False)
         Me.TableLayoutPanel3.ResumeLayout(False)
         Me.TableLayoutPanel3.PerformLayout()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
