@@ -12,8 +12,8 @@ Public Class ContentForm
     End Sub
 
     Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click
-        LogForm.Show()
         Me.Hide()
+        LogForm.Show()
     End Sub
 
     Private Sub ContentForm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing

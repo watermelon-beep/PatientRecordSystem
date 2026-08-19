@@ -23,26 +23,35 @@ Partial Class LogForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.usrnmLogtxtbx = New System.Windows.Forms.TextBox()
         Me.logBtn = New System.Windows.Forms.Button()
         Me.card = New System.Windows.Forms.Panel()
-        Me.userLogPnl = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.showPassCb = New System.Windows.Forms.CheckBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.passLogPnl = New System.Windows.Forms.Panel()
         Me.passLogTxbx = New System.Windows.Forms.TextBox()
+        Me.userLogPnl = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.card.SuspendLayout()
-        Me.userLogPnl.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.passLogPnl.SuspendLayout()
+        Me.userLogPnl.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Controls.Add(Me.Panel3)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -50,13 +59,24 @@ Partial Class LogForm
         Me.Panel1.Size = New System.Drawing.Size(1033, 1041)
         Me.Panel1.TabIndex = 0
         '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.PictureBox1)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Panel3.Location = New System.Drawing.Point(0, 720)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1033, 321)
+        Me.Panel3.TabIndex = 1
+        '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Right
         Me.PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Aug_13__2026__06_00_20_PM
-        Me.PictureBox1.Location = New System.Drawing.Point(690, 741)
+        Me.PictureBox1.Location = New System.Drawing.Point(693, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(340, 297)
+        Me.PictureBox1.Size = New System.Drawing.Size(340, 321)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -65,8 +85,8 @@ Partial Class LogForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(46, 305)
+        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Location = New System.Drawing.Point(41, 248)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(958, 318)
         Me.Label1.TabIndex = 0
@@ -86,16 +106,24 @@ Partial Class LogForm
         '
         'logBtn
         '
+        Me.logBtn.BackColor = System.Drawing.Color.Gainsboro
+        Me.logBtn.FlatAppearance.BorderSize = 0
+        Me.logBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.logBtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.logBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.logBtn.Location = New System.Drawing.Point(172, 448)
         Me.logBtn.Name = "logBtn"
         Me.logBtn.Size = New System.Drawing.Size(178, 46)
         Me.logBtn.TabIndex = 3
         Me.logBtn.Text = "Log in"
-        Me.logBtn.UseVisualStyleBackColor = True
+        Me.logBtn.UseVisualStyleBackColor = False
         '
         'card
         '
-        Me.card.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.card.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.card.Controls.Add(Me.Label4)
+        Me.card.Controls.Add(Me.showPassCb)
+        Me.card.Controls.Add(Me.Panel2)
         Me.card.Controls.Add(Me.passLogPnl)
         Me.card.Controls.Add(Me.userLogPnl)
         Me.card.Controls.Add(Me.Label2)
@@ -105,25 +133,55 @@ Partial Class LogForm
         Me.card.Size = New System.Drawing.Size(535, 791)
         Me.card.TabIndex = 4
         '
-        'userLogPnl
+        'Label4
         '
-        Me.userLogPnl.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.userLogPnl.Controls.Add(Me.usrnmLogtxtbx)
-        Me.userLogPnl.Location = New System.Drawing.Point(44, 225)
-        Me.userLogPnl.Name = "userLogPnl"
-        Me.userLogPnl.Padding = New System.Windows.Forms.Padding(10, 15, 0, 0)
-        Me.userLogPnl.Size = New System.Drawing.Size(448, 53)
-        Me.userLogPnl.TabIndex = 5
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label4.Location = New System.Drawing.Point(207, 539)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(111, 19)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Forget Password"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label2
+        'showPassCb
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(208, 711)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(120, 13)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "don't have an account?"
+        Me.showPassCb.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
+        Me.showPassCb.AutoSize = True
+        Me.showPassCb.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.showPassCb.ForeColor = System.Drawing.Color.Gainsboro
+        Me.showPassCb.Location = New System.Drawing.Point(63, 384)
+        Me.showPassCb.Name = "showPassCb"
+        Me.showPassCb.Size = New System.Drawing.Size(141, 24)
+        Me.showPassCb.TabIndex = 8
+        Me.showPassCb.Text = "Show Password"
+        Me.showPassCb.UseVisualStyleBackColor = True
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.TableLayoutPanel1)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(535, 100)
+        Me.Panel2.TabIndex = 7
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label3.Location = New System.Drawing.Point(181, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(172, 100)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "LOG IN"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'passLogPnl
         '
@@ -147,12 +205,47 @@ Partial Class LogForm
         Me.passLogTxbx.Size = New System.Drawing.Size(438, 38)
         Me.passLogTxbx.TabIndex = 2
         '
+        'userLogPnl
+        '
+        Me.userLogPnl.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.userLogPnl.Controls.Add(Me.usrnmLogtxtbx)
+        Me.userLogPnl.Location = New System.Drawing.Point(44, 225)
+        Me.userLogPnl.Name = "userLogPnl"
+        Me.userLogPnl.Padding = New System.Windows.Forms.Padding(10, 15, 0, 0)
+        Me.userLogPnl.Size = New System.Drawing.Size(448, 53)
+        Me.userLogPnl.TabIndex = 5
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label2.Location = New System.Drawing.Point(208, 711)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(120, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "don't have an account?"
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 3
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label3, 1, 0)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(535, 100)
+        Me.TableLayoutPanel1.TabIndex = 0
+        '
         'LogForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.card)
         Me.Controls.Add(Me.Panel1)
@@ -163,13 +256,17 @@ Partial Class LogForm
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.card.ResumeLayout(False)
         Me.card.PerformLayout()
-        Me.userLogPnl.ResumeLayout(False)
-        Me.userLogPnl.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
         Me.passLogPnl.ResumeLayout(False)
         Me.passLogPnl.PerformLayout()
+        Me.userLogPnl.ResumeLayout(False)
+        Me.userLogPnl.PerformLayout()
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -184,4 +281,10 @@ Partial Class LogForm
     Friend WithEvents userLogPnl As Panel
     Friend WithEvents passLogPnl As Panel
     Friend WithEvents passLogTxbx As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents showPassCb As CheckBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
 End Class
