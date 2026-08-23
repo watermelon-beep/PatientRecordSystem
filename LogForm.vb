@@ -6,12 +6,6 @@
     Private Sub logBtn_Click(sender As Object, e As EventArgs) Handles logBtn.Click
         ContentForm.Show()
         Me.Hide()
-
-        ContentForm.contentPanel.Controls.Clear()
-        ContentForm.dashboardPanel.Dock = DockStyle.Fill
-        ContentForm.contentPanel.Controls.Add(ContentForm.dashboardPanel)
-        ContentForm.newUsrContrl = ContentForm.dashboardPanel
-
     End Sub
 
 

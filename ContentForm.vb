@@ -1,30 +1,12 @@
-﻿Imports System.Drawing.Drawing2D
-
-Public Class ContentForm
-    Public newUsrContrl As New UserControl
+﻿Public Class ContentForm
+    Private currentUsrContrl As New UserControl
     Public dashboardPanel As New Dashboard()
     Public logout As New Logout()
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles dashboardBtn.Click
 
-        contentPanel.Controls.Clear()
-        dashboardPanel.Dock = DockStyle.Fill
-        contentPanel.Controls.Add(dashboardPanel)
-        newUsrContrl = dashboardPanel
-
-    End Sub
-
-    Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click
+    Private Sub ContentForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         contentPanel.Controls.Add(logout)
-
-        logout.BringToFront()
-
-        logout.Location = New Point(
-            (contentPanel.Width - logout.Width) \ 2,
-            (contentPanel.Height - logout.Height) \ 2
-        )
-
-        logout.Visible = True
+        logout.Visible = False
 
         AddHandler logout.logoutConfirmed,
             Sub()
@@ -35,8 +17,27 @@ Public Class ContentForm
         AddHandler logout.logoutCanceled,
             Sub()
                 logout.Hide()
-                newUsrContrl.Show()
+                currentUsrContrl.Show()
             End Sub
+        showControl(dashboardPanel)
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles dashboardBtn.Click
+
+        showControl(dashboardPanel)
+        currentUsrContrl = dashboardPanel
+
+    End Sub
+
+    Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click
+
+        logout.Location = New Point(
+            (contentPanel.Width - logout.Width) \ 2,
+            (contentPanel.Height - logout.Height) \ 2
+        )
+
+        logout.BringToFront()
+        logout.Visible = True
 
     End Sub
 
@@ -45,4 +46,15 @@ Public Class ContentForm
         Application.Exit()
 
     End Sub
+
+    Public Sub showControl(cntrl As UserControl)
+        contentPanel.Controls.Clear()
+        cntrl.Dock = DockStyle.Fill
+        contentPanel.Controls.Add(cntrl)
+        currentUsrContrl = cntrl
+
+        contentPanel.Controls.Add(logout)
+        logout.BringToFront()
+    End Sub
+
 End Class
