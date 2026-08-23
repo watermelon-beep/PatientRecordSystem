@@ -86,11 +86,23 @@
       <DependentUpon>ContentForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>
     <Compile Include="LogForm.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logout.Designer.vb">
+      <DependentUpon>Logout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="RegisterForm.Designer.vb">
       <DependentUpon>RegisterForm.vb</DependentUpon>
@@ -123,8 +135,14 @@
     <EmbeddedResource Include="ContentForm.resx">
       <DependentUpon>ContentForm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogForm.resx">
       <DependentUpon>LogForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logout.resx">
+      <DependentUpon>Logout.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -201,6 +219,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\femaleIcn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteBack.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

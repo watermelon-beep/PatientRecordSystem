@@ -32,26 +32,32 @@ Partial Class Dashboard
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.Panel32 = New System.Windows.Forms.Panel()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.Panel30 = New System.Windows.Forms.Panel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Panel29 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Panel31 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Panel28 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.ttlPatPnl = New System.Windows.Forms.Panel()
+        Me.Panel27 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -60,10 +66,12 @@ Partial Class Dashboard
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.totalFPanel = New System.Windows.Forms.Panel()
+        Me.Panel12 = New System.Windows.Forms.Panel()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.totalMPanel = New System.Windows.Forms.Panel()
+        Me.Panel11 = New System.Windows.Forms.Panel()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -157,7 +165,7 @@ Partial Class Dashboard
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.Padding = New System.Windows.Forms.Padding(0, 5, 0, 0)
+        Me.TableLayoutPanel1.Padding = New System.Windows.Forms.Padding(5, 20, 5, 5)
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -167,15 +175,26 @@ Partial Class Dashboard
         'Panel18
         '
         Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Panel18.Controls.Add(Me.Panel32)
         Me.Panel18.Controls.Add(Me.Label12)
         Me.Panel18.Controls.Add(Me.Label13)
         Me.Panel18.Controls.Add(Me.PictureBox6)
         Me.Panel18.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel18.Location = New System.Drawing.Point(1039, 155)
+        Me.Panel18.Location = New System.Drawing.Point(1038, 167)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(5, 10, 5, 5)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(512, 142)
+        Me.Panel18.Size = New System.Drawing.Size(506, 123)
         Me.Panel18.TabIndex = 5
+        '
+        'Panel32
+        '
+        Me.Panel32.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel32.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel32.Location = New System.Drawing.Point(0, 0)
+        Me.Panel32.Name = "Panel32"
+        Me.Panel32.Size = New System.Drawing.Size(15, 123)
+        Me.Panel32.TabIndex = 5
         '
         'Label12
         '
@@ -211,15 +230,26 @@ Partial Class Dashboard
         'Panel17
         '
         Me.Panel17.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Panel17.Controls.Add(Me.Panel30)
         Me.Panel17.Controls.Add(Me.Label10)
         Me.Panel17.Controls.Add(Me.Label11)
         Me.Panel17.Controls.Add(Me.PictureBox5)
         Me.Panel17.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel17.Location = New System.Drawing.Point(521, 155)
+        Me.Panel17.Location = New System.Drawing.Point(524, 167)
+        Me.Panel17.Margin = New System.Windows.Forms.Padding(5, 10, 5, 5)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(512, 142)
+        Me.Panel17.Size = New System.Drawing.Size(504, 123)
         Me.Panel17.TabIndex = 4
+        '
+        'Panel30
+        '
+        Me.Panel30.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel30.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel30.Location = New System.Drawing.Point(0, 0)
+        Me.Panel30.Name = "Panel30"
+        Me.Panel30.Size = New System.Drawing.Size(15, 123)
+        Me.Panel30.TabIndex = 5
         '
         'Label10
         '
@@ -255,15 +285,26 @@ Partial Class Dashboard
         'Panel16
         '
         Me.Panel16.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Panel16.Controls.Add(Me.Panel29)
         Me.Panel16.Controls.Add(Me.Label8)
         Me.Panel16.Controls.Add(Me.Label9)
         Me.Panel16.Controls.Add(Me.PictureBox4)
         Me.Panel16.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel16.Location = New System.Drawing.Point(3, 155)
+        Me.Panel16.Location = New System.Drawing.Point(10, 167)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(5, 10, 5, 5)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(512, 142)
+        Me.Panel16.Size = New System.Drawing.Size(504, 123)
         Me.Panel16.TabIndex = 3
+        '
+        'Panel29
+        '
+        Me.Panel29.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel29.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel29.Location = New System.Drawing.Point(0, 0)
+        Me.Panel29.Name = "Panel29"
+        Me.Panel29.Size = New System.Drawing.Size(15, 123)
+        Me.Panel29.TabIndex = 5
         '
         'Label8
         '
@@ -299,15 +340,26 @@ Partial Class Dashboard
         'Panel15
         '
         Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Panel15.Controls.Add(Me.Panel31)
         Me.Panel15.Controls.Add(Me.Label6)
         Me.Panel15.Controls.Add(Me.Label7)
         Me.Panel15.Controls.Add(Me.PictureBox3)
         Me.Panel15.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel15.Location = New System.Drawing.Point(1039, 8)
+        Me.Panel15.Location = New System.Drawing.Point(1038, 30)
+        Me.Panel15.Margin = New System.Windows.Forms.Padding(5, 10, 5, 5)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(512, 141)
+        Me.Panel15.Size = New System.Drawing.Size(506, 122)
         Me.Panel15.TabIndex = 2
+        '
+        'Panel31
+        '
+        Me.Panel31.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel31.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel31.Location = New System.Drawing.Point(0, 0)
+        Me.Panel31.Name = "Panel31"
+        Me.Panel31.Size = New System.Drawing.Size(15, 122)
+        Me.Panel31.TabIndex = 5
         '
         'Label6
         '
@@ -323,7 +375,7 @@ Partial Class Dashboard
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(123, 34)
+        Me.Label7.Location = New System.Drawing.Point(123, 46)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(208, 28)
         Me.Label7.TabIndex = 1
@@ -343,15 +395,26 @@ Partial Class Dashboard
         'Panel14
         '
         Me.Panel14.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Panel14.Controls.Add(Me.Panel28)
         Me.Panel14.Controls.Add(Me.Label4)
         Me.Panel14.Controls.Add(Me.Label5)
         Me.Panel14.Controls.Add(Me.PictureBox2)
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel14.Location = New System.Drawing.Point(521, 8)
+        Me.Panel14.Location = New System.Drawing.Point(524, 30)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(5, 10, 5, 5)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(512, 141)
+        Me.Panel14.Size = New System.Drawing.Size(504, 122)
         Me.Panel14.TabIndex = 1
+        '
+        'Panel28
+        '
+        Me.Panel28.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel28.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel28.Location = New System.Drawing.Point(0, 0)
+        Me.Panel28.Name = "Panel28"
+        Me.Panel28.Size = New System.Drawing.Size(15, 122)
+        Me.Panel28.TabIndex = 5
         '
         'Label4
         '
@@ -387,15 +450,26 @@ Partial Class Dashboard
         'ttlPatPnl
         '
         Me.ttlPatPnl.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.ttlPatPnl.Controls.Add(Me.Panel27)
         Me.ttlPatPnl.Controls.Add(Me.Label3)
         Me.ttlPatPnl.Controls.Add(Me.Label2)
         Me.ttlPatPnl.Controls.Add(Me.PictureBox1)
         Me.ttlPatPnl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ttlPatPnl.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ttlPatPnl.Location = New System.Drawing.Point(3, 8)
+        Me.ttlPatPnl.Location = New System.Drawing.Point(10, 30)
+        Me.ttlPatPnl.Margin = New System.Windows.Forms.Padding(5, 10, 5, 5)
         Me.ttlPatPnl.Name = "ttlPatPnl"
-        Me.ttlPatPnl.Size = New System.Drawing.Size(512, 141)
+        Me.ttlPatPnl.Size = New System.Drawing.Size(504, 122)
         Me.ttlPatPnl.TabIndex = 0
+        '
+        'Panel27
+        '
+        Me.Panel27.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel27.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Panel27.Location = New System.Drawing.Point(0, 0)
+        Me.Panel27.Name = "Panel27"
+        Me.Panel27.Size = New System.Drawing.Size(15, 122)
+        Me.Panel27.TabIndex = 4
         '
         'Label3
         '
@@ -480,6 +554,7 @@ Partial Class Dashboard
         'totalFPanel
         '
         Me.totalFPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.totalFPanel.Controls.Add(Me.Panel12)
         Me.totalFPanel.Controls.Add(Me.Label18)
         Me.totalFPanel.Controls.Add(Me.PictureBox8)
         Me.totalFPanel.Controls.Add(Me.Label19)
@@ -489,6 +564,15 @@ Partial Class Dashboard
         Me.totalFPanel.Name = "totalFPanel"
         Me.totalFPanel.Size = New System.Drawing.Size(200, 253)
         Me.totalFPanel.TabIndex = 1
+        '
+        'Panel12
+        '
+        Me.Panel12.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel12.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Panel12.Location = New System.Drawing.Point(0, 184)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(200, 69)
+        Me.Panel12.TabIndex = 7
         '
         'Label18
         '
@@ -525,6 +609,7 @@ Partial Class Dashboard
         'totalMPanel
         '
         Me.totalMPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.totalMPanel.Controls.Add(Me.Panel11)
         Me.totalMPanel.Controls.Add(Me.Label17)
         Me.totalMPanel.Controls.Add(Me.PictureBox7)
         Me.totalMPanel.Controls.Add(Me.Label16)
@@ -534,6 +619,15 @@ Partial Class Dashboard
         Me.totalMPanel.Name = "totalMPanel"
         Me.totalMPanel.Size = New System.Drawing.Size(200, 253)
         Me.totalMPanel.TabIndex = 0
+        '
+        'Panel11
+        '
+        Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel11.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Panel11.Location = New System.Drawing.Point(0, 185)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(200, 68)
+        Me.Panel11.TabIndex = 4
         '
         'Label17
         '
@@ -919,4 +1013,12 @@ Partial Class Dashboard
     Friend WithEvents Label18 As Label
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents Label19 As Label
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents Panel12 As Panel
+    Friend WithEvents Panel27 As Panel
+    Friend WithEvents Panel32 As Panel
+    Friend WithEvents Panel30 As Panel
+    Friend WithEvents Panel29 As Panel
+    Friend WithEvents Panel31 As Panel
+    Friend WithEvents Panel28 As Panel
 End Class

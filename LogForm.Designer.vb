@@ -29,23 +29,27 @@ Partial Class LogForm
         Me.usrnmLogtxtbx = New System.Windows.Forms.TextBox()
         Me.logBtn = New System.Windows.Forms.Button()
         Me.card = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.showPassCb = New System.Windows.Forms.CheckBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.passLogPnl = New System.Windows.Forms.Panel()
         Me.passLogTxbx = New System.Windows.Forms.TextBox()
         Me.userLogPnl = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.card.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.passLogPnl.SuspendLayout()
         Me.userLogPnl.SuspendLayout()
-        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -111,9 +115,9 @@ Partial Class LogForm
         Me.logBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logBtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.logBtn.Location = New System.Drawing.Point(172, 448)
+        Me.logBtn.Location = New System.Drawing.Point(159, 449)
         Me.logBtn.Name = "logBtn"
-        Me.logBtn.Size = New System.Drawing.Size(178, 46)
+        Me.logBtn.Size = New System.Drawing.Size(224, 46)
         Me.logBtn.TabIndex = 3
         Me.logBtn.Text = "Log in"
         Me.logBtn.UseVisualStyleBackColor = False
@@ -121,6 +125,9 @@ Partial Class LogForm
         'card
         '
         Me.card.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.card.Controls.Add(Me.Panel4)
+        Me.card.Controls.Add(Me.Label5)
+        Me.card.Controls.Add(Me.Panel5)
         Me.card.Controls.Add(Me.Label4)
         Me.card.Controls.Add(Me.showPassCb)
         Me.card.Controls.Add(Me.Panel2)
@@ -133,16 +140,45 @@ Partial Class LogForm
         Me.card.Size = New System.Drawing.Size(535, 791)
         Me.card.TabIndex = 4
         '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Panel4.Location = New System.Drawing.Point(0, 631)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(535, 2)
+        Me.Panel4.TabIndex = 13
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(300, 704)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(83, 15)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Register Here"
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Panel5.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Panel5.Location = New System.Drawing.Point(0, 776)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(535, 15)
+        Me.Panel5.TabIndex = 11
+        '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label4.Location = New System.Drawing.Point(207, 539)
+        Me.Label4.Location = New System.Drawing.Point(216, 517)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(111, 19)
+        Me.Label4.Size = New System.Drawing.Size(117, 19)
         Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Forget Password"
+        Me.Label4.Text = "Forget Password?"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'showPassCb
@@ -167,6 +203,21 @@ Partial Class LogForm
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(535, 100)
         Me.Panel2.TabIndex = 7
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 3
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label3, 1, 0)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(535, 100)
+        Me.TableLayoutPanel1.TabIndex = 0
         '
         'Label3
         '
@@ -218,27 +269,23 @@ Partial Class LogForm
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Gainsboro
-        Me.Label2.Location = New System.Drawing.Point(208, 711)
+        Me.Label2.Location = New System.Drawing.Point(169, 704)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(120, 13)
+        Me.Label2.Size = New System.Drawing.Size(135, 15)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "don't have an account?"
+        Me.Label2.Text = "Don't have an account?"
         '
-        'TableLayoutPanel1
+        'Panel6
         '
-        Me.TableLayoutPanel1.ColumnCount = 3
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Label3, 1, 0)
-        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 1
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(535, 100)
-        Me.TableLayoutPanel1.TabIndex = 0
+        Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel6.Location = New System.Drawing.Point(1033, 0)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(871, 1041)
+        Me.Panel6.TabIndex = 5
         '
         'LogForm
         '
@@ -248,6 +295,7 @@ Partial Class LogForm
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.card)
+        Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel1)
         Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "LogForm"
@@ -261,12 +309,12 @@ Partial Class LogForm
         Me.card.ResumeLayout(False)
         Me.card.PerformLayout()
         Me.Panel2.ResumeLayout(False)
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
         Me.passLogPnl.ResumeLayout(False)
         Me.passLogPnl.PerformLayout()
         Me.userLogPnl.ResumeLayout(False)
         Me.userLogPnl.PerformLayout()
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -287,4 +335,8 @@ Partial Class LogForm
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Panel6 As Panel
 End Class
