@@ -84,7 +84,7 @@
         RoundPanel(card, 50)
         RoundPanel(userLogPnl, 40)
         RoundPanel(passLogPnl, 40)
-        Roundbtn(logBtn, 20)
+        Roundbtn(logBtn, 50)
 
         usrnmLogtxtbx.Text = "Username"
         passLogTxbx.Text = "Password"

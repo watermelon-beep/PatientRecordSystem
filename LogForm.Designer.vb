@@ -115,9 +115,9 @@ Partial Class LogForm
         Me.logBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logBtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.logBtn.Location = New System.Drawing.Point(159, 449)
+        Me.logBtn.Location = New System.Drawing.Point(44, 449)
         Me.logBtn.Name = "logBtn"
-        Me.logBtn.Size = New System.Drawing.Size(224, 46)
+        Me.logBtn.Size = New System.Drawing.Size(448, 46)
         Me.logBtn.TabIndex = 3
         Me.logBtn.Text = "Log in"
         Me.logBtn.UseVisualStyleBackColor = False

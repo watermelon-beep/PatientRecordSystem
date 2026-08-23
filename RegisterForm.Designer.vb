@@ -339,10 +339,11 @@ Partial Class RegisterForm
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Nurse", "Barangay Assistance", "Admin"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Admin", "Barangay Assistance", "Nurse"})
         Me.ComboBox1.Location = New System.Drawing.Point(217, 54)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(208, 24)
+        Me.ComboBox1.Sorted = True
         Me.ComboBox1.TabIndex = 23
         Me.ComboBox1.Text = "Position"
         '
