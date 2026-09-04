@@ -43,4 +43,5 @@ Module RoundCorn
         pnl.Region = New Region(path)
 
     End Sub
+
 End Module
