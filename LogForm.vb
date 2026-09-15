@@ -1,12 +1,22 @@
-﻿Public Class LogForm
+﻿Imports System.Text.RegularExpressions
+
+Public Class LogForm
 
     Private usernamePlaceholder As Boolean = True
     Private passwordPlaceholder As Boolean = True
 
     Private Sub logBtn_Click(sender As Object, e As EventArgs) Handles logBtn.Click
-
-        ContentForm.Show()
-        Me.Hide()
+        If Regex.IsMatch(usrnmLogtxtbx.Text, "[A-Z]") AndAlso
+           Regex.IsMatch(usrnmLogtxtbx.Text, "[0-9]") AndAlso
+           Regex.IsMatch(usrnmLogtxtbx.Text, ".{8}") AndAlso
+           Regex.IsMatch(passLogTxbx.Text, "[A-Z]") AndAlso
+           Regex.IsMatch(passLogTxbx.Text, "[0-9]") AndAlso
+           Regex.IsMatch(passLogTxbx.Text, ".{8}") Then
+            ContentForm.Show()
+            Me.Hide()
+        Else
+            MessageBox.Show("Invalid username or password. Please ensure that both the username and password contain at least one uppercase letter, one number, and are at least 8 characters long.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
     End Sub
 
 
