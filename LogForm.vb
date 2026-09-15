@@ -4,6 +4,7 @@
     Private passwordPlaceholder As Boolean = True
 
     Private Sub logBtn_Click(sender As Object, e As EventArgs) Handles logBtn.Click
+
         ContentForm.Show()
         Me.Hide()
     End Sub

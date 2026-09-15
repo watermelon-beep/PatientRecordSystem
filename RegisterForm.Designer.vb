@@ -390,6 +390,7 @@ Partial Class RegisterForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.Panel4)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "RegisterForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
