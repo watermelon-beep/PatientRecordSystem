@@ -6,12 +6,22 @@ Public Class LogForm
     Private passwordPlaceholder As Boolean = True
 
     Private Sub logBtn_Click(sender As Object, e As EventArgs) Handles logBtn.Click
+
         If Regex.IsMatch(usrnmLogtxtbx.Text, "[A-Z]") AndAlso
            Regex.IsMatch(usrnmLogtxtbx.Text, "[0-9]") AndAlso
-           Regex.IsMatch(usrnmLogtxtbx.Text, ".{8}") AndAlso
+           Regex.IsMatch(usrnmLogtxtbx.Text, ".{6}") AndAlso
            Regex.IsMatch(passLogTxbx.Text, "[A-Z]") AndAlso
            Regex.IsMatch(passLogTxbx.Text, "[0-9]") AndAlso
-           Regex.IsMatch(passLogTxbx.Text, ".{8}") Then
+           Regex.IsMatch(passLogTxbx.Text, ".{6}") Then
+
+            usrnmLogtxtbx.Text = "Username"
+            usrnmLogtxtbx.ForeColor = Color.Gray
+            usernamePlaceholder = True
+
+            passLogTxbx.Text = "Password"
+            passLogTxbx.ForeColor = Color.Gray
+            passLogTxbx.PasswordChar = ""
+            passwordPlaceholder = True
             ContentForm.Show()
             Me.Hide()
         Else
