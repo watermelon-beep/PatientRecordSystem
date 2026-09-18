@@ -23,6 +23,8 @@ Partial Class LogForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
@@ -30,8 +32,6 @@ Partial Class LogForm
         Me.usrnlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel6.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -51,6 +51,28 @@ Partial Class LogForm
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(646, 1041)
         Me.Panel6.TabIndex = 5
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(51, 245)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(251, 19)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Log into Barangay health center"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft JhengHei", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Gray
+        Me.Label2.Location = New System.Drawing.Point(66, 421)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(440, 19)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
         '
         'Guna2Button3
         '
@@ -114,6 +136,7 @@ Partial Class LogForm
         Me.passlogtxbx.Animated = True
         Me.passlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.passlogtxbx.BorderRadius = 10
+        Me.passlogtxbx.BorderThickness = 2
         Me.passlogtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.passlogtxbx.DefaultText = ""
         Me.passlogtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -142,6 +165,7 @@ Partial Class LogForm
         Me.usrnlogtxbx.Animated = True
         Me.usrnlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.usrnlogtxbx.BorderRadius = 10
+        Me.usrnlogtxbx.BorderThickness = 2
         Me.usrnlogtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.usrnlogtxbx.DefaultText = ""
         Me.usrnlogtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -187,28 +211,6 @@ Partial Class LogForm
         Me.Label1.Size = New System.Drawing.Size(908, 291)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Barangay Health Clinic" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Patient Record" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "System"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft JhengHei", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(66, 421)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(440, 19)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(51, 245)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(251, 19)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Log into Barangay health center"
         '
         'LogForm
         '

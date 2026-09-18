@@ -5,6 +5,8 @@ Imports Guna.UI2.WinForms
 
 Public Class LogForm
 
+    Private register As New Register
+
     Private passVisible As Boolean = False
     Sub incorrectLogInfo(text As String, gunatext As Guna2TextBox)
         Label2.Text = text
@@ -16,15 +18,6 @@ Public Class LogForm
 
         Application.Exit()
 
-    End Sub
-
-    Private Sub LogForm_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs)
-        Me.Hide()
-        RegisterForm.Show()
     End Sub
 
     Private Sub passlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles passlogtxbx.TextChanged
@@ -86,6 +79,8 @@ Public Class LogForm
     End Sub
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-
+        Panel6.Controls.Clear()
+        register.Dock = DockStyle.Fill
+        Panel6.Controls.Add(register)
     End Sub
 End Class

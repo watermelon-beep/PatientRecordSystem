@@ -105,12 +105,6 @@
     <Compile Include="Logout.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="RegisterForm.Designer.vb">
-      <DependentUpon>RegisterForm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="RegisterForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -126,6 +120,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Register.Designer.vb">
+      <DependentUpon>Register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="RoundCorn.vb" />
   </ItemGroup>
@@ -148,8 +148,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegisterForm.resx">
-      <DependentUpon>RegisterForm.vb</DependentUpon>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +235,10 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\copy.png" />
+    <None Include="Resources\dices.png" />
+    <None Include="Resources\chevron-left.png" />
+    <None Include="Resources\chevron-left1.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />
