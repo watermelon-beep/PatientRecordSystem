@@ -222,5 +222,23 @@
   <ItemGroup>
     <None Include="Resources\whiteBack.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgsystem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-keyhole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\eye-closed.png" />
+    <None Include="Resources\eye1.png" />
+    <None Include="Resources\eye-closed1.png" />
+    <Content Include="Resources\eye.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -81,10 +81,16 @@ Partial Class Dashboard
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.recentPatDgv = New System.Windows.Forms.DataGridView()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel10 = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.todayAppDgv = New System.Windows.Forms.DataGridView()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -93,14 +99,8 @@ Partial Class Dashboard
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Guna2HtmlToolTip1 = New Guna.UI2.WinForms.Guna2HtmlToolTip()
         Me.Guna2HtmlToolTip2 = New Guna.UI2.WinForms.Guna2HtmlToolTip()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -695,7 +695,7 @@ Partial Class Dashboard
         ChartArea1.Name = "ChartArea1"
         Me.Chart1.ChartAreas.Add(ChartArea1)
         Me.Chart1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Chart1.Location = New System.Drawing.Point(0, 374)
+        Me.Chart1.Location = New System.Drawing.Point(0, 447)
         Me.Chart1.Margin = New System.Windows.Forms.Padding(10)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright
@@ -703,7 +703,7 @@ Partial Class Dashboard
         Series1.ChartArea = "ChartArea1"
         Series1.Name = "Series1"
         Me.Chart1.Series.Add(Series1)
-        Me.Chart1.Size = New System.Drawing.Size(675, 202)
+        Me.Chart1.Size = New System.Drawing.Size(675, 129)
         Me.Chart1.TabIndex = 2
         Me.Chart1.Text = "Chart1"
         Title1.Alignment = System.Drawing.ContentAlignment.TopLeft
@@ -753,8 +753,26 @@ Partial Class Dashboard
         DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(174, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.recentPatDgv.RowsDefaultCellStyle = DataGridViewCellStyle4
         Me.recentPatDgv.RowTemplate.Height = 30
-        Me.recentPatDgv.Size = New System.Drawing.Size(675, 312)
+        Me.recentPatDgv.Size = New System.Drawing.Size(675, 385)
         Me.recentPatDgv.TabIndex = 1
+        '
+        'Column7
+        '
+        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column7.HeaderText = "ID"
+        Me.Column7.Name = "Column7"
+        '
+        'Column8
+        '
+        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column8.HeaderText = "Full Name"
+        Me.Column8.Name = "Column8"
+        '
+        'Column9
+        '
+        Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column9.HeaderText = "Last Visit"
+        Me.Column9.Name = "Column9"
         '
         'Panel10
         '
@@ -823,6 +841,26 @@ Partial Class Dashboard
         Me.todayAppDgv.RowHeadersVisible = False
         Me.todayAppDgv.Size = New System.Drawing.Size(669, 514)
         Me.todayAppDgv.TabIndex = 1
+        '
+        'Column4
+        '
+        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column4.HeaderText = "Time"
+        Me.Column4.Name = "Column4"
+        '
+        'Column5
+        '
+        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column5.HeaderText = "Full Name"
+        Me.Column5.Name = "Column5"
+        Me.Column5.Width = 104
+        '
+        'Column6
+        '
+        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column6.FillWeight = 200.0!
+        Me.Column6.HeaderText = "Purpose Of Visit"
+        Me.Column6.Name = "Column6"
         '
         'Panel9
         '
@@ -903,24 +941,6 @@ Partial Class Dashboard
         Me.Column3.HeaderText = "N/A"
         Me.Column3.Name = "Column3"
         '
-        'Column9
-        '
-        Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column9.HeaderText = "Last Visit"
-        Me.Column9.Name = "Column9"
-        '
-        'Column8
-        '
-        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column8.HeaderText = "Full Name"
-        Me.Column8.Name = "Column8"
-        '
-        'Column7
-        '
-        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column7.HeaderText = "ID"
-        Me.Column7.Name = "Column7"
-        '
         'Guna2HtmlToolTip1
         '
         Me.Guna2HtmlToolTip1.AllowLinksHandling = True
@@ -930,26 +950,6 @@ Partial Class Dashboard
         '
         Me.Guna2HtmlToolTip2.AllowLinksHandling = True
         Me.Guna2HtmlToolTip2.MaximumSize = New System.Drawing.Size(0, 0)
-        '
-        'Column4
-        '
-        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column4.HeaderText = "Time"
-        Me.Column4.Name = "Column4"
-        '
-        'Column5
-        '
-        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column5.HeaderText = "Full Name"
-        Me.Column5.Name = "Column5"
-        Me.Column5.Width = 113
-        '
-        'Column6
-        '
-        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column6.FillWeight = 200.0!
-        Me.Column6.HeaderText = "Purpose Of Visit"
-        Me.Column6.Name = "Column6"
         '
         'Dashboard
         '

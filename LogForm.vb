@@ -1,34 +1,16 @@
-﻿Imports System.Text.RegularExpressions
+﻿Imports System.Collections.Specialized
+Imports System.Diagnostics.Eventing.Reader
+Imports System.Text.RegularExpressions
+Imports Guna.UI2.WinForms
 
 Public Class LogForm
 
-    Private usernamePlaceholder As Boolean = True
-    Private passwordPlaceholder As Boolean = True
-
-    Private Sub logBtn_Click(sender As Object, e As EventArgs) Handles logBtn.Click
-
-        If Regex.IsMatch(usrnmLogtxtbx.Text, "[A-Z]") AndAlso
-           Regex.IsMatch(usrnmLogtxtbx.Text, "[0-9]") AndAlso
-           Regex.IsMatch(usrnmLogtxtbx.Text, ".{6}") AndAlso
-           Regex.IsMatch(passLogTxbx.Text, "[A-Z]") AndAlso
-           Regex.IsMatch(passLogTxbx.Text, "[0-9]") AndAlso
-           Regex.IsMatch(passLogTxbx.Text, ".{6}") Then
-
-            usrnmLogtxtbx.Text = "Username"
-            usrnmLogtxtbx.ForeColor = Color.Gray
-            usernamePlaceholder = True
-
-            passLogTxbx.Text = "Password"
-            passLogTxbx.ForeColor = Color.Gray
-            passLogTxbx.PasswordChar = ""
-            passwordPlaceholder = True
-            ContentForm.Show()
-            Me.Hide()
-        Else
-            MessageBox.Show("Invalid username or password. Please ensure that both the username and password contain at least one uppercase letter, one number, and are at least 8 characters long.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End If
+    Private passVisible As Boolean = False
+    Sub incorrectLogInfo(text As String, gunatext As Guna2TextBox)
+        Label2.Text = text
+        gunatext.BorderColor = Color.Red
+        Label2.ForeColor = Color.Red
     End Sub
-
 
     Private Sub LogForm_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
 
@@ -36,93 +18,74 @@ Public Class LogForm
 
     End Sub
 
-    Private Sub usrnmLogtxtbx_MouseClick(sender As Object, e As MouseEventArgs) Handles usrnmLogtxtbx.MouseClick
-
-        If usernamePlaceholder Then
-
-            usrnmLogtxtbx.Clear()
-            usrnmLogtxtbx.ForeColor = Color.Black
-            usernamePlaceholder = False
-
-        End If
-
-    End Sub
-
-
-    Private Sub usrnmLogtxtbx_Leave(sender As Object, e As EventArgs) Handles usrnmLogtxtbx.Leave
-
-        If String.IsNullOrWhiteSpace(usrnmLogtxtbx.Text) Then
-
-            usrnmLogtxtbx.Text = "Username"
-            usrnmLogtxtbx.ForeColor = Color.Gray
-            usernamePlaceholder = True
-
-        End If
-
-    End Sub
-
-
-    Private Sub passLogTxbx_MouseClick(sender As Object, e As MouseEventArgs) Handles passLogTxbx.MouseClick
-
-        If passwordPlaceholder Then
-
-            passLogTxbx.Clear()
-            passLogTxbx.ForeColor = Color.Black
-            passLogTxbx.PasswordChar = "•"
-            passwordPlaceholder = False
-
-        End If
-
-        If showPassCb.Checked Then
-            passLogTxbx.PasswordChar = ""
-        End If
-
-    End Sub
-
-
-    Private Sub passLogTxbx_Leave(sender As Object, e As EventArgs) Handles passLogTxbx.Leave
-
-        If String.IsNullOrWhiteSpace(passLogTxbx.Text) Then
-
-            passLogTxbx.Text = "Password"
-            passLogTxbx.ForeColor = Color.Gray
-            passLogTxbx.PasswordChar = ""
-            passwordPlaceholder = True
-
-        End If
-
-    End Sub
-
-
     Private Sub LogForm_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        RoundPanel(card, 50)
-        RoundPanel(userLogPnl, 40)
-        RoundPanel(passLogPnl, 40)
-        Roundbtn(logBtn, 50)
-
-        usrnmLogtxtbx.Text = "Username"
-        passLogTxbx.Text = "Password"
-
-        usrnmLogtxtbx.ForeColor = Color.Gray
-        passLogTxbx.ForeColor = Color.Gray
-
-        passLogTxbx.PasswordChar = ""
-
     End Sub
 
-    Private Sub showPassCb_CheckedChanged(sender As Object, e As EventArgs) Handles showPassCb.CheckedChanged
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
+        Me.Hide()
+        RegisterForm.Show()
+    End Sub
 
-        If Not showPassCb.Checked And Not passwordPlaceholder Then
-            passLogTxbx.PasswordChar = "•"
+    Private Sub passlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles passlogtxbx.TextChanged
+        If passlogtxbx.Text = "" Then
+            passlogtxbx.IconRight = My.Resources.lock_keyhole
+        ElseIf passVisible Then
+            passlogtxbx.IconRight = My.Resources.eye
         Else
-            passLogTxbx.PasswordChar = ""
+            passlogtxbx.IconRight = My.Resources.eye_closed
+        End If
+    End Sub
+
+    Private Sub passlogtxbx_IconRightClick(sender As Object, e As EventArgs) Handles passlogtxbx.IconRightClick
+
+        If passlogtxbx.Text = "" Then Exit Sub
+
+        If passVisible Then
+            passlogtxbx.IconRight = My.Resources.eye_closed
+            passlogtxbx.PasswordChar = "•"
+            passVisible = False
+        Else
+            passlogtxbx.IconRight = My.Resources.eye
+            passlogtxbx.PasswordChar = ""
+            passVisible = True
+        End If
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+
+        If usrnlogtxbx.Text = "" And passlogtxbx.Text = "" Then
+            Label2.Text = "username and password cannot be empty"
+            usrnlogtxbx.BorderColor = Color.Red
+            passlogtxbx.BorderColor = Color.Red
+            Label2.ForeColor = Color.Red
+        ElseIf usrnlogtxbx.Text = "" Then
+            incorrectLogInfo("username cannot be empty", usrnlogtxbx)
+        ElseIf Not Regex.IsMatch(usrnlogtxbx.Text, ".{6}") Then
+            incorrectLogInfo("username must be at least 6 characters", usrnlogtxbx)
+        ElseIf Not Regex.IsMatch(usrnlogtxbx.Text, "[A-Z]") Then
+            incorrectLogInfo("username must contain at least one uppercase letter", usrnlogtxbx)
+        ElseIf Not Regex.IsMatch(usrnlogtxbx.Text, "[0-9]") Then
+            incorrectLogInfo("username must contain at least one number", usrnlogtxbx)
+        ElseIf passlogtxbx.Text = "" Then
+            incorrectLogInfo("password cannot be empty", passlogtxbx)
+        ElseIf Not Regex.IsMatch(passlogtxbx.Text, ".{6}") Then
+            incorrectLogInfo("password must be at least 6 characters", passlogtxbx)
+        ElseIf Not Regex.IsMatch(passlogtxbx.Text, "[A-Z]") Then
+            incorrectLogInfo("password must contain at least one uppercase letter", passlogtxbx)
+        ElseIf Not Regex.IsMatch(passlogtxbx.Text, "[0-9]") Then
+            incorrectLogInfo("password must contain at least one number", passlogtxbx)
+        Else
+            usrnlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
+            passlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
+            Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
+            Label2.ForeColor = Color.Gray
+            MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
         End If
 
     End Sub
 
-    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
-        Me.Hide()
-        RegisterForm.Show()
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+
     End Sub
 End Class
