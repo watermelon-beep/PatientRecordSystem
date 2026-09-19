@@ -1,6 +1,9 @@
 ﻿Imports System.Windows.Forms.DataVisualization.Charting
 
 Public Class Dashboard
+
+
+
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         ContentForm.dashboardBtn.BackColor = Color.FromArgb(65, 174, 88)
@@ -82,6 +85,9 @@ Public Class Dashboard
         Next
 
         Chart1.Series.Add(series)
+
+        Dim countPatients As Integer = todayAppDgv.Rows.Count
+        Label3.Text = countPatients.ToString()
     End Sub
 
 End Class

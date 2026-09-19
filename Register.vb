@@ -1,18 +1,24 @@
 ﻿Public Class Register
-
-
-    Private Sub Guna2ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Guna2ComboBox1.SelectedIndexChanged
-        If Guna2ComboBox1.SelectedIndex = -1 Then
-            Guna2ComboBox1.Text = "Select Gender"
+    Private dashboard As New Dashboard()
+    Private Sub dayCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dayCmbx.SelectedIndexChanged
+        If Not dayCmbx.SelectedIndex = -1 Then
+            Label1.Visible = False
         End If
     End Sub
 
-    Private Sub Guna2TextBox2_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox2.TextChanged
+    Private Sub monthCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles monthCmbx.SelectedIndexChanged
 
+
+        If Not monthCmbx.SelectedIndex = -1 Then
+            Label2.Visible = False
+        End If
     End Sub
 
-    Private Sub Guna2HtmlLabel8_Click(sender As Object, e As EventArgs)
+    Private Sub yearCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles yearCmbx.SelectedIndexChanged
 
+        If Not yearCmbx.SelectedIndex = -1 Then
+            Label3.Visible = False
+        End If
     End Sub
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
@@ -44,5 +50,60 @@
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         Clipboard.SetText(regPassTxbx.Text)
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+
+        Dim logForm As LogForm = Me.FindForm()
+
+        logForm.ShowLogin()
+    End Sub
+
+    Private Sub Register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        For i As Integer = 1 To 31
+            dayCmbx.Items.Add(i.ToString("00"))
+        Next
+
+        For i As Integer = 1 To 12
+            monthCmbx.Items.Add(i.ToString("00"))
+        Next
+
+        For i As Integer = 1900 To DateTime.Now.Year
+            yearCmbx.Items.Add(i.ToString())
+        Next
+
+        gendercmbx.Items.Add("Male")
+        gendercmbx.Items.Add("Female")
+        gendercmbx.Items.Add("Prefer not to say")
+
+        positionCmbx.Items.Add("Admin")
+        positionCmbx.Items.Add("Barangay assistance")
+        positionCmbx.Items.Add("Doctor")
+    End Sub
+
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        LogForm.ShowLogin()
+    End Sub
+
+    Private Sub gendercmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles gendercmbx.SelectedIndexChanged
+        If Not gendercmbx.SelectedIndex = -1 Then
+            Label4.Visible = False
+        End If
+    End Sub
+
+    Private Sub positionCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles positionCmbx.SelectedIndexChanged
+        If Not positionCmbx.SelectedIndex = -1 Then
+            Label5.Visible = False
+        End If
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+
+        For Each row As DataGridViewRow In dashboard.todayAppDgv.Rows
+            If regUsrnmTxbx.Text = row.Cells(1).Value.ToString() Then
+                MessageBox.Show("Username already exists.")
+                Return
+            End If
+        Next
     End Sub
 End Class
