@@ -3,33 +3,14 @@
 Public Class Dashboard
 
 
-
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         ContentForm.dashboardBtn.BackColor = Color.FromArgb(65, 174, 88)
 
         Rounddatagrid(todayAppDgv, 20)
-        Rounddatagrid(recentPatDgv, 20)
         RoundPanel(totalMPanel, 20)
         RoundPanel(totalFPanel, 20)
 
-        With recentPatDgv.Rows
-            .Add("1001", "Juan Dela Cruz", "09/15/2026")
-            .Add("1002", "Maria Santos", "09/14/2026")
-            .Add("1003", "Pedro Reyes", "09/12/2026")
-            .Add("1004", "Ana Garcia", "09/10/2026")
-            .Add("1005", "Mark Villanueva", "09/08/2026")
-            .Add("1006", "Sofia Mendoza", "09/05/2026")
-            .Add("1007", "Carlos Bautista", "09/03/2026")
-            .Add("1008", "Angela Ramos", "09/01/2026")
-            .Add("1009", "Daniel Navarro", "08/29/2026")
-            .Add("1010", "Camille Flores", "08/27/2026")
-            .Add("1011", "Miguel Aquino", "08/25/2026")
-            .Add("1012", "Patricia Castillo", "08/22/2026")
-            .Add("1013", "Gabriel Torres", "08/20/2026")
-            .Add("1014", "Nicole Fernandez", "08/18/2026")
-            .Add("1015", "Ryan Mercado", "08/15/2026")
-        End With
 
         With todayAppDgv.Rows
             .Add("8:00 AM", "Juan Dela Cruz", "General Consultation")
@@ -79,6 +60,9 @@ Public Class Dashboard
             .AddXY("November", 10)
             .AddXY("December", 25)
         End With
+        Dim reg As New Register
+        staffTbl.Rows.Add("kian", "john")
+        staffTbl.Rows.Add(reg.regUsrnmTxbx.Text, reg.regPassTxbx.Text)
 
         For Each point As DataPoint In series.Points
             point.ToolTip = point.YValues(0).ToString()
@@ -90,4 +74,11 @@ Public Class Dashboard
         Label3.Text = countPatients.ToString()
     End Sub
 
+    Private Sub recentPatDgv_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+
+    End Sub
+
+    Private Sub staffTbl_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles staffTbl.CellContentClick
+
+    End Sub
 End Class

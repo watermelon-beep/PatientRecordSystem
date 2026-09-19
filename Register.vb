@@ -98,12 +98,19 @@
     End Sub
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-
-        For Each row As DataGridViewRow In dashboard.todayAppDgv.Rows
+        For Each row As DataGridViewRow In dashboard.staffTbl.Rows
             If regUsrnmTxbx.Text = row.Cells(1).Value.ToString() Then
                 MessageBox.Show("Username already exists.")
                 Return
             End If
         Next
+
+        dashboard.staffTbl.Rows.Add(regUsrnmTxbx.Text, regPassTxbx.Text)
+        If dashboard.staffTbl.Rows.Count > 0 Then
+            MsgBox(dashboard.staffTbl.Rows(0).Cells(0).Value.ToString())
+        End If
+    End Sub
+    Sub addRows()
+        dashboard.staffTbl.Rows.Add(regUsrnmTxbx.Text, regPassTxbx.Text)
     End Sub
 End Class
