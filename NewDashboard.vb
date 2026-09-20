@@ -39,19 +39,11 @@ Public Class NewDashboard
 
     End Sub
 
-    Private Sub Guna2ShadowPanel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2ShadowPanel1.Paint
+    Private Sub Guna2ShadowPanel3_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
-    Private Sub Chart1_Click(sender As Object, e As EventArgs) Handles Chart1.Click
-
-    End Sub
-
-    Private Sub Guna2Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel2.Paint
-
-    End Sub
-
-    Private Sub Guna2DataGridView4_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles Guna2DataGridView4.CellContentClick
+    Private Sub Guna2Panel8_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel8.Paint
 
     End Sub
 End Class

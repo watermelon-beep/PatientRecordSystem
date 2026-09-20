@@ -23,16 +23,16 @@ Partial Class NewDashboard
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim Title1 As System.Windows.Forms.DataVisualization.Charting.Title = New System.Windows.Forms.DataVisualization.Charting.Title()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim ChartArea11 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend11 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series11 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea12 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend12 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series12 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim Title6 As System.Windows.Forms.DataVisualization.Charting.Title = New System.Windows.Forms.DataVisualization.Charting.Title()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -43,38 +43,41 @@ Partial Class NewDashboard
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2ShadowPanel5 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Guna2ShadowPanel4 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2ShadowPanel7 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.Chart2 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Guna2ShadowPanel6 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
+        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2ShadowPanel8 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.Guna2DataGridView4 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2ShadowPanel5 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Guna2ShadowPanel4 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2ShadowPanel1.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel2.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
-        Me.Guna2Panel4.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
         Me.Guna2Panel7.SuspendLayout()
         Me.Guna2ShadowPanel7.SuspendLayout()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2ShadowPanel6.SuspendLayout()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel4.SuspendLayout()
         Me.Guna2ShadowPanel8.SuspendLayout()
         CType(Me.Guna2DataGridView4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel3.SuspendLayout()
+        Me.Guna2Panel8.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2ShadowPanel1
@@ -209,83 +212,6 @@ Partial Class NewDashboard
         Me.Guna2Panel6.Size = New System.Drawing.Size(1134, 278)
         Me.Guna2Panel6.TabIndex = 6
         '
-        'Guna2Panel4
-        '
-        Me.Guna2Panel4.Controls.Add(Me.Guna2ShadowPanel8)
-        Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Guna2Panel4.Location = New System.Drawing.Point(0, 673)
-        Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(1134, 348)
-        Me.Guna2Panel4.TabIndex = 5
-        '
-        'Guna2Panel5
-        '
-        Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Guna2Panel5.Location = New System.Drawing.Point(1134, 395)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(420, 626)
-        Me.Guna2Panel5.TabIndex = 4
-        '
-        'Guna2Panel3
-        '
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ShadowPanel5)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ShadowPanel4)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ShadowPanel3)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ShadowPanel2)
-        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 135)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1554, 260)
-        Me.Guna2Panel3.TabIndex = 2
-        '
-        'Guna2ShadowPanel5
-        '
-        Me.Guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(1174, 70)
-        Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
-        Me.Guna2ShadowPanel5.Radius = 5
-        Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel5.ShadowDepth = 20
-        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(375, 190)
-        Me.Guna2ShadowPanel5.TabIndex = 2
-        '
-        'Guna2ShadowPanel4
-        '
-        Me.Guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(783, 67)
-        Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
-        Me.Guna2ShadowPanel4.Radius = 5
-        Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel4.ShadowDepth = 20
-        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(385, 190)
-        Me.Guna2ShadowPanel4.TabIndex = 2
-        '
-        'Guna2ShadowPanel3
-        '
-        Me.Guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(392, 67)
-        Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
-        Me.Guna2ShadowPanel3.Radius = 5
-        Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel3.ShadowDepth = 20
-        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(385, 190)
-        Me.Guna2ShadowPanel3.TabIndex = 1
-        '
-        'Guna2ShadowPanel2
-        '
-        Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(1, 67)
-        Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
-        Me.Guna2ShadowPanel2.Radius = 5
-        Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel2.ShadowDepth = 20
-        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(385, 190)
-        Me.Guna2ShadowPanel2.TabIndex = 0
-        '
         'Guna2Panel7
         '
         Me.Guna2Panel7.Controls.Add(Me.Guna2ShadowPanel7)
@@ -312,17 +238,17 @@ Partial Class NewDashboard
         'Chart2
         '
         Me.Chart2.BackColor = System.Drawing.Color.Transparent
-        ChartArea1.Name = "ChartArea1"
-        Me.Chart2.ChartAreas.Add(ChartArea1)
+        ChartArea11.Name = "ChartArea1"
+        Me.Chart2.ChartAreas.Add(ChartArea11)
         Me.Chart2.Dock = System.Windows.Forms.DockStyle.Fill
-        Legend1.Name = "Legend1"
-        Me.Chart2.Legends.Add(Legend1)
+        Legend11.Name = "Legend1"
+        Me.Chart2.Legends.Add(Legend11)
         Me.Chart2.Location = New System.Drawing.Point(0, 0)
         Me.Chart2.Name = "Chart2"
-        Series1.ChartArea = "ChartArea1"
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
-        Me.Chart2.Series.Add(Series1)
+        Series11.ChartArea = "ChartArea1"
+        Series11.Legend = "Legend1"
+        Series11.Name = "Series1"
+        Me.Chart2.Series.Add(Series11)
         Me.Chart2.Size = New System.Drawing.Size(458, 278)
         Me.Chart2.TabIndex = 0
         Me.Chart2.Text = "Chart2"
@@ -351,24 +277,33 @@ Partial Class NewDashboard
         Me.Chart1.BorderSkin.BorderColor = System.Drawing.Color.Transparent
         Me.Chart1.BorderSkin.BorderWidth = 0
         Me.Chart1.BorderSkin.PageColor = System.Drawing.Color.Transparent
-        ChartArea2.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea2)
+        ChartArea12.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea12)
         Me.Chart1.Dock = System.Windows.Forms.DockStyle.Fill
-        Legend2.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend2)
+        Legend12.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend12)
         Me.Chart1.Location = New System.Drawing.Point(0, 0)
         Me.Chart1.Name = "Chart1"
         Me.Chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen
-        Series2.ChartArea = "ChartArea1"
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series1"
-        Me.Chart1.Series.Add(Series2)
+        Series12.ChartArea = "ChartArea1"
+        Series12.Legend = "Legend1"
+        Series12.Name = "Series1"
+        Me.Chart1.Series.Add(Series12)
         Me.Chart1.Size = New System.Drawing.Size(676, 278)
         Me.Chart1.TabIndex = 1
         Me.Chart1.Text = "Chart1"
-        Title1.Name = "Title1"
-        Title1.Text = "Daily visit"
-        Me.Chart1.Titles.Add(Title1)
+        Title6.Name = "Title1"
+        Title6.Text = "Daily visit"
+        Me.Chart1.Titles.Add(Title6)
+        '
+        'Guna2Panel4
+        '
+        Me.Guna2Panel4.Controls.Add(Me.Guna2ShadowPanel8)
+        Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Guna2Panel4.Location = New System.Drawing.Point(0, 673)
+        Me.Guna2Panel4.Name = "Guna2Panel4"
+        Me.Guna2Panel4.Size = New System.Drawing.Size(1134, 348)
+        Me.Guna2Panel4.TabIndex = 5
         '
         'Guna2ShadowPanel8
         '
@@ -387,26 +322,26 @@ Partial Class NewDashboard
         '
         'Guna2DataGridView4
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(212, Byte), Integer))
-        Me.Guna2DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(113, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(212, Byte), Integer))
+        Me.Guna2DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(113, Byte), Integer))
+        DataGridViewCellStyle17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
         Me.Guna2DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Guna2DataGridView4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(226, Byte), Integer))
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(160, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView4.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(244, Byte), Integer), CType(CType(226, Byte), Integer))
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(221, Byte), Integer), CType(CType(160, Byte), Integer))
+        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView4.DefaultCellStyle = DataGridViewCellStyle18
         Me.Guna2DataGridView4.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.Guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(208, Byte), Integer))
         Me.Guna2DataGridView4.Location = New System.Drawing.Point(10, 41)
@@ -442,10 +377,100 @@ Partial Class NewDashboard
         Me.Column3.HeaderText = "Password"
         Me.Column3.Name = "Column3"
         '
+        'Guna2Panel5
+        '
+        Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Guna2Panel5.Location = New System.Drawing.Point(1134, 395)
+        Me.Guna2Panel5.Name = "Guna2Panel5"
+        Me.Guna2Panel5.Size = New System.Drawing.Size(420, 626)
+        Me.Guna2Panel5.TabIndex = 4
+        '
+        'Guna2Panel3
+        '
+        Me.Guna2Panel3.Controls.Add(Me.Guna2Panel9)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2Panel8)
+        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 135)
+        Me.Guna2Panel3.Name = "Guna2Panel3"
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1554, 260)
+        Me.Guna2Panel3.TabIndex = 2
+        '
         'Guna2Elipse1
         '
         Me.Guna2Elipse1.BorderRadius = 5
         Me.Guna2Elipse1.TargetControl = Me.Guna2DataGridView4
+        '
+        'Guna2Panel8
+        '
+        Me.Guna2Panel8.Controls.Add(Me.Guna2ShadowPanel5)
+        Me.Guna2Panel8.Controls.Add(Me.Guna2ShadowPanel4)
+        Me.Guna2Panel8.Controls.Add(Me.Guna2ShadowPanel3)
+        Me.Guna2Panel8.Controls.Add(Me.Guna2ShadowPanel2)
+        Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.Guna2Panel8.Location = New System.Drawing.Point(0, 55)
+        Me.Guna2Panel8.Name = "Guna2Panel8"
+        Me.Guna2Panel8.Size = New System.Drawing.Size(1554, 205)
+        Me.Guna2Panel8.TabIndex = 3
+        '
+        'Guna2ShadowPanel5
+        '
+        Me.Guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel5.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(764, 0)
+        Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
+        Me.Guna2ShadowPanel5.Radius = 5
+        Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel5.ShadowDepth = 20
+        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(400, 205)
+        Me.Guna2ShadowPanel5.TabIndex = 5
+        '
+        'Guna2ShadowPanel4
+        '
+        Me.Guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel4.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(1164, 0)
+        Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
+        Me.Guna2ShadowPanel4.Radius = 5
+        Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel4.ShadowDepth = 20
+        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(390, 205)
+        Me.Guna2ShadowPanel4.TabIndex = 6
+        '
+        'Guna2ShadowPanel3
+        '
+        Me.Guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel3.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(390, 0)
+        Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
+        Me.Guna2ShadowPanel3.Radius = 5
+        Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel3.ShadowDepth = 20
+        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(390, 205)
+        Me.Guna2ShadowPanel3.TabIndex = 4
+        '
+        'Guna2ShadowPanel2
+        '
+        Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
+        Me.Guna2ShadowPanel2.Radius = 5
+        Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel2.ShadowDepth = 20
+        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(390, 205)
+        Me.Guna2ShadowPanel2.TabIndex = 3
+        '
+        'Guna2Panel9
+        '
+        Me.Guna2Panel9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel9.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel9.Name = "Guna2Panel9"
+        Me.Guna2Panel9.Size = New System.Drawing.Size(1554, 55)
+        Me.Guna2Panel9.TabIndex = 4
         '
         'NewDashboard
         '
@@ -462,15 +487,16 @@ Partial Class NewDashboard
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel6.ResumeLayout(False)
-        Me.Guna2Panel4.ResumeLayout(False)
-        Me.Guna2Panel3.ResumeLayout(False)
         Me.Guna2Panel7.ResumeLayout(False)
         Me.Guna2ShadowPanel7.ResumeLayout(False)
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2ShadowPanel6.ResumeLayout(False)
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2ShadowPanel8.ResumeLayout(False)
         CType(Me.Guna2DataGridView4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel3.ResumeLayout(False)
+        Me.Guna2Panel8.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -485,10 +511,6 @@ Partial Class NewDashboard
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2ShadowPanel2 As Guna.UI2.WinForms.Guna2ShadowPanel
-    Friend WithEvents Guna2ShadowPanel5 As Guna.UI2.WinForms.Guna2ShadowPanel
-    Friend WithEvents Guna2ShadowPanel4 As Guna.UI2.WinForms.Guna2ShadowPanel
-    Friend WithEvents Guna2ShadowPanel3 As Guna.UI2.WinForms.Guna2ShadowPanel
     Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
@@ -503,4 +525,10 @@ Partial Class NewDashboard
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2Panel8 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel9 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2ShadowPanel5 As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents Guna2ShadowPanel4 As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents Guna2ShadowPanel3 As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents Guna2ShadowPanel2 As Guna.UI2.WinForms.Guna2ShadowPanel
 End Class
