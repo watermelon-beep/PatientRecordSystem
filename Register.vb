@@ -113,4 +113,10 @@
     Sub addRows()
         dashboard.staffTbl.Rows.Add(regUsrnmTxbx.Text, regPassTxbx.Text)
     End Sub
+
+    Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox1.TextChanged
+        If Guna2TextBox1.Text <> "" Then
+            Guna2CircleProgressBar1.Value = 50
+        End If
+    End Sub
 End Class

@@ -60,9 +60,8 @@ Public Class Dashboard
             .AddXY("November", 10)
             .AddXY("December", 25)
         End With
-        Dim reg As New Register
-        staffTbl.Rows.Add("kian", "john")
-        staffTbl.Rows.Add(reg.regUsrnmTxbx.Text, reg.regPassTxbx.Text)
+
+        staffTbl.Rows.Add("kian", "john", "👁 Edit")
 
         For Each point As DataPoint In series.Points
             point.ToolTip = point.YValues(0).ToString()
@@ -74,9 +73,6 @@ Public Class Dashboard
         Label3.Text = countPatients.ToString()
     End Sub
 
-    Private Sub recentPatDgv_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
-
-    End Sub
 
     Private Sub staffTbl_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles staffTbl.CellContentClick
 

@@ -83,4 +83,16 @@ Public Class UserLog
 
         logForm.ShowRegister()
     End Sub
+
+    Private Sub usrnlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles usrnlogtxbx.TextChanged
+
+    End Sub
+
+    Private Sub Guna2ContextMenuStrip1_Opening(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles Guna2ContextMenuStrip1.Opening
+
+    End Sub
+
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        Guna2ContextMenuStrip1.Show(Guna2Button4, 0, Guna2Button4.Height)
+    End Sub
 End Class

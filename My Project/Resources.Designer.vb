@@ -73,6 +73,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property calendar_days() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("calendar-days", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property charImg() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("charImg", resourceCulture)
@@ -256,6 +266,16 @@ Namespace My.Resources
         Friend ReadOnly Property pendingAppIcn() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("pendingAppIcn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property photo_2026_04_01_14_35_51() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("photo_2026-04-01_14-35-51", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
