@@ -83,4 +83,8 @@ Public Class UserLog
 
         logForm.ShowRegister()
     End Sub
+
+    Private Sub usrnlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles usrnlogtxbx.TextChanged
+
+    End Sub
 End Class

@@ -60,9 +60,8 @@ Public Class Dashboard
             .AddXY("November", 10)
             .AddXY("December", 25)
         End With
-        Dim reg As New Register
+
         staffTbl.Rows.Add("kian", "john")
-        staffTbl.Rows.Add(reg.regUsrnmTxbx.Text, reg.regPassTxbx.Text)
 
         For Each point As DataPoint In series.Points
             point.ToolTip = point.YValues(0).ToString()

@@ -101,6 +101,7 @@ Partial Class Dashboard
         Me.Guna2HtmlToolTip2 = New Guna.UI2.WinForms.Guna2HtmlToolTip()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -696,7 +697,7 @@ Partial Class Dashboard
         Me.staffTbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.staffTbl.ColumnHeadersHeight = 40
         Me.staffTbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.staffTbl.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column7, Me.Column8})
+        Me.staffTbl.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column7, Me.Column8, Me.Column9})
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
         DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -953,6 +954,15 @@ Partial Class Dashboard
         Me.Column8.Name = "Column8"
         Me.Column8.ReadOnly = True
         '
+        'Column9
+        '
+        Me.Column9.HeaderText = "Action"
+        Me.Column9.Name = "Column9"
+        Me.Column9.ReadOnly = True
+        Me.Column9.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Column9.Text = "Edit"
+        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1078,4 +1088,5 @@ Partial Class Dashboard
     Friend WithEvents staffTbl As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
     Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Column9 As DataGridViewButtonColumn
 End Class
