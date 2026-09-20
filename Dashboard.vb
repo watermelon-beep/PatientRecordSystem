@@ -62,6 +62,7 @@ Public Class Dashboard
         End With
 
         staffTbl.Rows.Add("kian", "john", "👁 Edit")
+        staffTbl.Rows.Add(reg.regUsrnmTxbx.Text, reg.regPassTxbx.Text)
 
         For Each point As DataPoint In series.Points
             point.ToolTip = point.YValues(0).ToString()
