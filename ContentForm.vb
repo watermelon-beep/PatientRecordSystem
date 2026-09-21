@@ -1,6 +1,5 @@
 ﻿Public Class ContentForm
     Private currentUsrContrl As New UserControl
-    Private newDashboardPanel As New NewDashboard()
     Private dashboardPanel As New Dashboard()
     Public logout As New Logout()
 
@@ -21,7 +20,7 @@
                 logout.Hide()
                 currentUsrContrl.Show()
             End Sub
-        showControl(newDashboardPanel)
+        showControl(dashboardPanel)
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles dashboardBtn.Click
