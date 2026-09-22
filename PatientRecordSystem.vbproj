@@ -244,7 +244,6 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="script.sql" />
     <None Include="Resources\photo_2026-04-01_14-35-51.jpg" />
     <None Include="Resources\copy.png" />
     <None Include="Resources\dices.png" />
