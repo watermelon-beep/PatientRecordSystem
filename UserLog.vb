@@ -1,6 +1,6 @@
 ﻿Imports System.Text.RegularExpressions
 Imports Guna.UI2.WinForms
-
+Imports System.Data.SqlClient
 Public Class UserLog
 
     Private passVisible As Boolean = False
@@ -41,14 +41,20 @@ Public Class UserLog
             passlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
             Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
             Label2.ForeColor = Color.Gray
-            MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
 
-            usrnlogtxbx.Clear()
-            passlogtxbx.Clear()
+            Dim register As New Register
 
-            LogForm.Hide()
-            Me.Hide()
-            ContentForm.Show()
+            If register.UsernameExists(usrnlogtxbx.Text) And register.UserPasswordExist(passlogtxbx.Text) Then
+                MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
+
+                usrnlogtxbx.Clear()
+                passlogtxbx.Clear()
+
+                LogForm.Hide()
+                Me.Hide()
+                ContentForm.Show()
+            End If
+
         End If
     End Sub
 
@@ -84,4 +90,7 @@ Public Class UserLog
         logForm.ShowRegister()
     End Sub
 
+    Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        dbConnection()
+    End Sub
 End Class

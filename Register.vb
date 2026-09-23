@@ -3,7 +3,7 @@
 Public Class Register
     Private dashboard As New Dashboard()
 
-    Private Function UsernameExists(username As String) As Boolean
+    Public Function UsernameExists(username As String) As Boolean
 
         Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE username = @username"
 
@@ -17,6 +17,20 @@ Public Class Register
 
         End Using
 
+    End Function
+
+    Public Function UserPasswordExist(password As String) As Boolean
+        Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE user_password = @user_password"
+
+        Using sqlcom As New SqlCommand(query, conn)
+
+            sqlcom.Parameters.AddWithValue("@user_password", password)
+
+            Dim count As Integer = Convert.ToInt32(sqlcom.ExecuteScalar())
+
+            Return count > 0
+
+        End Using
     End Function
 
     Sub addStaff()
