@@ -93,6 +93,7 @@
       <DependentUpon>ContentForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="dbConn.vb" />
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>

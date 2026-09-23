@@ -1,5 +1,64 @@
-﻿Public Class Register
+﻿Imports System.Data.SqlClient
+
+Public Class Register
     Private dashboard As New Dashboard()
+
+    Private Function UsernameExists(username As String) As Boolean
+
+        Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE username = @username"
+
+        Using sqlcom As New SqlCommand(query, conn)
+
+            sqlcom.Parameters.AddWithValue("@username", username)
+
+            Dim count As Integer = Convert.ToInt32(sqlcom.ExecuteScalar())
+
+            Return count > 0
+
+        End Using
+
+    End Function
+
+    Sub addStaff()
+
+        If UsernameExists(regUsrnmTxbx.Text) Then
+            MessageBox.Show("Username already exists.")
+        Else
+            query = "INSERT INTO staff_Information (
+                        first_Name,
+                        middle_Name,
+                        surname,
+                        gender,
+                        username,
+                        user_password
+                    )
+                      VALUES (
+                        @first_Name,
+                        @middle_Name,
+                        @surname,
+                        @gender,
+                        @username,
+                        @user_password
+                        )"
+            comm = New SqlClient.SqlCommand(query, conn)
+
+            With comm.Parameters
+                .AddWithValue("@first_Name", frstNmTxbx.Text)
+                .AddWithValue("@middle_Name", mdlnmTxbx.Text)
+                .AddWithValue("@surname", srnnmTxbx.Text)
+                .AddWithValue("@gender", gendercmbx.Text)
+                .AddWithValue("@username", regUsrnmTxbx.Text)
+                .AddWithValue("@user_password", regPassTxbx.Text)
+            End With
+
+            comm.ExecuteNonQuery()
+            comm.Dispose()
+
+            MsgBox("added")
+        End If
+
+    End Sub
+
     Private Sub dayCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dayCmbx.SelectedIndexChanged
         If Not dayCmbx.SelectedIndex = -1 Then
             Label1.Visible = False
@@ -79,6 +138,8 @@
         positionCmbx.Items.Add("Admin")
         positionCmbx.Items.Add("Barangay assistance")
         positionCmbx.Items.Add("Doctor")
+
+        dbConnection()
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
@@ -97,26 +158,14 @@
         End If
     End Sub
 
-    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-        For Each row As DataGridViewRow In dashboard.staffTbl.Rows
-            If regUsrnmTxbx.Text = row.Cells(1).Value.ToString() Then
-                MessageBox.Show("Username already exists.")
-                Return
-            End If
-        Next
-
-        dashboard.staffTbl.Rows.Add(regUsrnmTxbx.Text, regPassTxbx.Text)
-        If dashboard.staffTbl.Rows.Count > 0 Then
-            MsgBox(dashboard.staffTbl.Rows(0).Cells(0).Value.ToString())
-        End If
-    End Sub
-    Sub addRows()
-        dashboard.staffTbl.Rows.Add(regUsrnmTxbx.Text, regPassTxbx.Text)
+    Private Sub addDataBtn_Click(sender As Object, e As EventArgs) Handles addDataBtn.Click
+        addStaff()
     End Sub
 
-    Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox1.TextChanged
-        If Guna2TextBox1.Text <> "" Then
+    Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles frstNmTxbx.TextChanged
+        If frstNmTxbx.Text <> "" Then
             Guna2CircleProgressBar1.Value = 50
         End If
     End Sub
+
 End Class
