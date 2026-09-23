@@ -244,12 +244,15 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\systembg.png" />
     <None Include="Resources\photo_2026-04-01_14-35-51.jpg" />
     <None Include="Resources\copy.png" />
     <None Include="Resources\dices.png" />
     <None Include="Resources\chevron-left.png" />
     <None Include="Resources\chevron-left1.png" />
     <None Include="Resources\calendar-days.png" />
+    <None Include="Resources\bgsystem1.png" />
+    <None Include="Resources\813877714_2507097679772001_791552326465901178_n-removebg-preview.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />
