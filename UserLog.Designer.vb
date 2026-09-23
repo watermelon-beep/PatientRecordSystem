@@ -27,8 +27,10 @@ Partial Class UserLog
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.passlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.usrnlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
+        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label3
@@ -110,6 +112,18 @@ Partial Class UserLog
         Me.Guna2Button1.TabIndex = 9
         Me.Guna2Button1.Text = "Log in"
         '
+        'Guna2CirclePictureBox1
+        '
+        Me.Guna2CirclePictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_23__2026__11_00_05_AM
+        Me.Guna2CirclePictureBox1.ImageRotate = 0!
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(546, 934)
+        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(64, 64)
+        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox1.TabIndex = 14
+        Me.Guna2CirclePictureBox1.TabStop = False
+        '
         'passlogtxbx
         '
         Me.passlogtxbx.Animated = True
@@ -169,6 +183,7 @@ Partial Class UserLog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Guna2CirclePictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Guna2Button3)
@@ -178,6 +193,7 @@ Partial Class UserLog
         Me.Controls.Add(Me.usrnlogtxbx)
         Me.Name = "UserLog"
         Me.Size = New System.Drawing.Size(646, 1041)
+        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -190,4 +206,5 @@ Partial Class UserLog
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents passlogtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents usrnlogtxbx As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
 End Class
