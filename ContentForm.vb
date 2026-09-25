@@ -1,6 +1,8 @@
 ﻿Public Class ContentForm
+
     Private currentUsrContrl As New UserControl
-    Private dashboardPanel As New Dashboard()
+    Private userlog As New UserLog
+
     Public logout As New Logout()
 
     Private Sub ContentForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -20,14 +22,7 @@
                 logout.Hide()
                 currentUsrContrl.Show()
             End Sub
-        showControl(dashboardPanel)
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles dashboardBtn.Click
-
-        showControl(dashboardPanel)
-        currentUsrContrl = dashboardPanel
-
+        showControl(userlog)
     End Sub
 
     Private Sub logoutBtn_Click(sender As Object, e As EventArgs) Handles logoutbtn.Click

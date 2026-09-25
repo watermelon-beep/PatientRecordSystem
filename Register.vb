@@ -1,8 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Register
-    Private dashboard As New Dashboard()
-
     Public Function UsernameExists(username As String) As Boolean
 
         Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE username = @username"
