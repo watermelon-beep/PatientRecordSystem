@@ -23,7 +23,6 @@ Partial Class AdminFrm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -47,6 +46,8 @@ Partial Class AdminFrm
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2ShadowPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
@@ -57,16 +58,9 @@ Partial Class AdminFrm
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
+        Me.Guna2Panel2.SuspendLayout()
+        CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Guna2Panel3
-        '
-        Me.Guna2Panel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(232, 101)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 580)
-        Me.Guna2Panel3.TabIndex = 4
         '
         'Timer1
         '
@@ -118,11 +112,10 @@ Partial Class AdminFrm
         '
         'Label5
         '
-        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(638, 45)
+        Me.Label5.Location = New System.Drawing.Point(372, 46)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(58, 19)
         Me.Label5.TabIndex = 2
@@ -198,7 +191,7 @@ Partial Class AdminFrm
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Gray
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(75, 47)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(95, 14)
@@ -396,11 +389,34 @@ Partial Class AdminFrm
         'Guna2Panel2
         '
         Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.Controls.Add(Me.Guna2CirclePictureBox3)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(232, 152)
         Me.Guna2Panel2.TabIndex = 0
+        '
+        'Guna2CirclePictureBox3
+        '
+        Me.Guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CirclePictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_23__2026__11_00_05_AM
+        Me.Guna2CirclePictureBox3.ImageRotate = 0!
+        Me.Guna2CirclePictureBox3.Location = New System.Drawing.Point(54, 29)
+        Me.Guna2CirclePictureBox3.Name = "Guna2CirclePictureBox3"
+        Me.Guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox3.Size = New System.Drawing.Size(107, 99)
+        Me.Guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox3.TabIndex = 0
+        Me.Guna2CirclePictureBox3.TabStop = False
+        '
+        'Guna2Panel3
+        '
+        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel3.Location = New System.Drawing.Point(232, 101)
+        Me.Guna2Panel3.Name = "Guna2Panel3"
+        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(10)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 580)
+        Me.Guna2Panel3.TabIndex = 4
         '
         'AdminFrm
         '
@@ -427,6 +443,8 @@ Partial Class AdminFrm
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
+        Me.Guna2Panel2.ResumeLayout(False)
+        CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -434,7 +452,6 @@ Partial Class AdminFrm
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
@@ -455,4 +472,6 @@ Partial Class AdminFrm
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
 End Class
