@@ -19,8 +19,10 @@
 
         AddHandler logout.logoutCanceled,
             Sub()
+
                 logout.Hide()
                 currentUsrContrl.Show()
+
             End Sub
         showControl(userlog)
     End Sub

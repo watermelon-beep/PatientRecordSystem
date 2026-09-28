@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.Charts.WinForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.Charts.WinForms.1.1.0\lib\net472\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.8, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.8\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
@@ -246,6 +249,12 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\log-out.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\notebook-dot.png" />
+    <None Include="Resources\square-user.png" />
+    <None Include="Resources\user-pen.png" />
+    <None Include="Resources\house.png" />
     <None Include="Resources\systembg.png" />
     <None Include="Resources\photo_2026-04-01_14-35-51.jpg" />
     <None Include="Resources\copy.png" />
@@ -256,6 +265,10 @@
     <None Include="Resources\bgsystem1.png" />
     <None Include="Resources\813877714_2507097679772001_791552326465901178_n-removebg-preview.png" />
     <None Include="Resources\ChatGPT Image Sep 23, 2026, 11_00_05 AM.png" />
+    <None Include="Resources\bell.png" />
+    <None Include="Resources\ChatGPT Image Sep 28, 2026, 03_10_27 PM.png" />
+    <None Include="Resources\bgsystem2.png" />
+    <None Include="Resources\ChatGPT Image Sep 28, 2026, 04_11_21 PM.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />

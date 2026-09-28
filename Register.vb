@@ -34,7 +34,9 @@ Public Class Register
     Sub addStaff()
 
         If UsernameExists(regUsrnmTxbx.Text) Then
+
             MessageBox.Show("Username already exists.")
+
         Else
             query = "INSERT INTO staff_Information (
                         first_Name,
@@ -52,6 +54,7 @@ Public Class Register
                         @username,
                         @user_password
                         )"
+
             comm = New SqlClient.SqlCommand(query, conn)
 
             With comm.Parameters
