@@ -48,6 +48,7 @@ Partial Class AdminFrm
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2ShadowPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
@@ -100,6 +101,7 @@ Partial Class AdminFrm
         '
         'Guna2Panel6
         '
+        Me.Guna2Panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Guna2Panel6.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel6.Controls.Add(Me.Label5)
         Me.Guna2Panel6.Controls.Add(Me.Label4)
@@ -145,6 +147,7 @@ Partial Class AdminFrm
         '
         'FlowLayoutPanel1
         '
+        Me.FlowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.FlowLayoutPanel1.Controls.Add(Me.Guna2Panel4)
         Me.FlowLayoutPanel1.Controls.Add(Me.Guna2Panel5)
@@ -389,6 +392,7 @@ Partial Class AdminFrm
         'Guna2Panel2
         '
         Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.Controls.Add(Me.Label6)
         Me.Guna2Panel2.Controls.Add(Me.Guna2CirclePictureBox3)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
@@ -401,10 +405,10 @@ Partial Class AdminFrm
         Me.Guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent
         Me.Guna2CirclePictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_23__2026__11_00_05_AM
         Me.Guna2CirclePictureBox3.ImageRotate = 0!
-        Me.Guna2CirclePictureBox3.Location = New System.Drawing.Point(54, 29)
+        Me.Guna2CirclePictureBox3.Location = New System.Drawing.Point(3, 74)
         Me.Guna2CirclePictureBox3.Name = "Guna2CirclePictureBox3"
         Me.Guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox3.Size = New System.Drawing.Size(107, 99)
+        Me.Guna2CirclePictureBox3.Size = New System.Drawing.Size(61, 58)
         Me.Guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2CirclePictureBox3.TabIndex = 0
         Me.Guna2CirclePictureBox3.TabStop = False
@@ -417,6 +421,17 @@ Partial Class AdminFrm
         Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(10)
         Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 580)
         Me.Guna2Panel3.TabIndex = 4
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label6.Location = New System.Drawing.Point(70, 74)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(135, 52)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Barangay" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Health Clinic"
         '
         'AdminFrm
         '
@@ -444,6 +459,7 @@ Partial Class AdminFrm
         Me.Guna2Panel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
+        Me.Guna2Panel2.PerformLayout()
         CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -474,4 +490,5 @@ Partial Class AdminFrm
     Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Label6 As Label
 End Class

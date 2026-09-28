@@ -107,6 +107,7 @@ Partial Class AdminDashboard
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.GunaChart1 = New Guna.Charts.WinForms.GunaChart()
         Me.GunaSplineAreaDataset1 = New Guna.Charts.WinForms.GunaSplineAreaDataset()
         Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
@@ -123,50 +124,50 @@ Partial Class AdminDashboard
         Me.GunaPieDataset1 = New Guna.Charts.WinForms.GunaPieDataset()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Guna2ShadowPanel8 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox8 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Guna2ShadowPanel7 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox7 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Guna2ShadowPanel6 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Guna2ShadowPanel5 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Guna2ShadowPanel4 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse4 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel4 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel5 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel6 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel7 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Guna2ShadowPanel8 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Guna2PictureBox8 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox7 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -180,21 +181,21 @@ Partial Class AdminDashboard
         Me.Guna2Panel8.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
-        Me.Guna2ShadowPanel1.SuspendLayout()
-        Me.Guna2ShadowPanel2.SuspendLayout()
-        Me.Guna2ShadowPanel3.SuspendLayout()
-        Me.Guna2ShadowPanel4.SuspendLayout()
-        Me.Guna2ShadowPanel5.SuspendLayout()
-        Me.Guna2ShadowPanel6.SuspendLayout()
-        Me.Guna2ShadowPanel7.SuspendLayout()
         Me.Guna2ShadowPanel8.SuspendLayout()
         CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel7.SuspendLayout()
         CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel6.SuspendLayout()
         CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel5.SuspendLayout()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel4.SuspendLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel3.SuspendLayout()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel2.SuspendLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel1.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -212,9 +213,9 @@ Partial Class AdminDashboard
         '
         Me.Guna2Panel3.Controls.Add(Me.TableLayoutPanel2)
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 275)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 257)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 305)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 323)
         Me.Guna2Panel3.TabIndex = 1
         '
         'TableLayoutPanel2
@@ -229,7 +230,7 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1032, 305)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1032, 323)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'Guna2Panel4
@@ -238,7 +239,7 @@ Partial Class AdminDashboard
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel4.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(745, 299)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(745, 317)
         Me.Guna2Panel4.TabIndex = 0
         '
         'TableLayoutPanel3
@@ -253,20 +254,38 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(745, 299)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(745, 317)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'Guna2Panel5
         '
         Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel5.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.Controls.Add(Me.Guna2ComboBox1)
         Me.Guna2Panel5.Controls.Add(Me.GunaChart1)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel5.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Panel5.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(739, 143)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(739, 152)
         Me.Guna2Panel5.TabIndex = 0
+        '
+        'Guna2ComboBox1
+        '
+        Me.Guna2ComboBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2ComboBox1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ComboBox1.BorderRadius = 2
+        Me.Guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.Guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2ComboBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.Guna2ComboBox1.ItemHeight = 10
+        Me.Guna2ComboBox1.Location = New System.Drawing.Point(647, 8)
+        Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
+        Me.Guna2ComboBox1.Size = New System.Drawing.Size(72, 16)
+        Me.Guna2ComboBox1.TabIndex = 2
         '
         'GunaChart1
         '
@@ -281,8 +300,9 @@ Partial Class AdminDashboard
         Me.GunaChart1.Name = "GunaChart1"
         Me.GunaChart1.PaletteCustomColors.BorderColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.Green})
         Me.GunaChart1.PaletteCustomColors.FillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.PaleGreen})
-        Me.GunaChart1.PaletteCustomColors.PointFillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.PaleGreen})
-        Me.GunaChart1.Size = New System.Drawing.Size(739, 143)
+        Me.GunaChart1.PaletteCustomColors.PointBorderColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.Green})
+        Me.GunaChart1.PaletteCustomColors.PointFillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.Green})
+        Me.GunaChart1.Size = New System.Drawing.Size(739, 152)
         Me.GunaChart1.TabIndex = 1
         ChartFont2.FontName = "Arial"
         ChartFont2.Size = 12
@@ -340,11 +360,11 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel4.Controls.Add(Me.Guna2Panel6, 0, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.Guna2Panel7, 1, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(3, 152)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(3, 161)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(739, 144)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(739, 153)
         Me.TableLayoutPanel4.TabIndex = 1
         '
         'Guna2Panel6
@@ -353,7 +373,7 @@ Partial Class AdminDashboard
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel6.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(489, 138)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(489, 147)
         Me.Guna2Panel6.TabIndex = 0
         '
         'GunaChart2
@@ -364,7 +384,7 @@ Partial Class AdminDashboard
         Me.GunaChart2.Legend.LabelFont = ChartFont9
         Me.GunaChart2.Location = New System.Drawing.Point(0, 0)
         Me.GunaChart2.Name = "GunaChart2"
-        Me.GunaChart2.Size = New System.Drawing.Size(489, 138)
+        Me.GunaChart2.Size = New System.Drawing.Size(489, 147)
         Me.GunaChart2.TabIndex = 0
         ChartFont10.FontName = "Arial"
         ChartFont10.Size = 12
@@ -416,7 +436,7 @@ Partial Class AdminDashboard
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel7.Location = New System.Drawing.Point(498, 3)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(238, 138)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(238, 147)
         Me.Guna2Panel7.TabIndex = 1
         '
         'GunaChart3
@@ -429,7 +449,7 @@ Partial Class AdminDashboard
         Me.GunaChart3.Legend.Position = Guna.Charts.WinForms.LegendPosition.Left
         Me.GunaChart3.Location = New System.Drawing.Point(0, 0)
         Me.GunaChart3.Name = "GunaChart3"
-        Me.GunaChart3.Size = New System.Drawing.Size(238, 138)
+        Me.GunaChart3.Size = New System.Drawing.Size(238, 147)
         Me.GunaChart3.TabIndex = 1
         ChartFont18.FontName = "Arial"
         ChartFont18.Size = 12
@@ -486,9 +506,9 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(754, 3)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.07407!))
-        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65.92593!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(275, 299)
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.13044!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.86956!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(275, 317)
         Me.TableLayoutPanel5.TabIndex = 1
         '
         'Guna2Panel9
@@ -498,11 +518,11 @@ Partial Class AdminDashboard
         Me.Guna2Panel9.BorderThickness = 2
         Me.Guna2Panel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel9.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel9.Location = New System.Drawing.Point(3, 104)
+        Me.Guna2Panel9.Location = New System.Drawing.Point(3, 127)
         Me.Guna2Panel9.Name = "Guna2Panel9"
         Me.Guna2Panel9.ShadowDecoration.BorderRadius = 15
         Me.Guna2Panel9.ShadowDecoration.Depth = 10
-        Me.Guna2Panel9.Size = New System.Drawing.Size(269, 192)
+        Me.Guna2Panel9.Size = New System.Drawing.Size(269, 187)
         Me.Guna2Panel9.TabIndex = 1
         '
         'Guna2Panel8
@@ -511,11 +531,12 @@ Partial Class AdminDashboard
         Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel8.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Size = New System.Drawing.Size(269, 95)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(269, 118)
         Me.Guna2Panel8.TabIndex = 0
         '
         'GunaChart4
         '
+        Me.GunaChart4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.GunaChart4.Datasets.AddRange(New Guna.Charts.Interfaces.IGunaDataset() {Me.GunaPieDataset1})
         Me.GunaChart4.Dock = System.Windows.Forms.DockStyle.Fill
         ChartFont25.FontName = "Arial"
@@ -524,7 +545,7 @@ Partial Class AdminDashboard
         Me.GunaChart4.Location = New System.Drawing.Point(0, 0)
         Me.GunaChart4.Margin = New System.Windows.Forms.Padding(3, 3, 3, 10)
         Me.GunaChart4.Name = "GunaChart4"
-        Me.GunaChart4.Size = New System.Drawing.Size(269, 95)
+        Me.GunaChart4.Size = New System.Drawing.Size(269, 118)
         Me.GunaChart4.TabIndex = 2
         ChartFont26.FontName = "Arial"
         ChartFont26.Size = 12
@@ -570,11 +591,12 @@ Partial Class AdminDashboard
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1032, 275)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1032, 257)
         Me.Guna2Panel2.TabIndex = 0
         '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.TableLayoutPanel1.ColumnCount = 4
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
@@ -594,8 +616,463 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 275)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 257)
         Me.TableLayoutPanel1.TabIndex = 0
+        '
+        'Guna2ShadowPanel8
+        '
+        Me.Guna2ShadowPanel8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel8.Controls.Add(Me.Label22)
+        Me.Guna2ShadowPanel8.Controls.Add(Me.Label23)
+        Me.Guna2ShadowPanel8.Controls.Add(Me.Guna2PictureBox8)
+        Me.Guna2ShadowPanel8.Controls.Add(Me.Label24)
+        Me.Guna2ShadowPanel8.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel8.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel8.Location = New System.Drawing.Point(774, 128)
+        Me.Guna2ShadowPanel8.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel8.Name = "Guna2ShadowPanel8"
+        Me.Guna2ShadowPanel8.Radius = 5
+        Me.Guna2ShadowPanel8.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel8.ShadowDepth = 50
+        Me.Guna2ShadowPanel8.ShadowShift = 3
+        Me.Guna2ShadowPanel8.Size = New System.Drawing.Size(258, 129)
+        Me.Guna2ShadowPanel8.TabIndex = 7
+        '
+        'Label22
+        '
+        Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Gray
+        Me.Label22.Location = New System.Drawing.Point(149, 81)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(71, 16)
+        Me.Label22.TabIndex = 2
+        Me.Label22.Text = "vs last week"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(45, 59)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(44, 31)
+        Me.Label23.TabIndex = 1
+        Me.Label23.Text = "31"
+        '
+        'Guna2PictureBox8
+        '
+        Me.Guna2PictureBox8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox8.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox8.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
+        Me.Guna2PictureBox8.ImageRotate = 0!
+        Me.Guna2PictureBox8.Location = New System.Drawing.Point(173, 40)
+        Me.Guna2PictureBox8.Name = "Guna2PictureBox8"
+        Me.Guna2PictureBox8.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox8.TabIndex = 1
+        Me.Guna2PictureBox8.TabStop = False
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.Color.Gray
+        Me.Label24.Location = New System.Drawing.Point(47, 40)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(119, 19)
+        Me.Label24.TabIndex = 0
+        Me.Label24.Text = "Complete Today"
+        '
+        'Guna2ShadowPanel7
+        '
+        Me.Guna2ShadowPanel7.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel7.Controls.Add(Me.Label19)
+        Me.Guna2ShadowPanel7.Controls.Add(Me.Label20)
+        Me.Guna2ShadowPanel7.Controls.Add(Me.Guna2PictureBox7)
+        Me.Guna2ShadowPanel7.Controls.Add(Me.Label21)
+        Me.Guna2ShadowPanel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel7.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel7.Location = New System.Drawing.Point(516, 128)
+        Me.Guna2ShadowPanel7.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel7.Name = "Guna2ShadowPanel7"
+        Me.Guna2ShadowPanel7.Radius = 5
+        Me.Guna2ShadowPanel7.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel7.ShadowDepth = 50
+        Me.Guna2ShadowPanel7.ShadowShift = 3
+        Me.Guna2ShadowPanel7.Size = New System.Drawing.Size(258, 129)
+        Me.Guna2ShadowPanel7.TabIndex = 6
+        '
+        'Label19
+        '
+        Me.Label19.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.Gray
+        Me.Label19.Location = New System.Drawing.Point(149, 81)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(71, 16)
+        Me.Label19.TabIndex = 2
+        Me.Label19.Text = "vs last week"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(45, 59)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(29, 31)
+        Me.Label20.TabIndex = 1
+        Me.Label20.Text = "7"
+        '
+        'Guna2PictureBox7
+        '
+        Me.Guna2PictureBox7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox7.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox7.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
+        Me.Guna2PictureBox7.ImageRotate = 0!
+        Me.Guna2PictureBox7.Location = New System.Drawing.Point(173, 40)
+        Me.Guna2PictureBox7.Name = "Guna2PictureBox7"
+        Me.Guna2PictureBox7.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox7.TabIndex = 1
+        Me.Guna2PictureBox7.TabStop = False
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.Gray
+        Me.Label21.Location = New System.Drawing.Point(47, 40)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(162, 19)
+        Me.Label21.TabIndex = 0
+        Me.Label21.Text = "Pending Appointments"
+        '
+        'Guna2ShadowPanel6
+        '
+        Me.Guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel6.Controls.Add(Me.Label16)
+        Me.Guna2ShadowPanel6.Controls.Add(Me.Label17)
+        Me.Guna2ShadowPanel6.Controls.Add(Me.Guna2PictureBox6)
+        Me.Guna2ShadowPanel6.Controls.Add(Me.Label18)
+        Me.Guna2ShadowPanel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel6.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel6.Location = New System.Drawing.Point(258, 128)
+        Me.Guna2ShadowPanel6.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel6.Name = "Guna2ShadowPanel6"
+        Me.Guna2ShadowPanel6.Radius = 5
+        Me.Guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel6.ShadowDepth = 50
+        Me.Guna2ShadowPanel6.ShadowShift = 3
+        Me.Guna2ShadowPanel6.Size = New System.Drawing.Size(258, 129)
+        Me.Guna2ShadowPanel6.TabIndex = 5
+        '
+        'Label16
+        '
+        Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.ForeColor = System.Drawing.Color.Gray
+        Me.Label16.Location = New System.Drawing.Point(149, 81)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(80, 16)
+        Me.Label16.TabIndex = 2
+        Me.Label16.Text = "vs last month"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(45, 59)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(59, 31)
+        Me.Label17.TabIndex = 1
+        Me.Label17.Text = "321"
+        '
+        'Guna2PictureBox6
+        '
+        Me.Guna2PictureBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox6.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox6.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
+        Me.Guna2PictureBox6.ImageRotate = 0!
+        Me.Guna2PictureBox6.Location = New System.Drawing.Point(173, 40)
+        Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
+        Me.Guna2PictureBox6.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox6.TabIndex = 1
+        Me.Guna2PictureBox6.TabStop = False
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.Gray
+        Me.Label18.Location = New System.Drawing.Point(47, 40)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(95, 19)
+        Me.Label18.TabIndex = 0
+        Me.Label18.Text = "Total Female"
+        '
+        'Guna2ShadowPanel5
+        '
+        Me.Guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel5.Controls.Add(Me.Label13)
+        Me.Guna2ShadowPanel5.Controls.Add(Me.Label14)
+        Me.Guna2ShadowPanel5.Controls.Add(Me.Guna2PictureBox5)
+        Me.Guna2ShadowPanel5.Controls.Add(Me.Label15)
+        Me.Guna2ShadowPanel5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(0, 128)
+        Me.Guna2ShadowPanel5.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
+        Me.Guna2ShadowPanel5.Radius = 5
+        Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel5.ShadowDepth = 50
+        Me.Guna2ShadowPanel5.ShadowShift = 3
+        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(258, 129)
+        Me.Guna2ShadowPanel5.TabIndex = 4
+        '
+        'Label13
+        '
+        Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Gray
+        Me.Label13.Location = New System.Drawing.Point(149, 81)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(80, 16)
+        Me.Label13.TabIndex = 2
+        Me.Label13.Text = "vs last month"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(45, 59)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(59, 31)
+        Me.Label14.TabIndex = 1
+        Me.Label14.Text = "552"
+        '
+        'Guna2PictureBox5
+        '
+        Me.Guna2PictureBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox5.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
+        Me.Guna2PictureBox5.ImageRotate = 0!
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(173, 40)
+        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox5.TabIndex = 1
+        Me.Guna2PictureBox5.TabStop = False
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.Gray
+        Me.Label15.Location = New System.Drawing.Point(47, 40)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(80, 19)
+        Me.Label15.TabIndex = 0
+        Me.Label15.Text = "Total Male"
+        '
+        'Guna2ShadowPanel4
+        '
+        Me.Guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label10)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label11)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Guna2PictureBox4)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label12)
+        Me.Guna2ShadowPanel4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(774, 0)
+        Me.Guna2ShadowPanel4.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
+        Me.Guna2ShadowPanel4.Radius = 5
+        Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel4.ShadowDepth = 50
+        Me.Guna2ShadowPanel4.ShadowShift = 3
+        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(258, 128)
+        Me.Guna2ShadowPanel4.TabIndex = 3
+        '
+        'Label10
+        '
+        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.Gray
+        Me.Label10.Location = New System.Drawing.Point(149, 80)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(80, 16)
+        Me.Label10.TabIndex = 2
+        Me.Label10.Text = "vs last month"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(45, 58)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(44, 31)
+        Me.Label11.TabIndex = 1
+        Me.Label11.Text = "35"
+        '
+        'Guna2PictureBox4
+        '
+        Me.Guna2PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox4.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
+        Me.Guna2PictureBox4.ImageRotate = 0!
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(173, 39)
+        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox4.TabIndex = 1
+        Me.Guna2PictureBox4.TabStop = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.Gray
+        Me.Label12.Location = New System.Drawing.Point(47, 39)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(78, 19)
+        Me.Label12.TabIndex = 0
+        Me.Label12.Text = "Total Staff"
+        '
+        'Guna2ShadowPanel3
+        '
+        Me.Guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Label7)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Label8)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2PictureBox3)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Label9)
+        Me.Guna2ShadowPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(516, 0)
+        Me.Guna2ShadowPanel3.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
+        Me.Guna2ShadowPanel3.Radius = 5
+        Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel3.ShadowDepth = 50
+        Me.Guna2ShadowPanel3.ShadowShift = 3
+        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(258, 128)
+        Me.Guna2ShadowPanel3.TabIndex = 2
+        '
+        'Label7
+        '
+        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Gray
+        Me.Label7.Location = New System.Drawing.Point(149, 80)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(73, 16)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "vs yesterday"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(45, 58)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(44, 31)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Text = "26"
+        '
+        'Guna2PictureBox3
+        '
+        Me.Guna2PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox3.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
+        Me.Guna2PictureBox3.ImageRotate = 0!
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(173, 39)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox3.TabIndex = 1
+        Me.Guna2PictureBox3.TabStop = False
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Gray
+        Me.Label9.Location = New System.Drawing.Point(47, 39)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(141, 19)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "New Patients Today"
+        '
+        'Guna2ShadowPanel2
+        '
+        Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel2.Controls.Add(Me.Label4)
+        Me.Guna2ShadowPanel2.Controls.Add(Me.Label5)
+        Me.Guna2ShadowPanel2.Controls.Add(Me.Guna2PictureBox2)
+        Me.Guna2ShadowPanel2.Controls.Add(Me.Label6)
+        Me.Guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.White
+        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(258, 0)
+        Me.Guna2ShadowPanel2.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
+        Me.Guna2ShadowPanel2.Radius = 5
+        Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel2.ShadowDepth = 50
+        Me.Guna2ShadowPanel2.ShadowShift = 3
+        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(258, 128)
+        Me.Guna2ShadowPanel2.TabIndex = 1
+        '
+        'Label4
+        '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Gray
+        Me.Label4.Location = New System.Drawing.Point(149, 80)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(73, 16)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "vs yesterday"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(45, 58)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(44, 31)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "51"
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
+        Me.Guna2PictureBox2.ImageRotate = 0!
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(173, 39)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 1
+        Me.Guna2PictureBox2.TabStop = False
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Gray
+        Me.Label6.Location = New System.Drawing.Point(47, 39)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(152, 19)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Today's Appointment"
         '
         'Guna2ShadowPanel1
         '
@@ -613,8 +1090,54 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel1.ShadowDepth = 50
         Me.Guna2ShadowPanel1.ShadowShift = 3
-        Me.Guna2ShadowPanel1.Size = New System.Drawing.Size(258, 137)
+        Me.Guna2ShadowPanel1.Size = New System.Drawing.Size(258, 128)
         Me.Guna2ShadowPanel1.TabIndex = 0
+        '
+        'Label3
+        '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Gray
+        Me.Label3.Location = New System.Drawing.Point(149, 71)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(71, 16)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "vs last week"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(45, 49)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(59, 31)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "421"
+        '
+        'Guna2PictureBox1
+        '
+        Me.Guna2PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
+        Me.Guna2PictureBox1.ImageRotate = 0!
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(173, 30)
+        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox1.TabIndex = 1
+        Me.Guna2PictureBox1.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Gray
+        Me.Label1.Location = New System.Drawing.Point(47, 30)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(94, 19)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Total Patient"
         '
         'Guna2Elipse1
         '
@@ -635,507 +1158,6 @@ Partial Class AdminDashboard
         '
         Me.Guna2Elipse4.BorderRadius = 20
         Me.Guna2Elipse4.TargetControl = Me.GunaChart4
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(47, 49)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(94, 19)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Total Patient"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(45, 68)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 31)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "421"
-        '
-        'Label3
-        '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(149, 94)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(71, 16)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "vs last week"
-        '
-        'Guna2ShadowPanel2
-        '
-        Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel2.Controls.Add(Me.Label4)
-        Me.Guna2ShadowPanel2.Controls.Add(Me.Label5)
-        Me.Guna2ShadowPanel2.Controls.Add(Me.Guna2PictureBox2)
-        Me.Guna2ShadowPanel2.Controls.Add(Me.Label6)
-        Me.Guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(258, 0)
-        Me.Guna2ShadowPanel2.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
-        Me.Guna2ShadowPanel2.Radius = 5
-        Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel2.ShadowDepth = 50
-        Me.Guna2ShadowPanel2.ShadowShift = 3
-        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(258, 137)
-        Me.Guna2ShadowPanel2.TabIndex = 1
-        '
-        'Label4
-        '
-        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(149, 94)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(73, 16)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "vs yesterday"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(45, 68)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(44, 31)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "51"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Gray
-        Me.Label6.Location = New System.Drawing.Point(47, 49)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(152, 19)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "Today's Appointment"
-        '
-        'Guna2ShadowPanel3
-        '
-        Me.Guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Label7)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Label8)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2PictureBox3)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Label9)
-        Me.Guna2ShadowPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(516, 0)
-        Me.Guna2ShadowPanel3.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
-        Me.Guna2ShadowPanel3.Radius = 5
-        Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel3.ShadowDepth = 50
-        Me.Guna2ShadowPanel3.ShadowShift = 3
-        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(258, 137)
-        Me.Guna2ShadowPanel3.TabIndex = 2
-        '
-        'Label7
-        '
-        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Gray
-        Me.Label7.Location = New System.Drawing.Point(149, 94)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(73, 16)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "vs yesterday"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(45, 68)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(44, 31)
-        Me.Label8.TabIndex = 1
-        Me.Label8.Text = "26"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.Gray
-        Me.Label9.Location = New System.Drawing.Point(47, 49)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(141, 19)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "New Patients Today"
-        '
-        'Guna2ShadowPanel4
-        '
-        Me.Guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label10)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label11)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Guna2PictureBox4)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label12)
-        Me.Guna2ShadowPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(774, 0)
-        Me.Guna2ShadowPanel4.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
-        Me.Guna2ShadowPanel4.Radius = 5
-        Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel4.ShadowDepth = 50
-        Me.Guna2ShadowPanel4.ShadowShift = 3
-        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(258, 137)
-        Me.Guna2ShadowPanel4.TabIndex = 3
-        '
-        'Label10
-        '
-        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.Gray
-        Me.Label10.Location = New System.Drawing.Point(149, 94)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(80, 16)
-        Me.Label10.TabIndex = 2
-        Me.Label10.Text = "vs last month"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(45, 68)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(44, 31)
-        Me.Label11.TabIndex = 1
-        Me.Label11.Text = "35"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.Color.Gray
-        Me.Label12.Location = New System.Drawing.Point(47, 49)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(78, 19)
-        Me.Label12.TabIndex = 0
-        Me.Label12.Text = "Total Staff"
-        '
-        'Guna2ShadowPanel5
-        '
-        Me.Guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel5.Controls.Add(Me.Label13)
-        Me.Guna2ShadowPanel5.Controls.Add(Me.Label14)
-        Me.Guna2ShadowPanel5.Controls.Add(Me.Guna2PictureBox5)
-        Me.Guna2ShadowPanel5.Controls.Add(Me.Label15)
-        Me.Guna2ShadowPanel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(0, 137)
-        Me.Guna2ShadowPanel5.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
-        Me.Guna2ShadowPanel5.Radius = 5
-        Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel5.ShadowDepth = 50
-        Me.Guna2ShadowPanel5.ShadowShift = 3
-        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(258, 138)
-        Me.Guna2ShadowPanel5.TabIndex = 4
-        '
-        'Label13
-        '
-        Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.Gray
-        Me.Label13.Location = New System.Drawing.Point(149, 95)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(80, 16)
-        Me.Label13.TabIndex = 2
-        Me.Label13.Text = "vs last month"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(45, 68)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(59, 31)
-        Me.Label14.TabIndex = 1
-        Me.Label14.Text = "552"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.Gray
-        Me.Label15.Location = New System.Drawing.Point(47, 49)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(80, 19)
-        Me.Label15.TabIndex = 0
-        Me.Label15.Text = "Total Male"
-        '
-        'Guna2ShadowPanel6
-        '
-        Me.Guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel6.Controls.Add(Me.Label16)
-        Me.Guna2ShadowPanel6.Controls.Add(Me.Label17)
-        Me.Guna2ShadowPanel6.Controls.Add(Me.Guna2PictureBox6)
-        Me.Guna2ShadowPanel6.Controls.Add(Me.Label18)
-        Me.Guna2ShadowPanel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel6.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel6.Location = New System.Drawing.Point(258, 137)
-        Me.Guna2ShadowPanel6.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel6.Name = "Guna2ShadowPanel6"
-        Me.Guna2ShadowPanel6.Radius = 5
-        Me.Guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel6.ShadowDepth = 50
-        Me.Guna2ShadowPanel6.ShadowShift = 3
-        Me.Guna2ShadowPanel6.Size = New System.Drawing.Size(258, 138)
-        Me.Guna2ShadowPanel6.TabIndex = 5
-        '
-        'Label16
-        '
-        Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.Color.Gray
-        Me.Label16.Location = New System.Drawing.Point(149, 95)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(80, 16)
-        Me.Label16.TabIndex = 2
-        Me.Label16.Text = "vs last month"
-        '
-        'Label17
-        '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(45, 68)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(59, 31)
-        Me.Label17.TabIndex = 1
-        Me.Label17.Text = "321"
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Gray
-        Me.Label18.Location = New System.Drawing.Point(47, 49)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(95, 19)
-        Me.Label18.TabIndex = 0
-        Me.Label18.Text = "Total Female"
-        '
-        'Guna2ShadowPanel7
-        '
-        Me.Guna2ShadowPanel7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel7.Controls.Add(Me.Label19)
-        Me.Guna2ShadowPanel7.Controls.Add(Me.Label20)
-        Me.Guna2ShadowPanel7.Controls.Add(Me.Guna2PictureBox7)
-        Me.Guna2ShadowPanel7.Controls.Add(Me.Label21)
-        Me.Guna2ShadowPanel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel7.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel7.Location = New System.Drawing.Point(516, 137)
-        Me.Guna2ShadowPanel7.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel7.Name = "Guna2ShadowPanel7"
-        Me.Guna2ShadowPanel7.Radius = 5
-        Me.Guna2ShadowPanel7.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel7.ShadowDepth = 50
-        Me.Guna2ShadowPanel7.ShadowShift = 3
-        Me.Guna2ShadowPanel7.Size = New System.Drawing.Size(258, 138)
-        Me.Guna2ShadowPanel7.TabIndex = 6
-        '
-        'Label19
-        '
-        Me.Label19.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Gray
-        Me.Label19.Location = New System.Drawing.Point(149, 95)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(71, 16)
-        Me.Label19.TabIndex = 2
-        Me.Label19.Text = "vs last week"
-        '
-        'Label20
-        '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(45, 68)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(29, 31)
-        Me.Label20.TabIndex = 1
-        Me.Label20.Text = "7"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.Gray
-        Me.Label21.Location = New System.Drawing.Point(47, 49)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(162, 19)
-        Me.Label21.TabIndex = 0
-        Me.Label21.Text = "Pending Appointments"
-        '
-        'Guna2ShadowPanel8
-        '
-        Me.Guna2ShadowPanel8.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel8.Controls.Add(Me.Label22)
-        Me.Guna2ShadowPanel8.Controls.Add(Me.Label23)
-        Me.Guna2ShadowPanel8.Controls.Add(Me.Guna2PictureBox8)
-        Me.Guna2ShadowPanel8.Controls.Add(Me.Label24)
-        Me.Guna2ShadowPanel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2ShadowPanel8.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel8.Location = New System.Drawing.Point(774, 137)
-        Me.Guna2ShadowPanel8.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2ShadowPanel8.Name = "Guna2ShadowPanel8"
-        Me.Guna2ShadowPanel8.Radius = 5
-        Me.Guna2ShadowPanel8.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel8.ShadowDepth = 50
-        Me.Guna2ShadowPanel8.ShadowShift = 3
-        Me.Guna2ShadowPanel8.Size = New System.Drawing.Size(258, 138)
-        Me.Guna2ShadowPanel8.TabIndex = 7
-        '
-        'Label22
-        '
-        Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.Gray
-        Me.Label22.Location = New System.Drawing.Point(149, 95)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(71, 16)
-        Me.Label22.TabIndex = 2
-        Me.Label22.Text = "vs last week"
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(45, 68)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(44, 31)
-        Me.Label23.TabIndex = 1
-        Me.Label23.Text = "31"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.Color.Gray
-        Me.Label24.Location = New System.Drawing.Point(47, 49)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(119, 19)
-        Me.Label24.TabIndex = 0
-        Me.Label24.Text = "Complete Today"
-        '
-        'Guna2PictureBox8
-        '
-        Me.Guna2PictureBox8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox8.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox8.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
-        Me.Guna2PictureBox8.ImageRotate = 0!
-        Me.Guna2PictureBox8.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox8.Name = "Guna2PictureBox8"
-        Me.Guna2PictureBox8.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox8.TabIndex = 1
-        Me.Guna2PictureBox8.TabStop = False
-        '
-        'Guna2PictureBox7
-        '
-        Me.Guna2PictureBox7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox7.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox7.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
-        Me.Guna2PictureBox7.ImageRotate = 0!
-        Me.Guna2PictureBox7.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox7.Name = "Guna2PictureBox7"
-        Me.Guna2PictureBox7.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox7.TabIndex = 1
-        Me.Guna2PictureBox7.TabStop = False
-        '
-        'Guna2PictureBox6
-        '
-        Me.Guna2PictureBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox6.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox6.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
-        Me.Guna2PictureBox6.ImageRotate = 0!
-        Me.Guna2PictureBox6.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Me.Guna2PictureBox6.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox6.TabIndex = 1
-        Me.Guna2PictureBox6.TabStop = False
-        '
-        'Guna2PictureBox5
-        '
-        Me.Guna2PictureBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox5.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
-        Me.Guna2PictureBox5.ImageRotate = 0!
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Me.Guna2PictureBox5.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox5.TabIndex = 1
-        Me.Guna2PictureBox5.TabStop = False
-        '
-        'Guna2PictureBox4
-        '
-        Me.Guna2PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
-        Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox4.TabIndex = 1
-        Me.Guna2PictureBox4.TabStop = False
-        '
-        'Guna2PictureBox3
-        '
-        Me.Guna2PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox3.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
-        Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox3.TabIndex = 1
-        Me.Guna2PictureBox3.TabStop = False
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 1
-        Me.Guna2PictureBox2.TabStop = False
-        '
-        'Guna2PictureBox1
-        '
-        Me.Guna2PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2PictureBox1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
-        Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(173, 49)
-        Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(47, 50)
-        Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox1.TabIndex = 1
-        Me.Guna2PictureBox1.TabStop = False
         '
         'AdminDashboard
         '
@@ -1158,29 +1180,29 @@ Partial Class AdminDashboard
         Me.Guna2Panel8.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.Guna2ShadowPanel1.ResumeLayout(False)
-        Me.Guna2ShadowPanel1.PerformLayout()
-        Me.Guna2ShadowPanel2.ResumeLayout(False)
-        Me.Guna2ShadowPanel2.PerformLayout()
-        Me.Guna2ShadowPanel3.ResumeLayout(False)
-        Me.Guna2ShadowPanel3.PerformLayout()
-        Me.Guna2ShadowPanel4.ResumeLayout(False)
-        Me.Guna2ShadowPanel4.PerformLayout()
-        Me.Guna2ShadowPanel5.ResumeLayout(False)
-        Me.Guna2ShadowPanel5.PerformLayout()
-        Me.Guna2ShadowPanel6.ResumeLayout(False)
-        Me.Guna2ShadowPanel6.PerformLayout()
-        Me.Guna2ShadowPanel7.ResumeLayout(False)
-        Me.Guna2ShadowPanel7.PerformLayout()
         Me.Guna2ShadowPanel8.ResumeLayout(False)
         Me.Guna2ShadowPanel8.PerformLayout()
         CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel7.ResumeLayout(False)
+        Me.Guna2ShadowPanel7.PerformLayout()
         CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel6.ResumeLayout(False)
+        Me.Guna2ShadowPanel6.PerformLayout()
         CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel5.ResumeLayout(False)
+        Me.Guna2ShadowPanel5.PerformLayout()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel4.ResumeLayout(False)
+        Me.Guna2ShadowPanel4.PerformLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel3.ResumeLayout(False)
+        Me.Guna2ShadowPanel3.PerformLayout()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel2.ResumeLayout(False)
+        Me.Guna2ShadowPanel2.PerformLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel1.ResumeLayout(False)
+        Me.Guna2ShadowPanel1.PerformLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -1252,4 +1274,5 @@ Partial Class AdminDashboard
     Friend WithEvents Label5 As Label
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents Guna2ComboBox1 As Guna.UI2.WinForms.Guna2ComboBox
 End Class

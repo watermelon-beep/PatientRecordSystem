@@ -18,14 +18,5 @@ Public Class AdminFrm
         Label5.Text = DateTime.Now.ToString("hh:mm tt")
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
-    End Sub
-
-    Private Sub TableLayoutPanel3_Paint(sender As Object, e As PaintEventArgs)
-
-    End Sub
-
-    Private Sub Guna2ShadowPanel3_Paint(sender As Object, e As PaintEventArgs)
-    End Sub
 End Class
