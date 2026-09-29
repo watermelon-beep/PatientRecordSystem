@@ -22,7 +22,6 @@ Partial Class Register
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2CircleProgressBar1 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -53,12 +52,12 @@ Partial Class Register
         Me.srnnmTxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.frstNmTxbx = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TaskBarProgress1 = New Guna.UI2.WinForms.Guna2TaskBarProgress(Me.components)
         Me.Guna2Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Panel1
         '
+        Me.Guna2Panel1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Guna2Panel1.Controls.Add(Me.Guna2CircleProgressBar1)
         Me.Guna2Panel1.Controls.Add(Me.Label5)
         Me.Guna2Panel1.Controls.Add(Me.Label4)
@@ -88,7 +87,6 @@ Partial Class Register
         Me.Guna2Panel1.Controls.Add(Me.srnnmTxbx)
         Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel1)
         Me.Guna2Panel1.Controls.Add(Me.frstNmTxbx)
-        Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.Size = New System.Drawing.Size(646, 1041)
@@ -195,6 +193,7 @@ Partial Class Register
         '
         'Guna2Button4
         '
+        Me.Guna2Button4.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Guna2Button4.Animated = True
         Me.Guna2Button4.AutoRoundedCorners = True
         Me.Guna2Button4.BackColor = System.Drawing.Color.Transparent
@@ -216,6 +215,7 @@ Partial Class Register
         '
         'addDataBtn
         '
+        Me.addDataBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.addDataBtn.Animated = True
         Me.addDataBtn.AutoRoundedCorners = True
         Me.addDataBtn.BackColor = System.Drawing.Color.Transparent
@@ -237,6 +237,7 @@ Partial Class Register
         '
         'Guna2Button2
         '
+        Me.Guna2Button2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Guna2Button2.Animated = True
         Me.Guna2Button2.AutoRoundedCorners = True
         Me.Guna2Button2.BackColor = System.Drawing.Color.Transparent
@@ -259,6 +260,7 @@ Partial Class Register
         '
         'Guna2HtmlLabel7
         '
+        Me.Guna2HtmlLabel7.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -270,6 +272,7 @@ Partial Class Register
         '
         'cnfrmPasstxbx
         '
+        Me.cnfrmPasstxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cnfrmPasstxbx.Animated = True
         Me.cnfrmPasstxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.cnfrmPasstxbx.BorderRadius = 10
@@ -294,6 +297,7 @@ Partial Class Register
         '
         'Guna2Button1
         '
+        Me.Guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Guna2Button1.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.copy
         Me.Guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Guna2Button1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -313,6 +317,7 @@ Partial Class Register
         '
         'Guna2HtmlLabel6
         '
+        Me.Guna2HtmlLabel6.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -324,6 +329,7 @@ Partial Class Register
         '
         'regPassTxbx
         '
+        Me.regPassTxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.regPassTxbx.Animated = True
         Me.regPassTxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.regPassTxbx.BorderRadius = 10
@@ -348,6 +354,7 @@ Partial Class Register
         '
         'Guna2HtmlLabel5
         '
+        Me.Guna2HtmlLabel5.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -359,6 +366,7 @@ Partial Class Register
         '
         'regUsrnmTxbx
         '
+        Me.regUsrnmTxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.regUsrnmTxbx.Animated = True
         Me.regUsrnmTxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.regUsrnmTxbx.BorderRadius = 10
@@ -394,6 +402,7 @@ Partial Class Register
         '
         'positionCmbx
         '
+        Me.positionCmbx.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.positionCmbx.BackColor = System.Drawing.Color.Transparent
         Me.positionCmbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.positionCmbx.BorderRadius = 10
@@ -595,10 +604,6 @@ Partial Class Register
         Me.frstNmTxbx.Size = New System.Drawing.Size(248, 46)
         Me.frstNmTxbx.TabIndex = 0
         '
-        'Guna2TaskBarProgress1
-        '
-        Me.Guna2TaskBarProgress1.TargetForm = Nothing
-        '
         'Register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -642,5 +647,4 @@ Partial Class Register
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Guna2TaskBarProgress1 As Guna.UI2.WinForms.Guna2TaskBarProgress
 End Class

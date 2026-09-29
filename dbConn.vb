@@ -18,4 +18,36 @@ Module dbConn
             MsgBox(ex.Message)
         End Try
     End Sub
+
+    Public Function UsernameExists(username As String) As Boolean
+
+        Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE username = @username"
+
+        Using sqlcom As New SqlCommand(query, conn)
+
+            sqlcom.Parameters.AddWithValue("@username", username)
+
+            Dim count As Integer = Convert.ToInt32(sqlcom.ExecuteScalar())
+
+            Return count > 0
+
+        End Using
+
+    End Function
+
+    Public Function UserPasswordExist(password As String) As Boolean
+
+        Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE user_password = @user_password"
+
+        Using sqlcom As New SqlCommand(query, conn)
+
+            sqlcom.Parameters.AddWithValue("@user_password", password)
+
+            Dim count As Integer = Convert.ToInt32(sqlcom.ExecuteScalar())
+
+            Return count > 0
+
+        End Using
+    End Function
+
 End Module

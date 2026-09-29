@@ -1,35 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Register
-    Public Function UsernameExists(username As String) As Boolean
-
-        Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE username = @username"
-
-        Using sqlcom As New SqlCommand(query, conn)
-
-            sqlcom.Parameters.AddWithValue("@username", username)
-
-            Dim count As Integer = Convert.ToInt32(sqlcom.ExecuteScalar())
-
-            Return count > 0
-
-        End Using
-
-    End Function
-
-    Public Function UserPasswordExist(password As String) As Boolean
-        Dim query As String = "SELECT COUNT(*) FROM staff_information WHERE user_password = @user_password"
-
-        Using sqlcom As New SqlCommand(query, conn)
-
-            sqlcom.Parameters.AddWithValue("@user_password", password)
-
-            Dim count As Integer = Convert.ToInt32(sqlcom.ExecuteScalar())
-
-            Return count > 0
-
-        End Using
-    End Function
 
     Sub addStaff()
 
@@ -70,22 +41,25 @@ Public Class Register
             comm.Dispose()
 
             MsgBox("added")
+
         End If
 
     End Sub
 
     Private Sub dayCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dayCmbx.SelectedIndexChanged
+
         If Not dayCmbx.SelectedIndex = -1 Then
             Label1.Visible = False
         End If
+
     End Sub
 
     Private Sub monthCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles monthCmbx.SelectedIndexChanged
 
-
         If Not monthCmbx.SelectedIndex = -1 Then
             Label2.Visible = False
         End If
+
     End Sub
 
     Private Sub yearCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles yearCmbx.SelectedIndexChanged
@@ -93,9 +67,11 @@ Public Class Register
         If Not yearCmbx.SelectedIndex = -1 Then
             Label3.Visible = False
         End If
+
     End Sub
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+
         Dim rnd As New Random()
 
         Dim randomNumber As Integer = rnd.Next(2, 16)
@@ -120,6 +96,7 @@ Public Class Register
 
         regPassTxbx.Text = password
         cnfrmPasstxbx.Text = password
+
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
@@ -131,9 +108,11 @@ Public Class Register
         Dim logForm As LogForm = Me.FindForm()
 
         logForm.ShowLogin()
+
     End Sub
 
     Private Sub Register_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         For i As Integer = 1 To 31
             dayCmbx.Items.Add(i.ToString("00"))
         Next
@@ -162,15 +141,19 @@ Public Class Register
     End Sub
 
     Private Sub gendercmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles gendercmbx.SelectedIndexChanged
+
         If Not gendercmbx.SelectedIndex = -1 Then
             Label4.Visible = False
         End If
+
     End Sub
 
     Private Sub positionCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles positionCmbx.SelectedIndexChanged
+
         If Not positionCmbx.SelectedIndex = -1 Then
             Label5.Visible = False
         End If
+
     End Sub
 
     Private Sub addDataBtn_Click(sender As Object, e As EventArgs) Handles addDataBtn.Click
@@ -178,9 +161,10 @@ Public Class Register
     End Sub
 
     Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles frstNmTxbx.TextChanged
+
         If frstNmTxbx.Text <> "" Then
             Guna2CircleProgressBar1.Value = 50
         End If
-    End Sub
 
+    End Sub
 End Class
