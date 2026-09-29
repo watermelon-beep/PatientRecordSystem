@@ -93,4 +93,20 @@ Public Class UserLog
     Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         dbConnection()
     End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
+
+    Private Sub usrnlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles usrnlogtxbx.TextChanged
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+
+    End Sub
 End Class

@@ -22,23 +22,26 @@ Partial Class UserLog
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserLog))
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.passlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.usrnlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label3
         '
+        Me.Label3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(51, 245)
+        Me.Label3.Location = New System.Drawing.Point(18, 183)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(284, 24)
         Me.Label3.TabIndex = 13
@@ -46,17 +49,21 @@ Partial Class UserLog
         '
         'Label2
         '
+        Me.Label2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft JhengHei", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft JhengHei", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(66, 421)
+        Me.Label2.Location = New System.Drawing.Point(19, 350)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(440, 19)
+        Me.Label2.Size = New System.Drawing.Size(315, 15)
         Me.Label2.TabIndex = 12
-        Me.Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
+        Me.Label2.Text = "at least 6 characters, contain number, contain capital letter"
         '
         'Guna2Button3
         '
+        Me.Guna2Button3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Button3.Animated = True
         Me.Guna2Button3.AutoRoundedCorners = True
         Me.Guna2Button3.BackColor = System.Drawing.Color.Transparent
@@ -69,15 +76,17 @@ Partial Class UserLog
         Me.Guna2Button3.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Button3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button3.Location = New System.Drawing.Point(55, 631)
+        Me.Guna2Button3.Location = New System.Drawing.Point(13, 547)
         Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(519, 45)
+        Me.Guna2Button3.Size = New System.Drawing.Size(412, 40)
         Me.Guna2Button3.TabIndex = 11
         Me.Guna2Button3.Text = "Create new account"
         Me.Guna2Button3.UseTransparentBackground = True
         '
         'Guna2Button2
         '
+        Me.Guna2Button2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Button2.Animated = True
         Me.Guna2Button2.AutoRoundedCorners = True
         Me.Guna2Button2.BackColor = System.Drawing.Color.Transparent
@@ -88,15 +97,17 @@ Partial Class UserLog
         Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button2.Location = New System.Drawing.Point(55, 521)
+        Me.Guna2Button2.Location = New System.Drawing.Point(13, 480)
         Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(519, 45)
+        Me.Guna2Button2.Size = New System.Drawing.Size(412, 39)
         Me.Guna2Button2.TabIndex = 10
         Me.Guna2Button2.Text = "Forgotten password?"
         Me.Guna2Button2.UseTransparentBackground = True
         '
         'Guna2Button1
         '
+        Me.Guna2Button1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Button1.Animated = True
         Me.Guna2Button1.AutoRoundedCorners = True
         Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -106,26 +117,16 @@ Partial Class UserLog
         Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Button1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.Silver
-        Me.Guna2Button1.Location = New System.Drawing.Point(55, 459)
+        Me.Guna2Button1.Location = New System.Drawing.Point(13, 405)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(519, 45)
+        Me.Guna2Button1.Size = New System.Drawing.Size(412, 41)
         Me.Guna2Button1.TabIndex = 9
         Me.Guna2Button1.Text = "Log in"
         '
-        'Guna2CirclePictureBox1
-        '
-        Me.Guna2CirclePictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_23__2026__11_00_05_AM
-        Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(546, 934)
-        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(64, 64)
-        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2CirclePictureBox1.TabIndex = 14
-        Me.Guna2CirclePictureBox1.TabStop = False
-        '
         'passlogtxbx
         '
+        Me.passlogtxbx.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.passlogtxbx.Animated = True
         Me.passlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.passlogtxbx.BorderRadius = 10
@@ -143,18 +144,21 @@ Partial Class UserLog
         Me.passlogtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(3, Byte), Integer))
         Me.passlogtxbx.IconRight = Global.PatientRecordSystem.My.Resources.Resources.lock_keyhole
         Me.passlogtxbx.IconRightOffset = New System.Drawing.Point(10, 0)
-        Me.passlogtxbx.Location = New System.Drawing.Point(55, 350)
+        Me.passlogtxbx.Location = New System.Drawing.Point(13, 281)
         Me.passlogtxbx.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.passlogtxbx.Name = "passlogtxbx"
         Me.passlogtxbx.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
         Me.passlogtxbx.PlaceholderText = "Password"
         Me.passlogtxbx.SelectedText = ""
-        Me.passlogtxbx.Size = New System.Drawing.Size(519, 62)
+        Me.passlogtxbx.Size = New System.Drawing.Size(412, 50)
         Me.passlogtxbx.TabIndex = 8
         '
         'usrnlogtxbx
         '
+        Me.usrnlogtxbx.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.usrnlogtxbx.Animated = True
+        Me.usrnlogtxbx.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.usrnlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.usrnlogtxbx.BorderRadius = 10
         Me.usrnlogtxbx.BorderThickness = 2
@@ -171,18 +175,32 @@ Partial Class UserLog
         Me.usrnlogtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(3, Byte), Integer))
         Me.usrnlogtxbx.IconRight = Global.PatientRecordSystem.My.Resources.Resources.user
         Me.usrnlogtxbx.IconRightOffset = New System.Drawing.Point(10, 0)
-        Me.usrnlogtxbx.Location = New System.Drawing.Point(55, 278)
+        Me.usrnlogtxbx.Location = New System.Drawing.Point(13, 212)
         Me.usrnlogtxbx.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.usrnlogtxbx.Name = "usrnlogtxbx"
         Me.usrnlogtxbx.PlaceholderText = "Username"
         Me.usrnlogtxbx.SelectedText = ""
-        Me.usrnlogtxbx.Size = New System.Drawing.Size(519, 62)
+        Me.usrnlogtxbx.Size = New System.Drawing.Size(412, 50)
         Me.usrnlogtxbx.TabIndex = 7
+        '
+        'Guna2CirclePictureBox1
+        '
+        Me.Guna2CirclePictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2CirclePictureBox1.Image = CType(resources.GetObject("Guna2CirclePictureBox1.Image"), System.Drawing.Image)
+        Me.Guna2CirclePictureBox1.ImageRotate = 0!
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(370, 614)
+        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(55, 58)
+        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox1.TabIndex = 14
+        Me.Guna2CirclePictureBox1.TabStop = False
         '
         'UserLog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Controls.Add(Me.Guna2CirclePictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -192,7 +210,7 @@ Partial Class UserLog
         Me.Controls.Add(Me.passlogtxbx)
         Me.Controls.Add(Me.usrnlogtxbx)
         Me.Name = "UserLog"
-        Me.Size = New System.Drawing.Size(646, 1041)
+        Me.Size = New System.Drawing.Size(452, 675)
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

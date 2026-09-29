@@ -258,6 +258,7 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\systembg1.png" />
     <None Include="Resources\trending-down.png" />
     <None Include="Resources\trending-up %281%29.png" />
     <None Include="Resources\user-group.png" />

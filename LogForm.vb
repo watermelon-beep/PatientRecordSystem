@@ -9,9 +9,9 @@
     End Sub
 
     Private Sub LogForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Panel6.Controls.Clear()
+        Guna2Panel3.Controls.Clear()
         userLog.Dock = DockStyle.Fill
-        Panel6.Controls.Add(userLog)
+        Guna2Panel3.Controls.Add(userLog)
     End Sub
 
     Public Sub ShowRegister()
@@ -20,8 +20,8 @@
 
         register.Dock = DockStyle.Fill
 
-        Panel6.Controls.Clear()
-        Panel6.Controls.Add(register)
+        Guna2Panel3.Controls.Clear()
+        Guna2Panel3.Controls.Add(register)
 
     End Sub
 
@@ -30,11 +30,15 @@
         Dim userLog As New UserLog()
 
         userLog.Dock = DockStyle.Fill
-        Panel6.Controls.Clear()
-        Panel6.Controls.Add(userLog)
+        Guna2Panel3.Controls.Clear()
+        Guna2Panel3.Controls.Add(userLog)
     End Sub
 
-    Private Sub Panel6_Paint(sender As Object, e As PaintEventArgs) Handles Panel6.Paint
+    Private Sub Panel6_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub LogForm_MaximumSizeChanged(sender As Object, e As EventArgs) Handles Me.MaximumSizeChanged
 
     End Sub
 End Class
