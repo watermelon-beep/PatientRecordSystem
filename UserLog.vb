@@ -11,6 +11,7 @@ Public Class UserLog
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+
         If usrnlogtxbx.Text = "" And passlogtxbx.Text = "" Then
             Label2.Text = "username and password cannot be empty"
             usrnlogtxbx.BorderColor = Color.Red
@@ -44,7 +45,7 @@ Public Class UserLog
 
             Dim register As New Register
 
-            If register.UsernameExists(usrnlogtxbx.Text) And register.UserPasswordExist(passlogtxbx.Text) Then
+            If UsernameExists(usrnlogtxbx.Text) And UserPasswordExist(passlogtxbx.Text) Then
                 MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
 
                 usrnlogtxbx.Clear()
@@ -56,6 +57,7 @@ Public Class UserLog
             End If
 
         End If
+
     End Sub
 
     Private Sub passlogtxbx_IconRightClick(sender As Object, e As EventArgs) Handles passlogtxbx.IconRightClick
@@ -74,6 +76,7 @@ Public Class UserLog
     End Sub
 
     Private Sub passlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles passlogtxbx.TextChanged
+
         If passlogtxbx.Text = "" Then
             passlogtxbx.IconRight = My.Resources.lock_keyhole
         ElseIf passVisible Then
@@ -81,6 +84,7 @@ Public Class UserLog
         Else
             passlogtxbx.IconRight = My.Resources.eye_closed
         End If
+
     End Sub
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
@@ -88,25 +92,12 @@ Public Class UserLog
         Dim logForm As LogForm = Me.FindForm()
 
         logForm.ShowRegister()
+
     End Sub
 
     Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         dbConnection()
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-
-    End Sub
-
-    Private Sub usrnlogtxbx_TextChanged(sender As Object, e As EventArgs) Handles usrnlogtxbx.TextChanged
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
-
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
 
     End Sub
 End Class

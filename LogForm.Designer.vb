@@ -63,8 +63,11 @@ Partial Class LogForm
         Me.Guna2Panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Guna2Panel2.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.systembg1
         Me.Guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2Panel2.BorderColor = System.Drawing.Color.Transparent
         Me.Guna2Panel2.Controls.Add(Me.Guna2PictureBox1)
         Me.Guna2Panel2.Controls.Add(Me.Label1)
+        Me.Guna2Panel2.CustomizableEdges.TopLeft = False
+        Me.Guna2Panel2.CustomizableEdges.TopRight = False
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel2.Name = "Guna2Panel2"
@@ -73,7 +76,7 @@ Partial Class LogForm
         '
         'Guna2PictureBox1
         '
-        Me.Guna2PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.Guna2PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources._813877714_2507097679772001_791552326465901178_n_removebg_preview

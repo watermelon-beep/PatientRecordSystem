@@ -23,6 +23,7 @@ Partial Class AdminFrm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminFrm))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -46,9 +47,9 @@ Partial Class AdminFrm
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2ShadowPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
@@ -400,10 +401,21 @@ Partial Class AdminFrm
         Me.Guna2Panel2.Size = New System.Drawing.Size(232, 152)
         Me.Guna2Panel2.TabIndex = 0
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label6.Location = New System.Drawing.Point(70, 74)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(135, 52)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Barangay" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Health Clinic"
+        '
         'Guna2CirclePictureBox3
         '
         Me.Guna2CirclePictureBox3.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CirclePictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_23__2026__11_00_05_AM
+        Me.Guna2CirclePictureBox3.Image = CType(resources.GetObject("Guna2CirclePictureBox3.Image"), System.Drawing.Image)
         Me.Guna2CirclePictureBox3.ImageRotate = 0!
         Me.Guna2CirclePictureBox3.Location = New System.Drawing.Point(3, 74)
         Me.Guna2CirclePictureBox3.Name = "Guna2CirclePictureBox3"
@@ -421,17 +433,6 @@ Partial Class AdminFrm
         Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(10)
         Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 580)
         Me.Guna2Panel3.TabIndex = 4
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label6.Location = New System.Drawing.Point(70, 74)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(135, 52)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "Barangay" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Health Clinic"
         '
         'AdminFrm
         '
