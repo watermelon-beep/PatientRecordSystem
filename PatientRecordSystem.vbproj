@@ -96,6 +96,12 @@
     <Compile Include="AdminFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BarangayAssistant.Designer.vb">
+      <DependentUpon>BarangayAssistant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BarangayAssistant.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ContentForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,18 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="dbConn.vb" />
+    <Compile Include="DoctorDB.Designer.vb">
+      <DependentUpon>DoctorDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctordbs.Designer.vb">
+      <DependentUpon>doctordbs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="doctordbs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>
@@ -152,8 +170,17 @@
     <EmbeddedResource Include="AdminFrm.resx">
       <DependentUpon>AdminFrm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BarangayAssistant.resx">
+      <DependentUpon>BarangayAssistant.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContentForm.resx">
       <DependentUpon>ContentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorDB.resx">
+      <DependentUpon>DoctorDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doctordbs.resx">
+      <DependentUpon>doctordbs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogForm.resx">
       <DependentUpon>LogForm.vb</DependentUpon>
@@ -257,6 +284,7 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\user-round1.png" />
     <None Include="Resources\systembg1.png" />
     <None Include="Resources\trending-down.png" />
     <None Include="Resources\trending-up %281%29.png" />
