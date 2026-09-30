@@ -4,6 +4,15 @@ Imports System.Data.SqlClient
 Public Class UserLog
 
     Private passVisible As Boolean = False
+
+    Private Function ValidateField(fieldName As String, value As String) As String
+        If value = "" Then Return fieldName & " cannot be empty"
+        If value.Length < 6 Then Return fieldName & " must be at least 6 characters"
+        If Not Regex.IsMatch(value, "[A-Z]") Then Return fieldName & " must contain at least one uppercase letter"
+        If Not Regex.IsMatch(value, "[0-9]") Then Return fieldName & " must contain at least one number"
+        Return ""
+    End Function
+
     Sub incorrectLogInfo(text As String, gunatext As Guna2TextBox)
         Label2.Text = text
         gunatext.BorderColor = Color.Red
@@ -61,46 +70,40 @@ Public Class UserLog
     End Sub
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
 
-        If usrnlogtxbx.Text = "" And passlogtxbx.Text = "" Then
+        Dim username As String = usrnlogtxbx.Text.Trim()
+        Dim password As String = passlogtxbx.Text.Trim()
+
+        If username = "" AndAlso password = "" Then
             Label2.Text = "username and password cannot be empty"
+            Label2.ForeColor = Color.Red
             usrnlogtxbx.BorderColor = Color.Red
             passlogtxbx.BorderColor = Color.Red
-            Label2.ForeColor = Color.Red
-        ElseIf usrnlogtxbx.Text = "" Then
-            incorrectLogInfo("username cannot be empty", usrnlogtxbx)
-        ElseIf Not Regex.IsMatch(usrnlogtxbx.Text, ".{6}") Then
-            incorrectLogInfo("username must be at least 6 characters", usrnlogtxbx)
-        ElseIf Not Regex.IsMatch(usrnlogtxbx.Text, "[A-Z]") Then
-            incorrectLogInfo("username must contain at least one uppercase letter", usrnlogtxbx)
-        ElseIf Not Regex.IsMatch(usrnlogtxbx.Text, "[0-9]") Then
-            incorrectLogInfo("username must contain at least one number", usrnlogtxbx)
-        ElseIf passlogtxbx.Text = "" Then
-            incorrectLogInfo("password cannot be empty", passlogtxbx)
+            Return
+        End If
+
+        Dim userError As String = ValidateField("username", username)
+        If userError <> "" Then
+            incorrectLogInfo(userError, usrnlogtxbx)
+            Return
+        End If
+
+        Dim passError As String = ValidateField("password", password)
+        If passError <> "" Then
+            incorrectLogInfo(passError, passlogtxbx)
             passlogtxbx.Clear()
-        ElseIf Not Regex.IsMatch(passlogtxbx.Text, ".{6}") Then
-            incorrectLogInfo("password must be at least 6 characters", passlogtxbx)
-            passlogtxbx.Clear()
-        ElseIf Not Regex.IsMatch(passlogtxbx.Text, "[A-Z]") Then
-            incorrectLogInfo("password must contain at least one uppercase letter", passlogtxbx)
-            passlogtxbx.Clear()
-        ElseIf Not Regex.IsMatch(passlogtxbx.Text, "[0-9]") Then
-            incorrectLogInfo("password must contain at least one number", passlogtxbx)
-            passlogtxbx.Clear()
+            Return
+        End If
+
+        usrnlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
+        passlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
+        Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
+        Label2.ForeColor = Color.Gray
+
+        If UsernameExists(username) AndAlso UserPasswordExist(password) Then
+            MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
+            usersPosition()
         Else
-            usrnlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
-            passlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
-            Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
-            Label2.ForeColor = Color.Gray
-
-            Dim register As New Register
-
-            If UsernameExists(usrnlogtxbx.Text) And UserPasswordExist(passlogtxbx.Text) Then
-                MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
-
-                usersPosition()
-
-            End If
-
+            MsgBox("Incorrect username or password.", MsgBoxStyle.Exclamation, "Login failed")
         End If
 
     End Sub
@@ -143,6 +146,8 @@ Public Class UserLog
     Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         dbConnection()
+
+
 
     End Sub
 End Class

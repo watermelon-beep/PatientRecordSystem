@@ -41,7 +41,7 @@ Partial Class UserLog
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(18, 183)
+        Me.Label3.Location = New System.Drawing.Point(20, 107)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(284, 24)
         Me.Label3.TabIndex = 13
@@ -54,7 +54,7 @@ Partial Class UserLog
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft JhengHei", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(19, 350)
+        Me.Label2.Location = New System.Drawing.Point(21, 274)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(315, 15)
         Me.Label2.TabIndex = 12
@@ -76,7 +76,7 @@ Partial Class UserLog
         Me.Guna2Button3.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Button3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button3.Location = New System.Drawing.Point(13, 547)
+        Me.Guna2Button3.Location = New System.Drawing.Point(15, 471)
         Me.Guna2Button3.Name = "Guna2Button3"
         Me.Guna2Button3.Size = New System.Drawing.Size(412, 40)
         Me.Guna2Button3.TabIndex = 11
@@ -97,7 +97,7 @@ Partial Class UserLog
         Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button2.Location = New System.Drawing.Point(13, 480)
+        Me.Guna2Button2.Location = New System.Drawing.Point(15, 404)
         Me.Guna2Button2.Name = "Guna2Button2"
         Me.Guna2Button2.Size = New System.Drawing.Size(412, 39)
         Me.Guna2Button2.TabIndex = 10
@@ -117,7 +117,7 @@ Partial Class UserLog
         Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Button1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.Silver
-        Me.Guna2Button1.Location = New System.Drawing.Point(13, 405)
+        Me.Guna2Button1.Location = New System.Drawing.Point(15, 329)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.Size = New System.Drawing.Size(412, 41)
         Me.Guna2Button1.TabIndex = 9
@@ -144,7 +144,7 @@ Partial Class UserLog
         Me.passlogtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(3, Byte), Integer))
         Me.passlogtxbx.IconRight = Global.PatientRecordSystem.My.Resources.Resources.lock_keyhole
         Me.passlogtxbx.IconRightOffset = New System.Drawing.Point(10, 0)
-        Me.passlogtxbx.Location = New System.Drawing.Point(13, 281)
+        Me.passlogtxbx.Location = New System.Drawing.Point(15, 205)
         Me.passlogtxbx.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.passlogtxbx.Name = "passlogtxbx"
         Me.passlogtxbx.PasswordChar = Global.Microsoft.VisualBasic.ChrW(8226)
@@ -175,7 +175,7 @@ Partial Class UserLog
         Me.usrnlogtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(3, Byte), Integer))
         Me.usrnlogtxbx.IconRight = Global.PatientRecordSystem.My.Resources.Resources.user
         Me.usrnlogtxbx.IconRightOffset = New System.Drawing.Point(10, 0)
-        Me.usrnlogtxbx.Location = New System.Drawing.Point(13, 212)
+        Me.usrnlogtxbx.Location = New System.Drawing.Point(15, 136)
         Me.usrnlogtxbx.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.usrnlogtxbx.Name = "usrnlogtxbx"
         Me.usrnlogtxbx.PlaceholderText = "Username"

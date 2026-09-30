@@ -14,6 +14,7 @@
         userLog.Dock = DockStyle.Fill
         Guna2Panel3.Controls.Add(userLog)
 
+
     End Sub
 
     Public Sub ShowRegister()
