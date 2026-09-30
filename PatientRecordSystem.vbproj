@@ -284,6 +284,8 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\list-todo %282%29.png" />
+    <None Include="Resources\list-todo %281%29.png" />
     <None Include="Resources\list-todo.png" />
     <None Include="Resources\user-round-group %281%291.png" />
     <None Include="Resources\user-round-group %281%29.png" />
@@ -323,6 +325,9 @@
     <None Include="Resources\bolt.png" />
     <None Include="Resources\clipboard-clock %281%29.png" />
     <None Include="Resources\clipboard-minus %281%29.png" />
+    <None Include="Resources\clock.png" />
+    <None Include="Resources\clock %281%29.png" />
+    <None Include="Resources\circle-check.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />
