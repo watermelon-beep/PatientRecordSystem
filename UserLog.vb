@@ -25,14 +25,33 @@ Public Class UserLog
 
         Select Case Position.ToString()
             Case "Admin"
+
                 usrnlogtxbx.Clear()
                 passlogtxbx.Clear()
 
                 AdminFrm.Show()
+
+                LogForm.Hide()
+                Me.Hide()
+
             Case "Barangay Assistance"
+
+                usrnlogtxbx.Clear()
+                passlogtxbx.Clear()
+
                 BarangayAssistant.Show()
+
+                LogForm.Hide()
+                Me.Hide()
             Case "Doctor"
+
+                usrnlogtxbx.Clear()
+                passlogtxbx.Clear()
+
                 DoctorDB.Show()
+
+                LogForm.Hide()
+                Me.Hide()
             Case Else
                 MsgBox("Invalid user position: " & Position.ToString())
         End Select
@@ -78,8 +97,6 @@ Public Class UserLog
             If UsernameExists(usrnlogtxbx.Text) And UserPasswordExist(passlogtxbx.Text) Then
                 MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
 
-                LogForm.Hide()
-                Me.Hide()
                 usersPosition()
 
             End If
