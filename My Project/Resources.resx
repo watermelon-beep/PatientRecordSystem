@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="clipboard-clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard-clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dices" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,6 +145,9 @@
   <data name="ChatGPT Image Sep 28, 2026, 03_10_27 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image Sep 28, 2026, 03_10_27 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="list-todo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list-todo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="systembg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\systembg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,8 +160,14 @@
   <data name="ChatGPT Image Sep 23, 2026, 11_00_05 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image Sep 23, 2026, 11_00_05 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pendingAppIcn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pendingAppIcn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="totalconsulticon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totalconsulticon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipboard-clock (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard-clock (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-round-group (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-round-group (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +187,9 @@
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lock-keyhole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock-keyhole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="totalconsulticon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\totalconsulticon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,14 +202,20 @@
   <data name="chevron-left1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chevron-left1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="calendar-days" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-days.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="log-out" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log-out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="totalconsulticon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\totalconsulticon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user-search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard-minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard-minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bgsystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgsystem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,8 +232,8 @@
   <data name="ChatGPT Image Aug 13, 2026, 06_00_20 PM1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image Aug 13, 2026, 06_00_20 PM1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="femaleIcn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\femaleIcn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bolt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user-round" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-round.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,14 +244,17 @@
   <data name="trending-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trending-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="house1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="systembg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\systembg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lock-keyhole" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lock-keyhole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="house (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="totalconsicn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\totalconsicn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,20 +262,29 @@
   <data name="bell" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user-round-group (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-round-group (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="whiteBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\whiteBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user-round-group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-round-group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="square-user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user-round1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-round1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="813877714_2507097679772001_791552326465901178_n-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\813877714_2507097679772001_791552326465901178_n-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="femaleIcn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\femaleIcn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eye-closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye-closed1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,16 +292,25 @@
   <data name="bgsystem2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgsystem2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pendingAppIcn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pendingAppIcn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="photo_2026-04-01_14-35-51" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo_2026-04-01_14-35-51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar-days" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar-days.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square-user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log-out1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log-out1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ChatGPT Image Sep 28, 2026, 04_11_21 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image Sep 28, 2026, 04_11_21 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user-round1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user-round1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="clipboard-minus (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipboard-minus (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

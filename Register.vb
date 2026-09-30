@@ -47,7 +47,6 @@ Public Class Register
                         first_Name,
                         middle_Name,
                         surname,
-                        age,
                         gender,
                         username,
                         user_password,
@@ -57,7 +56,6 @@ Public Class Register
                         @first_Name,
                         @middle_Name,
                         @surname,
-                        @age,
                         @gender,
                         @username,
                         @user_password,
@@ -70,7 +68,6 @@ Public Class Register
                 .AddWithValue("@first_Name", frstNmTxbx.Text)
                 .AddWithValue("@middle_Name", mdlnmTxbx.Text)
                 .AddWithValue("@surname", srnnmTxbx.Text)
-                .AddWithValue("@age", ComputeAge(birthDate).ToString)
                 .AddWithValue("@gender", gendercmbx.Text)
                 .AddWithValue("@username", regUsrnmTxbx.Text)
                 .AddWithValue("@user_password", regPassTxbx.Text)

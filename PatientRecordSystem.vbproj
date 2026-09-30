@@ -284,6 +284,15 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\list-todo.png" />
+    <None Include="Resources\user-round-group %281%291.png" />
+    <None Include="Resources\user-round-group %281%29.png" />
+    <None Include="Resources\user-round-group.png" />
+    <None Include="Resources\log-out1.png" />
+    <None Include="Resources\user-search.png" />
+    <None Include="Resources\house %281%291.png" />
+    <None Include="Resources\house %281%29.png" />
+    <None Include="Resources\house1.png" />
     <None Include="Resources\user-round1.png" />
     <None Include="Resources\systembg1.png" />
     <None Include="Resources\trending-down.png" />
@@ -309,6 +318,11 @@
     <None Include="Resources\ChatGPT Image Sep 28, 2026, 03_10_27 PM.png" />
     <None Include="Resources\bgsystem2.png" />
     <None Include="Resources\ChatGPT Image Sep 28, 2026, 04_11_21 PM.png" />
+    <None Include="Resources\clipboard-clock.png" />
+    <None Include="Resources\clipboard-minus.png" />
+    <None Include="Resources\bolt.png" />
+    <None Include="Resources\clipboard-clock %281%29.png" />
+    <None Include="Resources\clipboard-minus %281%29.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />
