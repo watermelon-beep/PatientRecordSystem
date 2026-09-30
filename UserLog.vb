@@ -10,6 +10,47 @@ Public Class UserLog
         Label2.ForeColor = Color.Red
     End Sub
 
+    Sub usersPosition()
+
+        query = "SELECT Position FROM staff_information WHERE username = @username AND user_password = @user_password"
+
+        comm = New SqlClient.SqlCommand(query, conn)
+
+        With comm.Parameters
+            .AddWithValue("@username", usrnlogtxbx.Text)
+            .AddWithValue("@user_password", passlogtxbx.Text)
+        End With
+
+        Dim result As Object = comm.ExecuteScalar()
+
+        MsgBox("User=[" & usrnlogtxbx.Text & "] Pass=[" & passlogtxbx.Text & "]")
+
+        If result Is Nothing OrElse result Is DBNull.Value Then
+            MsgBox("Walang result mula sa SQL.")
+            Exit Sub
+        End If
+
+        Dim Position As String = result.ToString()
+
+        MsgBox("Position = [" & Position & "]")
+
+        Select Case Position.ToString()
+            Case "Admin"
+                usrnlogtxbx.Clear()
+                passlogtxbx.Clear()
+
+                AdminFrm.Show()
+            Case "Barangay Assistance"
+                BarangayAssistant.Show()
+            Case "Doctor"
+                DoctorDB.Show()
+            Case Else
+                MsgBox("Invalid user position: " & Position.ToString())
+        End Select
+
+        comm.Dispose()
+
+    End Sub
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
 
         If usrnlogtxbx.Text = "" And passlogtxbx.Text = "" Then
@@ -48,12 +89,10 @@ Public Class UserLog
             If UsernameExists(usrnlogtxbx.Text) And UserPasswordExist(passlogtxbx.Text) Then
                 MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
 
-                usrnlogtxbx.Clear()
-                passlogtxbx.Clear()
-
                 LogForm.Hide()
                 Me.Hide()
-                ContentForm.Show()
+                usersPosition()
+
             End If
 
         End If

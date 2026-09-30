@@ -7,15 +7,17 @@ Public Class Register
         If UsernameExists(regUsrnmTxbx.Text) Then
 
             MessageBox.Show("Username already exists.")
-
+        ElseIf UserPasswordExist(regPassTxbx.text) Then
+            MessageBox.Show("Password already exists.")
         Else
-            query = "INSERT INTO staff_Information (
+            query = "INSERT INTO staff_information (
                         first_Name,
                         middle_Name,
                         surname,
                         gender,
                         username,
-                        user_password
+                        user_password,
+                        Position
                     )
                       VALUES (
                         @first_Name,
@@ -23,7 +25,8 @@ Public Class Register
                         @surname,
                         @gender,
                         @username,
-                        @user_password
+                        @user_password,
+                        @Position
                         )"
 
             comm = New SqlClient.SqlCommand(query, conn)
@@ -35,6 +38,7 @@ Public Class Register
                 .AddWithValue("@gender", gendercmbx.Text)
                 .AddWithValue("@username", regUsrnmTxbx.Text)
                 .AddWithValue("@user_password", regPassTxbx.Text)
+                .AddWithValue("@Position", positionCmbx.Text)
             End With
 
             comm.ExecuteNonQuery()
@@ -130,7 +134,7 @@ Public Class Register
         gendercmbx.Items.Add("Prefer not to say")
 
         positionCmbx.Items.Add("Admin")
-        positionCmbx.Items.Add("Barangay assistance")
+        positionCmbx.Items.Add("Barangay Assistance")
         positionCmbx.Items.Add("Doctor")
 
         dbConnection()
