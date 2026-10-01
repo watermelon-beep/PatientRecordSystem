@@ -61,7 +61,7 @@ Partial Class LogForm
         'Guna2Panel2
         '
         Me.Guna2Panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Guna2Panel2.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.systembg1
+        Me.Guna2Panel2.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.systembg
         Me.Guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Guna2Panel2.BorderColor = System.Drawing.Color.Transparent
         Me.Guna2Panel2.Controls.Add(Me.Guna2PictureBox1)
@@ -107,6 +107,7 @@ Partial Class LogForm
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel3.Location = New System.Drawing.Point(799, 3)
         Me.Guna2Panel3.Name = "Guna2Panel3"
+        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(50, 0, 50, 0)
         Me.Guna2Panel3.Size = New System.Drawing.Size(462, 675)
         Me.Guna2Panel3.TabIndex = 1
         '

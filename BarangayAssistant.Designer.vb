@@ -571,6 +571,7 @@ Partial Class BarangayAssistant
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "BarangayAssistant"
         Me.Text = "BarangayAssistant"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

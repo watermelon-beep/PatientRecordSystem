@@ -130,7 +130,6 @@ Partial Class UserLog
         Me.passlogtxbx.Animated = True
         Me.passlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.passlogtxbx.BorderRadius = 10
-        Me.passlogtxbx.BorderThickness = 2
         Me.passlogtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.passlogtxbx.DefaultText = ""
         Me.passlogtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -161,7 +160,6 @@ Partial Class UserLog
         Me.usrnlogtxbx.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.usrnlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.usrnlogtxbx.BorderRadius = 10
-        Me.usrnlogtxbx.BorderThickness = 2
         Me.usrnlogtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.usrnlogtxbx.DefaultText = ""
         Me.usrnlogtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -188,7 +186,7 @@ Partial Class UserLog
         Me.Guna2CirclePictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2CirclePictureBox1.Image = CType(resources.GetObject("Guna2CirclePictureBox1.Image"), System.Drawing.Image)
         Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(363, 605)
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(363, 596)
         Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
         Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(74, 67)

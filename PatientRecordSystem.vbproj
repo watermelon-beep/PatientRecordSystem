@@ -156,6 +156,12 @@
     <Compile Include="Register.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="RegisterFrm.Designer.vb">
+      <DependentUpon>RegisterFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="UserLog.Designer.vb">
       <DependentUpon>UserLog.vb</DependentUpon>
     </Compile>
@@ -196,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterFrm.resx">
+      <DependentUpon>RegisterFrm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLog.resx">
       <DependentUpon>UserLog.vb</DependentUpon>
