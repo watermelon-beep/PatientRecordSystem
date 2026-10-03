@@ -14,7 +14,7 @@
             Sub()
                 Me.Hide()
                 LogForm.Show()
-                LogForm.ShowLogin()
+
             End Sub
 
         AddHandler logout.logoutCanceled,

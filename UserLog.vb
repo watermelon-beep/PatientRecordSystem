@@ -134,10 +134,8 @@ Public Class UserLog
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
 
-        Dim logForm As LogForm = Me.FindForm()
-
-        logForm.ShowRegister()
-
+        LogForm.Hide()
+        RegisterFrm.Show()
     End Sub
 
     Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load

@@ -14,28 +14,6 @@
         userLog.Dock = DockStyle.Fill
         Guna2Panel3.Controls.Add(userLog)
 
-
-    End Sub
-
-    Public Sub ShowRegister()
-
-        Dim register As New Register()
-
-        register.Dock = DockStyle.Fill
-
-        Guna2Panel3.Controls.Clear()
-        Guna2Panel3.Controls.Add(register)
-
-    End Sub
-
-    Public Sub ShowLogin()
-
-        Dim userLog As New UserLog()
-
-        userLog.Dock = DockStyle.Fill
-        Guna2Panel3.Controls.Clear()
-        Guna2Panel3.Controls.Add(userLog)
-
     End Sub
 
 End Class

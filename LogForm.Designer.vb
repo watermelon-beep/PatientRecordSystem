@@ -107,7 +107,7 @@ Partial Class LogForm
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel3.Location = New System.Drawing.Point(799, 3)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(50, 0, 50, 0)
+        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(20, 0, 20, 0)
         Me.Guna2Panel3.Size = New System.Drawing.Size(462, 675)
         Me.Guna2Panel3.TabIndex = 1
         '
@@ -119,11 +119,11 @@ Partial Class LogForm
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Guna2Panel1)
+        Me.MaximumSize = New System.Drawing.Size(1280, 720)
         Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "LogForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Guna2Panel1.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)

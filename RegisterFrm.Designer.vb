@@ -25,7 +25,7 @@ Partial Class RegisterFrm
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RegisterFrm))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2CircleProgressBar1 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.regprogress = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
@@ -36,7 +36,7 @@ Partial Class RegisterFrm
         Me.clrbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.regbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Guna2ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.passbar = New Guna.UI2.WinForms.Guna2ProgressBar()
         Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -78,8 +78,9 @@ Partial Class RegisterFrm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Me.gtloginbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -102,7 +103,8 @@ Partial Class RegisterFrm
         '
         'Guna2Panel2
         '
-        Me.Guna2Panel2.Controls.Add(Me.Guna2CircleProgressBar1)
+        Me.Guna2Panel2.Controls.Add(Me.Label20)
+        Me.Guna2Panel2.Controls.Add(Me.regprogress)
         Me.Guna2Panel2.Controls.Add(Me.Label19)
         Me.Guna2Panel2.Controls.Add(Me.Label18)
         Me.Guna2Panel2.Controls.Add(Me.Label17)
@@ -113,7 +115,7 @@ Partial Class RegisterFrm
         Me.Guna2Panel2.Controls.Add(Me.clrbtn)
         Me.Guna2Panel2.Controls.Add(Me.regbtn)
         Me.Guna2Panel2.Controls.Add(Me.Label4)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2ProgressBar1)
+        Me.Guna2Panel2.Controls.Add(Me.passbar)
         Me.Guna2Panel2.Controls.Add(Me.Guna2PictureBox4)
         Me.Guna2Panel2.Controls.Add(Me.Label14)
         Me.Guna2Panel2.Controls.Add(Me.Guna2PictureBox3)
@@ -160,25 +162,24 @@ Partial Class RegisterFrm
         Me.Guna2Panel2.Size = New System.Drawing.Size(1264, 627)
         Me.Guna2Panel2.TabIndex = 3
         '
-        'Guna2CircleProgressBar1
+        'regprogress
         '
-        Me.Guna2CircleProgressBar1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleProgressBar1.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
-        Me.Guna2CircleProgressBar1.FillThickness = 5
-        Me.Guna2CircleProgressBar1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2CircleProgressBar1.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2CircleProgressBar1.Location = New System.Drawing.Point(1193, 575)
-        Me.Guna2CircleProgressBar1.Minimum = 0
-        Me.Guna2CircleProgressBar1.Name = "Guna2CircleProgressBar1"
-        Me.Guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2CircleProgressBar1.ProgressThickness = 5
-        Me.Guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleProgressBar1.ShowText = True
-        Me.Guna2CircleProgressBar1.Size = New System.Drawing.Size(40, 40)
-        Me.Guna2CircleProgressBar1.TabIndex = 63
-        Me.Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
-        Me.Guna2CircleProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        Me.Guna2CircleProgressBar1.Value = 70
+        Me.regprogress.BackColor = System.Drawing.Color.Transparent
+        Me.regprogress.FillColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(218, Byte), Integer), CType(CType(223, Byte), Integer))
+        Me.regprogress.FillThickness = 5
+        Me.regprogress.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.regprogress.ForeColor = System.Drawing.Color.Gray
+        Me.regprogress.Location = New System.Drawing.Point(1193, 575)
+        Me.regprogress.Minimum = 0
+        Me.regprogress.Name = "regprogress"
+        Me.regprogress.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.regprogress.ProgressThickness = 5
+        Me.regprogress.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.regprogress.ShowText = True
+        Me.regprogress.Size = New System.Drawing.Size(40, 40)
+        Me.regprogress.TabIndex = 63
+        Me.regprogress.Text = "Guna2CircleProgressBar1"
+        Me.regprogress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
         '
         'Label19
         '
@@ -315,26 +316,26 @@ Partial Class RegisterFrm
         '
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Orange
+        Me.Label4.ForeColor = System.Drawing.Color.Silver
         Me.Label4.Location = New System.Drawing.Point(1150, 545)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(52, 17)
+        Me.Label4.Size = New System.Drawing.Size(47, 17)
         Me.Label4.TabIndex = 53
-        Me.Label4.Text = "normal"
+        Me.Label4.Text = "empty"
         '
-        'Guna2ProgressBar1
+        'passbar
         '
-        Me.Guna2ProgressBar1.BorderRadius = 5
-        Me.Guna2ProgressBar1.Location = New System.Drawing.Point(722, 552)
-        Me.Guna2ProgressBar1.Name = "Guna2ProgressBar1"
-        Me.Guna2ProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2ProgressBar1.ProgressColor2 = System.Drawing.Color.PaleGoldenrod
-        Me.Guna2ProgressBar1.Size = New System.Drawing.Size(420, 5)
-        Me.Guna2ProgressBar1.TabIndex = 52
-        Me.Guna2ProgressBar1.Text = "Guna2ProgressBar1"
-        Me.Guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
-        Me.Guna2ProgressBar1.Value = 50
+        Me.passbar.BorderRadius = 5
+        Me.passbar.Location = New System.Drawing.Point(722, 552)
+        Me.passbar.Name = "passbar"
+        Me.passbar.ProgressColor = System.Drawing.Color.Transparent
+        Me.passbar.ProgressColor2 = System.Drawing.Color.Transparent
+        Me.passbar.Size = New System.Drawing.Size(420, 5)
+        Me.passbar.TabIndex = 52
+        Me.passbar.Text = "Guna2ProgressBar1"
+        Me.passbar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         '
         'Guna2PictureBox4
         '
@@ -882,6 +883,7 @@ Partial Class RegisterFrm
         Me.agetxbx.SelectedText = ""
         Me.agetxbx.Size = New System.Drawing.Size(55, 45)
         Me.agetxbx.TabIndex = 17
+        Me.agetxbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.agetxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
         'daycmbx
@@ -1110,7 +1112,7 @@ Partial Class RegisterFrm
         Me.Guna2Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel1.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_28__2026__03_10_27_PM
         Me.Guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button6)
+        Me.Guna2Panel1.Controls.Add(Me.gtloginbtn)
         Me.Guna2Panel1.Controls.Add(Me.Label3)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
@@ -1119,27 +1121,27 @@ Partial Class RegisterFrm
         Me.Guna2Panel1.Size = New System.Drawing.Size(1264, 54)
         Me.Guna2Panel1.TabIndex = 2
         '
-        'Guna2Button6
+        'gtloginbtn
         '
-        Me.Guna2Button6.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Guna2Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.BorderRadius = 10
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button6.Image = Global.PatientRecordSystem.My.Resources.Resources.chevron_left1
-        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button6.Location = New System.Drawing.Point(12, 12)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(170, 30)
-        Me.Guna2Button6.TabIndex = 30
-        Me.Guna2Button6.Text = "Go back to log in"
-        Me.Guna2Button6.UseTransparentBackground = True
+        Me.gtloginbtn.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.gtloginbtn.BackColor = System.Drawing.Color.Transparent
+        Me.gtloginbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.gtloginbtn.BorderRadius = 10
+        Me.gtloginbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.gtloginbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.gtloginbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.gtloginbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.gtloginbtn.FillColor = System.Drawing.Color.Transparent
+        Me.gtloginbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.gtloginbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.gtloginbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.chevron_left1
+        Me.gtloginbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.gtloginbtn.Location = New System.Drawing.Point(12, 12)
+        Me.gtloginbtn.Name = "gtloginbtn"
+        Me.gtloginbtn.Size = New System.Drawing.Size(170, 30)
+        Me.gtloginbtn.TabIndex = 30
+        Me.gtloginbtn.Text = "Go back to log in"
+        Me.gtloginbtn.UseTransparentBackground = True
         '
         'Label3
         '
@@ -1152,6 +1154,20 @@ Partial Class RegisterFrm
         Me.Label3.Size = New System.Drawing.Size(277, 19)
         Me.Label3.TabIndex = 29
         Me.Label3.Text = "Barangay health clinic: staff Registration"
+        '
+        'Label20
+        '
+        Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Transparent
+        Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Firebrick
+        Me.Label20.Location = New System.Drawing.Point(719, 562)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(370, 17)
+        Me.Label20.TabIndex = 64
+        Me.Label20.Text = "at least 6 characters, contain number, contain capital letter"
+        Me.Label20.Visible = False
         '
         'RegisterFrm
         '
@@ -1221,7 +1237,7 @@ Partial Class RegisterFrm
     Friend WithEvents Label14 As Label
     Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Label13 As Label
-    Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents passbar As Guna.UI2.WinForms.Guna2ProgressBar
     Friend WithEvents regbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label4 As Label
     Friend WithEvents clrbtn As Guna.UI2.WinForms.Guna2Button
@@ -1232,7 +1248,8 @@ Partial Class RegisterFrm
     Friend WithEvents Label15 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents gtloginbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents regprogress As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Label20 As Label
 End Class
