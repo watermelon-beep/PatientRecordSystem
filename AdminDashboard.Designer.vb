@@ -201,6 +201,7 @@ Partial Class AdminDashboard
         '
         'Guna2Panel1
         '
+        Me.Guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel3)
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel2)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -427,6 +428,7 @@ Partial Class AdminDashboard
         LPoint13.Label = "60+"
         LPoint13.Y = 84.0R
         Me.GunaStackedBarDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint8, LPoint9, LPoint10, LPoint11, LPoint12, LPoint13})
+        Me.GunaStackedBarDataset1.FillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer)), System.Drawing.Color.Green, System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer)), System.Drawing.Color.Lime, System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))})
         Me.GunaStackedBarDataset1.Label = "Patient Demographic"
         Me.GunaStackedBarDataset1.TargetChart = Me.GunaChart2
         '
@@ -493,6 +495,7 @@ Partial Class AdminDashboard
         LPoint16.Label = "Doctor"
         LPoint16.Y = 12.0R
         Me.GunaDoughnutDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint14, LPoint15, LPoint16})
+        Me.GunaDoughnutDataset1.FillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer)), System.Drawing.Color.Green, System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))})
         Me.GunaDoughnutDataset1.Label = "Staff Overview"
         Me.GunaDoughnutDataset1.TargetChart = Me.GunaChart3
         '
@@ -582,6 +585,7 @@ Partial Class AdminDashboard
         LPoint18.Label = "Female"
         LPoint18.Y = 83.0R
         Me.GunaPieDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint17, LPoint18})
+        Me.GunaPieDataset1.FillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer)), System.Drawing.Color.Green})
         Me.GunaPieDataset1.Label = "Patient Gender"
         Me.GunaPieDataset1.TargetChart = Me.GunaChart4
         '

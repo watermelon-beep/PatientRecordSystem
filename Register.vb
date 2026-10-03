@@ -2,86 +2,6 @@
 
 Public Class Register
 
-    Function ComputeAge(birthDate As Date) As Integer
-        Dim today As Date = Date.Today
-        Dim age As Integer = today.Year - birthDate.Year
-
-        If birthDate.Date > today.AddYears(-age) Then
-            age -= 1
-        End If
-
-        Return age
-    End Function
-
-    Function TryGetBirthDate(ByRef birthDate As Date) As Boolean
-
-        If dayCmbx.SelectedIndex < 0 OrElse monthCmbx.SelectedIndex < 0 OrElse yearCmbx.SelectedIndex < 0 Then
-            Return False
-        End If
-
-        Dim d, y As Integer
-
-        If Not Integer.TryParse(dayCmbx.SelectedItem.ToString(), d) Then Return False
-        If Not Integer.TryParse(yearCmbx.SelectedItem.ToString(), y) Then Return False
-
-
-        Dim m As Integer = monthCmbx.SelectedIndex + 1
-
-        If d > Date.DaysInMonth(y, m) Then Return False
-
-        birthDate = New Date(y, m, d)
-
-        Return True
-
-    End Function
-
-    Sub addStaff()
-
-        If UsernameExists(regUsrnmTxbx.Text) Then
-
-            MessageBox.Show("Username already exists.")
-        ElseIf UserPasswordExist(regPassTxbx.text) Then
-            MessageBox.Show("Password already exists.")
-        Else
-            query = "INSERT INTO staff_information (
-                        first_Name,
-                        middle_Name,
-                        surname,
-                        gender,
-                        username,
-                        user_password,
-                        Position
-                    )
-                      VALUES (
-                        @first_Name,
-                        @middle_Name,
-                        @surname,
-                        @gender,
-                        @username,
-                        @user_password,
-                        @Position
-                        )"
-
-            comm = New SqlClient.SqlCommand(query, conn)
-            Dim birthDate As Date
-            With comm.Parameters
-                .AddWithValue("@first_Name", frstNmTxbx.Text)
-                .AddWithValue("@middle_Name", mdlnmTxbx.Text)
-                .AddWithValue("@surname", srnnmTxbx.Text)
-                .AddWithValue("@gender", gendercmbx.Text)
-                .AddWithValue("@username", regUsrnmTxbx.Text)
-                .AddWithValue("@user_password", regPassTxbx.Text)
-                .AddWithValue("@Position", positionCmbx.Text)
-            End With
-
-            comm.ExecuteNonQuery()
-            comm.Dispose()
-
-            MsgBox("added")
-
-        End If
-
-    End Sub
 
     Private Sub dayCmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles dayCmbx.SelectedIndexChanged
 
@@ -194,15 +114,7 @@ Public Class Register
     End Sub
 
     Private Sub addDataBtn_Click(sender As Object, e As EventArgs) Handles addDataBtn.Click
-        Dim birthDate As Date
 
-        If TryGetBirthDate(birthDate) Then
-            If birthDate > Date.Today Then
-                MsgBox("Birthdate cannot be in the future.")
-                Exit Sub
-            End If
-        End If
-        addStaff()
     End Sub
 
     Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles frstNmTxbx.TextChanged

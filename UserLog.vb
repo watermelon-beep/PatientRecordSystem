@@ -21,14 +21,12 @@ Public Class UserLog
 
     Sub usersPosition()
 
-        query = "SELECT Position FROM staff_information WHERE username = @username AND user_password = @user_password"
+        query = "SELECT Position FROM staff_information WHERE username = @username"
 
         comm = New SqlClient.SqlCommand(query, conn)
 
-        With comm.Parameters
-            .AddWithValue("@username", usrnlogtxbx.Text)
-            .AddWithValue("@user_password", passlogtxbx.Text)
-        End With
+        comm.Parameters.AddWithValue("@username", usrnlogtxbx.Text)
+
 
         Dim Position As Object = comm.ExecuteScalar()
 
@@ -96,11 +94,10 @@ Public Class UserLog
 
         usrnlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
         passlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
-        Label2.Text = "at least 6 characters/ contain number/ contain capital letter"
+        Label2.Text = "at least 6 characters, contain number, contain capital letter"
         Label2.ForeColor = Color.Gray
 
         If UsernameExists(username) AndAlso UserPasswordExist(password) Then
-            MsgBox("Login successful!", MsgBoxStyle.Information, "Success")
             usersPosition()
         Else
             MsgBox("Incorrect username or password.", MsgBoxStyle.Exclamation, "Login failed")
@@ -146,8 +143,6 @@ Public Class UserLog
     Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         dbConnection()
-
-
 
     End Sub
 End Class
