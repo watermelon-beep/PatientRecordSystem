@@ -154,7 +154,6 @@ Partial Class UserLog
         '
         Me.usrnlogtxbx.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.usrnlogtxbx.Animated = True
         Me.usrnlogtxbx.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.usrnlogtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.usrnlogtxbx.BorderRadius = 10

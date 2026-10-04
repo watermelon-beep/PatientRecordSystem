@@ -2,7 +2,23 @@
 Imports System.Text.RegularExpressions
 Public Class RegisterFrm
 
-
+    Private Sub clearData()
+        frstnmtxbx.Clear()
+        mdlnmtxbx.Clear()
+        srnmtxbx.Clear()
+        excbx.SelectedIndex = -1
+        agetxbx.Clear()
+        birthtxbx.Clear()
+        addrtxbx.Clear()
+        gdrcmbx.SelectedIndex = -1
+        cvlcbx.SelectedIndex = -1
+        regusrnmtxbx.Clear()
+        regpasstxbx.Clear()
+        cnfrmpasstxbx.Clear()
+        rolecbx.SelectedIndex = -1
+        phnumtxbx.Clear()
+        emailtxbx.Clear()
+    End Sub
 
     Private Sub cmbxLblVisible(cmbx As ComboBox, lbl As Label)
         If cmbx.SelectedIndex <> -1 Then
@@ -31,6 +47,8 @@ Public Class RegisterFrm
                         username,
                         user_password,
                         Position,
+                        phone_number,
+                        email_address,
                         created_account
                     )
                       VALUES (
@@ -46,6 +64,8 @@ Public Class RegisterFrm
                         @username,
                         @user_password,
                         @Position,
+                        @phone_number,
+                        @email_address,
                         @created_account
                         )"
 
@@ -64,6 +84,8 @@ Public Class RegisterFrm
                     .AddWithValue("@username", regusrnmtxbx.Text)
                     .AddWithValue("@user_password", regpasstxbx.Text)
                     .AddWithValue("@Position", rolecbx.Text)
+                    .AddWithValue("@phone_number", phnumtxbx.Text)
+                    .AddWithValue("@email_address", emailtxbx.Text)
                     .AddWithValue("@created_account", DateTime.Now.ToString("yyyy-MM-dd"))
                 End With
 
@@ -80,6 +102,7 @@ Public Class RegisterFrm
             Label20.Visible = True
         Else
             addStaff()
+            clearData()
         End If
     End Sub
 
@@ -203,4 +226,14 @@ Public Class RegisterFrm
 
     End Sub
 
+    Private Sub clrbtn_Click(sender As Object, e As EventArgs) Handles clrbtn.Click
+        clearData()
+    End Sub
+
+    Private Sub frstnmtxbx_TextChanged(sender As Object, e As EventArgs) Handles frstnmtxbx.TextChanged
+        If Regex.IsMatch(frstnmtxbx.Text, "[0-9]") Then
+
+            Guna2MessageDialog1.Show("First name cannot contain numbers.", "Invalid Input")
+        End If
+    End Sub
 End Class

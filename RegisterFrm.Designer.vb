@@ -25,6 +25,7 @@ Partial Class RegisterFrm
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RegisterFrm))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.regprogress = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -52,7 +53,7 @@ Partial Class RegisterFrm
         Me.regusrnmtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Guna2Shapes3 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.emailxbx = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.emailtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.phnumtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -80,7 +81,7 @@ Partial Class RegisterFrm
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.gtloginbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Guna2MessageDialog1 = New Guna.UI2.WinForms.Guna2MessageDialog()
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -131,7 +132,7 @@ Partial Class RegisterFrm
         Me.Guna2Panel2.Controls.Add(Me.regusrnmtxbx)
         Me.Guna2Panel2.Controls.Add(Me.Label10)
         Me.Guna2Panel2.Controls.Add(Me.Guna2Shapes3)
-        Me.Guna2Panel2.Controls.Add(Me.emailxbx)
+        Me.Guna2Panel2.Controls.Add(Me.emailtxbx)
         Me.Guna2Panel2.Controls.Add(Me.phnumtxbx)
         Me.Guna2Panel2.Controls.Add(Me.Label9)
         Me.Guna2Panel2.Controls.Add(Me.Guna2Shapes2)
@@ -161,6 +162,20 @@ Partial Class RegisterFrm
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(1264, 627)
         Me.Guna2Panel2.TabIndex = 3
+        '
+        'Label20
+        '
+        Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Transparent
+        Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.Firebrick
+        Me.Label20.Location = New System.Drawing.Point(719, 562)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(370, 17)
+        Me.Label20.TabIndex = 64
+        Me.Label20.Text = "at least 6 characters, contain number, contain capital letter"
+        Me.Label20.Visible = False
         '
         'regprogress
         '
@@ -285,7 +300,6 @@ Partial Class RegisterFrm
         Me.clrbtn.FillColor = System.Drawing.Color.Transparent
         Me.clrbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.clrbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.clrbtn.IndicateFocus = True
         Me.clrbtn.Location = New System.Drawing.Point(12, 562)
         Me.clrbtn.Name = "clrbtn"
         Me.clrbtn.Size = New System.Drawing.Size(157, 41)
@@ -305,7 +319,6 @@ Partial Class RegisterFrm
         Me.regbtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.regbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.regbtn.ForeColor = System.Drawing.Color.White
-        Me.regbtn.IndicateFocus = True
         Me.regbtn.Location = New System.Drawing.Point(12, 512)
         Me.regbtn.Name = "regbtn"
         Me.regbtn.Size = New System.Drawing.Size(157, 45)
@@ -584,32 +597,32 @@ Partial Class RegisterFrm
         Me.Guna2Shapes3.Text = "Guna2Shapes3"
         Me.Guna2Shapes3.Zoom = 100
         '
-        'emailxbx
+        'emailtxbx
         '
-        Me.emailxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.emailxbx.Animated = True
-        Me.emailxbx.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange
-        Me.emailxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.emailxbx.BorderRadius = 10
-        Me.emailxbx.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.emailxbx.DefaultText = ""
-        Me.emailxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.emailxbx.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.emailxbx.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.emailxbx.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.emailxbx.FillColor = System.Drawing.Color.WhiteSmoke
-        Me.emailxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.emailxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.emailxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.emailxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.emailxbx.Location = New System.Drawing.Point(722, 335)
-        Me.emailxbx.Margin = New System.Windows.Forms.Padding(4)
-        Me.emailxbx.Name = "emailxbx"
-        Me.emailxbx.PlaceholderText = "Email address"
-        Me.emailxbx.SelectedText = ""
-        Me.emailxbx.Size = New System.Drawing.Size(521, 45)
-        Me.emailxbx.TabIndex = 36
-        Me.emailxbx.TextOffset = New System.Drawing.Point(0, -2)
+        Me.emailtxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.emailtxbx.Animated = True
+        Me.emailtxbx.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange
+        Me.emailtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.emailtxbx.BorderRadius = 10
+        Me.emailtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.emailtxbx.DefaultText = ""
+        Me.emailtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.emailtxbx.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.emailtxbx.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.emailtxbx.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.emailtxbx.FillColor = System.Drawing.Color.WhiteSmoke
+        Me.emailtxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.emailtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.emailtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.emailtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.emailtxbx.Location = New System.Drawing.Point(722, 335)
+        Me.emailtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.emailtxbx.Name = "emailtxbx"
+        Me.emailtxbx.PlaceholderText = "Email address"
+        Me.emailtxbx.SelectedText = ""
+        Me.emailtxbx.Size = New System.Drawing.Size(521, 45)
+        Me.emailtxbx.TabIndex = 36
+        Me.emailtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
         'phnumtxbx
         '
@@ -1134,11 +1147,13 @@ Partial Class RegisterFrm
         Me.gtloginbtn.FillColor = System.Drawing.Color.Transparent
         Me.gtloginbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.gtloginbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.gtloginbtn.HoverState.FillColor = System.Drawing.Color.Transparent
+        Me.gtloginbtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.gtloginbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.chevron_left1
         Me.gtloginbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.gtloginbtn.Location = New System.Drawing.Point(12, 12)
+        Me.gtloginbtn.Location = New System.Drawing.Point(12, 6)
         Me.gtloginbtn.Name = "gtloginbtn"
-        Me.gtloginbtn.Size = New System.Drawing.Size(170, 30)
+        Me.gtloginbtn.Size = New System.Drawing.Size(170, 42)
         Me.gtloginbtn.TabIndex = 30
         Me.gtloginbtn.Text = "Go back to log in"
         Me.gtloginbtn.UseTransparentBackground = True
@@ -1155,19 +1170,14 @@ Partial Class RegisterFrm
         Me.Label3.TabIndex = 29
         Me.Label3.Text = "Barangay health clinic: staff Registration"
         '
-        'Label20
+        'Guna2MessageDialog1
         '
-        Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label20.AutoSize = True
-        Me.Label20.BackColor = System.Drawing.Color.Transparent
-        Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label20.Location = New System.Drawing.Point(719, 562)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(370, 17)
-        Me.Label20.TabIndex = 64
-        Me.Label20.Text = "at least 6 characters, contain number, contain capital letter"
-        Me.Label20.Visible = False
+        Me.Guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.AbortRetryIgnore
+        Me.Guna2MessageDialog1.Caption = Nothing
+        Me.Guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None
+        Me.Guna2MessageDialog1.Parent = Me
+        Me.Guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark
+        Me.Guna2MessageDialog1.Text = Nothing
         '
         'RegisterFrm
         '
@@ -1175,6 +1185,7 @@ Partial Class RegisterFrm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Panel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MaximumSize = New System.Drawing.Size(1280, 720)
         Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "RegisterFrm"
@@ -1220,7 +1231,7 @@ Partial Class RegisterFrm
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Label9 As Label
     Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents emailxbx As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents emailtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents phnumtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents randpassbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents regpasstxbx As Guna.UI2.WinForms.Guna2TextBox
@@ -1252,4 +1263,5 @@ Partial Class RegisterFrm
     Friend WithEvents Label3 As Label
     Friend WithEvents regprogress As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents Label20 As Label
+    Friend WithEvents Guna2MessageDialog1 As Guna.UI2.WinForms.Guna2MessageDialog
 End Class
