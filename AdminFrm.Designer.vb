@@ -88,8 +88,8 @@ Partial Class AdminFrm
         Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
         Me.TableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.34884!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.65116!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.83334!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.16667!))
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel6, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.FlowLayoutPanel1, 1, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -110,7 +110,7 @@ Partial Class AdminFrm
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel6.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(720, 95)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(725, 95)
         Me.Guna2Panel6.TabIndex = 1
         '
         'Label5
@@ -118,7 +118,7 @@ Partial Class AdminFrm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(335, 46)
+        Me.Label5.Location = New System.Drawing.Point(336, 58)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(46, 19)
         Me.Label5.TabIndex = 2
@@ -142,9 +142,9 @@ Partial Class AdminFrm
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(13, 26)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(279, 28)
+        Me.Label3.Size = New System.Drawing.Size(189, 28)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Welcome, Administrator!"
+        Me.Label3.Text = "Welcome, Name!"
         '
         'FlowLayoutPanel1
         '
@@ -153,9 +153,9 @@ Partial Class AdminFrm
         Me.FlowLayoutPanel1.Controls.Add(Me.Guna2Panel4)
         Me.FlowLayoutPanel1.Controls.Add(Me.Guna2Panel5)
         Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(729, 3)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(734, 3)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(300, 95)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(295, 95)
         Me.FlowLayoutPanel1.TabIndex = 0
         '
         'Guna2Panel4
@@ -164,7 +164,7 @@ Partial Class AdminFrm
         Me.Guna2Panel4.Controls.Add(Me.Guna2CirclePictureBox1)
         Me.Guna2Panel4.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(85, 92)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(77, 92)
         Me.Guna2Panel4.TabIndex = 0
         '
         'Guna2CirclePictureBox1
@@ -186,9 +186,9 @@ Partial Class AdminFrm
         Me.Guna2Panel5.Controls.Add(Me.Label2)
         Me.Guna2Panel5.Controls.Add(Me.Label1)
         Me.Guna2Panel5.Controls.Add(Me.Guna2CirclePictureBox2)
-        Me.Guna2Panel5.Location = New System.Drawing.Point(94, 3)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(86, 3)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(171, 92)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(205, 92)
         Me.Guna2Panel5.TabIndex = 1
         '
         'Label2

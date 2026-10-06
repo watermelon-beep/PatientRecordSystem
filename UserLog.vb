@@ -97,6 +97,7 @@ Public Class UserLog
         Label2.ForeColor = Color.Gray
 
         If UsernameExists(username) AndAlso UserPasswordExist(password) Then
+            currentUsername = username
             usersPosition()
         Else
             MsgBox("Incorrect username or password.", MsgBoxStyle.Exclamation, "Login failed")
