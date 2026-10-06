@@ -30,5 +30,6 @@ Public Class AdminDashboard
         DashbooardTable()
     End Sub
 
-
+    Private Sub Guna2DataGridView2_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+    End Sub
 End Class

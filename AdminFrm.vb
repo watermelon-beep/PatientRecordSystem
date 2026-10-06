@@ -34,11 +34,11 @@ Public Class AdminFrm
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Label5.Text = DateTime.Now.ToString("hh:mm tt")
+        Label7.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy")
     End Sub
 
     Private Sub AdminFrm_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
         Application.Exit()
     End Sub
-
 
 End Class
