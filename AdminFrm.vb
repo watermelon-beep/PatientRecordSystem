@@ -1,6 +1,4 @@
-﻿Imports Guna.Charts.WinForms
-
-Public Class AdminFrm
+﻿Public Class AdminFrm
 
     Private adminDashboard As New AdminDashboard
 

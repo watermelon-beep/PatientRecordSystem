@@ -1,6 +1,5 @@
 ﻿Imports System.Text.RegularExpressions
 Imports Guna.UI2.WinForms
-Imports System.Data.SqlClient
 Public Class UserLog
 
     Private passVisible As Boolean = False

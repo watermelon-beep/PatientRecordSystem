@@ -1,5 +1,4 @@
-﻿Imports System.Data.SqlClient
-Imports System.Text.RegularExpressions
+﻿Imports System.Text.RegularExpressions
 Public Class RegisterFrm
 
     Private Sub clearData()

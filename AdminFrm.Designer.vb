@@ -118,11 +118,11 @@ Partial Class AdminFrm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(372, 46)
+        Me.Label5.Location = New System.Drawing.Point(335, 46)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(58, 19)
+        Me.Label5.Size = New System.Drawing.Size(46, 19)
         Me.Label5.TabIndex = 2
-        Me.Label5.Text = "Label5"
+        Me.Label5.Text = "Time"
         '
         'Label4
         '
@@ -142,9 +142,9 @@ Partial Class AdminFrm
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(13, 26)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(336, 28)
+        Me.Label3.Size = New System.Drawing.Size(279, 28)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Good morning, Administrator!"
+        Me.Label3.Text = "Welcome, Administrator!"
         '
         'FlowLayoutPanel1
         '
