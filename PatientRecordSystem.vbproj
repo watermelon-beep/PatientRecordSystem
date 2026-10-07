@@ -101,6 +101,12 @@
     <Compile Include="AdminFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BarangayAssistanceFrm.Designer.vb">
+      <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BarangayAssistanceFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BarangayAssistant.Designer.vb">
       <DependentUpon>BarangayAssistant.vb</DependentUpon>
     </Compile>
@@ -115,12 +121,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="dbConn.vb" />
-    <Compile Include="DoctorDB.Designer.vb">
-      <DependentUpon>DoctorDB.vb</DependentUpon>
-    </Compile>
-    <Compile Include="DoctorDB.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="doctordbs.Designer.vb">
       <DependentUpon>doctordbs.vb</DependentUpon>
     </Compile>
@@ -182,14 +182,14 @@
     <EmbeddedResource Include="AdminFrm.resx">
       <DependentUpon>AdminFrm.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BarangayAssistanceFrm.resx">
+      <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BarangayAssistant.resx">
       <DependentUpon>BarangayAssistant.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContentForm.resx">
       <DependentUpon>ContentForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DoctorDB.resx">
-      <DependentUpon>DoctorDB.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="doctordbs.resx">
       <DependentUpon>doctordbs.vb</DependentUpon>

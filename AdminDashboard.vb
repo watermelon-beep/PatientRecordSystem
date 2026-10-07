@@ -39,13 +39,8 @@ Public Class AdminDashboard
             .Add("James Flores updated patient information")
             .Add("Angela Ramos added a new medical record")
             .Add("Daniel Mendoza registered a new patient")
-            .Add("Grace Aquino completed today's appointment")
-            .Add("Michael Torres added a new staff member")
-            .Add("Nicole Santos updated staff information")
         End With
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
-    End Sub
 End Class

@@ -54,7 +54,7 @@ Public Class UserLog
                 usrnlogtxbx.Clear()
                 passlogtxbx.Clear()
 
-                DoctorDB.Show()
+                DoctorFrm.Show()
 
                 LogForm.Hide()
                 Me.Hide()

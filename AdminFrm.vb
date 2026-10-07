@@ -6,19 +6,22 @@ Public Class AdminFrm
 
     Private Sub ProfileAdmin()
         Dim userlog As New UserLog
-        Dim query As String = "SELECT first_Name FROM staff_information WHERE username = @username"
+        Dim query As String = "SELECT first_Name, Position FROM staff_information WHERE username = @username"
 
         Using comm As New SqlCommand(query, conn)
             comm.Parameters.AddWithValue("@username", currentUsername)
-
-            Dim result As Object = comm.ExecuteScalar()
-
-            If result IsNot Nothing AndAlso result IsNot DBNull.Value Then
-                Label1.Text = result.ToString()
-                Label3.Text = "Welcome, " & result.ToString() & "!"
-            Else
-                Label1.Text = "Unknown user"
-            End If
+            Using dataRead As SqlDataReader = comm.ExecuteReader()
+                If dataRead.Read() Then
+                    Dim firstName As String = dataRead("first_Name").ToString()
+                    Dim position As String = dataRead("Position").ToString()
+                    Label1.Text = firstName
+                    Label3.Text = "Welcome, " & position & ", " & firstName & "!"
+                    Label2.Text = position
+                Else
+                    Label1.Text = "Unknown user"
+                    Label2.Text = "Unknown position"
+                End If
+            End Using
         End Using
     End Sub
 
