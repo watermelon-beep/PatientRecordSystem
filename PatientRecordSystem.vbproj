@@ -127,6 +127,12 @@
     <Compile Include="doctordbs.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="DoctorFrm.Designer.vb">
+      <DependentUpon>DoctorFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>
@@ -187,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="doctordbs.resx">
       <DependentUpon>doctordbs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFrm.resx">
+      <DependentUpon>DoctorFrm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogForm.resx">
       <DependentUpon>LogForm.vb</DependentUpon>

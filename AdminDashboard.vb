@@ -28,8 +28,24 @@ Public Class AdminDashboard
     Private Sub AdminDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         dbConnection()
         DashbooardTable()
+
+        With Guna2DataGridView2.Rows
+            .Add("Karl Benedict Palomo added a new patient")
+            .Add("Maria Santos registered a new consultation")
+            .Add("John Cruz updated a patient record")
+            .Add("Ana Reyes added a new appointment")
+            .Add("Mark Dela Cruz completed a consultation")
+            .Add("Sofia Garcia cancelled an appointment")
+            .Add("James Flores updated patient information")
+            .Add("Angela Ramos added a new medical record")
+            .Add("Daniel Mendoza registered a new patient")
+            .Add("Grace Aquino completed today's appointment")
+            .Add("Michael Torres added a new staff member")
+            .Add("Nicole Santos updated staff information")
+        End With
     End Sub
 
-    Private Sub Guna2DataGridView2_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
     End Sub
 End Class

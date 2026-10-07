@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class AdminFrm
+Partial Class DoctorFrm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,21 +22,19 @@ Partial Class AdminFrm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AdminFrm))
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DoctorFrm))
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
@@ -45,19 +43,33 @@ Partial Class AdminFrm
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Panel1.SuspendLayout()
         Me.Guna2ShadowPanel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Timer1
+        'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Guna2Panel3)
+        Me.Panel1.Controls.Add(Me.Guna2ShadowPanel2)
+        Me.Panel1.Controls.Add(Me.Guna2Panel1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1264, 681)
+        Me.Panel1.TabIndex = 1
+        '
+        'Guna2Panel3
+        '
+        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel3.Location = New System.Drawing.Point(232, 95)
+        Me.Guna2Panel3.Name = "Guna2Panel3"
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 586)
+        Me.Guna2Panel3.TabIndex = 4
         '
         'Guna2ShadowPanel2
         '
@@ -81,6 +93,44 @@ Partial Class AdminFrm
         Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(1032, 95)
         Me.Guna2ShadowPanel2.TabIndex = 3
         '
+        'Guna2CirclePictureBox2
+        '
+        Me.Guna2CirclePictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2CirclePictureBox2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CirclePictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.photo_2026_04_01_14_35_51
+        Me.Guna2CirclePictureBox2.ImageRotate = 0!
+        Me.Guna2CirclePictureBox2.Location = New System.Drawing.Point(765, 12)
+        Me.Guna2CirclePictureBox2.Name = "Guna2CirclePictureBox2"
+        Me.Guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox2.Size = New System.Drawing.Size(64, 68)
+        Me.Guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox2.TabIndex = 1
+        Me.Guna2CirclePictureBox2.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(835, 56)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(95, 14)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "Administrator"
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(835, 28)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(44, 24)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Cici"
+        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -91,18 +141,6 @@ Partial Class AdminFrm
         Me.Label7.Size = New System.Drawing.Size(45, 19)
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "Date"
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(872, 57)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(95, 14)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Administrator"
         '
         'Label5
         '
@@ -126,18 +164,6 @@ Partial Class AdminFrm
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Welcome, Name!"
         '
-        'Label1
-        '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(872, 29)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 24)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Cici"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -148,20 +174,6 @@ Partial Class AdminFrm
         Me.Label4.Size = New System.Drawing.Size(303, 19)
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Here's  what's happening at the clinic today."
-        '
-        'Guna2CirclePictureBox2
-        '
-        Me.Guna2CirclePictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2CirclePictureBox2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2CirclePictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.photo_2026_04_01_14_35_51
-        Me.Guna2CirclePictureBox2.ImageRotate = 0!
-        Me.Guna2CirclePictureBox2.Location = New System.Drawing.Point(802, 13)
-        Me.Guna2CirclePictureBox2.Name = "Guna2CirclePictureBox2"
-        Me.Guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox2.Size = New System.Drawing.Size(64, 68)
-        Me.Guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2CirclePictureBox2.TabIndex = 1
-        Me.Guna2CirclePictureBox2.TabStop = False
         '
         'Guna2Panel1
         '
@@ -180,69 +192,24 @@ Partial Class AdminFrm
         '
         Me.TableLayoutPanel2.ColumnCount = 1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button5, 0, 3)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button6, 0, 4)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button3, 0, 5)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 7)
+        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button3, 0, 3)
+        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 5)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button4, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button2, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button1, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 152)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
-        Me.TableLayoutPanel2.RowCount = 8
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.999072!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.999072!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.999072!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.999072!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.999072!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.003072!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.9985!))
-        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.003072!))
+        Me.TableLayoutPanel2.RowCount = 6
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.522494!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.522494!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.522494!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.527255!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.37801!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.527255!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(232, 529)
         Me.TableLayoutPanel2.TabIndex = 1
-        '
-        'Guna2Button5
-        '
-        Me.Guna2Button5.Animated = True
-        Me.Guna2Button5.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button5.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button5.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
-        Me.Guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button5.Location = New System.Drawing.Point(3, 129)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(226, 36)
-        Me.Guna2Button5.TabIndex = 21
-        Me.Guna2Button5.Text = "Appointment"
-        Me.Guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'Guna2Button6
-        '
-        Me.Guna2Button6.Animated = True
-        Me.Guna2Button6.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button6.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button6.Image = Global.PatientRecordSystem.My.Resources.Resources.notebook_dot
-        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button6.Location = New System.Drawing.Point(3, 171)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(226, 36)
-        Me.Guna2Button6.TabIndex = 20
-        Me.Guna2Button6.Text = "Reports"
-        Me.Guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button3
         '
@@ -258,9 +225,9 @@ Partial Class AdminFrm
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
         Me.Guna2Button3.Image = Global.PatientRecordSystem.My.Resources.Resources.settings
         Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.Location = New System.Drawing.Point(3, 213)
+        Me.Guna2Button3.Location = New System.Drawing.Point(3, 153)
         Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(226, 36)
+        Me.Guna2Button3.Size = New System.Drawing.Size(226, 44)
         Me.Guna2Button3.TabIndex = 19
         Me.Guna2Button3.Text = "Settings"
         Me.Guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -279,9 +246,9 @@ Partial Class AdminFrm
         Me.Guna2Button8.ForeColor = System.Drawing.Color.White
         Me.Guna2Button8.Image = Global.PatientRecordSystem.My.Resources.Resources.log_out
         Me.Guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button8.Location = New System.Drawing.Point(3, 487)
+        Me.Guna2Button8.Location = New System.Drawing.Point(3, 480)
         Me.Guna2Button8.Name = "Guna2Button8"
-        Me.Guna2Button8.Size = New System.Drawing.Size(226, 39)
+        Me.Guna2Button8.Size = New System.Drawing.Size(226, 46)
         Me.Guna2Button8.TabIndex = 18
         Me.Guna2Button8.Text = "Logout"
         Me.Guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -300,11 +267,11 @@ Partial Class AdminFrm
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
         Me.Guna2Button4.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
         Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.Location = New System.Drawing.Point(3, 87)
+        Me.Guna2Button4.Location = New System.Drawing.Point(3, 103)
         Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(226, 36)
+        Me.Guna2Button4.Size = New System.Drawing.Size(226, 44)
         Me.Guna2Button4.TabIndex = 12
-        Me.Guna2Button4.Text = "Staff Management"
+        Me.Guna2Button4.Text = "Consultation"
         Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button2
@@ -321,11 +288,11 @@ Partial Class AdminFrm
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
         Me.Guna2Button2.Image = Global.PatientRecordSystem.My.Resources.Resources.user_pen
         Me.Guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button2.Location = New System.Drawing.Point(3, 45)
+        Me.Guna2Button2.Location = New System.Drawing.Point(3, 53)
         Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(226, 36)
+        Me.Guna2Button2.Size = New System.Drawing.Size(226, 44)
         Me.Guna2Button2.TabIndex = 10
-        Me.Guna2Button2.Text = "Patient Management"
+        Me.Guna2Button2.Text = "Patient Records"
         Me.Guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button1
@@ -344,7 +311,7 @@ Partial Class AdminFrm
         Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.Guna2Button1.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(226, 36)
+        Me.Guna2Button1.Size = New System.Drawing.Size(226, 44)
         Me.Guna2Button1.TabIndex = 9
         Me.Guna2Button1.Text = "Dashboard"
         Me.Guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -384,36 +351,15 @@ Partial Class AdminFrm
         Me.Guna2CirclePictureBox3.TabIndex = 0
         Me.Guna2CirclePictureBox3.TabStop = False
         '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Guna2Panel3)
-        Me.Panel1.Controls.Add(Me.Guna2ShadowPanel2)
-        Me.Panel1.Controls.Add(Me.Guna2Panel1)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1264, 681)
-        Me.Panel1.TabIndex = 0
-        '
-        'Guna2Panel3
-        '
-        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(232, 95)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 586)
-        Me.Guna2Panel3.TabIndex = 4
-        '
-        'AdminFrm
+        'DoctorFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Panel1)
-        Me.MinimumSize = New System.Drawing.Size(1024, 600)
-        Me.Name = "AdminFrm"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "AdminFrm"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.Name = "DoctorFrm"
+        Me.Text = "DoctorFrm"
+        Me.Panel1.ResumeLayout(False)
         Me.Guna2ShadowPanel2.ResumeLayout(False)
         Me.Guna2ShadowPanel2.PerformLayout()
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -422,32 +368,28 @@ Partial Class AdminFrm
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
         CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Guna2ShadowPanel2 As Guna.UI2.WinForms.Guna2ShadowPanel
-    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label7 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2ShadowPanel2 As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents Guna2CirclePictureBox2 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
+    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
 End Class
