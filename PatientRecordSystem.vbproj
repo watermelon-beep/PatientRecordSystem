@@ -113,6 +113,12 @@
     <Compile Include="BarangayAssistant.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Barangay_Assistance_Dashboard.Designer.vb">
+      <DependentUpon>Barangay_Assistance_Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Barangay_Assistance_Dashboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ContentForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BarangayAssistant.resx">
       <DependentUpon>BarangayAssistant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barangay_Assistance_Dashboard.resx">
+      <DependentUpon>Barangay_Assistance_Dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ContentForm.resx">
       <DependentUpon>ContentForm.vb</DependentUpon>
@@ -344,6 +353,11 @@
     <None Include="Resources\clock.png" />
     <None Include="Resources\clock %281%29.png" />
     <None Include="Resources\circle-check.png" />
+    <None Include="Resources\corner-left-up.png" />
+    <None Include="Resources\corner-left-down.png" />
+    <None Include="Resources\arrow-up.png" />
+    <None Include="Resources\arrow-down.png" />
+    <None Include="Resources\circle-user-round %282%29.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />

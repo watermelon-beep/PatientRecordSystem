@@ -221,7 +221,7 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2Button3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Button3.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button3.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button3.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
         Me.Guna2Button3.Image = Global.PatientRecordSystem.My.Resources.Resources.settings
         Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -263,7 +263,7 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2Button4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Button4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button4.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
         Me.Guna2Button4.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
         Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -271,7 +271,7 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button4.Name = "Guna2Button4"
         Me.Guna2Button4.Size = New System.Drawing.Size(226, 44)
         Me.Guna2Button4.TabIndex = 12
-        Me.Guna2Button4.Text = "Consultation"
+        Me.Guna2Button4.Text = "Appointments"
         Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button2
