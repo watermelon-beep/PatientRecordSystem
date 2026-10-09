@@ -23,27 +23,27 @@ Partial Class Barangay_Assistance_Dashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim ChartFont17 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont18 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont19 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont20 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid7 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim Tick7 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont21 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid8 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim Tick8 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont22 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid9 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim PointLabel3 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
-        Dim ChartFont23 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Tick9 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont24 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim ChartFont1 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont2 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont3 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont4 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid1 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick1 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont5 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid2 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick2 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont6 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid3 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim PointLabel1 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
+        Dim ChartFont7 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Tick3 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont8 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
         Dim LPoint1 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint2 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint3 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
@@ -51,9 +51,9 @@ Partial Class Barangay_Assistance_Dashboard
         Dim LPoint5 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint6 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint7 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.Guna2CustomGradientPanel3 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -85,35 +85,35 @@ Partial Class Barangay_Assistance_Dashboard
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel12 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox8 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel11 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox7 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox9 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox6 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox4 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2ColorTransition1 = New Guna.UI2.WinForms.Guna2ColorTransition(Me.components)
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
         Me.Guna2CustomGradientPanel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -142,13 +142,13 @@ Partial Class Barangay_Assistance_Dashboard
         CType(Me.Guna2CirclePictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel6.SuspendLayout()
         Me.Guna2Panel9.SuspendLayout()
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel2.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -234,28 +234,28 @@ Partial Class Barangay_Assistance_Dashboard
         '
         'Guna2DataGridView3
         '
-        DataGridViewCellStyle22.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle22
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.Guna2DataGridView3.ColumnHeadersHeight = 4
         Me.Guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.Guna2DataGridView3.ColumnHeadersVisible = False
         Me.Guna2DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column5, Me.Column6, Me.Column7})
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle24.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView3.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView3.DefaultCellStyle = DataGridViewCellStyle3
         Me.Guna2DataGridView3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2DataGridView3.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView3.Location = New System.Drawing.Point(0, 0)
@@ -289,26 +289,26 @@ Partial Class Barangay_Assistance_Dashboard
         '
         'Guna2DataGridView2
         '
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle25
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.Guna2DataGridView2.ColumnHeadersHeight = 4
         Me.Guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle6
         Me.Guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView2.Location = New System.Drawing.Point(441, 46)
         Me.Guna2DataGridView2.Name = "Guna2DataGridView2"
@@ -402,37 +402,37 @@ Partial Class Barangay_Assistance_Dashboard
         '
         Me.GunaChart1.Datasets.AddRange(New Guna.Charts.Interfaces.IGunaDataset() {Me.GunaAreaDataset1})
         Me.GunaChart1.Dock = System.Windows.Forms.DockStyle.Fill
-        ChartFont17.FontName = "Arial"
-        Me.GunaChart1.Legend.LabelFont = ChartFont17
+        ChartFont1.FontName = "Arial"
+        Me.GunaChart1.Legend.LabelFont = ChartFont1
         Me.GunaChart1.Location = New System.Drawing.Point(0, 0)
         Me.GunaChart1.Name = "GunaChart1"
         Me.GunaChart1.Size = New System.Drawing.Size(507, 219)
         Me.GunaChart1.TabIndex = 0
-        ChartFont18.FontName = "Arial"
-        ChartFont18.Size = 12
-        ChartFont18.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
-        Me.GunaChart1.Title.Font = ChartFont18
-        ChartFont19.FontName = "Arial"
-        Me.GunaChart1.Tooltips.BodyFont = ChartFont19
-        ChartFont20.FontName = "Arial"
-        ChartFont20.Size = 9
-        ChartFont20.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
-        Me.GunaChart1.Tooltips.TitleFont = ChartFont20
-        Me.GunaChart1.XAxes.GridLines = Grid7
-        ChartFont21.FontName = "Arial"
-        Tick7.Font = ChartFont21
-        Me.GunaChart1.XAxes.Ticks = Tick7
-        Me.GunaChart1.YAxes.GridLines = Grid8
-        ChartFont22.FontName = "Arial"
-        Tick8.Font = ChartFont22
-        Me.GunaChart1.YAxes.Ticks = Tick8
-        Me.GunaChart1.ZAxes.GridLines = Grid9
-        ChartFont23.FontName = "Arial"
-        PointLabel3.Font = ChartFont23
-        Me.GunaChart1.ZAxes.PointLabels = PointLabel3
-        ChartFont24.FontName = "Arial"
-        Tick9.Font = ChartFont24
-        Me.GunaChart1.ZAxes.Ticks = Tick9
+        ChartFont2.FontName = "Arial"
+        ChartFont2.Size = 12
+        ChartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        Me.GunaChart1.Title.Font = ChartFont2
+        ChartFont3.FontName = "Arial"
+        Me.GunaChart1.Tooltips.BodyFont = ChartFont3
+        ChartFont4.FontName = "Arial"
+        ChartFont4.Size = 9
+        ChartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        Me.GunaChart1.Tooltips.TitleFont = ChartFont4
+        Me.GunaChart1.XAxes.GridLines = Grid1
+        ChartFont5.FontName = "Arial"
+        Tick1.Font = ChartFont5
+        Me.GunaChart1.XAxes.Ticks = Tick1
+        Me.GunaChart1.YAxes.GridLines = Grid2
+        ChartFont6.FontName = "Arial"
+        Tick2.Font = ChartFont6
+        Me.GunaChart1.YAxes.Ticks = Tick2
+        Me.GunaChart1.ZAxes.GridLines = Grid3
+        ChartFont7.FontName = "Arial"
+        PointLabel1.Font = ChartFont7
+        Me.GunaChart1.ZAxes.PointLabels = PointLabel1
+        ChartFont8.FontName = "Arial"
+        Tick3.Font = ChartFont8
+        Me.GunaChart1.ZAxes.Ticks = Tick3
         '
         'GunaAreaDataset1
         '
@@ -467,26 +467,26 @@ Partial Class Barangay_Assistance_Dashboard
         '
         'Guna2DataGridView1
         '
-        DataGridViewCellStyle19.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle19
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.BackColor = System.Drawing.Color.MediumSeaGreen
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
-        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.MediumSeaGreen
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.Guna2DataGridView1.ColumnHeadersHeight = 30
         Me.Guna2DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle21.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle9
         Me.Guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView1.Location = New System.Drawing.Point(0, 0)
@@ -573,6 +573,27 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel12.Size = New System.Drawing.Size(252, 194)
         Me.Guna2Panel12.TabIndex = 6
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(13, 116)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(49, 33)
+        Me.Label8.TabIndex = 4
+        Me.Label8.Text = "18"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Gray
+        Me.Label9.Location = New System.Drawing.Point(15, 81)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(57, 15)
+        Me.Label9.TabIndex = 3
+        Me.Label9.Text = "Reports"
+        '
         'Guna2PictureBox2
         '
         Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_minus__1_1
@@ -615,6 +636,27 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel11.Name = "Guna2Panel11"
         Me.Guna2Panel11.Size = New System.Drawing.Size(252, 194)
         Me.Guna2Panel11.TabIndex = 6
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(13, 116)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(49, 33)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "18"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Gray
+        Me.Label7.Location = New System.Drawing.Point(15, 81)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(117, 15)
+        Me.Label7.TabIndex = 4
+        Me.Label7.Text = "Pending Request"
         '
         'Guna2PictureBox4
         '
@@ -668,17 +710,6 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel10.ShadowDecoration.Enabled = True
         Me.Guna2Panel10.Size = New System.Drawing.Size(252, 194)
         Me.Guna2Panel10.TabIndex = 6
-        '
-        'Guna2PictureBox3
-        '
-        Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_clock1
-        Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(135, 23)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(54, 52)
-        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox3.TabIndex = 2
-        Me.Guna2PictureBox3.TabStop = False
         '
         'Guna2CirclePictureBox9
         '
@@ -745,6 +776,59 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel5.Size = New System.Drawing.Size(252, 194)
         Me.Guna2Panel5.TabIndex = 5
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(130, 125)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(49, 33)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "18"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Gray
+        Me.Label5.Location = New System.Drawing.Point(132, 90)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(102, 15)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Apppointments"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(13, 116)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(49, 33)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "18"
+        '
+        'Guna2PictureBox3
+        '
+        Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_clock1
+        Me.Guna2PictureBox3.ImageRotate = 0!
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(136, 14)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(54, 52)
+        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox3.TabIndex = 2
+        Me.Guna2PictureBox3.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Gray
+        Me.Label2.Location = New System.Drawing.Point(15, 81)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(101, 15)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Todays Patient"
+        '
         'Guna2PictureBox1
         '
         Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.user_round_group1
@@ -790,90 +874,6 @@ Partial Class Barangay_Assistance_Dashboard
         '
         Me.Guna2ColorTransition1.ColorArray = New System.Drawing.Color() {System.Drawing.Color.Red, System.Drawing.Color.Blue, System.Drawing.Color.Orange}
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Gray
-        Me.Label2.Location = New System.Drawing.Point(15, 81)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(101, 15)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Todays Patient"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(13, 116)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(49, 33)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "18"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(130, 125)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(49, 33)
-        Me.Label4.TabIndex = 4
-        Me.Label4.Text = "18"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Gray
-        Me.Label5.Location = New System.Drawing.Point(132, 90)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(102, 15)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Apppointments"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(13, 116)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(49, 33)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "18"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Gray
-        Me.Label7.Location = New System.Drawing.Point(15, 81)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(117, 15)
-        Me.Label7.TabIndex = 4
-        Me.Label7.Text = "Pending Request"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(13, 116)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(49, 33)
-        Me.Label8.TabIndex = 4
-        Me.Label8.Text = "18"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.Gray
-        Me.Label9.Location = New System.Drawing.Point(15, 81)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(57, 15)
-        Me.Label9.TabIndex = 3
-        Me.Label9.Text = "Reports"
-        '
         'Barangay_Assistance_Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -912,7 +912,6 @@ Partial Class Barangay_Assistance_Dashboard
         CType(Me.Guna2CirclePictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel6.ResumeLayout(False)
         Me.Guna2Panel9.ResumeLayout(False)
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel2.ResumeLayout(False)
@@ -920,6 +919,7 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel5.ResumeLayout(False)
         Me.Guna2Panel5.PerformLayout()
+        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
