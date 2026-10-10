@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Web.UI.WebControls
 
 Public Class AdminFrm
 
@@ -44,5 +45,16 @@ Public Class AdminFrm
         Application.Exit()
     End Sub
 
+    Private Sub AdminFrm_Resize(sender As Object, e As EventArgs) Handles Me.Resize
+        Dim lastState As FormWindowState = FormWindowState.Maximized
+        If WindowState <> lastState Then
+            lastState = Me.WindowState
+            If WindowState = FormWindowState.Maximized Then
+                adminDashboard.Label21.Font = New Font(adminDashboard.Label21.Font.FontFamily, 16)
+            ElseIf WindowState = FormWindowState.Normal Then
+                adminDashboard.Label21.Font = New Font(adminDashboard.Label21.Font.FontFamily, 10)
+            End If
+        End If
 
+    End Sub
 End Class
