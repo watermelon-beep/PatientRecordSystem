@@ -393,6 +393,7 @@ Partial Class BarangayAssistanceFrm
         Me.Controls.Add(Me.Panel1)
         Me.Name = "BarangayAssistanceFrm"
         Me.Text = "BarangayAssistanceFrm"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Guna2ShadowPanel2.ResumeLayout(False)
         Me.Guna2ShadowPanel2.PerformLayout()

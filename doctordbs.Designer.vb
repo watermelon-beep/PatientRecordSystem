@@ -22,42 +22,43 @@ Partial Class doctordbs
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ChartFont17 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont18 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont19 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont20 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid7 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim Tick7 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont21 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid8 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim Tick8 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont22 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid9 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim PointLabel3 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
-        Dim ChartFont23 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Tick9 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont24 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Me.components = New System.ComponentModel.Container()
+        Dim ChartFont177 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont178 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont179 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont180 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid67 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick67 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont181 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid68 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick68 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont182 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid69 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim PointLabel23 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
+        Dim ChartFont183 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Tick69 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont184 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim LPoint4 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim LPoint5 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim LPoint6 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim ChartFont185 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont186 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont187 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim ChartFont188 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid70 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick70 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont189 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid71 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim Tick71 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont190 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Grid72 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
+        Dim PointLabel24 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
+        Dim ChartFont191 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim Tick72 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
+        Dim ChartFont192 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
         Dim LPoint7 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint8 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint9 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim ChartFont25 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont26 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont27 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim ChartFont28 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid10 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim Tick10 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont29 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid11 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim Tick11 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont30 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Grid12 As Guna.Charts.WinForms.Grid = New Guna.Charts.WinForms.Grid()
-        Dim PointLabel4 As Guna.Charts.WinForms.PointLabel = New Guna.Charts.WinForms.PointLabel()
-        Dim ChartFont31 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim Tick12 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
-        Dim ChartFont32 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
-        Dim LPoint1 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint2 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint3 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
@@ -153,6 +154,8 @@ Partial Class doctordbs
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Panel1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
@@ -206,7 +209,9 @@ Partial Class doctordbs
         Me.Guna2Panel1.Controls.Add(Me.TableLayoutPanel1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
         Me.Guna2Panel1.Name = "Guna2Panel1"
+        Me.Guna2Panel1.Padding = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Guna2Panel1.Size = New System.Drawing.Size(1021, 195)
         Me.Guna2Panel1.TabIndex = 0
         '
@@ -222,26 +227,30 @@ Partial Class doctordbs
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel5, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel3, 1, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(5, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 195.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1021, 195)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1011, 195)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Guna2Panel2
         '
-        Me.Guna2Panel2.BackColor = System.Drawing.Color.Silver
+        Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.BorderRadius = 10
+        Me.Guna2Panel2.BorderThickness = 1
         Me.Guna2Panel2.Controls.Add(Me.Guna2PictureBox2)
         Me.Guna2Panel2.Controls.Add(Me.Label10)
         Me.Guna2Panel2.Controls.Add(Me.Label11)
         Me.Guna2Panel2.Controls.Add(Me.Label12)
         Me.Guna2Panel2.Controls.Add(Me.Guna2CirclePictureBox1)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel2.FillColor = System.Drawing.Color.White
         Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(249, 189)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(246, 189)
         Me.Guna2Panel2.TabIndex = 4
         '
         'Guna2PictureBox2
@@ -297,15 +306,18 @@ Partial Class doctordbs
         '
         'Guna2Panel6
         '
-        Me.Guna2Panel6.BackColor = System.Drawing.Color.Beige
+        Me.Guna2Panel6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel6.BorderRadius = 10
+        Me.Guna2Panel6.BorderThickness = 1
         Me.Guna2Panel6.Controls.Add(Me.Guna2PictureBox9)
         Me.Guna2Panel6.Controls.Add(Me.Guna2CirclePictureBox2)
         Me.Guna2Panel6.Controls.Add(Me.Label8)
         Me.Guna2Panel6.Controls.Add(Me.Label9)
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel6.Location = New System.Drawing.Point(768, 3)
+        Me.Guna2Panel6.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel6.Location = New System.Drawing.Point(759, 3)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(250, 189)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(249, 189)
         Me.Guna2Panel6.TabIndex = 3
         '
         'Guna2PictureBox9
@@ -353,15 +365,18 @@ Partial Class doctordbs
         '
         'Guna2Panel5
         '
-        Me.Guna2Panel5.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.BorderRadius = 10
+        Me.Guna2Panel5.BorderThickness = 1
         Me.Guna2Panel5.Controls.Add(Me.Guna2PictureBox7)
         Me.Guna2Panel5.Controls.Add(Me.Label6)
         Me.Guna2Panel5.Controls.Add(Me.Guna2CirclePictureBox4)
         Me.Guna2Panel5.Controls.Add(Me.Label5)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel5.Location = New System.Drawing.Point(513, 3)
+        Me.Guna2Panel5.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel5.Location = New System.Drawing.Point(507, 3)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(249, 189)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(246, 189)
         Me.Guna2Panel5.TabIndex = 2
         '
         'Guna2PictureBox7
@@ -412,23 +427,25 @@ Partial Class doctordbs
         Me.Guna2Panel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel3.Controls.Add(Me.Guna2Panel4)
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(258, 3)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(255, 3)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(249, 189)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(246, 189)
         Me.Guna2Panel3.TabIndex = 1
         '
         'Guna2Panel4
         '
-        Me.Guna2Panel4.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.Guna2Panel4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel4.BorderRadius = 10
+        Me.Guna2Panel4.BorderThickness = 1
         Me.Guna2Panel4.Controls.Add(Me.Guna2PictureBox6)
         Me.Guna2Panel4.Controls.Add(Me.Guna2CirclePictureBox7)
         Me.Guna2Panel4.Controls.Add(Me.Label2)
         Me.Guna2Panel4.Controls.Add(Me.Label1)
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel4.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel4.FillColor = System.Drawing.Color.White
         Me.Guna2Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(249, 189)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(246, 189)
         Me.Guna2Panel4.TabIndex = 1
         '
         'Guna2PictureBox6
@@ -478,49 +495,49 @@ Partial Class doctordbs
         '
         Me.GunaChart2.Datasets.AddRange(New Guna.Charts.Interfaces.IGunaDataset() {Me.GunaAreaDataset1})
         Me.GunaChart2.Dock = System.Windows.Forms.DockStyle.Fill
-        ChartFont17.FontName = "Arial"
-        Me.GunaChart2.Legend.LabelFont = ChartFont17
+        ChartFont177.FontName = "Arial"
+        Me.GunaChart2.Legend.LabelFont = ChartFont177
         Me.GunaChart2.Location = New System.Drawing.Point(0, 0)
         Me.GunaChart2.Name = "GunaChart2"
-        Me.GunaChart2.Size = New System.Drawing.Size(421, 175)
+        Me.GunaChart2.Size = New System.Drawing.Size(424, 175)
         Me.GunaChart2.TabIndex = 1
-        ChartFont18.FontName = "Arial"
-        ChartFont18.Size = 12
-        ChartFont18.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
-        Me.GunaChart2.Title.Font = ChartFont18
+        ChartFont178.FontName = "Arial"
+        ChartFont178.Size = 12
+        ChartFont178.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        Me.GunaChart2.Title.Font = ChartFont178
         Me.GunaChart2.Title.Text = "Patient Statistics"
-        ChartFont19.FontName = "Arial"
-        Me.GunaChart2.Tooltips.BodyFont = ChartFont19
-        ChartFont20.FontName = "Arial"
-        ChartFont20.Size = 9
-        ChartFont20.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
-        Me.GunaChart2.Tooltips.TitleFont = ChartFont20
-        Me.GunaChart2.XAxes.GridLines = Grid7
-        ChartFont21.FontName = "Arial"
-        Tick7.Font = ChartFont21
-        Me.GunaChart2.XAxes.Ticks = Tick7
-        Me.GunaChart2.YAxes.GridLines = Grid8
-        ChartFont22.FontName = "Arial"
-        Tick8.Font = ChartFont22
-        Me.GunaChart2.YAxes.Ticks = Tick8
-        Me.GunaChart2.ZAxes.GridLines = Grid9
-        ChartFont23.FontName = "Arial"
-        PointLabel3.Font = ChartFont23
-        Me.GunaChart2.ZAxes.PointLabels = PointLabel3
-        ChartFont24.FontName = "Arial"
-        Tick9.Font = ChartFont24
-        Me.GunaChart2.ZAxes.Ticks = Tick9
+        ChartFont179.FontName = "Arial"
+        Me.GunaChart2.Tooltips.BodyFont = ChartFont179
+        ChartFont180.FontName = "Arial"
+        ChartFont180.Size = 9
+        ChartFont180.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        Me.GunaChart2.Tooltips.TitleFont = ChartFont180
+        Me.GunaChart2.XAxes.GridLines = Grid67
+        ChartFont181.FontName = "Arial"
+        Tick67.Font = ChartFont181
+        Me.GunaChart2.XAxes.Ticks = Tick67
+        Me.GunaChart2.YAxes.GridLines = Grid68
+        ChartFont182.FontName = "Arial"
+        Tick68.Font = ChartFont182
+        Me.GunaChart2.YAxes.Ticks = Tick68
+        Me.GunaChart2.ZAxes.GridLines = Grid69
+        ChartFont183.FontName = "Arial"
+        PointLabel23.Font = ChartFont183
+        Me.GunaChart2.ZAxes.PointLabels = PointLabel23
+        ChartFont184.FontName = "Arial"
+        Tick69.Font = ChartFont184
+        Me.GunaChart2.ZAxes.Ticks = Tick69
         '
         'GunaAreaDataset1
         '
         Me.GunaAreaDataset1.BorderColor = System.Drawing.Color.Empty
-        LPoint7.Label = "Jan"
-        LPoint7.Y = 13.0R
-        LPoint8.Label = "Feb"
-        LPoint8.Y = 6.0R
-        LPoint9.Label = "Mar"
-        LPoint9.Y = 30.0R
-        Me.GunaAreaDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint7, LPoint8, LPoint9})
+        LPoint4.Label = "Jan"
+        LPoint4.Y = 13.0R
+        LPoint5.Label = "Feb"
+        LPoint5.Y = 6.0R
+        LPoint6.Label = "Mar"
+        LPoint6.Y = 30.0R
+        Me.GunaAreaDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint4, LPoint5, LPoint6})
         Me.GunaAreaDataset1.FillColor = System.Drawing.Color.Empty
         Me.GunaAreaDataset1.Label = "Area1"
         Me.GunaAreaDataset1.TargetChart = Me.GunaChart2
@@ -529,48 +546,53 @@ Partial Class doctordbs
         '
         Me.GunaChart1.Datasets.AddRange(New Guna.Charts.Interfaces.IGunaDataset() {Me.GunaDoughnutDataset1})
         Me.GunaChart1.Dock = System.Windows.Forms.DockStyle.Fill
-        ChartFont25.FontName = "Arial"
-        Me.GunaChart1.Legend.LabelFont = ChartFont25
+        ChartFont185.FontName = "Arial"
+        Me.GunaChart1.Legend.LabelFont = ChartFont185
+        Me.GunaChart1.Legend.Position = Guna.Charts.WinForms.LegendPosition.Left
         Me.GunaChart1.Location = New System.Drawing.Point(0, 0)
+        Me.GunaChart1.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.GunaChart1.Name = "GunaChart1"
-        Me.GunaChart1.Size = New System.Drawing.Size(421, 175)
+        Me.GunaChart1.Size = New System.Drawing.Size(424, 178)
         Me.GunaChart1.TabIndex = 0
-        ChartFont26.FontName = "Arial"
-        ChartFont26.Size = 12
-        ChartFont26.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
-        Me.GunaChart1.Title.Font = ChartFont26
+        ChartFont186.FontName = "Arial"
+        ChartFont186.Size = 12
+        ChartFont186.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        Me.GunaChart1.Title.Font = ChartFont186
         Me.GunaChart1.Title.Text = "Patient Records"
-        ChartFont27.FontName = "Arial"
-        Me.GunaChart1.Tooltips.BodyFont = ChartFont27
-        ChartFont28.FontName = "Arial"
-        ChartFont28.Size = 9
-        ChartFont28.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
-        Me.GunaChart1.Tooltips.TitleFont = ChartFont28
-        Me.GunaChart1.XAxes.GridLines = Grid10
-        ChartFont29.FontName = "Arial"
-        Tick10.Font = ChartFont29
-        Me.GunaChart1.XAxes.Ticks = Tick10
-        Me.GunaChart1.YAxes.GridLines = Grid11
-        ChartFont30.FontName = "Arial"
-        Tick11.Font = ChartFont30
-        Me.GunaChart1.YAxes.Ticks = Tick11
-        Me.GunaChart1.ZAxes.GridLines = Grid12
-        ChartFont31.FontName = "Arial"
-        PointLabel4.Font = ChartFont31
-        Me.GunaChart1.ZAxes.PointLabels = PointLabel4
-        ChartFont32.FontName = "Arial"
-        Tick12.Font = ChartFont32
-        Me.GunaChart1.ZAxes.Ticks = Tick12
+        ChartFont187.FontName = "Arial"
+        Me.GunaChart1.Tooltips.BodyFont = ChartFont187
+        ChartFont188.FontName = "Arial"
+        ChartFont188.Size = 9
+        ChartFont188.Style = Guna.Charts.WinForms.ChartFontStyle.Bold
+        Me.GunaChart1.Tooltips.TitleFont = ChartFont188
+        Me.GunaChart1.XAxes.Display = False
+        Me.GunaChart1.XAxes.GridLines = Grid70
+        ChartFont189.FontName = "Arial"
+        Tick70.Font = ChartFont189
+        Me.GunaChart1.XAxes.Ticks = Tick70
+        Me.GunaChart1.YAxes.Display = False
+        Me.GunaChart1.YAxes.GridLines = Grid71
+        ChartFont190.FontName = "Arial"
+        Tick71.Font = ChartFont190
+        Me.GunaChart1.YAxes.Ticks = Tick71
+        Me.GunaChart1.ZAxes.GridLines = Grid72
+        ChartFont191.FontName = "Arial"
+        PointLabel24.Font = ChartFont191
+        Me.GunaChart1.ZAxes.PointLabels = PointLabel24
+        ChartFont192.FontName = "Arial"
+        Tick72.Font = ChartFont192
+        Me.GunaChart1.ZAxes.Ticks = Tick72
+        Me.GunaChart1.Zoom = Guna.Charts.WinForms.ZoomMode.XY
         '
         'GunaDoughnutDataset1
         '
-        LPoint1.Label = "New Patient"
-        LPoint1.Y = 67.0R
-        LPoint2.Label = "Follow-Up"
-        LPoint2.Y = 69.0R
-        LPoint3.Label = "Completed"
-        LPoint3.Y = 99.0R
-        Me.GunaDoughnutDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint1, LPoint2, LPoint3})
+        LPoint7.Label = "New Patient"
+        LPoint7.Y = 67.0R
+        LPoint8.Label = "Follow-Up"
+        LPoint8.Y = 69.0R
+        LPoint9.Label = "Completed"
+        LPoint9.Y = 99.0R
+        Me.GunaDoughnutDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint7, LPoint8, LPoint9})
         Me.GunaDoughnutDataset1.Label = "Doughnut1"
         Me.GunaDoughnutDataset1.TargetChart = Me.GunaChart1
         '
@@ -583,7 +605,7 @@ Partial Class doctordbs
         Me.TableLayoutPanel2.Controls.Add(Me.TableLayoutPanel3, 1, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 195)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -595,9 +617,9 @@ Partial Class doctordbs
         Me.Guna2Panel7.Controls.Add(Me.TableLayoutPanel4)
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel7.Location = New System.Drawing.Point(3, 3)
-        Me.Guna2Panel7.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.Guna2Panel7.Margin = New System.Windows.Forms.Padding(3, 3, 0, 0)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(582, 365)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(585, 365)
         Me.Guna2Panel7.TabIndex = 0
         '
         'TableLayoutPanel4
@@ -607,21 +629,21 @@ Partial Class doctordbs
         Me.TableLayoutPanel4.Controls.Add(Me.Guna2Panel10, 0, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel4.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(3, 3, 0, 0)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65.74586!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(582, 365)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(585, 365)
         Me.TableLayoutPanel4.TabIndex = 0
         '
         'Guna2Panel10
         '
         Me.Guna2Panel10.Controls.Add(Me.TableLayoutPanel5)
         Me.Guna2Panel10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel10.Location = New System.Drawing.Point(3, 3)
-        Me.Guna2Panel10.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.Guna2Panel10.Location = New System.Drawing.Point(3, 0)
+        Me.Guna2Panel10.Margin = New System.Windows.Forms.Padding(3, 0, 0, 0)
         Me.Guna2Panel10.Name = "Guna2Panel10"
-        Me.Guna2Panel10.Size = New System.Drawing.Size(576, 362)
+        Me.Guna2Panel10.Size = New System.Drawing.Size(582, 365)
         Me.Guna2Panel10.TabIndex = 0
         '
         'TableLayoutPanel5
@@ -632,23 +654,23 @@ Partial Class doctordbs
         Me.TableLayoutPanel5.Controls.Add(Me.Guna2Panel12, 0, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel5.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.13483!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.86517!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(576, 362)
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(582, 365)
         Me.TableLayoutPanel5.TabIndex = 0
         '
         'Guna2Panel11
         '
         Me.Guna2Panel11.Controls.Add(Me.TableLayoutPanel6)
         Me.Guna2Panel11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel11.Location = New System.Drawing.Point(3, 65)
-        Me.Guna2Panel11.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.Guna2Panel11.Location = New System.Drawing.Point(3, 62)
+        Me.Guna2Panel11.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.Guna2Panel11.Name = "Guna2Panel11"
-        Me.Guna2Panel11.Size = New System.Drawing.Size(570, 297)
+        Me.Guna2Panel11.Size = New System.Drawing.Size(576, 303)
         Me.Guna2Panel11.TabIndex = 0
         '
         'TableLayoutPanel6
@@ -661,19 +683,21 @@ Partial Class doctordbs
         Me.TableLayoutPanel6.Controls.Add(Me.Guna2Panel13, 0, 0)
         Me.TableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel6.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.TableLayoutPanel6.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.TableLayoutPanel6.Name = "TableLayoutPanel6"
         Me.TableLayoutPanel6.RowCount = 4
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
         Me.TableLayoutPanel6.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.0!))
-        Me.TableLayoutPanel6.Size = New System.Drawing.Size(570, 297)
+        Me.TableLayoutPanel6.Size = New System.Drawing.Size(576, 303)
         Me.TableLayoutPanel6.TabIndex = 0
         '
         'Guna2Panel16
         '
-        Me.Guna2Panel16.BackColor = System.Drawing.Color.White
+        Me.Guna2Panel16.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel16.BorderRadius = 10
+        Me.Guna2Panel16.BorderThickness = 1
         Me.Guna2Panel16.Controls.Add(Me.Guna2Button5)
         Me.Guna2Panel16.Controls.Add(Me.Guna2Panel22)
         Me.Guna2Panel16.Controls.Add(Me.Label30)
@@ -684,9 +708,12 @@ Partial Class doctordbs
         Me.Guna2Panel16.Controls.Add(Me.Label18)
         Me.Guna2Panel16.Controls.Add(Me.Guna2CirclePictureBox9)
         Me.Guna2Panel16.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel16.FillColor = System.Drawing.Color.White
         Me.Guna2Panel16.Location = New System.Drawing.Point(3, 225)
+        Me.Guna2Panel16.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.Guna2Panel16.Name = "Guna2Panel16"
-        Me.Guna2Panel16.Size = New System.Drawing.Size(564, 69)
+        Me.Guna2Panel16.Padding = New System.Windows.Forms.Padding(0, 0, 50, 0)
+        Me.Guna2Panel16.Size = New System.Drawing.Size(570, 78)
         Me.Guna2Panel16.TabIndex = 3
         '
         'Guna2Button5
@@ -702,9 +729,9 @@ Partial Class doctordbs
         Me.Guna2Button5.FillColor = System.Drawing.Color.RoyalBlue
         Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Location = New System.Drawing.Point(504, 19)
+        Me.Guna2Button5.Location = New System.Drawing.Point(460, 24)
         Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(57, 35)
+        Me.Guna2Button5.Size = New System.Drawing.Size(71, 35)
         Me.Guna2Button5.TabIndex = 11
         Me.Guna2Button5.Text = "View"
         '
@@ -716,7 +743,7 @@ Partial Class doctordbs
         Me.Guna2Panel22.BorderThickness = 1
         Me.Guna2Panel22.Controls.Add(Me.Label34)
         Me.Guna2Panel22.FillColor = System.Drawing.Color.Goldenrod
-        Me.Guna2Panel22.Location = New System.Drawing.Point(398, 21)
+        Me.Guna2Panel22.Location = New System.Drawing.Point(376, 26)
         Me.Guna2Panel22.Name = "Guna2Panel22"
         Me.Guna2Panel22.Size = New System.Drawing.Size(97, 30)
         Me.Guna2Panel22.TabIndex = 8
@@ -726,7 +753,8 @@ Partial Class doctordbs
         Me.Label34.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(9, 9)
+        Me.Label34.ForeColor = System.Drawing.Color.Yellow
+        Me.Label34.Location = New System.Drawing.Point(9, 8)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(75, 13)
         Me.Label34.TabIndex = 7
@@ -738,7 +766,7 @@ Partial Class doctordbs
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label30.ForeColor = System.Drawing.Color.Gray
-        Me.Label30.Location = New System.Drawing.Point(290, 43)
+        Me.Label30.Location = New System.Drawing.Point(290, 48)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(62, 13)
         Me.Label30.TabIndex = 9
@@ -752,7 +780,7 @@ Partial Class doctordbs
         Me.Guna2Shapes4.FillColor = System.Drawing.Color.Gray
         Me.Guna2Shapes4.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes4.LineThickness = 2
-        Me.Guna2Shapes4.Location = New System.Drawing.Point(220, 26)
+        Me.Guna2Shapes4.Location = New System.Drawing.Point(220, 31)
         Me.Guna2Shapes4.Name = "Guna2Shapes4"
         Me.Guna2Shapes4.PolygonSkip = 1
         Me.Guna2Shapes4.Rotate = 0!
@@ -768,7 +796,7 @@ Partial Class doctordbs
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label23.ForeColor = System.Drawing.Color.Gray
-        Me.Label23.Location = New System.Drawing.Point(290, 22)
+        Me.Label23.Location = New System.Drawing.Point(290, 27)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 13)
         Me.Label23.TabIndex = 7
@@ -779,7 +807,7 @@ Partial Class doctordbs
         Me.Guna2PictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Guna2PictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.dsafgfdgafdgafdgadf
         Me.Guna2PictureBox5.ImageRotate = 0!
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(259, 30)
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(259, 35)
         Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
         Me.Guna2PictureBox5.Size = New System.Drawing.Size(20, 20)
         Me.Guna2PictureBox5.TabIndex = 6
@@ -791,7 +819,7 @@ Partial Class doctordbs
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Gray
-        Me.Label19.Location = New System.Drawing.Point(82, 41)
+        Me.Label19.Location = New System.Drawing.Point(82, 46)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(97, 13)
         Me.Label19.TabIndex = 5
@@ -802,7 +830,7 @@ Partial Class doctordbs
         Me.Label18.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label18.Location = New System.Drawing.Point(83, 18)
+        Me.Label18.Location = New System.Drawing.Point(83, 23)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(59, 15)
         Me.Label18.TabIndex = 4
@@ -815,7 +843,7 @@ Partial Class doctordbs
         Me.Guna2CirclePictureBox9.FillColor = System.Drawing.Color.Black
         Me.Guna2CirclePictureBox9.Image = Global.PatientRecordSystem.My.Resources.Resources.zxcvzvcxzv
         Me.Guna2CirclePictureBox9.ImageRotate = 0!
-        Me.Guna2CirclePictureBox9.Location = New System.Drawing.Point(10, 10)
+        Me.Guna2CirclePictureBox9.Location = New System.Drawing.Point(10, 15)
         Me.Guna2CirclePictureBox9.Name = "Guna2CirclePictureBox9"
         Me.Guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox9.Size = New System.Drawing.Size(56, 55)
@@ -826,7 +854,9 @@ Partial Class doctordbs
         '
         'Guna2Panel15
         '
-        Me.Guna2Panel15.BackColor = System.Drawing.Color.White
+        Me.Guna2Panel15.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel15.BorderRadius = 10
+        Me.Guna2Panel15.BorderThickness = 1
         Me.Guna2Panel15.Controls.Add(Me.Guna2Button4)
         Me.Guna2Panel15.Controls.Add(Me.Guna2Panel21)
         Me.Guna2Panel15.Controls.Add(Me.Label29)
@@ -837,9 +867,12 @@ Partial Class doctordbs
         Me.Guna2Panel15.Controls.Add(Me.Label17)
         Me.Guna2Panel15.Controls.Add(Me.Guna2CirclePictureBox8)
         Me.Guna2Panel15.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel15.Location = New System.Drawing.Point(3, 151)
+        Me.Guna2Panel15.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel15.Location = New System.Drawing.Point(3, 150)
+        Me.Guna2Panel15.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.Guna2Panel15.Name = "Guna2Panel15"
-        Me.Guna2Panel15.Size = New System.Drawing.Size(564, 68)
+        Me.Guna2Panel15.Padding = New System.Windows.Forms.Padding(0, 0, 50, 0)
+        Me.Guna2Panel15.Size = New System.Drawing.Size(570, 75)
         Me.Guna2Panel15.TabIndex = 2
         '
         'Guna2Button4
@@ -855,9 +888,9 @@ Partial Class doctordbs
         Me.Guna2Button4.FillColor = System.Drawing.Color.RoyalBlue
         Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Location = New System.Drawing.Point(504, 16)
+        Me.Guna2Button4.Location = New System.Drawing.Point(460, 19)
         Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(57, 35)
+        Me.Guna2Button4.Size = New System.Drawing.Size(71, 35)
         Me.Guna2Button4.TabIndex = 10
         Me.Guna2Button4.Text = "View"
         '
@@ -869,7 +902,7 @@ Partial Class doctordbs
         Me.Guna2Panel21.BorderThickness = 1
         Me.Guna2Panel21.Controls.Add(Me.Label33)
         Me.Guna2Panel21.FillColor = System.Drawing.Color.LimeGreen
-        Me.Guna2Panel21.Location = New System.Drawing.Point(398, 23)
+        Me.Guna2Panel21.Location = New System.Drawing.Point(376, 26)
         Me.Guna2Panel21.Name = "Guna2Panel21"
         Me.Guna2Panel21.Size = New System.Drawing.Size(97, 30)
         Me.Guna2Panel21.TabIndex = 8
@@ -879,7 +912,8 @@ Partial Class doctordbs
         Me.Label33.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(9, 6)
+        Me.Label33.ForeColor = System.Drawing.Color.Lime
+        Me.Label33.Location = New System.Drawing.Point(9, 8)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(78, 13)
         Me.Label33.TabIndex = 7
@@ -891,7 +925,7 @@ Partial Class doctordbs
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label29.ForeColor = System.Drawing.Color.Gray
-        Me.Label29.Location = New System.Drawing.Point(289, 40)
+        Me.Label29.Location = New System.Drawing.Point(289, 43)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(62, 13)
         Me.Label29.TabIndex = 7
@@ -905,7 +939,7 @@ Partial Class doctordbs
         Me.Guna2Shapes3.FillColor = System.Drawing.Color.Gray
         Me.Guna2Shapes3.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes3.LineThickness = 2
-        Me.Guna2Shapes3.Location = New System.Drawing.Point(220, 24)
+        Me.Guna2Shapes3.Location = New System.Drawing.Point(220, 27)
         Me.Guna2Shapes3.Name = "Guna2Shapes3"
         Me.Guna2Shapes3.PolygonSkip = 1
         Me.Guna2Shapes3.Rotate = 0!
@@ -921,7 +955,7 @@ Partial Class doctordbs
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label21.ForeColor = System.Drawing.Color.Gray
-        Me.Label21.Location = New System.Drawing.Point(289, 20)
+        Me.Label21.Location = New System.Drawing.Point(289, 23)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(83, 13)
         Me.Label21.TabIndex = 5
@@ -932,7 +966,7 @@ Partial Class doctordbs
         Me.Guna2PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.dsafgfdgafdgafdgadf
         Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(259, 29)
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(259, 32)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
         Me.Guna2PictureBox4.Size = New System.Drawing.Size(20, 20)
         Me.Guna2PictureBox4.TabIndex = 5
@@ -944,7 +978,7 @@ Partial Class doctordbs
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(82, 46)
+        Me.Label3.Location = New System.Drawing.Point(82, 49)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(97, 13)
         Me.Label3.TabIndex = 4
@@ -955,7 +989,7 @@ Partial Class doctordbs
         Me.Label17.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label17.Location = New System.Drawing.Point(82, 19)
+        Me.Label17.Location = New System.Drawing.Point(82, 22)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(87, 15)
         Me.Label17.TabIndex = 3
@@ -968,7 +1002,7 @@ Partial Class doctordbs
         Me.Guna2CirclePictureBox8.FillColor = System.Drawing.Color.Black
         Me.Guna2CirclePictureBox8.Image = Global.PatientRecordSystem.My.Resources.Resources.asdasdasdasdaszxvgfsh
         Me.Guna2CirclePictureBox8.ImageRotate = 0!
-        Me.Guna2CirclePictureBox8.Location = New System.Drawing.Point(10, 7)
+        Me.Guna2CirclePictureBox8.Location = New System.Drawing.Point(10, 10)
         Me.Guna2CirclePictureBox8.Name = "Guna2CirclePictureBox8"
         Me.Guna2CirclePictureBox8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox8.Size = New System.Drawing.Size(56, 54)
@@ -987,14 +1021,16 @@ Partial Class doctordbs
         Me.Guna2Panel14.Controls.Add(Me.Label13)
         Me.Guna2Panel14.Controls.Add(Me.Guna2CirclePictureBox6)
         Me.Guna2Panel14.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel14.Location = New System.Drawing.Point(3, 77)
+        Me.Guna2Panel14.Location = New System.Drawing.Point(3, 78)
         Me.Guna2Panel14.Name = "Guna2Panel14"
-        Me.Guna2Panel14.Size = New System.Drawing.Size(564, 68)
+        Me.Guna2Panel14.Size = New System.Drawing.Size(570, 69)
         Me.Guna2Panel14.TabIndex = 1
         '
         'Guna2Panel17
         '
-        Me.Guna2Panel17.BackColor = System.Drawing.Color.White
+        Me.Guna2Panel17.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel17.BorderRadius = 10
+        Me.Guna2Panel17.BorderThickness = 1
         Me.Guna2Panel17.Controls.Add(Me.Guna2Button3)
         Me.Guna2Panel17.Controls.Add(Me.Guna2Panel20)
         Me.Guna2Panel17.Controls.Add(Me.Label28)
@@ -1005,9 +1041,12 @@ Partial Class doctordbs
         Me.Guna2Panel17.Controls.Add(Me.Label27)
         Me.Guna2Panel17.Controls.Add(Me.Guna2CirclePictureBox10)
         Me.Guna2Panel17.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel17.FillColor = System.Drawing.Color.White
         Me.Guna2Panel17.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel17.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.Guna2Panel17.Name = "Guna2Panel17"
-        Me.Guna2Panel17.Size = New System.Drawing.Size(564, 68)
+        Me.Guna2Panel17.Padding = New System.Windows.Forms.Padding(0, 0, 50, 0)
+        Me.Guna2Panel17.Size = New System.Drawing.Size(570, 69)
         Me.Guna2Panel17.TabIndex = 7
         '
         'Guna2Button3
@@ -1023,9 +1062,9 @@ Partial Class doctordbs
         Me.Guna2Button3.FillColor = System.Drawing.Color.RoyalBlue
         Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.Location = New System.Drawing.Point(504, 20)
+        Me.Guna2Button3.Location = New System.Drawing.Point(460, 20)
         Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(57, 35)
+        Me.Guna2Button3.Size = New System.Drawing.Size(71, 35)
         Me.Guna2Button3.TabIndex = 9
         Me.Guna2Button3.Text = "View"
         '
@@ -1037,7 +1076,7 @@ Partial Class doctordbs
         Me.Guna2Panel20.BorderThickness = 1
         Me.Guna2Panel20.Controls.Add(Me.Label32)
         Me.Guna2Panel20.FillColor = System.Drawing.Color.DodgerBlue
-        Me.Guna2Panel20.Location = New System.Drawing.Point(398, 22)
+        Me.Guna2Panel20.Location = New System.Drawing.Point(376, 22)
         Me.Guna2Panel20.Name = "Guna2Panel20"
         Me.Guna2Panel20.Size = New System.Drawing.Size(97, 30)
         Me.Guna2Panel20.TabIndex = 8
@@ -1047,7 +1086,8 @@ Partial Class doctordbs
         Me.Label32.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(10, 10)
+        Me.Label32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label32.Location = New System.Drawing.Point(10, 8)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(66, 13)
         Me.Label32.TabIndex = 7
@@ -1219,7 +1259,9 @@ Partial Class doctordbs
         '
         'Guna2Panel13
         '
-        Me.Guna2Panel13.BackColor = System.Drawing.Color.White
+        Me.Guna2Panel13.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel13.BorderRadius = 10
+        Me.Guna2Panel13.BorderThickness = 1
         Me.Guna2Panel13.Controls.Add(Me.Guna2Button2)
         Me.Guna2Panel13.Controls.Add(Me.Guna2Panel19)
         Me.Guna2Panel13.Controls.Add(Me.Label24)
@@ -1229,10 +1271,15 @@ Partial Class doctordbs
         Me.Guna2Panel13.Controls.Add(Me.Label7)
         Me.Guna2Panel13.Controls.Add(Me.Label4)
         Me.Guna2Panel13.Controls.Add(Me.Guna2CirclePictureBox5)
+        Me.Guna2Panel13.CustomizableEdges.TopLeft = False
+        Me.Guna2Panel13.CustomizableEdges.TopRight = False
         Me.Guna2Panel13.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel13.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel13.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel13.Location = New System.Drawing.Point(3, 0)
+        Me.Guna2Panel13.Margin = New System.Windows.Forms.Padding(3, 0, 3, 0)
         Me.Guna2Panel13.Name = "Guna2Panel13"
-        Me.Guna2Panel13.Size = New System.Drawing.Size(564, 68)
+        Me.Guna2Panel13.Padding = New System.Windows.Forms.Padding(0, 0, 50, 0)
+        Me.Guna2Panel13.Size = New System.Drawing.Size(570, 75)
         Me.Guna2Panel13.TabIndex = 0
         '
         'Guna2Button2
@@ -1248,9 +1295,9 @@ Partial Class doctordbs
         Me.Guna2Button2.FillColor = System.Drawing.Color.RoyalBlue
         Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(504, 18)
+        Me.Guna2Button2.Location = New System.Drawing.Point(460, 21)
         Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(57, 35)
+        Me.Guna2Button2.Size = New System.Drawing.Size(71, 35)
         Me.Guna2Button2.TabIndex = 8
         Me.Guna2Button2.Text = "View"
         '
@@ -1262,7 +1309,7 @@ Partial Class doctordbs
         Me.Guna2Panel19.BorderThickness = 1
         Me.Guna2Panel19.Controls.Add(Me.Label31)
         Me.Guna2Panel19.FillColor = System.Drawing.Color.LimeGreen
-        Me.Guna2Panel19.Location = New System.Drawing.Point(398, 23)
+        Me.Guna2Panel19.Location = New System.Drawing.Point(376, 26)
         Me.Guna2Panel19.Name = "Guna2Panel19"
         Me.Guna2Panel19.Size = New System.Drawing.Size(97, 30)
         Me.Guna2Panel19.TabIndex = 7
@@ -1272,6 +1319,7 @@ Partial Class doctordbs
         Me.Label31.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Label31.Location = New System.Drawing.Point(9, 8)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(78, 13)
@@ -1284,7 +1332,7 @@ Partial Class doctordbs
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Gray
-        Me.Label24.Location = New System.Drawing.Point(292, 38)
+        Me.Label24.Location = New System.Drawing.Point(292, 41)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(62, 13)
         Me.Label24.TabIndex = 6
@@ -1298,7 +1346,7 @@ Partial Class doctordbs
         Me.Guna2Shapes1.FillColor = System.Drawing.Color.Gray
         Me.Guna2Shapes1.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes1.LineThickness = 2
-        Me.Guna2Shapes1.Location = New System.Drawing.Point(220, 23)
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(220, 26)
         Me.Guna2Shapes1.Name = "Guna2Shapes1"
         Me.Guna2Shapes1.PolygonSkip = 1
         Me.Guna2Shapes1.Rotate = 0!
@@ -1314,7 +1362,7 @@ Partial Class doctordbs
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Gray
-        Me.Label20.Location = New System.Drawing.Point(290, 18)
+        Me.Label20.Location = New System.Drawing.Point(290, 21)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(83, 13)
         Me.Label20.TabIndex = 4
@@ -1325,7 +1373,7 @@ Partial Class doctordbs
         Me.Guna2PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.dsafgfdgafdgafdgadf
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(259, 27)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(259, 30)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
         Me.Guna2PictureBox1.Size = New System.Drawing.Size(20, 20)
         Me.Guna2PictureBox1.TabIndex = 3
@@ -1337,7 +1385,7 @@ Partial Class doctordbs
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Gray
-        Me.Label7.Location = New System.Drawing.Point(85, 45)
+        Me.Label7.Location = New System.Drawing.Point(85, 48)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(97, 13)
         Me.Label7.TabIndex = 2
@@ -1348,7 +1396,7 @@ Partial Class doctordbs
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(82, 22)
+        Me.Label4.Location = New System.Drawing.Point(82, 25)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(115, 15)
         Me.Label4.TabIndex = 1
@@ -1361,7 +1409,7 @@ Partial Class doctordbs
         Me.Guna2CirclePictureBox5.FillColor = System.Drawing.Color.Black
         Me.Guna2CirclePictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.asdasdasdasjbvcj
         Me.Guna2CirclePictureBox5.ImageRotate = 0!
-        Me.Guna2CirclePictureBox5.Location = New System.Drawing.Point(10, 11)
+        Me.Guna2CirclePictureBox5.Location = New System.Drawing.Point(10, 14)
         Me.Guna2CirclePictureBox5.Name = "Guna2CirclePictureBox5"
         Me.Guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox5.Size = New System.Drawing.Size(56, 56)
@@ -1372,16 +1420,22 @@ Partial Class doctordbs
         '
         'Guna2Panel12
         '
-        Me.Guna2Panel12.BackColor = System.Drawing.Color.White
+        Me.Guna2Panel12.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel12.BorderRadius = 10
+        Me.Guna2Panel12.BorderThickness = 1
         Me.Guna2Panel12.Controls.Add(Me.Guna2Panel18)
         Me.Guna2Panel12.Controls.Add(Me.Guna2Button1)
         Me.Guna2Panel12.Controls.Add(Me.Label15)
         Me.Guna2Panel12.Controls.Add(Me.Label14)
         Me.Guna2Panel12.Controls.Add(Me.Guna2CirclePictureBox3)
+        Me.Guna2Panel12.CustomizableEdges.BottomLeft = False
+        Me.Guna2Panel12.CustomizableEdges.BottomRight = False
         Me.Guna2Panel12.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel12.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel12.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel12.Location = New System.Drawing.Point(5, 0)
+        Me.Guna2Panel12.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Guna2Panel12.Name = "Guna2Panel12"
-        Me.Guna2Panel12.Size = New System.Drawing.Size(570, 56)
+        Me.Guna2Panel12.Size = New System.Drawing.Size(572, 62)
         Me.Guna2Panel12.TabIndex = 1
         '
         'Guna2Panel18
@@ -1394,7 +1448,9 @@ Partial Class doctordbs
         'Guna2Button1
         '
         Me.Guna2Button1.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Guna2Button1.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Guna2Button1.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.BorderRadius = 10
+        Me.Guna2Button1.BorderThickness = 1
         Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -1402,7 +1458,7 @@ Partial Class doctordbs
         Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.Black
-        Me.Guna2Button1.Location = New System.Drawing.Point(495, 11)
+        Me.Guna2Button1.Location = New System.Drawing.Point(461, 17)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.Size = New System.Drawing.Size(71, 36)
         Me.Guna2Button1.TabIndex = 5
@@ -1414,7 +1470,7 @@ Partial Class doctordbs
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
         Me.Label15.ForeColor = System.Drawing.Color.Gray
-        Me.Label15.Location = New System.Drawing.Point(74, 34)
+        Me.Label15.Location = New System.Drawing.Point(87, 36)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(182, 13)
         Me.Label15.TabIndex = 4
@@ -1426,7 +1482,7 @@ Partial Class doctordbs
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label14.ForeColor = System.Drawing.Color.Black
-        Me.Label14.Location = New System.Drawing.Point(75, 11)
+        Me.Label14.Location = New System.Drawing.Point(88, 13)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(138, 20)
         Me.Label14.TabIndex = 3
@@ -1438,7 +1494,7 @@ Partial Class doctordbs
         Me.Guna2CirclePictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2CirclePictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.asdasdasd
         Me.Guna2CirclePictureBox3.ImageRotate = 0!
-        Me.Guna2CirclePictureBox3.Location = New System.Drawing.Point(3, 1)
+        Me.Guna2CirclePictureBox3.Location = New System.Drawing.Point(16, 3)
         Me.Guna2CirclePictureBox3.Name = "Guna2CirclePictureBox3"
         Me.Guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.Guna2CirclePictureBox3.Size = New System.Drawing.Size(65, 50)
@@ -1453,12 +1509,13 @@ Partial Class doctordbs
         Me.TableLayoutPanel3.Controls.Add(Me.Guna2Panel9, 0, 1)
         Me.TableLayoutPanel3.Controls.Add(Me.Guna2Panel8, 0, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(591, 3)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(588, 3)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(0, 3, 3, 3)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(427, 362)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(430, 362)
         Me.TableLayoutPanel3.TabIndex = 1
         '
         'Guna2Panel9
@@ -1467,17 +1524,28 @@ Partial Class doctordbs
         Me.Guna2Panel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel9.Location = New System.Drawing.Point(3, 184)
         Me.Guna2Panel9.Name = "Guna2Panel9"
-        Me.Guna2Panel9.Size = New System.Drawing.Size(421, 175)
+        Me.Guna2Panel9.Size = New System.Drawing.Size(424, 175)
         Me.Guna2Panel9.TabIndex = 2
         '
         'Guna2Panel8
         '
         Me.Guna2Panel8.Controls.Add(Me.GunaChart1)
         Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel8.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel8.Location = New System.Drawing.Point(3, 0)
+        Me.Guna2Panel8.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Size = New System.Drawing.Size(421, 175)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(424, 178)
         Me.Guna2Panel8.TabIndex = 1
+        '
+        'Guna2Elipse1
+        '
+        Me.Guna2Elipse1.BorderRadius = 10
+        Me.Guna2Elipse1.TargetControl = Me.GunaChart1
+        '
+        'Guna2Elipse2
+        '
+        Me.Guna2Elipse2.BorderRadius = 10
+        Me.Guna2Elipse2.TargetControl = Me.GunaChart2
         '
         'doctordbs
         '
@@ -1647,4 +1715,6 @@ Partial Class doctordbs
     Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2Elipse2 As Guna.UI2.WinForms.Guna2Elipse
 End Class

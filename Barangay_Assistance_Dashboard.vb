@@ -7,7 +7,7 @@
 
 
 
-        With Guna2DataGridView1.Rows
+        With Guna2DataGridView2.Rows
             .Add("09:00am", "Karl", "General Checkup", "Confirmed")
             .Add("09:30am", "Romero", "Prenatal", "Confirmed")
             .Add("10:15am", "Kian", "Immunization", "Pending")

@@ -360,6 +360,7 @@ Partial Class DoctorFrm
         Me.Controls.Add(Me.Panel1)
         Me.Name = "DoctorFrm"
         Me.Text = "DoctorFrm"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Guna2ShadowPanel2.ResumeLayout(False)
         Me.Guna2ShadowPanel2.PerformLayout()

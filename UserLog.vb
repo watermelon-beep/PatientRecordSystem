@@ -45,7 +45,7 @@ Public Class UserLog
                 usrnlogtxbx.Clear()
                 passlogtxbx.Clear()
 
-                BarangayAssistant.Show()
+                BarangayAssistanceFrm.Show()
 
                 LogForm.Hide()
                 Me.Hide()
