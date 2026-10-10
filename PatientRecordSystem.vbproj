@@ -309,6 +309,24 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\zxcxzczxcd1.png" />
+    <None Include="Resources\zxcxzczxcd.png" />
+    <None Include="Resources\zxcvzvcxzv.png" />
+    <None Include="Resources\zvzxcvzxcvzxc.png" />
+    <None Include="Resources\zvzcx1.png" />
+    <None Include="Resources\zvzcx.png" />
+    <None Include="Resources\zx.png" />
+    <None Include="Resources\sadxczxczxczxasdxzc1.png" />
+    <None Include="Resources\sadxczxczxczxasdxzc.png" />
+    <None Include="Resources\sadsdasdas1.png" />
+    <None Include="Resources\sadsdasdas.png" />
+    <None Include="Resources\fdsafdafa.png" />
+    <None Include="Resources\sadasdsad.png" />
+    <None Include="Resources\list-todo1.png" />
+    <None Include="Resources\user-round-group2.png" />
+    <None Include="Resources\user-round-group1.png" />
+    <None Include="Resources\sadasdasd.png" />
+    <None Include="Resources\slndj%3bwqneokqwnekqw.png" />
     <None Include="Resources\list-todo %282%29.png" />
     <None Include="Resources\list-todo %281%29.png" />
     <None Include="Resources\list-todo.png" />
@@ -358,6 +376,21 @@
     <None Include="Resources\arrow-up.png" />
     <None Include="Resources\arrow-down.png" />
     <None Include="Resources\circle-user-round %282%29.png" />
+    <None Include="Resources\123123213.png" />
+    <None Include="Resources\asjndjasdnjs.png" />
+    <None Include="Resources\clipboard-minus1.png" />
+    <None Include="Resources\clipboard-minus2.png" />
+    <None Include="Resources\clipboard-clock1.png" />
+    <None Include="Resources\clipboard-minus %281%291.png" />
+    <None Include="Resources\dasd.png" />
+    <None Include="Resources\asdasdasd.png" />
+    <None Include="Resources\asdasdasdasdasdasdas.png" />
+    <None Include="Resources\asdasdasdasdgrttmo.png" />
+    <None Include="Resources\asdasdasdasde.png" />
+    <None Include="Resources\dsadsadad.png" />
+    <None Include="Resources\asdasdasdasjbvcj.png" />
+    <None Include="Resources\asdasdasdasdaszxvgfsh.png" />
+    <None Include="Resources\dsafgfdgafdgafdgadf.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />

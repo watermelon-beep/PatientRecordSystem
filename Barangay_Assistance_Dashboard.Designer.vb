@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Barangay_Assistance_Dashboard
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Barangay_Assistance_Dashboard
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -85,27 +85,33 @@ Partial Class Barangay_Assistance_Dashboard
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel12 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox8 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel11 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox7 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2CirclePictureBox9 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Me.Guna2CirclePictureBox6 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2CirclePictureBox4 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2CirclePictureBox2 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2ColorTransition1 = New Guna.UI2.WinForms.Guna2ColorTransition(Me.components)
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2CustomGradientPanel1.SuspendLayout()
         Me.Guna2CustomGradientPanel3.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
@@ -134,10 +140,7 @@ Partial Class Barangay_Assistance_Dashboard
         CType(Me.Guna2CirclePictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel6.SuspendLayout()
         Me.Guna2Panel9.SuspendLayout()
-        Me.Guna2Panel10.SuspendLayout()
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2CirclePictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2CirclePictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel2.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -154,6 +157,7 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2CustomGradientPanel1.Controls.Add(Me.Guna2CustomGradientPanel2)
         Me.Guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2CustomGradientPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2CustomGradientPanel1.Margin = New System.Windows.Forms.Padding(3, 6, 3, 3)
         Me.Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Me.Guna2CustomGradientPanel1.Size = New System.Drawing.Size(1032, 586)
         Me.Guna2CustomGradientPanel1.TabIndex = 0
@@ -237,7 +241,8 @@ Partial Class Barangay_Assistance_Dashboard
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Guna2DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.Guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Guna2DataGridView3.ColumnHeadersHeight = 4
+        Me.Guna2DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.Guna2DataGridView3.ColumnHeadersVisible = False
         Me.Guna2DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column5, Me.Column6, Me.Column7})
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -257,7 +262,6 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2DataGridView3.TabIndex = 1
         Me.Guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 4
         Me.Guna2DataGridView3.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         '
@@ -463,18 +467,18 @@ Partial Class Barangay_Assistance_Dashboard
         DataGridViewCellStyle7.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
         DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.MediumSeaGreen
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
         DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
-        Me.Guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Guna2DataGridView1.ColumnHeadersHeight = 30
         Me.Guna2DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
         DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
         DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
@@ -485,12 +489,16 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2DataGridView1.Location = New System.Drawing.Point(0, 0)
         Me.Guna2DataGridView1.Name = "Guna2DataGridView1"
         Me.Guna2DataGridView1.RowHeadersVisible = False
+        Me.Guna2DataGridView1.RowTemplate.Height = 40
         Me.Guna2DataGridView1.Size = New System.Drawing.Size(507, 219)
         Me.Guna2DataGridView1.TabIndex = 0
         Me.Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.MediumSeaGreen
+        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        Me.Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 30
+        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 40
         '
         'Column1
         '
@@ -534,7 +542,9 @@ Partial Class Barangay_Assistance_Dashboard
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Panel2, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 6, 3, 3)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
+        Me.TableLayoutPanel2.Padding = New System.Windows.Forms.Padding(0, 6, 0, 0)
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(1032, 200)
@@ -545,24 +555,50 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel8.Controls.Add(Me.Guna2Panel12)
         Me.Guna2Panel8.Controls.Add(Me.Guna2CirclePictureBox8)
         Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel8.Location = New System.Drawing.Point(777, 3)
+        Me.Guna2Panel8.Location = New System.Drawing.Point(777, 9)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel8.TabIndex = 7
         '
         'Guna2Panel12
         '
-        Me.Guna2Panel12.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Panel12.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel12.BorderRadius = 10
+        Me.Guna2Panel12.BorderThickness = 1
+        Me.Guna2Panel12.Controls.Add(Me.Label8)
+        Me.Guna2Panel12.Controls.Add(Me.Label9)
         Me.Guna2Panel12.Controls.Add(Me.Guna2PictureBox2)
         Me.Guna2Panel12.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel12.FillColor = System.Drawing.Color.White
         Me.Guna2Panel12.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel12.Name = "Guna2Panel12"
-        Me.Guna2Panel12.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel12.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel12.TabIndex = 6
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(13, 116)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(49, 33)
+        Me.Label8.TabIndex = 4
+        Me.Label8.Text = "18"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Gray
+        Me.Label9.Location = New System.Drawing.Point(15, 81)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(57, 15)
+        Me.Label9.TabIndex = 3
+        Me.Label9.Text = "Reports"
         '
         'Guna2PictureBox2
         '
-        Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_minus__1_
+        Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_minus__1_1
         Me.Guna2PictureBox2.ImageRotate = 0!
         Me.Guna2PictureBox2.Location = New System.Drawing.Point(18, 14)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
@@ -586,24 +622,50 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel7.Controls.Add(Me.Guna2Panel11)
         Me.Guna2Panel7.Controls.Add(Me.Guna2CirclePictureBox7)
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel7.Location = New System.Drawing.Point(519, 3)
+        Me.Guna2Panel7.Location = New System.Drawing.Point(519, 9)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel7.TabIndex = 6
         '
         'Guna2Panel11
         '
-        Me.Guna2Panel11.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Panel11.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel11.BorderRadius = 10
+        Me.Guna2Panel11.BorderThickness = 1
+        Me.Guna2Panel11.Controls.Add(Me.Label6)
+        Me.Guna2Panel11.Controls.Add(Me.Label7)
         Me.Guna2Panel11.Controls.Add(Me.Guna2PictureBox4)
         Me.Guna2Panel11.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel11.FillColor = System.Drawing.Color.White
         Me.Guna2Panel11.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel11.Name = "Guna2Panel11"
-        Me.Guna2Panel11.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel11.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel11.TabIndex = 6
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(13, 116)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(49, 33)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "18"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Gray
+        Me.Label7.Location = New System.Drawing.Point(15, 81)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(117, 15)
+        Me.Label7.TabIndex = 4
+        Me.Label7.Text = "Pending Request"
         '
         'Guna2PictureBox4
         '
-        Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.list_todo
+        Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.list_todo1
         Me.Guna2PictureBox4.ImageRotate = 0!
         Me.Guna2PictureBox4.Location = New System.Drawing.Point(18, 14)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
@@ -625,73 +687,67 @@ Partial Class Barangay_Assistance_Dashboard
         'Guna2Panel6
         '
         Me.Guna2Panel6.Controls.Add(Me.Guna2Panel9)
-        Me.Guna2Panel6.Controls.Add(Me.Guna2CirclePictureBox6)
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel6.Location = New System.Drawing.Point(261, 3)
+        Me.Guna2Panel6.Location = New System.Drawing.Point(261, 9)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel6.TabIndex = 5
         '
         'Guna2Panel9
         '
-        Me.Guna2Panel9.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Guna2Panel9.Controls.Add(Me.Guna2Panel10)
-        Me.Guna2Panel9.Controls.Add(Me.Guna2CirclePictureBox9)
+        Me.Guna2Panel9.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel9.BorderRadius = 10
+        Me.Guna2Panel9.BorderThickness = 1
+        Me.Guna2Panel9.Controls.Add(Me.Label10)
+        Me.Guna2Panel9.Controls.Add(Me.Label11)
+        Me.Guna2Panel9.Controls.Add(Me.Guna2PictureBox5)
         Me.Guna2Panel9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel9.FillColor = System.Drawing.Color.White
         Me.Guna2Panel9.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel9.Name = "Guna2Panel9"
-        Me.Guna2Panel9.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel9.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel9.TabIndex = 6
         '
-        'Guna2Panel10
+        'Label10
         '
-        Me.Guna2Panel10.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Guna2Panel10.Controls.Add(Me.Guna2PictureBox3)
-        Me.Guna2Panel10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel10.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel10.Name = "Guna2Panel10"
-        Me.Guna2Panel10.Size = New System.Drawing.Size(252, 194)
-        Me.Guna2Panel10.TabIndex = 6
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(12, 125)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(49, 33)
+        Me.Label10.TabIndex = 4
+        Me.Label10.Text = "18"
         '
-        'Guna2PictureBox3
+        'Label11
         '
-        Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_clock__1_
-        Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(18, 14)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(54, 52)
-        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox3.TabIndex = 2
-        Me.Guna2PictureBox3.TabStop = False
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Gray
+        Me.Label11.Location = New System.Drawing.Point(14, 90)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(102, 15)
+        Me.Label11.TabIndex = 3
+        Me.Label11.Text = "Apppointments"
         '
-        'Guna2CirclePictureBox9
+        'Guna2PictureBox5
         '
-        Me.Guna2CirclePictureBox9.ImageRotate = 0!
-        Me.Guna2CirclePictureBox9.Location = New System.Drawing.Point(18, 14)
-        Me.Guna2CirclePictureBox9.Name = "Guna2CirclePictureBox9"
-        Me.Guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox9.Size = New System.Drawing.Size(64, 64)
-        Me.Guna2CirclePictureBox9.TabIndex = 3
-        Me.Guna2CirclePictureBox9.TabStop = False
-        '
-        'Guna2CirclePictureBox6
-        '
-        Me.Guna2CirclePictureBox6.ImageRotate = 0!
-        Me.Guna2CirclePictureBox6.Location = New System.Drawing.Point(18, 14)
-        Me.Guna2CirclePictureBox6.Name = "Guna2CirclePictureBox6"
-        Me.Guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox6.Size = New System.Drawing.Size(64, 64)
-        Me.Guna2CirclePictureBox6.TabIndex = 3
-        Me.Guna2CirclePictureBox6.TabStop = False
+        Me.Guna2PictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.clipboard_clock1
+        Me.Guna2PictureBox5.ImageRotate = 0!
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(18, 14)
+        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(54, 52)
+        Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox5.TabIndex = 2
+        Me.Guna2PictureBox5.TabStop = False
         '
         'Guna2Panel2
         '
         Me.Guna2Panel2.Controls.Add(Me.Guna2Panel3)
         Me.Guna2Panel2.Controls.Add(Me.Guna2CirclePictureBox2)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 9)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel2.TabIndex = 0
         '
         'Guna2Panel3
@@ -701,7 +757,7 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel3.TabIndex = 4
         '
         'Guna2Panel4
@@ -711,22 +767,49 @@ Partial Class Barangay_Assistance_Dashboard
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel4.TabIndex = 4
         '
         'Guna2Panel5
         '
-        Me.Guna2Panel5.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.BorderRadius = 10
+        Me.Guna2Panel5.BorderThickness = 1
+        Me.Guna2Panel5.Controls.Add(Me.Label3)
+        Me.Guna2Panel5.Controls.Add(Me.Label2)
         Me.Guna2Panel5.Controls.Add(Me.Guna2PictureBox1)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel5.FillColor = System.Drawing.Color.White
         Me.Guna2Panel5.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(252, 194)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(252, 188)
         Me.Guna2Panel5.TabIndex = 5
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(13, 116)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(49, 33)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "18"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Gray
+        Me.Label2.Location = New System.Drawing.Point(15, 81)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(101, 15)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Todays Patient"
         '
         'Guna2PictureBox1
         '
-        Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.user_round_group__1_1
+        Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.user_round_group1
         Me.Guna2PictureBox1.ImageRotate = 0!
         Me.Guna2PictureBox1.Location = New System.Drawing.Point(18, 14)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
@@ -769,6 +852,11 @@ Partial Class Barangay_Assistance_Dashboard
         '
         Me.Guna2ColorTransition1.ColorArray = New System.Drawing.Color() {System.Drawing.Color.Red, System.Drawing.Color.Blue, System.Drawing.Color.Orange}
         '
+        'Guna2Elipse1
+        '
+        Me.Guna2Elipse1.BorderRadius = 10
+        Me.Guna2Elipse1.TargetControl = Me.GunaChart1
+        '
         'Barangay_Assistance_Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -797,22 +885,23 @@ Partial Class Barangay_Assistance_Dashboard
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.Guna2Panel8.ResumeLayout(False)
         Me.Guna2Panel12.ResumeLayout(False)
+        Me.Guna2Panel12.PerformLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel7.ResumeLayout(False)
         Me.Guna2Panel11.ResumeLayout(False)
+        Me.Guna2Panel11.PerformLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel6.ResumeLayout(False)
         Me.Guna2Panel9.ResumeLayout(False)
-        Me.Guna2Panel10.ResumeLayout(False)
-        CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2CirclePictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2CirclePictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel9.PerformLayout()
+        CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel5.ResumeLayout(False)
+        Me.Guna2Panel5.PerformLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2CirclePictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -832,12 +921,6 @@ Partial Class Barangay_Assistance_Dashboard
     Friend WithEvents Guna2Panel11 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2PictureBox4 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2CirclePictureBox7 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel9 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel10 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2PictureBox3 As Guna.UI2.WinForms.Guna2PictureBox
-    Friend WithEvents Guna2CirclePictureBox9 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents Guna2CirclePictureBox6 As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
@@ -873,4 +956,16 @@ Partial Class Barangay_Assistance_Dashboard
     Friend WithEvents Guna2Panel19 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel9 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Guna2PictureBox5 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
 End Class
