@@ -22,6 +22,7 @@ Partial Class DoctorFrm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DoctorFrm))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
@@ -38,11 +39,12 @@ Partial Class DoctorFrm
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.patientRecbtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.dashbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         Me.Guna2ShadowPanel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -65,6 +67,9 @@ Partial Class DoctorFrm
         '
         'Guna2Panel3
         '
+        Me.Guna2Panel3.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Guna2Panel3.CustomizableEdges.BottomRight = False
+        Me.Guna2Panel3.CustomizableEdges.TopRight = False
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel3.Location = New System.Drawing.Point(232, 95)
         Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
@@ -112,67 +117,69 @@ Partial Class DoctorFrm
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label2.Font = New System.Drawing.Font("Mongolian Baiti", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(835, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(116, 20)
+        Me.Label2.Size = New System.Drawing.Size(60, 14)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Administrator"
+        Me.Label2.Text = "Position"
         '
         'Label1
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(835, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 20)
+        Me.Label1.Size = New System.Drawing.Size(63, 24)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Cici"
+        Me.Label1.Text = "Name"
         '
         'Label7
         '
+        Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(405, 38)
+        Me.Label7.Location = New System.Drawing.Point(518, 33)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(40, 16)
+        Me.Label7.Size = New System.Drawing.Size(45, 19)
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "Date"
         '
         'Label5
         '
+        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(405, 57)
+        Me.Label5.Location = New System.Drawing.Point(518, 52)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 16)
+        Me.Label5.Size = New System.Drawing.Size(42, 19)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "Time"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(33, 29)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(129, 20)
+        Me.Label3.Size = New System.Drawing.Size(193, 28)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Welcome, Doc!"
+        Me.Label3.Text = "Welcome, Name!"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(33, 57)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(362, 20)
+        Me.Label4.Size = New System.Drawing.Size(303, 19)
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Here's  what's happening at the clinic today."
         '
@@ -185,6 +192,7 @@ Partial Class DoctorFrm
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel2)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.Size = New System.Drawing.Size(232, 681)
         Me.Guna2Panel1.TabIndex = 0
@@ -196,10 +204,11 @@ Partial Class DoctorFrm
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button3, 0, 3)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 5)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button4, 0, 2)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button2, 0, 1)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button1, 0, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.patientRecbtn, 0, 1)
+        Me.TableLayoutPanel2.Controls.Add(Me.dashbtn, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 152)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(0)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 6
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.522494!))
@@ -226,9 +235,10 @@ Partial Class DoctorFrm
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
         Me.Guna2Button3.Image = Global.PatientRecordSystem.My.Resources.Resources.settings
         Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.Location = New System.Drawing.Point(3, 153)
+        Me.Guna2Button3.Location = New System.Drawing.Point(0, 150)
+        Me.Guna2Button3.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(226, 44)
+        Me.Guna2Button3.Size = New System.Drawing.Size(232, 50)
         Me.Guna2Button3.TabIndex = 19
         Me.Guna2Button3.Text = "Settings"
         Me.Guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -247,9 +257,10 @@ Partial Class DoctorFrm
         Me.Guna2Button8.ForeColor = System.Drawing.Color.White
         Me.Guna2Button8.Image = Global.PatientRecordSystem.My.Resources.Resources.log_out
         Me.Guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button8.Location = New System.Drawing.Point(3, 480)
+        Me.Guna2Button8.Location = New System.Drawing.Point(0, 477)
+        Me.Guna2Button8.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Button8.Name = "Guna2Button8"
-        Me.Guna2Button8.Size = New System.Drawing.Size(226, 46)
+        Me.Guna2Button8.Size = New System.Drawing.Size(232, 52)
         Me.Guna2Button8.TabIndex = 18
         Me.Guna2Button8.Text = "Logout"
         Me.Guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
@@ -268,54 +279,57 @@ Partial Class DoctorFrm
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
         Me.Guna2Button4.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
         Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.Location = New System.Drawing.Point(3, 103)
+        Me.Guna2Button4.Location = New System.Drawing.Point(0, 100)
+        Me.Guna2Button4.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(226, 44)
+        Me.Guna2Button4.Size = New System.Drawing.Size(232, 50)
         Me.Guna2Button4.TabIndex = 12
         Me.Guna2Button4.Text = "Consultation"
         Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'Guna2Button2
+        'patientRecbtn
         '
-        Me.Guna2Button2.Animated = True
-        Me.Guna2Button2.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Image = Global.PatientRecordSystem.My.Resources.Resources.user_pen
-        Me.Guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button2.Location = New System.Drawing.Point(3, 53)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(226, 44)
-        Me.Guna2Button2.TabIndex = 10
-        Me.Guna2Button2.Text = "Patient Records"
-        Me.Guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.patientRecbtn.Animated = True
+        Me.patientRecbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.patientRecbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.patientRecbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.patientRecbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.patientRecbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.patientRecbtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.patientRecbtn.FillColor = System.Drawing.Color.Transparent
+        Me.patientRecbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientRecbtn.ForeColor = System.Drawing.Color.White
+        Me.patientRecbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.user_pen
+        Me.patientRecbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.patientRecbtn.Location = New System.Drawing.Point(0, 50)
+        Me.patientRecbtn.Margin = New System.Windows.Forms.Padding(0)
+        Me.patientRecbtn.Name = "patientRecbtn"
+        Me.patientRecbtn.Size = New System.Drawing.Size(232, 50)
+        Me.patientRecbtn.TabIndex = 10
+        Me.patientRecbtn.Text = "Patient Records"
+        Me.patientRecbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'Guna2Button1
+        'dashbtn
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button1.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Image = Global.PatientRecordSystem.My.Resources.Resources.house
-        Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button1.Location = New System.Drawing.Point(3, 3)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(226, 44)
-        Me.Guna2Button1.TabIndex = 9
-        Me.Guna2Button1.Text = "Dashboard"
-        Me.Guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.dashbtn.Animated = True
+        Me.dashbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.dashbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.dashbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.dashbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.dashbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.dashbtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dashbtn.FillColor = System.Drawing.Color.Transparent
+        Me.dashbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashbtn.ForeColor = System.Drawing.Color.White
+        Me.dashbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.house
+        Me.dashbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.dashbtn.Location = New System.Drawing.Point(0, 0)
+        Me.dashbtn.Margin = New System.Windows.Forms.Padding(0)
+        Me.dashbtn.Name = "dashbtn"
+        Me.dashbtn.Size = New System.Drawing.Size(232, 50)
+        Me.dashbtn.TabIndex = 9
+        Me.dashbtn.Text = "Dashboard"
+        Me.dashbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Panel2
         '
@@ -351,6 +365,9 @@ Partial Class DoctorFrm
         Me.Guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2CirclePictureBox3.TabIndex = 0
         Me.Guna2CirclePictureBox3.TabStop = False
+        '
+        'Timer1
+        '
         '
         'DoctorFrm
         '
@@ -389,9 +406,10 @@ Partial Class DoctorFrm
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents patientRecbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents dashbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label6 As Label
     Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Timer1 As Timer
 End Class

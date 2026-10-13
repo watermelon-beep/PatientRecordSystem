@@ -22,47 +22,46 @@ Public Class UserLog
 
         query = "SELECT Position FROM staff_information WHERE username = @username"
 
-        comm = New SqlClient.SqlCommand(query, conn)
+        Using comm As New SqlClient.SqlCommand(query, conn)
 
-        comm.Parameters.AddWithValue("@username", usrnlogtxbx.Text)
+            comm.Parameters.AddWithValue("@username", usrnlogtxbx.Text)
 
 
-        Dim Position As Object = comm.ExecuteScalar()
+            Dim Position As Object = comm.ExecuteScalar()
 
-        Select Case Position.ToString()
-            Case "Admin"
+            Select Case Position.ToString()
+                Case "Admin"
 
-                usrnlogtxbx.Clear()
-                passlogtxbx.Clear()
+                    usrnlogtxbx.Clear()
+                    passlogtxbx.Clear()
 
-                AdminFrm.Show()
+                    AdminFrm.Show()
 
-                LogForm.Hide()
-                Me.Hide()
+                    LogForm.Hide()
+                    Me.Hide()
 
-            Case "Barangay Assistance"
+                Case "Barangay Assistance"
 
-                usrnlogtxbx.Clear()
-                passlogtxbx.Clear()
+                    usrnlogtxbx.Clear()
+                    passlogtxbx.Clear()
 
-                BarangayAssistanceFrm.Show()
+                    BarangayAssistanceFrm.Show()
 
-                LogForm.Hide()
-                Me.Hide()
-            Case "Doctor"
+                    LogForm.Hide()
+                    Me.Hide()
+                Case "Doctor"
 
-                usrnlogtxbx.Clear()
-                passlogtxbx.Clear()
+                    usrnlogtxbx.Clear()
+                    passlogtxbx.Clear()
 
-                DoctorFrm.Show()
+                    DoctorFrm.Show()
 
-                LogForm.Hide()
-                Me.Hide()
-            Case Else
-                MsgBox("Invalid user position: " & Position.ToString())
-        End Select
-
-        comm.Dispose()
+                    LogForm.Hide()
+                    Me.Hide()
+                Case Else
+                    MsgBox("Invalid user position: " & Position.ToString())
+            End Select
+        End Using
 
     End Sub
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
@@ -143,6 +142,4 @@ Public Class UserLog
         dbConnection()
 
     End Sub
-
-
 End Class

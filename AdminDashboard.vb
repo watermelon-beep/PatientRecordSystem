@@ -41,6 +41,4 @@ Public Class AdminDashboard
             .Add("Daniel Mendoza registered a new patient")
         End With
     End Sub
-
-
 End Class

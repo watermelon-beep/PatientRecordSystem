@@ -75,6 +75,7 @@ Partial Class AdminFrm
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel3.Location = New System.Drawing.Point(232, 95)
         Me.Guna2Panel3.Name = "Guna2Panel3"
+        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(5)
         Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 586)
         Me.Guna2Panel3.TabIndex = 4
         '
@@ -122,9 +123,9 @@ Partial Class AdminFrm
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(806, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(95, 14)
+        Me.Label2.Size = New System.Drawing.Size(60, 14)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Administrator"
+        Me.Label2.Text = "Position"
         '
         'Label1
         '
@@ -134,9 +135,9 @@ Partial Class AdminFrm
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(806, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 24)
+        Me.Label1.Size = New System.Drawing.Size(63, 24)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Cici"
+        Me.Label1.Text = "Name"
         '
         'Label7
         '
@@ -165,11 +166,11 @@ Partial Class AdminFrm
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("MV Boli", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(33, 29)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(189, 28)
+        Me.Label3.Size = New System.Drawing.Size(193, 28)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Welcome, Name!"
         '

@@ -22,6 +22,7 @@ Partial Class BarangayAssistanceFrm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BarangayAssistanceFrm))
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
@@ -45,6 +46,7 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         Me.Guna2ShadowPanel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -118,9 +120,9 @@ Partial Class BarangayAssistanceFrm
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(835, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(138, 14)
+        Me.Label2.Size = New System.Drawing.Size(60, 14)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Barangay Assistance"
+        Me.Label2.Text = "Position"
         '
         'Label1
         '
@@ -130,16 +132,17 @@ Partial Class BarangayAssistanceFrm
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(835, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 24)
+        Me.Label1.Size = New System.Drawing.Size(63, 24)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Cici"
+        Me.Label1.Text = "Name"
         '
         'Label7
         '
+        Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(405, 38)
+        Me.Label7.Location = New System.Drawing.Point(514, 32)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(45, 19)
         Me.Label7.TabIndex = 4
@@ -147,10 +150,11 @@ Partial Class BarangayAssistanceFrm
         '
         'Label5
         '
+        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(405, 57)
+        Me.Label5.Location = New System.Drawing.Point(514, 51)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(42, 19)
         Me.Label5.TabIndex = 2
@@ -159,13 +163,13 @@ Partial Class BarangayAssistanceFrm
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("MV Boli", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(33, 29)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(152, 28)
+        Me.Label3.Size = New System.Drawing.Size(193, 28)
         Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Welcome,Karl"
+        Me.Label3.Text = "Welcome, Name!"
         '
         'Label4
         '
@@ -385,6 +389,9 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2CirclePictureBox3.TabIndex = 0
         Me.Guna2CirclePictureBox3.TabStop = False
         '
+        'Timer1
+        '
+        '
         'BarangayAssistanceFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -430,4 +437,5 @@ Partial Class BarangayAssistanceFrm
     Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Timer1 As Timer
 End Class

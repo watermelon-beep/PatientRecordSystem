@@ -6,7 +6,7 @@ Public Class AdminFrm
     Private adminDashboard As New AdminDashboard
 
     Private Sub ProfileAdmin()
-        Dim userlog As New UserLog
+
         Dim query As String = "SELECT first_Name, Position FROM staff_information WHERE username = @username"
 
         Using comm As New SqlCommand(query, conn)
@@ -45,16 +45,9 @@ Public Class AdminFrm
         Application.Exit()
     End Sub
 
-    Private Sub AdminFrm_Resize(sender As Object, e As EventArgs) Handles Me.Resize
-        Dim lastState As FormWindowState = FormWindowState.Maximized
-        If WindowState <> lastState Then
-            lastState = Me.WindowState
-            If WindowState = FormWindowState.Maximized Then
-                adminDashboard.Label21.Font = New Font(adminDashboard.Label21.Font.FontFamily, 16)
-            ElseIf WindowState = FormWindowState.Normal Then
-                adminDashboard.Label21.Font = New Font(adminDashboard.Label21.Font.FontFamily, 10)
-            End If
-        End If
+    Private Sub Guna2Button8_Click(sender As Object, e As EventArgs) Handles Guna2Button8.Click
+        LogForm.Show()
+        Me.Hide()
 
     End Sub
 End Class
