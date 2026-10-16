@@ -326,6 +326,7 @@ Partial Class DoctorFrm
         Me.dashbtn.Location = New System.Drawing.Point(0, 0)
         Me.dashbtn.Margin = New System.Windows.Forms.Padding(0)
         Me.dashbtn.Name = "dashbtn"
+        Me.dashbtn.PressedDepth = 50
         Me.dashbtn.Size = New System.Drawing.Size(232, 50)
         Me.dashbtn.TabIndex = 9
         Me.dashbtn.Text = "Dashboard"
