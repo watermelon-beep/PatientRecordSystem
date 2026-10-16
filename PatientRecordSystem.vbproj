@@ -154,6 +154,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PatientManagement.Designer.vb">
+      <DependentUpon>PatientManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientManagement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Profile.vb" />
     <Compile Include="RegisterFrm.Designer.vb">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
@@ -198,6 +204,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientManagement.resx">
+      <DependentUpon>PatientManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterFrm.resx">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
