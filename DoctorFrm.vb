@@ -44,24 +44,4 @@ Public Class DoctorFrm
         LogForm.Show()
         Me.Hide()
     End Sub
-
-    Private Sub dashbtn_Click(sender As Object, e As EventArgs) Handles dashbtn.Click
-        selectedBtn(dashbtn)
-    End Sub
-
-    Private Sub dashbtn_LostFocus(sender As Object, e As EventArgs) Handles dashbtn.LostFocus
-        dashbtn.BackColor = Color.Transparent
-    End Sub
-
-    Private Sub patientRecbtn_Click(sender As Object, e As EventArgs) Handles patientRecbtn.Click
-        selectedBtn(patientRecbtn)
-    End Sub
-
-    Private Sub patientRecbtn_LostFocus(sender As Object, e As EventArgs) Handles patientRecbtn.LostFocus
-        patientRecbtn.BackColor = Color.Transparent
-    End Sub
-
-    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
-
-    End Sub
 End Class

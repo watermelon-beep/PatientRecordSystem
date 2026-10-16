@@ -22,6 +22,7 @@ Partial Class UserLog
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserLog))
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -31,6 +32,8 @@ Partial Class UserLog
         Me.passlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.usrnlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -192,6 +195,9 @@ Partial Class UserLog
         Me.Guna2CirclePictureBox1.TabIndex = 14
         Me.Guna2CirclePictureBox1.TabStop = False
         '
+        'Timer1
+        '
+        '
         'UserLog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -221,4 +227,6 @@ Partial Class UserLog
     Friend WithEvents passlogtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents usrnlogtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Timer2 As Timer
 End Class

@@ -1,5 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Web.UI.WebControls
+Imports Guna.UI2.WinForms
 
 Public Class AdminFrm
 
@@ -51,4 +52,6 @@ Public Class AdminFrm
         Me.Hide()
 
     End Sub
+
+
 End Class

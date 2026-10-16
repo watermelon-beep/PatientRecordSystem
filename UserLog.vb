@@ -12,8 +12,11 @@ Public Class UserLog
             Dim pass As Object = comm.ExecuteScalar()
 
             If pass.ToString() = passlogtxbx.Text Then
+
                 Return True
+
             End If
+
             Return False
         End Using
     End Function
@@ -45,6 +48,16 @@ Public Class UserLog
 
             Select Case Position.ToString()
                 Case "Admin"
+
+                    usrnlogtxbx.Clear()
+                    passlogtxbx.Clear()
+
+                    AdminFrm.Show()
+
+                    LogForm.Hide()
+                    Me.Hide()
+
+                Case "Admin2"
 
                     usrnlogtxbx.Clear()
                     passlogtxbx.Clear()
@@ -152,9 +165,4 @@ Public Class UserLog
         RegisterFrm.Show()
     End Sub
 
-    Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        dbConnection()
-
-    End Sub
 End Class
