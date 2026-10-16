@@ -7,7 +7,7 @@ Public Class AdminFrm
 
     Private Sub ProfileAdmin()
 
-        Dim query As String = "SELECT first_Name, Position FROM staff_information WHERE username = @username"
+        query = "SELECT first_Name, Position FROM staff_information WHERE username = @username"
 
         Using comm As New SqlCommand(query, conn)
             comm.Parameters.AddWithValue("@username", currentUsername)
@@ -21,6 +21,7 @@ Public Class AdminFrm
                 Else
                     Label1.Text = "Unknown user"
                     Label2.Text = "Unknown position"
+                    Label3.Text = "Welcome, Unknown position, Unknown user!"
                 End If
             End Using
         End Using

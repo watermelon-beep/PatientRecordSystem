@@ -80,6 +80,7 @@ Partial Class UserLog
         Me.Guna2Button3.TabIndex = 11
         Me.Guna2Button3.Text = "Create new account"
         Me.Guna2Button3.UseTransparentBackground = True
+        Me.Guna2Button3.Visible = False
         '
         'Guna2Button2
         '
