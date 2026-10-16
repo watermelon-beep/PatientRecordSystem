@@ -4,6 +4,20 @@ Public Class UserLog
 
     Private passVisible As Boolean = False
 
+    Private Function ValidCred() As Boolean
+        query = "SELECT user_password FROM staff_information WHERE username = @username"
+        Using comm As New SqlClient.SqlCommand(query, conn)
+            comm.Parameters.AddWithValue("@username", usrnlogtxbx.Text)
+
+            Dim pass As Object = comm.ExecuteScalar()
+
+            If pass.ToString() = passlogtxbx.Text Then
+                Return True
+            End If
+            Return False
+        End Using
+    End Function
+
     Private Function ValidateField(fieldName As String, value As String) As String
         If value = "" Then Return fieldName & " cannot be empty"
         If value.Length < 6 Then Return fieldName & " must be at least 6 characters"
@@ -89,19 +103,20 @@ Public Class UserLog
             passlogtxbx.Clear()
             Return
         End If
-
+        If ValidCred() Then
+            If UsernameExists(username) AndAlso UserPasswordExist(password) Then
+                currentUsername = username
+                usersPosition()
+            Else
+                MsgBox("Incorrect username or password.", MsgBoxStyle.Exclamation, "Login failed")
+            End If
+        Else
+            MsgBox("invalid credentials!")
+        End If
         usrnlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
         passlogtxbx.BorderColor = Color.FromArgb(0, 64, 0)
         Label2.Text = "at least 6 characters, contain number, contain capital letter"
         Label2.ForeColor = Color.Gray
-
-        If UsernameExists(username) AndAlso UserPasswordExist(password) Then
-            currentUsername = username
-            usersPosition()
-        Else
-            MsgBox("Incorrect username or password.", MsgBoxStyle.Exclamation, "Login failed")
-        End If
-
     End Sub
 
     Private Sub passlogtxbx_IconRightClick(sender As Object, e As EventArgs) Handles passlogtxbx.IconRightClick

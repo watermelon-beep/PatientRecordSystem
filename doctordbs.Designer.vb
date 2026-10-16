@@ -38,6 +38,11 @@ Partial Class doctordbs
         Dim ChartFont7 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
         Dim Tick3 As Guna.Charts.WinForms.Tick = New Guna.Charts.WinForms.Tick()
         Dim ChartFont8 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
+        Dim LPoint1 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim LPoint2 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim LPoint3 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim LPoint4 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
+        Dim LPoint5 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim ChartFont9 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
         Dim ChartFont10 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
         Dim ChartFont11 As Guna.Charts.WinForms.ChartFont = New Guna.Charts.WinForms.ChartFont()
@@ -56,11 +61,6 @@ Partial Class doctordbs
         Dim LPoint6 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint7 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Dim LPoint8 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint1 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint2 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint3 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint4 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
-        Dim LPoint5 As Guna.Charts.WinForms.LPoint = New Guna.Charts.WinForms.LPoint()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
@@ -86,6 +86,7 @@ Partial Class doctordbs
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GunaChart2 = New Guna.Charts.WinForms.GunaChart()
+        Me.GunaStackedBarDataset1 = New Guna.Charts.WinForms.GunaStackedBarDataset()
         Me.GunaChart1 = New Guna.Charts.WinForms.GunaChart()
         Me.GunaDoughnutDataset1 = New Guna.Charts.WinForms.GunaDoughnutDataset()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
@@ -157,7 +158,6 @@ Partial Class doctordbs
         Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.GunaStackedBarDataset1 = New Guna.Charts.WinForms.GunaStackedBarDataset()
         Me.Guna2Panel1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
@@ -534,6 +534,22 @@ Partial Class doctordbs
         ChartFont8.FontName = "Arial"
         Tick3.Font = ChartFont8
         Me.GunaChart2.ZAxes.Ticks = Tick3
+        '
+        'GunaStackedBarDataset1
+        '
+        LPoint1.Label = "Jan"
+        LPoint1.Y = 31.0R
+        LPoint2.Label = "Feb"
+        LPoint2.Y = 18.0R
+        LPoint3.Label = "Mar"
+        LPoint3.Y = 56.0R
+        LPoint4.Label = "Apr"
+        LPoint4.Y = 25.0R
+        LPoint5.Label = "May"
+        LPoint5.Y = 61.0R
+        Me.GunaStackedBarDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint1, LPoint2, LPoint3, LPoint4, LPoint5})
+        Me.GunaStackedBarDataset1.Label = "StackedBar1"
+        Me.GunaStackedBarDataset1.TargetChart = Me.GunaChart2
         '
         'GunaChart1
         '
@@ -1540,22 +1556,6 @@ Partial Class doctordbs
         '
         Me.Guna2Elipse2.BorderRadius = 10
         Me.Guna2Elipse2.TargetControl = Me.GunaChart2
-        '
-        'GunaStackedBarDataset1
-        '
-        LPoint1.Label = "Jan"
-        LPoint1.Y = 31.0R
-        LPoint2.Label = "Feb"
-        LPoint2.Y = 18.0R
-        LPoint3.Label = "Mar"
-        LPoint3.Y = 56.0R
-        LPoint4.Label = "Apr"
-        LPoint4.Y = 25.0R
-        LPoint5.Label = "May"
-        LPoint5.Y = 61.0R
-        Me.GunaStackedBarDataset1.DataPoints.AddRange(New Guna.Charts.WinForms.LPoint() {LPoint1, LPoint2, LPoint3, LPoint4, LPoint5})
-        Me.GunaStackedBarDataset1.Label = "StackedBar1"
-        Me.GunaStackedBarDataset1.TargetChart = Me.GunaChart2
         '
         'doctordbs
         '
