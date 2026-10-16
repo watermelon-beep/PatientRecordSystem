@@ -47,6 +47,7 @@ Partial Class AdminFrm
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Guna2ShadowPanel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,6 +59,7 @@ Partial Class AdminFrm
         '
         'Timer1
         '
+        Me.Timer1.Interval = 1000
         '
         'Panel1
         '
@@ -84,6 +86,7 @@ Partial Class AdminFrm
         Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2ShadowPanel2.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_28__2026__03_10_27_PM
         Me.Guna2ShadowPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Guna2ShadowPanel2.Controls.Add(Me.Label8)
         Me.Guna2ShadowPanel2.Controls.Add(Me.Guna2CirclePictureBox2)
         Me.Guna2ShadowPanel2.Controls.Add(Me.Label2)
         Me.Guna2ShadowPanel2.Controls.Add(Me.Label1)
@@ -406,6 +409,15 @@ Partial Class AdminFrm
         Me.Guna2CirclePictureBox3.TabIndex = 0
         Me.Guna2CirclePictureBox3.TabStop = False
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(810, 76)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(33, 13)
+        Me.Label8.TabIndex = 5
+        Me.Label8.Text = "Timer"
+        '
         'AdminFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -453,4 +465,5 @@ Partial Class AdminFrm
     Friend WithEvents Label7 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label8 As Label
 End Class

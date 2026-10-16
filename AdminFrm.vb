@@ -5,7 +5,7 @@ Imports Guna.UI2.WinForms
 Public Class AdminFrm
 
     Private adminDashboard As New AdminDashboard
-
+    Dim count = 0
     Private Sub ProfileAdmin()
 
         query = "SELECT first_Name, Position FROM staff_information WHERE username = @username"
@@ -39,8 +39,10 @@ Public Class AdminFrm
 
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        count += 1
         Label5.Text = DateTime.Now.ToString("hh:mm tt")
         Label7.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy")
+        Label8.Text = count.ToString()
     End Sub
 
     Private Sub AdminFrm_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed

@@ -165,4 +165,11 @@ Public Class UserLog
         RegisterFrm.Show()
     End Sub
 
+    Private Sub UserLog_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        dbConnection()
+
+    End Sub
+
+
 End Class
