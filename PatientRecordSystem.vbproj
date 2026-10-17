@@ -101,6 +101,12 @@
     <Compile Include="AdminFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Appointment.Designer.vb">
+      <DependentUpon>Appointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="BarangayAssistanceFrm.Designer.vb">
       <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
     </Compile>
@@ -167,6 +173,12 @@
     <Compile Include="RegisterFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="StaffManagement.Designer.vb">
+      <DependentUpon>StaffManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffManagement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UserLog.Designer.vb">
       <DependentUpon>UserLog.vb</DependentUpon>
     </Compile>
@@ -180,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminFrm.resx">
       <DependentUpon>AdminFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment.resx">
+      <DependentUpon>Appointment.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BarangayAssistanceFrm.resx">
       <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
@@ -210,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterFrm.resx">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffManagement.resx">
+      <DependentUpon>StaffManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLog.resx">
       <DependentUpon>UserLog.vb</DependentUpon>

@@ -26,6 +26,9 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub AdminDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        AdminFrm.dashboardbtn.BackColor = Color.FromArgb(4, 196, 80)
+
         dbConnection()
         DashbooardTable()
 
