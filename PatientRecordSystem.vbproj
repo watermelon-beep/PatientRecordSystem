@@ -166,6 +166,12 @@
     <Compile Include="PatientManagement.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="PatientRecord.Designer.vb">
+      <DependentUpon>PatientRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientRecord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Profile.vb" />
     <Compile Include="RegisterFrm.Designer.vb">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
@@ -222,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PatientManagement.resx">
       <DependentUpon>PatientManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientRecord.resx">
+      <DependentUpon>PatientRecord.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterFrm.resx">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
@@ -317,6 +326,7 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\search.png" />
     <None Include="Resources\zxcxzczxcd1.png" />
     <None Include="Resources\zxcxzczxcd.png" />
     <None Include="Resources\zxcvzvcxzv.png" />

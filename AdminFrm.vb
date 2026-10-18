@@ -57,8 +57,8 @@ Public Class AdminFrm
 
     Private Sub patmangementbtn_Click(sender As Object, e As EventArgs) Handles patmangementbtn.Click
         patmangementbtn.BackColor = Color.FromArgb(4, 196, 80)
-        Dim patManagement As New PatientManagement
-        ChangeUsrCnrl(patManagement, Guna2Panel3)
+        Dim patrec As New PatientRecord
+        ChangeUsrCnrl(patrec, Guna2Panel3)
     End Sub
 
     Private Sub staffmanagementbtn_Click(sender As Object, e As EventArgs) Handles staffmanagementbtn.Click
@@ -73,19 +73,19 @@ Public Class AdminFrm
         ChangeUsrCnrl(appointment, Guna2Panel3)
     End Sub
 
-    Private Sub dashboardbtn_LostFocus(sender As Object, e As EventArgs) Handles dashboardbtn.LostFocus
+    Private Sub dashboardbtn_Leave(sender As Object, e As EventArgs) Handles dashboardbtn.Leave
         dashboardbtn.BackColor = Color.Transparent
     End Sub
 
-    Private Sub patmangementbtn_LostFocus(sender As Object, e As EventArgs) Handles patmangementbtn.LostFocus
+    Private Sub patmangementbtn_Leave(sender As Object, e As EventArgs) Handles patmangementbtn.Leave
         patmangementbtn.BackColor = Color.Transparent
     End Sub
 
-    Private Sub staffmanagementbtn_LostFocus(sender As Object, e As EventArgs) Handles staffmanagementbtn.LostFocus
+    Private Sub staffmanagementbtn_Leave(sender As Object, e As EventArgs) Handles staffmanagementbtn.Leave
         staffmanagementbtn.BackColor = Color.Transparent
     End Sub
 
-    Private Sub appointmentbtn_LostFocus(sender As Object, e As EventArgs) Handles appointmentbtn.LostFocus
+    Private Sub appointmentbtn_Leave(sender As Object, e As EventArgs) Handles appointmentbtn.Leave
         appointmentbtn.BackColor = Color.Transparent
     End Sub
 End Class

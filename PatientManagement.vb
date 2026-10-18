@@ -10,4 +10,6 @@
             pattable.ScrollBars = ScrollBars.Both
         End If
     End Sub
+
+
 End Class
