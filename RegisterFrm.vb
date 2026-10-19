@@ -85,7 +85,7 @@ Public Class RegisterFrm
                     .AddWithValue("@Position", rolecbx.Text)
                     .AddWithValue("@phone_number", phnumtxbx.Text)
                     .AddWithValue("@email_address", emailtxbx.Text)
-                    .AddWithValue("@created_account", DateTime.Now.ToString("yyyy-MM-dd"))
+                    .AddWithValue("@created_account", Date.Now.ToString("yyyy-MM-dd"))
                 End With
 
                 comm.ExecuteNonQuery()
