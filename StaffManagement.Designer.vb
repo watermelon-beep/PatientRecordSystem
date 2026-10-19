@@ -40,8 +40,8 @@ Partial Class StaffManagement
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
         Me.stafftbl = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.searchbtn = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.searchtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label12 = New System.Windows.Forms.Label()
@@ -281,8 +281,8 @@ Partial Class StaffManagement
         'Guna2Panel6
         '
         Me.Guna2Panel6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel6.Controls.Add(Me.Guna2CircleButton1)
-        Me.Guna2Panel6.Controls.Add(Me.Guna2TextBox1)
+        Me.Guna2Panel6.Controls.Add(Me.searchbtn)
+        Me.Guna2Panel6.Controls.Add(Me.searchtxbx)
         Me.Guna2Panel6.Controls.Add(Me.Label1)
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel6.FillColor = System.Drawing.Color.White
@@ -292,47 +292,47 @@ Partial Class StaffManagement
         Me.Guna2Panel6.Size = New System.Drawing.Size(1020, 69)
         Me.Guna2Panel6.TabIndex = 1
         '
-        'Guna2CircleButton1
+        'searchbtn
         '
-        Me.Guna2CircleButton1.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2CircleButton1.BorderThickness = 2
-        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.DarkGreen
-        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.Image = Global.PatientRecordSystem.My.Resources.Resources.search
-        Me.Guna2CircleButton1.Location = New System.Drawing.Point(950, 24)
-        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton1.Size = New System.Drawing.Size(40, 36)
-        Me.Guna2CircleButton1.TabIndex = 2
+        Me.searchbtn.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.searchbtn.BackColor = System.Drawing.Color.Transparent
+        Me.searchbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.searchbtn.BorderThickness = 2
+        Me.searchbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.searchbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.searchbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.searchbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.searchbtn.FillColor = System.Drawing.Color.DarkGreen
+        Me.searchbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.searchbtn.ForeColor = System.Drawing.Color.White
+        Me.searchbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.search
+        Me.searchbtn.Location = New System.Drawing.Point(950, 24)
+        Me.searchbtn.Name = "searchbtn"
+        Me.searchbtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.searchbtn.Size = New System.Drawing.Size(40, 36)
+        Me.searchbtn.TabIndex = 2
         '
-        'Guna2TextBox1
+        'searchtxbx
         '
-        Me.Guna2TextBox1.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Guna2TextBox1.AutoRoundedCorners = True
-        Me.Guna2TextBox1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2TextBox1.BorderThickness = 2
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(582, 24)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PlaceholderText = "Search ID, Name, or Username"
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(363, 36)
-        Me.Guna2TextBox1.TabIndex = 1
+        Me.searchtxbx.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.searchtxbx.AutoRoundedCorners = True
+        Me.searchtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.searchtxbx.BorderThickness = 2
+        Me.searchtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.searchtxbx.DefaultText = ""
+        Me.searchtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.searchtxbx.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.searchtxbx.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.searchtxbx.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.searchtxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.searchtxbx.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.searchtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.searchtxbx.Location = New System.Drawing.Point(582, 24)
+        Me.searchtxbx.Name = "searchtxbx"
+        Me.searchtxbx.PlaceholderText = "Search ID, Name, or Username"
+        Me.searchtxbx.SelectedText = ""
+        Me.searchtxbx.Size = New System.Drawing.Size(363, 36)
+        Me.searchtxbx.TabIndex = 1
         '
         'Label1
         '
@@ -533,9 +533,11 @@ Partial Class StaffManagement
         '
         'Column3
         '
+        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column3.HeaderText = "Middle name"
         Me.Column3.Name = "Column3"
         Me.Column3.ReadOnly = True
+        Me.Column3.Width = 130
         '
         'Column4
         '
@@ -547,9 +549,11 @@ Partial Class StaffManagement
         '
         'Column5
         '
+        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
         Me.Column5.HeaderText = "Extension"
         Me.Column5.Name = "Column5"
         Me.Column5.ReadOnly = True
+        Me.Column5.Width = 95
         '
         'Column6
         '
@@ -561,10 +565,11 @@ Partial Class StaffManagement
         '
         'Column7
         '
-        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column7.HeaderText = "Age"
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
+        Me.Column7.Width = 50
         '
         'Column20
         '
@@ -584,9 +589,11 @@ Partial Class StaffManagement
         '
         'Column12
         '
+        Me.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column12.HeaderText = "Gender"
         Me.Column12.Name = "Column12"
         Me.Column12.ReadOnly = True
+        Me.Column12.Width = 70
         '
         'Column11
         '
@@ -719,8 +726,8 @@ Partial Class StaffManagement
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents searchbtn As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents searchtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
