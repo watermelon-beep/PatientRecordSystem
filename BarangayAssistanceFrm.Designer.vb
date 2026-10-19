@@ -391,6 +391,7 @@ Partial Class BarangayAssistanceFrm
         '
         'Timer1
         '
+        Me.Timer1.Interval = 1000
         '
         'BarangayAssistanceFrm
         '

@@ -26,30 +26,13 @@ Public Class StaffManagement
 
         stafftbl.Rows.Clear()
 
-        query = "SELECT users_Id,
-                        staff_Id, 
-                        first_Name, 
-                        middle_Name, 
-                        surname, 
-                        name_extension, 
-                        birth_Date, 
-                        age, 
-                        birth_place,
-                        user_address,
-                        gender,
-                        civil_status,
-                        Position,
-                        phone_number,
-                        email_address,
-                        username,
-                        user_password FROM staff_information"
+        query = "SELECT * FROM staff_information"
 
         Using comm As New SqlCommand(query, conn)
             Using dataRead = comm.ExecuteReader()
 
                 While dataRead.Read
-                    stafftbl.Rows.Add(dataRead("users_Id"),
-                                      dataRead("staff_Id"),
+                    stafftbl.Rows.Add(dataRead("staff_Id"),
                                       dataRead("first_Name"),
                                       dataRead("middle_Name"),
                                       dataRead("surname"),
