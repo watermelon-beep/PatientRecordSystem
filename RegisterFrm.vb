@@ -157,10 +157,12 @@ Public Class RegisterFrm
     End Sub
 
     Private Sub gtloginbtn_Click(sender As Object, e As EventArgs) Handles gtloginbtn.Click
-
-        LogForm.Show()
+        Dim staffmanage As New StaffManagement()
+        AdminFrm.Show()
+        AdminFrm.Guna2Panel3.Controls.Clear()
+        staffmanage.Dock = DockStyle.Fill
+        AdminFrm.Guna2Panel3.Controls.Add(staffmanage)
         Me.Hide()
-
     End Sub
 
     Private Sub randpassbtn_Click(sender As Object, e As EventArgs) Handles randpassbtn.Click
