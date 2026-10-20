@@ -22,12 +22,12 @@ Partial Class StaffManagement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle55 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle56 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle60 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle57 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle58 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle59 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
@@ -39,23 +39,6 @@ Partial Class StaffManagement
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
         Me.stafftbl = New Guna.UI2.WinForms.Guna2DataGridView()
-        Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.searchbtn = New Guna.UI2.WinForms.Guna2CircleButton()
-        Me.searchtxbx = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -75,6 +58,25 @@ Partial Class StaffManagement
         Me.editbtn = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.deletebtn = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.viewbtn = New System.Windows.Forms.DataGridViewButtonColumn()
+        Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.selectionposcmbx = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.searchbtn = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.searchtxbx = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
@@ -87,6 +89,7 @@ Partial Class StaffManagement
         Me.Guna2Panel6.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel8.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Panel1
@@ -228,28 +231,28 @@ Partial Class StaffManagement
         Me.stafftbl.AllowUserToDeleteRows = False
         Me.stafftbl.AllowUserToResizeColumns = False
         Me.stafftbl.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
-        Me.stafftbl.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
+        Me.stafftbl.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle55
         Me.stafftbl.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.stafftbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
+        DataGridViewCellStyle56.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle56.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
+        DataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.stafftbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle56
         Me.stafftbl.ColumnHeadersHeight = 70
         Me.stafftbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.stafftbl.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column20, Me.Column8, Me.Column12, Me.Column11, Me.Column18, Me.Column9, Me.Column17, Me.Column10, Me.Column13, Me.editbtn, Me.deletebtn, Me.viewbtn})
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(220, Byte), Integer))
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.stafftbl.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(220, Byte), Integer))
+        DataGridViewCellStyle60.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
+        DataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.stafftbl.DefaultCellStyle = DataGridViewCellStyle60
         Me.stafftbl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.stafftbl.GridColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(201, Byte), Integer))
         Me.stafftbl.Location = New System.Drawing.Point(0, 0)
@@ -277,243 +280,6 @@ Partial Class StaffManagement
         Me.stafftbl.ThemeStyle.RowsStyle.Height = 60
         Me.stafftbl.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.stafftbl.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black
-        '
-        'Guna2Panel6
-        '
-        Me.Guna2Panel6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel6.Controls.Add(Me.searchbtn)
-        Me.Guna2Panel6.Controls.Add(Me.searchtxbx)
-        Me.Guna2Panel6.Controls.Add(Me.Label1)
-        Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel6.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel6.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel6.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(1020, 69)
-        Me.Guna2Panel6.TabIndex = 1
-        '
-        'searchbtn
-        '
-        Me.searchbtn.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.searchbtn.BackColor = System.Drawing.Color.Transparent
-        Me.searchbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.searchbtn.BorderThickness = 2
-        Me.searchbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.searchbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.searchbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.searchbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.searchbtn.FillColor = System.Drawing.Color.DarkGreen
-        Me.searchbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.searchbtn.ForeColor = System.Drawing.Color.White
-        Me.searchbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.search
-        Me.searchbtn.Location = New System.Drawing.Point(950, 24)
-        Me.searchbtn.Name = "searchbtn"
-        Me.searchbtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.searchbtn.Size = New System.Drawing.Size(40, 36)
-        Me.searchbtn.TabIndex = 2
-        '
-        'searchtxbx
-        '
-        Me.searchtxbx.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.searchtxbx.AutoRoundedCorners = True
-        Me.searchtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.searchtxbx.BorderThickness = 2
-        Me.searchtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.searchtxbx.DefaultText = ""
-        Me.searchtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.searchtxbx.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.searchtxbx.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.searchtxbx.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.searchtxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.searchtxbx.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.searchtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.searchtxbx.Location = New System.Drawing.Point(582, 24)
-        Me.searchtxbx.Name = "searchtxbx"
-        Me.searchtxbx.PlaceholderText = "Search ID, Name, or Username"
-        Me.searchtxbx.SelectedText = ""
-        Me.searchtxbx.Size = New System.Drawing.Size(363, 36)
-        Me.searchtxbx.TabIndex = 1
-        '
-        'Label1
-        '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(19, 24)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(212, 28)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Staff Management"
-        '
-        'Guna2Panel2
-        '
-        Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel2.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_28__2026__03_10_27_PM
-        Me.Guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2Panel2.Controls.Add(Me.Label12)
-        Me.Guna2Panel2.Controls.Add(Me.Label11)
-        Me.Guna2Panel2.Controls.Add(Me.Label10)
-        Me.Guna2Panel2.Controls.Add(Me.Label9)
-        Me.Guna2Panel2.Controls.Add(Me.Label8)
-        Me.Guna2Panel2.Controls.Add(Me.Label7)
-        Me.Guna2Panel2.Controls.Add(Me.Label6)
-        Me.Guna2Panel2.Controls.Add(Me.Label5)
-        Me.Guna2Panel2.Controls.Add(Me.Label4)
-        Me.Guna2Panel2.Controls.Add(Me.Label3)
-        Me.Guna2Panel2.Controls.Add(Me.Label2)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2CirclePictureBox1)
-        Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
-        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1026, 156)
-        Me.Guna2Panel2.TabIndex = 0
-        '
-        'Label12
-        '
-        Me.Label12.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(189, 130)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(96, 16)
-        Me.Label12.TabIndex = 11
-        Me.Label12.Text = "Created account"
-        '
-        'Label11
-        '
-        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(892, 114)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(36, 16)
-        Me.Label11.TabIndex = 10
-        Me.Label11.Text = "Email"
-        '
-        'Label10
-        '
-        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(189, 43)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(51, 16)
-        Me.Label10.TabIndex = 9
-        Me.Label10.Text = "Position"
-        '
-        'Label9
-        '
-        Me.Label9.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(659, 114)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(59, 16)
-        Me.Label9.TabIndex = 8
-        Me.Label9.Text = "Birthdate"
-        '
-        'Label8
-        '
-        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(891, 92)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(129, 22)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "Phone number"
-        '
-        'Label7
-        '
-        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(658, 92)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(101, 22)
-        Me.Label7.TabIndex = 6
-        Me.Label7.Text = "Civil Status"
-        '
-        'Label6
-        '
-        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(658, 68)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(68, 22)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Gender"
-        '
-        'Label5
-        '
-        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(890, 64)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(97, 28)
-        Me.Label5.TabIndex = 4
-        Me.Label5.Text = "Address"
-        '
-        'Label4
-        '
-        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(189, 114)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(20, 16)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "ID"
-        '
-        'Label3
-        '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(188, 92)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 22)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Age"
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(186, 56)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 36)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Name"
-        '
-        'Guna2CirclePictureBox1
-        '
-        Me.Guna2CirclePictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(15, 4)
-        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(145, 148)
-        Me.Guna2CirclePictureBox1.TabIndex = 0
-        Me.Guna2CirclePictureBox1.TabStop = False
         '
         'Column1
         '
@@ -646,9 +412,9 @@ Partial Class StaffManagement
         'editbtn
         '
         Me.editbtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Khaki
-        Me.editbtn.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle57.BackColor = System.Drawing.Color.Khaki
+        Me.editbtn.DefaultCellStyle = DataGridViewCellStyle57
         Me.editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.editbtn.HeaderText = "Edit"
         Me.editbtn.Name = "editbtn"
@@ -658,9 +424,9 @@ Partial Class StaffManagement
         'deletebtn
         '
         Me.deletebtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle58
         Me.deletebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.deletebtn.HeaderText = "Delete"
         Me.deletebtn.Name = "deletebtn"
@@ -670,14 +436,288 @@ Partial Class StaffManagement
         'viewbtn
         '
         Me.viewbtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle59.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle59
         Me.viewbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.viewbtn.HeaderText = "View"
         Me.viewbtn.Name = "viewbtn"
         Me.viewbtn.ReadOnly = True
         Me.viewbtn.Width = 45
+        '
+        'Guna2Panel6
+        '
+        Me.Guna2Panel6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel6.Controls.Add(Me.selectionposcmbx)
+        Me.Guna2Panel6.Controls.Add(Me.searchbtn)
+        Me.Guna2Panel6.Controls.Add(Me.searchtxbx)
+        Me.Guna2Panel6.Controls.Add(Me.Label1)
+        Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel6.FillColor = System.Drawing.Color.White
+        Me.Guna2Panel6.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel6.Margin = New System.Windows.Forms.Padding(0)
+        Me.Guna2Panel6.Name = "Guna2Panel6"
+        Me.Guna2Panel6.Size = New System.Drawing.Size(1020, 69)
+        Me.Guna2Panel6.TabIndex = 1
+        '
+        'selectionposcmbx
+        '
+        Me.selectionposcmbx.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.selectionposcmbx.BackColor = System.Drawing.Color.Transparent
+        Me.selectionposcmbx.BorderRadius = 10
+        Me.selectionposcmbx.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.selectionposcmbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.selectionposcmbx.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.selectionposcmbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.selectionposcmbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.selectionposcmbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.selectionposcmbx.ItemHeight = 30
+        Me.selectionposcmbx.Items.AddRange(New Object() {"All", "Admin", "Doctor", "Barangay assistance"})
+        Me.selectionposcmbx.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.selectionposcmbx.Location = New System.Drawing.Point(288, 24)
+        Me.selectionposcmbx.Name = "selectionposcmbx"
+        Me.selectionposcmbx.Size = New System.Drawing.Size(220, 36)
+        Me.selectionposcmbx.StartIndex = 0
+        Me.selectionposcmbx.TabIndex = 3
+        Me.selectionposcmbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'searchbtn
+        '
+        Me.searchbtn.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.searchbtn.BackColor = System.Drawing.Color.Transparent
+        Me.searchbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.searchbtn.BorderThickness = 2
+        Me.searchbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.searchbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.searchbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.searchbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.searchbtn.FillColor = System.Drawing.Color.DarkGreen
+        Me.searchbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.searchbtn.ForeColor = System.Drawing.Color.White
+        Me.searchbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.search
+        Me.searchbtn.Location = New System.Drawing.Point(950, 24)
+        Me.searchbtn.Name = "searchbtn"
+        Me.searchbtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.searchbtn.Size = New System.Drawing.Size(40, 36)
+        Me.searchbtn.TabIndex = 2
+        '
+        'searchtxbx
+        '
+        Me.searchtxbx.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.searchtxbx.AutoRoundedCorners = True
+        Me.searchtxbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.searchtxbx.BorderThickness = 2
+        Me.searchtxbx.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.searchtxbx.DefaultText = ""
+        Me.searchtxbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.searchtxbx.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.searchtxbx.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.searchtxbx.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.searchtxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.searchtxbx.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.searchtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.searchtxbx.Location = New System.Drawing.Point(582, 24)
+        Me.searchtxbx.Name = "searchtxbx"
+        Me.searchtxbx.PlaceholderText = "Search ID, Name, or Username"
+        Me.searchtxbx.SelectedText = ""
+        Me.searchtxbx.Size = New System.Drawing.Size(363, 36)
+        Me.searchtxbx.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(19, 24)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(212, 28)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Staff Management"
+        '
+        'Guna2Panel2
+        '
+        Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.BackgroundImage = Global.PatientRecordSystem.My.Resources.Resources.ChatGPT_Image_Sep_28__2026__03_10_27_PM
+        Me.Guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2Panel2.Controls.Add(Me.Guna2Panel8)
+        Me.Guna2Panel2.Controls.Add(Me.Label12)
+        Me.Guna2Panel2.Controls.Add(Me.Label11)
+        Me.Guna2Panel2.Controls.Add(Me.Label10)
+        Me.Guna2Panel2.Controls.Add(Me.Label9)
+        Me.Guna2Panel2.Controls.Add(Me.Label8)
+        Me.Guna2Panel2.Controls.Add(Me.Label7)
+        Me.Guna2Panel2.Controls.Add(Me.Label6)
+        Me.Guna2Panel2.Controls.Add(Me.Label5)
+        Me.Guna2Panel2.Controls.Add(Me.Label4)
+        Me.Guna2Panel2.Controls.Add(Me.Label3)
+        Me.Guna2Panel2.Controls.Add(Me.Label2)
+        Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2Panel2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.Guna2Panel2.Name = "Guna2Panel2"
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1026, 156)
+        Me.Guna2Panel2.TabIndex = 0
+        '
+        'Label12
+        '
+        Me.Label12.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label12.Location = New System.Drawing.Point(202, 130)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(96, 16)
+        Me.Label12.TabIndex = 11
+        Me.Label12.Text = "Created account"
+        '
+        'Label11
+        '
+        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label11.Location = New System.Drawing.Point(892, 114)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(36, 16)
+        Me.Label11.TabIndex = 10
+        Me.Label11.Text = "Email"
+        '
+        'Label10
+        '
+        Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label10.Location = New System.Drawing.Point(202, 43)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(63, 19)
+        Me.Label10.TabIndex = 9
+        Me.Label10.Text = "Position"
+        '
+        'Label9
+        '
+        Me.Label9.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label9.Location = New System.Drawing.Point(659, 114)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(59, 16)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "Birthdate"
+        '
+        'Label8
+        '
+        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label8.Location = New System.Drawing.Point(891, 92)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(129, 22)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "Phone number"
+        '
+        'Label7
+        '
+        Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label7.Location = New System.Drawing.Point(658, 92)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(101, 22)
+        Me.Label7.TabIndex = 6
+        Me.Label7.Text = "Civil Status"
+        '
+        'Label6
+        '
+        Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(658, 68)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(68, 22)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "Gender"
+        '
+        'Label5
+        '
+        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(890, 64)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(97, 28)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "Address"
+        '
+        'Label4
+        '
+        Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(202, 114)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(20, 16)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "ID"
+        '
+        'Label3
+        '
+        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(201, 92)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(42, 22)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Age"
+        '
+        'Label2
+        '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(199, 56)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(97, 36)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Name"
+        '
+        'Guna2CirclePictureBox1
+        '
+        Me.Guna2CirclePictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Guna2CirclePictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.photo_2026_04_01_14_35_51
+        Me.Guna2CirclePictureBox1.ImageRotate = 0!
+        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(2, 2)
+        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
+        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(158, 146)
+        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2CirclePictureBox1.TabIndex = 0
+        Me.Guna2CirclePictureBox1.TabStop = False
+        '
+        'Guna2Panel8
+        '
+        Me.Guna2Panel8.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Guna2Panel8.BorderRadius = 77
+        Me.Guna2Panel8.BorderThickness = 1
+        Me.Guna2Panel8.Controls.Add(Me.Guna2CirclePictureBox1)
+        Me.Guna2Panel8.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Guna2Panel8.Location = New System.Drawing.Point(18, 3)
+        Me.Guna2Panel8.Name = "Guna2Panel8"
+        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(2)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(162, 150)
+        Me.Guna2Panel8.TabIndex = 12
         '
         'StaffManagement
         '
@@ -700,6 +740,7 @@ Partial Class StaffManagement
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel8.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -751,4 +792,6 @@ Partial Class StaffManagement
     Friend WithEvents editbtn As DataGridViewButtonColumn
     Friend WithEvents deletebtn As DataGridViewButtonColumn
     Friend WithEvents viewbtn As DataGridViewButtonColumn
+    Friend WithEvents selectionposcmbx As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Guna2Panel8 As Guna.UI2.WinForms.Guna2Panel
 End Class

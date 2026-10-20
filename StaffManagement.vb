@@ -2,6 +2,44 @@
 
 Public Class StaffManagement
 
+    Private Sub ViewPosition(role As String)
+        Try
+            query = "SELECT * FROM staff_information WHERE Position = @Position"
+
+            stafftbl.Rows.Clear()
+
+            Using comm As New SqlCommand(query, conn)
+                comm.Parameters.AddWithValue("Position", role)
+
+                Using dataRead = comm.ExecuteReader()
+                    While dataRead.Read
+                        stafftbl.Rows.Add(dataRead("staff_code"),
+                                   dataRead("first_Name"),
+                                   dataRead("middle_Name"),
+                                   dataRead("surname"),
+                                   dataRead("name_extension"),
+                                   Convert.ToDateTime(dataRead("birth_Date")).ToString("dd/MM/yyyy"),
+                                   dataRead("age"),
+                                   dataRead("birth_place"),
+                                   dataRead("user_address"),
+                                   dataRead("gender"),
+                                   dataRead("civil_status"),
+                                   dataRead("Position"),
+                                   dataRead("phone_number"),
+                                   dataRead("email_address"),
+                                   dataRead("username"),
+                                   dataRead("user_password"),
+                                            "Edit",
+                                            "Delete",
+                                            "View")
+                    End While
+                End Using
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
     Private Sub SearchUser()
         Try
             query = "SELECT * FROM staff_information WHERE Position LIKE @search"
@@ -61,6 +99,7 @@ Public Class StaffManagement
                     Label8.Text = dataRead("phone_number").ToString()
                     Label4.Text = dataRead("staff_code").ToString()
                     Label9.Text = Convert.ToDateTime(dataRead("birth_Date")).ToString("MMMM dd, yyyy")
+                    Label11.Text = dataRead("email_address").ToString()
 
                 End If
             End Using
@@ -145,5 +184,22 @@ Public Class StaffManagement
         If searchtxbx.Text = "" Then
             StaffData()
         End If
+    End Sub
+
+    Private Sub selectionposcmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles selectionposcmbx.SelectedIndexChanged
+        Dim selectedPos As String = selectionposcmbx.SelectedItem
+
+        Select Case selectedPos
+            Case "Admin"
+                ViewPosition("Admin")
+            Case "Doctor"
+                ViewPosition("Doctor")
+            Case "Barangay assistance"
+                ViewPosition("Barangay Assistance")
+            Case Else
+                StaffData()
+
+
+        End Select
     End Sub
 End Class
