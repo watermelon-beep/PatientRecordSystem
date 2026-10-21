@@ -101,6 +101,12 @@
     <Compile Include="AdminFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Appointment.Designer.vb">
+      <DependentUpon>Appointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="BarangayAssistanceFrm.Designer.vb">
       <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
     </Compile>
@@ -160,12 +166,24 @@
     <Compile Include="PatientManagement.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="PatientRecord.Designer.vb">
+      <DependentUpon>PatientRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientRecord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Profile.vb" />
     <Compile Include="RegisterFrm.Designer.vb">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
     </Compile>
     <Compile Include="RegisterFrm.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffManagement.Designer.vb">
+      <DependentUpon>StaffManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffManagement.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserLog.Designer.vb">
       <DependentUpon>UserLog.vb</DependentUpon>
@@ -180,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminFrm.resx">
       <DependentUpon>AdminFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment.resx">
+      <DependentUpon>Appointment.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BarangayAssistanceFrm.resx">
       <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
@@ -208,8 +229,14 @@
     <EmbeddedResource Include="PatientManagement.resx">
       <DependentUpon>PatientManagement.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PatientRecord.resx">
+      <DependentUpon>PatientRecord.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RegisterFrm.resx">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffManagement.resx">
+      <DependentUpon>StaffManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLog.resx">
       <DependentUpon>UserLog.vb</DependentUpon>
@@ -299,6 +326,7 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\search.png" />
     <None Include="Resources\zxcxzczxcd1.png" />
     <None Include="Resources\zxcxzczxcd.png" />
     <None Include="Resources\zxcvzvcxzv.png" />

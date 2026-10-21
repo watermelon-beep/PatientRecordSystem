@@ -369,6 +369,7 @@ Partial Class DoctorFrm
         '
         'Timer1
         '
+        Me.Timer1.Interval = 1000
         '
         'DoctorFrm
         '

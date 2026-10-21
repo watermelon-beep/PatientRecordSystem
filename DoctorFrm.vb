@@ -44,4 +44,8 @@ Public Class DoctorFrm
         LogForm.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Guna2Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel2.Paint
+
+    End Sub
 End Class

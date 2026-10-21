@@ -82,6 +82,7 @@ Partial Class RegisterFrm
         Me.gtloginbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Guna2MessageDialog1 = New Guna.UI2.WinForms.Guna2MessageDialog()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -758,7 +759,7 @@ Partial Class RegisterFrm
         Me.birthtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.birthtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.birthtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.birthtxbx.Location = New System.Drawing.Point(193, 222)
+        Me.birthtxbx.Location = New System.Drawing.Point(190, 218)
         Me.birthtxbx.Margin = New System.Windows.Forms.Padding(4)
         Me.birthtxbx.Name = "birthtxbx"
         Me.birthtxbx.PlaceholderText = "City/municipality"
@@ -773,7 +774,7 @@ Partial Class RegisterFrm
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(189, 199)
+        Me.Label6.Location = New System.Drawing.Point(186, 195)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(99, 19)
         Me.Label6.TabIndex = 26
@@ -1179,6 +1180,10 @@ Partial Class RegisterFrm
         Me.Guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark
         Me.Guna2MessageDialog1.Text = Nothing
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'RegisterFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1264,4 +1269,5 @@ Partial Class RegisterFrm
     Friend WithEvents regprogress As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents Label20 As Label
     Friend WithEvents Guna2MessageDialog1 As Guna.UI2.WinForms.Guna2MessageDialog
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class

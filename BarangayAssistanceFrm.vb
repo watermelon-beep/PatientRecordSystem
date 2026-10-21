@@ -46,4 +46,25 @@ Class BarangayAssistanceFrm
         LogForm.Show()
         Me.Hide()
     End Sub
+
+    Private Sub patrecbtn_Click(sender As Object, e As EventArgs) Handles patrecbtn.Click
+        patrecbtn.BackColor = Color.FromArgb(4, 196, 80)
+        Dim patmanagement As New PatientManagement
+        ChangeUsrCnrl(patmanagement, Guna2Panel3)
+    End Sub
+
+    Private Sub patrecbtn_LostFocus(sender As Object, e As EventArgs) Handles patrecbtn.LostFocus
+        patrecbtn.BackColor = Color.Transparent
+    End Sub
+
+    Private Sub appointmentbtn_Click(sender As Object, e As EventArgs) Handles appointmentbtn.Click
+        appointmentbtn.BackColor = Color.FromArgb(4, 196, 80)
+        Dim appointment As New Appointment
+        ChangeUsrCnrl(appointment, Guna2Panel3)
+
+    End Sub
+
+    Private Sub appointmentbtn_LostFocus(sender As Object, e As EventArgs) Handles appointmentbtn.LostFocus
+        appointmentbtn.BackColor = Color.Transparent
+    End Sub
 End Class

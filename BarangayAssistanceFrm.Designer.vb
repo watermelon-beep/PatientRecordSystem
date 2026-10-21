@@ -40,8 +40,8 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.appointmentbtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.patrecbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -202,8 +202,8 @@ Partial Class BarangayAssistanceFrm
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Panel4, 0, 4)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button3, 0, 3)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 5)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button4, 0, 2)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button2, 0, 1)
+        Me.TableLayoutPanel2.Controls.Add(Me.appointmentbtn, 0, 2)
+        Me.TableLayoutPanel2.Controls.Add(Me.patrecbtn, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button1, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 152)
@@ -291,47 +291,47 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button8.Text = "Logout"
         Me.Guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'Guna2Button4
+        'appointmentbtn
         '
-        Me.Guna2Button4.Animated = True
-        Me.Guna2Button4.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
-        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.Location = New System.Drawing.Point(3, 103)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(226, 44)
-        Me.Guna2Button4.TabIndex = 12
-        Me.Guna2Button4.Text = "Appointments"
-        Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.appointmentbtn.Animated = True
+        Me.appointmentbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.appointmentbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.appointmentbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.appointmentbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.appointmentbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.appointmentbtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.appointmentbtn.FillColor = System.Drawing.Color.Transparent
+        Me.appointmentbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.appointmentbtn.ForeColor = System.Drawing.Color.White
+        Me.appointmentbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
+        Me.appointmentbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.appointmentbtn.Location = New System.Drawing.Point(3, 103)
+        Me.appointmentbtn.Name = "appointmentbtn"
+        Me.appointmentbtn.Size = New System.Drawing.Size(226, 44)
+        Me.appointmentbtn.TabIndex = 12
+        Me.appointmentbtn.Text = "Appointments"
+        Me.appointmentbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'Guna2Button2
+        'patrecbtn
         '
-        Me.Guna2Button2.Animated = True
-        Me.Guna2Button2.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Image = Global.PatientRecordSystem.My.Resources.Resources.user_pen
-        Me.Guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button2.Location = New System.Drawing.Point(3, 53)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(226, 44)
-        Me.Guna2Button2.TabIndex = 10
-        Me.Guna2Button2.Text = "Patient Records"
-        Me.Guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.patrecbtn.Animated = True
+        Me.patrecbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.patrecbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.patrecbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.patrecbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.patrecbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.patrecbtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.patrecbtn.FillColor = System.Drawing.Color.Transparent
+        Me.patrecbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patrecbtn.ForeColor = System.Drawing.Color.White
+        Me.patrecbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.user_pen
+        Me.patrecbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.patrecbtn.Location = New System.Drawing.Point(3, 53)
+        Me.patrecbtn.Name = "patrecbtn"
+        Me.patrecbtn.Size = New System.Drawing.Size(226, 44)
+        Me.patrecbtn.TabIndex = 10
+        Me.patrecbtn.Text = "Patient Records"
+        Me.patrecbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button1
         '
@@ -391,6 +391,7 @@ Partial Class BarangayAssistanceFrm
         '
         'Timer1
         '
+        Me.Timer1.Interval = 1000
         '
         'BarangayAssistanceFrm
         '
@@ -429,8 +430,8 @@ Partial Class BarangayAssistanceFrm
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents appointmentbtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents patrecbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label6 As Label

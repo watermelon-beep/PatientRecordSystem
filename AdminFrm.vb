@@ -30,9 +30,7 @@ Public Class AdminFrm
     Private Sub AdminFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
 
-        Guna2Panel3.Controls.Clear()
-        adminDashboard.Dock = DockStyle.Fill
-        Guna2Panel3.Controls.Add(adminDashboard)
+        ChangeUsrCnrl(adminDashboard, Guna2Panel3)
 
         ProfileAdmin()
 
@@ -52,10 +50,42 @@ Public Class AdminFrm
 
     End Sub
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Dim patManagement As New PatientManagement
-        Guna2Panel3.Controls.Clear()
-        patManagement.Dock = DockStyle.Fill
-        Guna2Panel3.Controls.Add(patManagement)
-    End Sub,
+    Private Sub dashboardbtn_Click(sender As Object, e As EventArgs) Handles dashboardbtn.Click
+        ChangeUsrCnrl(adminDashboard, Guna2Panel3)
+        dashboardbtn.BackColor = Color.FromArgb(4, 196, 80)
+    End Sub
+
+    Private Sub patmangementbtn_Click(sender As Object, e As EventArgs) Handles patmangementbtn.Click
+        patmangementbtn.BackColor = Color.FromArgb(4, 196, 80)
+        Dim patrec As New PatientRecord
+        ChangeUsrCnrl(patrec, Guna2Panel3)
+    End Sub
+
+    Private Sub staffmanagementbtn_Click(sender As Object, e As EventArgs) Handles staffmanagementbtn.Click
+        staffmanagementbtn.BackColor = Color.FromArgb(4, 196, 80)
+        Dim staffManagement As New StaffManagement
+        ChangeUsrCnrl(staffManagement, Guna2Panel3)
+    End Sub
+
+    Private Sub appointmentbtn_Click(sender As Object, e As EventArgs) Handles appointmentbtn.Click
+        appointmentbtn.BackColor = Color.FromArgb(4, 196, 80)
+        Dim appointment As New Appointment
+        ChangeUsrCnrl(appointment, Guna2Panel3)
+    End Sub
+
+    Private Sub dashboardbtn_Leave(sender As Object, e As EventArgs) Handles dashboardbtn.Leave
+        dashboardbtn.BackColor = Color.Transparent
+    End Sub
+
+    Private Sub patmangementbtn_Leave(sender As Object, e As EventArgs) Handles patmangementbtn.Leave
+        patmangementbtn.BackColor = Color.Transparent
+    End Sub
+
+    Private Sub staffmanagementbtn_Leave(sender As Object, e As EventArgs) Handles staffmanagementbtn.Leave
+        staffmanagementbtn.BackColor = Color.Transparent
+    End Sub
+
+    Private Sub appointmentbtn_Leave(sender As Object, e As EventArgs) Handles appointmentbtn.Leave
+        appointmentbtn.BackColor = Color.Transparent
+    End Sub
 End Class

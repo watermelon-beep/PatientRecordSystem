@@ -27,7 +27,6 @@ Partial Class UserLog
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.passlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.usrnlogtxbx = New Guna.UI2.WinForms.Guna2TextBox()
@@ -77,34 +76,13 @@ Partial Class UserLog
         Me.Guna2Button3.FillColor = System.Drawing.Color.Transparent
         Me.Guna2Button3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button3.Location = New System.Drawing.Point(15, 471)
+        Me.Guna2Button3.Location = New System.Drawing.Point(15, 390)
         Me.Guna2Button3.Name = "Guna2Button3"
         Me.Guna2Button3.Size = New System.Drawing.Size(412, 40)
         Me.Guna2Button3.TabIndex = 11
         Me.Guna2Button3.Text = "Create new account"
         Me.Guna2Button3.UseTransparentBackground = True
         Me.Guna2Button3.Visible = False
-        '
-        'Guna2Button2
-        '
-        Me.Guna2Button2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button2.Animated = True
-        Me.Guna2Button2.AutoRoundedCorners = True
-        Me.Guna2Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Button2.Location = New System.Drawing.Point(15, 376)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(412, 39)
-        Me.Guna2Button2.TabIndex = 10
-        Me.Guna2Button2.Text = "Forgotten password?"
-        Me.Guna2Button2.UseTransparentBackground = True
         '
         'Guna2Button1
         '
@@ -195,9 +173,6 @@ Partial Class UserLog
         Me.Guna2CirclePictureBox1.TabIndex = 14
         Me.Guna2CirclePictureBox1.TabStop = False
         '
-        'Timer1
-        '
-        '
         'UserLog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -207,7 +182,6 @@ Partial Class UserLog
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Guna2Button3)
-        Me.Controls.Add(Me.Guna2Button2)
         Me.Controls.Add(Me.Guna2Button1)
         Me.Controls.Add(Me.passlogtxbx)
         Me.Controls.Add(Me.usrnlogtxbx)
@@ -222,7 +196,6 @@ Partial Class UserLog
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents passlogtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents usrnlogtxbx As Guna.UI2.WinForms.Guna2TextBox
