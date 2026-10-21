@@ -2,6 +2,28 @@
 
 Public Class StaffManagement
 
+    Private Sub ViewPhoto(id As String)
+        query = "SELECT user_photo FROM staff_information WHERE staff_code = @staff_code"
+
+        Using comm As New SqlCommand(query, conn)
+            comm.Parameters.AddWithValue("@staff_code", id)
+            Using dataRead = comm.ExecuteReader()
+                If dataRead.Read Then
+                    If IsDBNull(dataRead("user_photo")) Then
+                        profileimg.Image = Nothing
+                    Else
+                        Dim img() As Byte = CType(dataRead("user_photo"), Byte())
+                        Using MS As New IO.MemoryStream(img)
+                            profileimg.Image = Image.FromStream(MS)
+                        End Using
+                    End If
+                Else
+                    profileimg.Image = Nothing
+                End If
+            End Using
+        End Using
+    End Sub
+
     Private Sub ViewPosition(role As String)
         Try
             query = "SELECT * FROM staff_information WHERE Position = @Position"
@@ -152,6 +174,7 @@ Public Class StaffManagement
         StaffData()
         Dim value As String = stafftbl.Rows(0).Cells(0).Value.ToString()
         ViewUserProfile(value)
+        ViewPhoto(value)
     End Sub
 
     Private Sub viewallbtn_Click(sender As Object, e As EventArgs) Handles viewallbtn.Click
@@ -173,6 +196,7 @@ Public Class StaffManagement
         Select Case columnName
             Case "viewbtn"
                 ViewUserProfile(rowId)
+                ViewPhoto(rowId)
         End Select
     End Sub
 

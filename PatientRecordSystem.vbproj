@@ -179,12 +179,6 @@
     <Compile Include="RegisterFrm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterStaff.Designer.vb">
-      <DependentUpon>RegisterStaff.vb</DependentUpon>
-    </Compile>
-    <Compile Include="RegisterStaff.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="StaffManagement.Designer.vb">
       <DependentUpon>StaffManagement.vb</DependentUpon>
     </Compile>
@@ -240,9 +234,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterFrm.resx">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegisterStaff.resx">
-      <DependentUpon>RegisterStaff.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StaffManagement.resx">
       <DependentUpon>StaffManagement.vb</DependentUpon>

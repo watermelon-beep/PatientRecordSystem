@@ -1,4 +1,5 @@
-﻿Imports System.Text.RegularExpressions
+﻿Imports System.IO
+Imports System.Text.RegularExpressions
 Public Class RegisterFrm
 
     Private Sub clearData()
@@ -29,6 +30,8 @@ Public Class RegisterFrm
 
     Sub addStaff()
 
+        Dim ms As New MemoryStream
+
         If UsernameExists(regusrnmtxbx.Text) Then
 
             MessageBox.Show("Username already exists.")
@@ -48,6 +51,7 @@ Public Class RegisterFrm
                         Position,
                         phone_number,
                         email_address,
+                        user_photo,
                         created_account
                     )
                       VALUES (
@@ -65,6 +69,7 @@ Public Class RegisterFrm
                         @Position,
                         @phone_number,
                         @email_address,
+                        @user_photo,
                         @created_account
                         )"
 
@@ -85,7 +90,9 @@ Public Class RegisterFrm
                     .AddWithValue("@Position", rolecbx.Text)
                     .AddWithValue("@phone_number", phnumtxbx.Text)
                     .AddWithValue("@email_address", emailtxbx.Text)
+                    .AddWithValue("@user_photo", ms.ToArray)
                     .AddWithValue("@created_account", Date.Now.ToString("yyyy-MM-dd"))
+
                 End With
 
                 comm.ExecuteNonQuery()
@@ -234,6 +241,22 @@ Public Class RegisterFrm
     Private Sub frstnmtxbx_TextChanged(sender As Object, e As EventArgs) Handles frstnmtxbx.TextChanged
         If Regex.IsMatch(frstnmtxbx.Text, "[0-9]") Then
             Guna2MessageDialog1.Show("First name cannot contain numbers.", "Invalid Input")
+        End If
+    End Sub
+
+    Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles OpenFileDialog1.FileOk
+
+    End Sub
+
+    Private Sub uploadbtn_Click(sender As Object, e As EventArgs) Handles uploadbtn.Click
+
+        With OpenFileDialog1
+            .FileName = ""
+            .Filter = "Image files|*.jpeg;*jpg;*.png;*.bmp"
+        End With
+
+        If OpenFileDialog1.ShowDialog Then
+            staffimgpcbx.Image = Image.FromFile(OpenFileDialog1.FileName)
         End If
     End Sub
 End Class

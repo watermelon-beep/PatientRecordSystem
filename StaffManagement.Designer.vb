@@ -22,12 +22,12 @@ Partial Class StaffManagement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle55 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle56 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle60 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle57 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle58 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle59 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
@@ -64,6 +64,8 @@ Partial Class StaffManagement
         Me.searchtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.profileimg = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -75,8 +77,6 @@ Partial Class StaffManagement
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
@@ -88,8 +88,8 @@ Partial Class StaffManagement
         CType(Me.stafftbl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel6.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel8.SuspendLayout()
+        CType(Me.profileimg, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Panel1
@@ -231,28 +231,28 @@ Partial Class StaffManagement
         Me.stafftbl.AllowUserToDeleteRows = False
         Me.stafftbl.AllowUserToResizeColumns = False
         Me.stafftbl.AllowUserToResizeRows = False
-        DataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
-        Me.stafftbl.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle55
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
+        Me.stafftbl.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
         Me.stafftbl.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
-        DataGridViewCellStyle56.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle56.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
-        DataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.stafftbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle56
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.stafftbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.stafftbl.ColumnHeadersHeight = 70
         Me.stafftbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.stafftbl.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column20, Me.Column8, Me.Column12, Me.Column11, Me.Column18, Me.Column9, Me.Column17, Me.Column10, Me.Column13, Me.editbtn, Me.deletebtn, Me.viewbtn})
-        DataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(220, Byte), Integer))
-        DataGridViewCellStyle60.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
-        DataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.stafftbl.DefaultCellStyle = DataGridViewCellStyle60
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(220, Byte), Integer))
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.stafftbl.DefaultCellStyle = DataGridViewCellStyle12
         Me.stafftbl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.stafftbl.GridColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(201, Byte), Integer))
         Me.stafftbl.Location = New System.Drawing.Point(0, 0)
@@ -412,9 +412,9 @@ Partial Class StaffManagement
         'editbtn
         '
         Me.editbtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle57.BackColor = System.Drawing.Color.Khaki
-        Me.editbtn.DefaultCellStyle = DataGridViewCellStyle57
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.Khaki
+        Me.editbtn.DefaultCellStyle = DataGridViewCellStyle9
         Me.editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.editbtn.HeaderText = "Edit"
         Me.editbtn.Name = "editbtn"
@@ -424,9 +424,9 @@ Partial Class StaffManagement
         'deletebtn
         '
         Me.deletebtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle58
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle10
         Me.deletebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.deletebtn.HeaderText = "Delete"
         Me.deletebtn.Name = "deletebtn"
@@ -436,9 +436,9 @@ Partial Class StaffManagement
         'viewbtn
         '
         Me.viewbtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle59.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle59
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle11
         Me.viewbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.viewbtn.HeaderText = "View"
         Me.viewbtn.Name = "viewbtn"
@@ -560,6 +560,32 @@ Partial Class StaffManagement
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.Size = New System.Drawing.Size(1026, 156)
         Me.Guna2Panel2.TabIndex = 0
+        '
+        'Guna2Panel8
+        '
+        Me.Guna2Panel8.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.Guna2Panel8.BorderRadius = 77
+        Me.Guna2Panel8.BorderThickness = 1
+        Me.Guna2Panel8.Controls.Add(Me.profileimg)
+        Me.Guna2Panel8.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Guna2Panel8.Location = New System.Drawing.Point(18, 3)
+        Me.Guna2Panel8.Name = "Guna2Panel8"
+        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(2)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(162, 150)
+        Me.Guna2Panel8.TabIndex = 12
+        '
+        'profileimg
+        '
+        Me.profileimg.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.profileimg.FillColor = System.Drawing.Color.Transparent
+        Me.profileimg.ImageRotate = 0!
+        Me.profileimg.Location = New System.Drawing.Point(2, 2)
+        Me.profileimg.Name = "profileimg"
+        Me.profileimg.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.profileimg.Size = New System.Drawing.Size(158, 146)
+        Me.profileimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.profileimg.TabIndex = 0
+        Me.profileimg.TabStop = False
         '
         'Label12
         '
@@ -693,32 +719,6 @@ Partial Class StaffManagement
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Name"
         '
-        'Guna2CirclePictureBox1
-        '
-        Me.Guna2CirclePictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2CirclePictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.photo_2026_04_01_14_35_51
-        Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(2, 2)
-        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(158, 146)
-        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2CirclePictureBox1.TabIndex = 0
-        Me.Guna2CirclePictureBox1.TabStop = False
-        '
-        'Guna2Panel8
-        '
-        Me.Guna2Panel8.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Guna2Panel8.BorderRadius = 77
-        Me.Guna2Panel8.BorderThickness = 1
-        Me.Guna2Panel8.Controls.Add(Me.Guna2CirclePictureBox1)
-        Me.Guna2Panel8.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel8.Location = New System.Drawing.Point(18, 3)
-        Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(2)
-        Me.Guna2Panel8.Size = New System.Drawing.Size(162, 150)
-        Me.Guna2Panel8.TabIndex = 12
-        '
         'StaffManagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -739,8 +739,8 @@ Partial Class StaffManagement
         Me.Guna2Panel6.PerformLayout()
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel8.ResumeLayout(False)
+        CType(Me.profileimg, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -766,7 +766,7 @@ Partial Class StaffManagement
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents profileimg As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents searchbtn As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents searchtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label9 As Label

@@ -38,12 +38,17 @@ Partial Class RegisterFrm
         Me.regbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.passbar = New Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Guna2Shapes4 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.cnfrmpasstxbx = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.cpybtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.randpassbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.regpasstxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.regusrnmtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -65,23 +70,19 @@ Partial Class RegisterFrm
         Me.daycmbx = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.excbx = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.staffimgpcbx = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.srnmtxbx = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.uploadbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.mdlnmtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.frstnmtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Guna2MessageDialog1 = New Guna.UI2.WinForms.Guna2MessageDialog()
-        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.cpybtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.randpassbtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.staffimgpcbx = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.uploadbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.gtloginbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Guna2MessageDialog1 = New Guna.UI2.WinForms.Guna2MessageDialog()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -350,6 +351,18 @@ Partial Class RegisterFrm
         Me.passbar.Text = "Guna2ProgressBar1"
         Me.passbar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         '
+        'Guna2PictureBox4
+        '
+        Me.Guna2PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox4.Image = CType(resources.GetObject("Guna2PictureBox4.Image"), System.Drawing.Image)
+        Me.Guna2PictureBox4.ImageRotate = 0!
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(190, 562)
+        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(18, 17)
+        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox4.TabIndex = 51
+        Me.Guna2PictureBox4.TabStop = False
+        '
         'Label14
         '
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -362,6 +375,18 @@ Partial Class RegisterFrm
         Me.Label14.TabIndex = 50
         Me.Label14.Text = "contains numbers [0-9]"
         '
+        'Guna2PictureBox3
+        '
+        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.Image = CType(resources.GetObject("Guna2PictureBox3.Image"), System.Drawing.Image)
+        Me.Guna2PictureBox3.ImageRotate = 0!
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(190, 545)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(18, 17)
+        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox3.TabIndex = 49
+        Me.Guna2PictureBox3.TabStop = False
+        '
         'Label13
         '
         Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -373,6 +398,18 @@ Partial Class RegisterFrm
         Me.Label13.Size = New System.Drawing.Size(184, 17)
         Me.Label13.TabIndex = 48
         Me.Label13.Text = "contains capital letters [A-Z]"
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), System.Drawing.Image)
+        Me.Guna2PictureBox2.ImageRotate = 0!
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(190, 528)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(18, 17)
+        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox2.TabIndex = 47
+        Me.Guna2PictureBox2.TabStop = False
         '
         'Label12
         '
@@ -439,6 +476,46 @@ Partial Class RegisterFrm
         Me.cnfrmpasstxbx.Size = New System.Drawing.Size(508, 45)
         Me.cnfrmpasstxbx.TabIndex = 43
         Me.cnfrmpasstxbx.TextOffset = New System.Drawing.Point(0, -2)
+        '
+        'cpybtn
+        '
+        Me.cpybtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.cpybtn.BorderRadius = 10
+        Me.cpybtn.BorderThickness = 1
+        Me.cpybtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.cpybtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.cpybtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.cpybtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.cpybtn.FillColor = System.Drawing.Color.Transparent
+        Me.cpybtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.cpybtn.ForeColor = System.Drawing.Color.White
+        Me.cpybtn.Image = Global.PatientRecordSystem.My.Resources.Resources.copy
+        Me.cpybtn.Location = New System.Drawing.Point(1173, 442)
+        Me.cpybtn.Name = "cpybtn"
+        Me.cpybtn.Size = New System.Drawing.Size(57, 45)
+        Me.cpybtn.TabIndex = 42
+        '
+        'randpassbtn
+        '
+        Me.randpassbtn.Animated = True
+        Me.randpassbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.randpassbtn.BorderRadius = 10
+        Me.randpassbtn.BorderThickness = 1
+        Me.randpassbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.randpassbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.randpassbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.randpassbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.randpassbtn.FillColor = System.Drawing.Color.Transparent
+        Me.randpassbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.randpassbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.randpassbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.dices
+        Me.randpassbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.randpassbtn.IndicateFocus = True
+        Me.randpassbtn.Location = New System.Drawing.Point(1037, 442)
+        Me.randpassbtn.Name = "randpassbtn"
+        Me.randpassbtn.Size = New System.Drawing.Size(130, 45)
+        Me.randpassbtn.TabIndex = 41
+        Me.randpassbtn.Text = "Generate"
         '
         'regpasstxbx
         '
@@ -882,6 +959,37 @@ Partial Class RegisterFrm
         Me.excbx.TabIndex = 12
         Me.excbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Guna2Panel5
+        '
+        Me.Guna2Panel5.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.BackgroundImage = CType(resources.GetObject("Guna2Panel5.BackgroundImage"), System.Drawing.Image)
+        Me.Guna2Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Guna2Panel5.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Guna2Panel5.BorderRadius = 10
+        Me.Guna2Panel5.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash
+        Me.Guna2Panel5.BorderThickness = 1
+        Me.Guna2Panel5.Controls.Add(Me.staffimgpcbx)
+        Me.Guna2Panel5.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel5.Location = New System.Drawing.Point(12, 25)
+        Me.Guna2Panel5.Name = "Guna2Panel5"
+        Me.Guna2Panel5.Size = New System.Drawing.Size(157, 166)
+        Me.Guna2Panel5.TabIndex = 11
+        '
+        'staffimgpcbx
+        '
+        Me.staffimgpcbx.BackColor = System.Drawing.Color.Transparent
+        Me.staffimgpcbx.BorderRadius = 10
+        Me.staffimgpcbx.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.staffimgpcbx.FillColor = System.Drawing.Color.Transparent
+        Me.staffimgpcbx.ImageRotate = 0!
+        Me.staffimgpcbx.Location = New System.Drawing.Point(0, 0)
+        Me.staffimgpcbx.Name = "staffimgpcbx"
+        Me.staffimgpcbx.Size = New System.Drawing.Size(157, 166)
+        Me.staffimgpcbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.staffimgpcbx.TabIndex = 0
+        Me.staffimgpcbx.TabStop = False
+        '
         'srnmtxbx
         '
         Me.srnmtxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -908,6 +1016,29 @@ Partial Class RegisterFrm
         Me.srnmtxbx.Size = New System.Drawing.Size(285, 45)
         Me.srnmtxbx.TabIndex = 9
         Me.srnmtxbx.TextOffset = New System.Drawing.Point(0, -2)
+        '
+        'uploadbtn
+        '
+        Me.uploadbtn.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.uploadbtn.BackColor = System.Drawing.Color.Transparent
+        Me.uploadbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.uploadbtn.BorderRadius = 10
+        Me.uploadbtn.BorderThickness = 1
+        Me.uploadbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.uploadbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.uploadbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.uploadbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.uploadbtn.FillColor = System.Drawing.Color.Transparent
+        Me.uploadbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.uploadbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.uploadbtn.Image = CType(resources.GetObject("uploadbtn.Image"), System.Drawing.Image)
+        Me.uploadbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.uploadbtn.Location = New System.Drawing.Point(12, 218)
+        Me.uploadbtn.Name = "uploadbtn"
+        Me.uploadbtn.Size = New System.Drawing.Size(157, 49)
+        Me.uploadbtn.TabIndex = 10
+        Me.uploadbtn.Text = "Upload Photo"
+        Me.uploadbtn.UseTransparentBackground = True
         '
         'mdlnmtxbx
         '
@@ -990,145 +1121,6 @@ Partial Class RegisterFrm
         Me.Guna2Shapes1.Text = "Guna2Shapes1"
         Me.Guna2Shapes1.Zoom = 100
         '
-        'Guna2MessageDialog1
-        '
-        Me.Guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.AbortRetryIgnore
-        Me.Guna2MessageDialog1.Caption = Nothing
-        Me.Guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None
-        Me.Guna2MessageDialog1.Parent = Me
-        Me.Guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark
-        Me.Guna2MessageDialog1.Text = Nothing
-        '
-        'Guna2PictureBox4
-        '
-        Me.Guna2PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox4.Image = CType(resources.GetObject("Guna2PictureBox4.Image"), System.Drawing.Image)
-        Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(190, 562)
-        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(18, 17)
-        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox4.TabIndex = 51
-        Me.Guna2PictureBox4.TabStop = False
-        '
-        'Guna2PictureBox3
-        '
-        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox3.Image = CType(resources.GetObject("Guna2PictureBox3.Image"), System.Drawing.Image)
-        Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(190, 545)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(18, 17)
-        Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox3.TabIndex = 49
-        Me.Guna2PictureBox3.TabStop = False
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), System.Drawing.Image)
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(190, 528)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(18, 17)
-        Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2PictureBox2.TabIndex = 47
-        Me.Guna2PictureBox2.TabStop = False
-        '
-        'cpybtn
-        '
-        Me.cpybtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.cpybtn.BorderRadius = 10
-        Me.cpybtn.BorderThickness = 1
-        Me.cpybtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.cpybtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.cpybtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.cpybtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.cpybtn.FillColor = System.Drawing.Color.Transparent
-        Me.cpybtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.cpybtn.ForeColor = System.Drawing.Color.White
-        Me.cpybtn.Image = Global.PatientRecordSystem.My.Resources.Resources.copy
-        Me.cpybtn.Location = New System.Drawing.Point(1173, 442)
-        Me.cpybtn.Name = "cpybtn"
-        Me.cpybtn.Size = New System.Drawing.Size(57, 45)
-        Me.cpybtn.TabIndex = 42
-        '
-        'randpassbtn
-        '
-        Me.randpassbtn.Animated = True
-        Me.randpassbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.randpassbtn.BorderRadius = 10
-        Me.randpassbtn.BorderThickness = 1
-        Me.randpassbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.randpassbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.randpassbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.randpassbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.randpassbtn.FillColor = System.Drawing.Color.Transparent
-        Me.randpassbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.randpassbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.randpassbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.dices
-        Me.randpassbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.randpassbtn.IndicateFocus = True
-        Me.randpassbtn.Location = New System.Drawing.Point(1037, 442)
-        Me.randpassbtn.Name = "randpassbtn"
-        Me.randpassbtn.Size = New System.Drawing.Size(130, 45)
-        Me.randpassbtn.TabIndex = 41
-        Me.randpassbtn.Text = "Generate"
-        '
-        'Guna2Panel5
-        '
-        Me.Guna2Panel5.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel5.BackgroundImage = CType(resources.GetObject("Guna2Panel5.BackgroundImage"), System.Drawing.Image)
-        Me.Guna2Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Guna2Panel5.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel5.BorderRadius = 10
-        Me.Guna2Panel5.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash
-        Me.Guna2Panel5.BorderThickness = 1
-        Me.Guna2Panel5.Controls.Add(Me.staffimgpcbx)
-        Me.Guna2Panel5.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel5.Location = New System.Drawing.Point(12, 25)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(157, 166)
-        Me.Guna2Panel5.TabIndex = 11
-        '
-        'staffimgpcbx
-        '
-        Me.staffimgpcbx.BackColor = System.Drawing.Color.Transparent
-        Me.staffimgpcbx.BorderRadius = 10
-        Me.staffimgpcbx.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.staffimgpcbx.FillColor = System.Drawing.Color.Transparent
-        Me.staffimgpcbx.ImageRotate = 0!
-        Me.staffimgpcbx.Location = New System.Drawing.Point(0, 0)
-        Me.staffimgpcbx.Name = "staffimgpcbx"
-        Me.staffimgpcbx.Size = New System.Drawing.Size(157, 166)
-        Me.staffimgpcbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.staffimgpcbx.TabIndex = 0
-        Me.staffimgpcbx.TabStop = False
-        '
-        'uploadbtn
-        '
-        Me.uploadbtn.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.uploadbtn.BackColor = System.Drawing.Color.Transparent
-        Me.uploadbtn.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.uploadbtn.BorderRadius = 10
-        Me.uploadbtn.BorderThickness = 1
-        Me.uploadbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.uploadbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.uploadbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.uploadbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.uploadbtn.FillColor = System.Drawing.Color.Transparent
-        Me.uploadbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.uploadbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.uploadbtn.Image = CType(resources.GetObject("uploadbtn.Image"), System.Drawing.Image)
-        Me.uploadbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.uploadbtn.Location = New System.Drawing.Point(12, 218)
-        Me.uploadbtn.Name = "uploadbtn"
-        Me.uploadbtn.Size = New System.Drawing.Size(157, 49)
-        Me.uploadbtn.TabIndex = 10
-        Me.uploadbtn.Text = "Upload Photo"
-        Me.uploadbtn.UseTransparentBackground = True
-        '
         'Guna2Panel1
         '
         Me.Guna2Panel1.BackColor = System.Drawing.Color.Transparent
@@ -1178,6 +1170,19 @@ Partial Class RegisterFrm
         Me.Label3.Size = New System.Drawing.Size(277, 19)
         Me.Label3.TabIndex = 29
         Me.Label3.Text = "Barangay health clinic: staff Registration"
+        '
+        'Guna2MessageDialog1
+        '
+        Me.Guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.AbortRetryIgnore
+        Me.Guna2MessageDialog1.Caption = Nothing
+        Me.Guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None
+        Me.Guna2MessageDialog1.Parent = Me
+        Me.Guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Dark
+        Me.Guna2MessageDialog1.Text = Nothing
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
         'RegisterFrm
         '
@@ -1264,4 +1269,5 @@ Partial Class RegisterFrm
     Friend WithEvents regprogress As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents Label20 As Label
     Friend WithEvents Guna2MessageDialog1 As Guna.UI2.WinForms.Guna2MessageDialog
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
