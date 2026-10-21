@@ -57,5 +57,5 @@ Public Class AdminFrm
         Guna2Panel3.Controls.Clear()
         patManagement.Dock = DockStyle.Fill
         Guna2Panel3.Controls.Add(patManagement)
-    End Sub
+    End Sub,
 End Class
