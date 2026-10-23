@@ -48,4 +48,10 @@ Public Class DoctorFrm
     Private Sub Guna2Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel2.Paint
 
     End Sub
+
+    Private Sub patientRecbtn_Click(sender As Object, e As EventArgs) Handles patientRecbtn.Click
+        patientRecbtn.BackColor = Color.FromArgb(4, 196, 80)
+        Dim PatientRecordDctr As New PatientRecordDctr
+        ChangeUsrCnrl(PatientRecordDctr, Guna2Panel1)
+    End Sub
 End Class

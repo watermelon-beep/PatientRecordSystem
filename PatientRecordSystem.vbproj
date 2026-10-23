@@ -185,6 +185,12 @@
     <Compile Include="StaffManagement.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="PatientRecordDctr.Designer.vb">
+      <DependentUpon>PatientRecordDctr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientRecordDctr.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UserLog.Designer.vb">
       <DependentUpon>UserLog.vb</DependentUpon>
     </Compile>
@@ -237,6 +243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StaffManagement.resx">
       <DependentUpon>StaffManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientRecordDctr.resx">
+      <DependentUpon>PatientRecordDctr.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLog.resx">
       <DependentUpon>UserLog.vb</DependentUpon>
