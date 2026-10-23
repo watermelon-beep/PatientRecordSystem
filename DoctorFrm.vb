@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports Guna.UI2.WinForms
 
 Public Class DoctorFrm
     Private Sub doctorProfile()
@@ -51,7 +52,15 @@ Public Class DoctorFrm
 
     Private Sub patientRecbtn_Click(sender As Object, e As EventArgs) Handles patientRecbtn.Click
         patientRecbtn.BackColor = Color.FromArgb(4, 196, 80)
-        Dim PatientRecordDctr As New PatientRecordDctr
-        ChangeUsrCnrl(PatientRecordDctr, Guna2Panel1)
+        Dim PatientRecordDctr As New PatientRecordDctr()
+
+        ChangeUsrCnrl(PatientRecordDctr, Guna2Panel3)
+    End Sub
+
+    Private Sub DrConsultation_Click(Sender As Object, e As EventArgs) Handles DrConsultation.Click
+        DrConsultation.BackColor = Color.FromArgb(4, 196, 80)
+
+        Dim consultationForm As New DrConsultation()
+        ChangeUsrCnrl(consultationForm, Guna2Panel3)
     End Sub
 End Class

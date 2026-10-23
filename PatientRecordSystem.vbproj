@@ -132,6 +132,12 @@
     <Compile Include="DoctorFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DrConsultation.Designer.vb">
+      <DependentUpon>DrConsultation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DrConsultation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>
@@ -219,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFrm.resx">
       <DependentUpon>DoctorFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrConsultation.resx">
+      <DependentUpon>DrConsultation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogForm.resx">
       <DependentUpon>LogForm.vb</DependentUpon>
@@ -335,6 +344,7 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\stethoscope.png" />
     <None Include="Resources\search.png" />
     <None Include="Resources\zxcxzczxcd1.png" />
     <None Include="Resources\zxcxzczxcd.png" />
@@ -418,6 +428,8 @@
     <None Include="Resources\asdasdasdasjbvcj.png" />
     <None Include="Resources\asdasdasdasdaszxvgfsh.png" />
     <None Include="Resources\dsafgfdgafdgafdgadf.png" />
+    <None Include="Resources\calendar-days1.png" />
+    <None Include="Resources\calendar-days %281%29.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />

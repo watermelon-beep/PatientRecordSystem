@@ -38,7 +38,7 @@ Partial Class DoctorFrm
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Me.DrConsultation = New Guna.UI2.WinForms.Guna2Button()
         Me.patientRecbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.dashbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
@@ -203,7 +203,7 @@ Partial Class DoctorFrm
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button3, 0, 3)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 5)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button4, 0, 2)
+        Me.TableLayoutPanel2.Controls.Add(Me.DrConsultation, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.patientRecbtn, 0, 1)
         Me.TableLayoutPanel2.Controls.Add(Me.dashbtn, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
@@ -265,27 +265,27 @@ Partial Class DoctorFrm
         Me.Guna2Button8.Text = "Logout"
         Me.Guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'Guna2Button4
+        'DrConsultation
         '
-        Me.Guna2Button4.Animated = True
-        Me.Guna2Button4.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button4.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button4.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
-        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.Location = New System.Drawing.Point(0, 100)
-        Me.Guna2Button4.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(232, 50)
-        Me.Guna2Button4.TabIndex = 12
-        Me.Guna2Button4.Text = "Consultation"
-        Me.Guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.DrConsultation.Animated = True
+        Me.DrConsultation.BorderColor = System.Drawing.Color.Transparent
+        Me.DrConsultation.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.DrConsultation.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.DrConsultation.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.DrConsultation.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.DrConsultation.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DrConsultation.FillColor = System.Drawing.Color.Transparent
+        Me.DrConsultation.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DrConsultation.ForeColor = System.Drawing.Color.White
+        Me.DrConsultation.Image = Global.PatientRecordSystem.My.Resources.Resources.square_user
+        Me.DrConsultation.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.DrConsultation.Location = New System.Drawing.Point(0, 100)
+        Me.DrConsultation.Margin = New System.Windows.Forms.Padding(0)
+        Me.DrConsultation.Name = "DrConsultation"
+        Me.DrConsultation.Size = New System.Drawing.Size(232, 50)
+        Me.DrConsultation.TabIndex = 12
+        Me.DrConsultation.Text = "Consultation"
+        Me.DrConsultation.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'patientRecbtn
         '
@@ -407,7 +407,7 @@ Partial Class DoctorFrm
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents DrConsultation As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents patientRecbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents dashbtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
