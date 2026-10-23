@@ -63,4 +63,13 @@ Public Class DoctorFrm
         Dim consultationForm As New DrConsultation()
         ChangeUsrCnrl(consultationForm, Guna2Panel3)
     End Sub
+
+    Private Sub DrSettings_Click(sender As Object, e As EventArgs) Handles DrSettings.Click
+        DrSettings.BackColor = Color.FromArgb(4, 196, 80)
+
+        Dim SettingsForm As New DrSettings()
+
+        ChangeUsrCnrl(SettingsForm, Guna2Panel3)
+
+    End Sub
 End Class

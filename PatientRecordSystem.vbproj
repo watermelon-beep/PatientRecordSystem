@@ -138,6 +138,7 @@
     <Compile Include="DrConsultation.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="DrSettings.vb" />
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>
