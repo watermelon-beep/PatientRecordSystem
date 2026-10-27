@@ -416,7 +416,7 @@ Partial Class PatientManagement
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(717, 92)
+        Me.Label8.Location = New System.Drawing.Point(765, 92)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(129, 22)
         Me.Label8.TabIndex = 7
@@ -440,7 +440,7 @@ Partial Class PatientManagement
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(532, 68)
+        Me.Label6.Location = New System.Drawing.Point(532, 34)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(68, 22)
         Me.Label6.TabIndex = 5
@@ -452,7 +452,7 @@ Partial Class PatientManagement
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(716, 64)
+        Me.Label5.Location = New System.Drawing.Point(764, 29)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(97, 28)
         Me.Label5.TabIndex = 4
@@ -476,7 +476,7 @@ Partial Class PatientManagement
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(188, 92)
+        Me.Label3.Location = New System.Drawing.Point(188, 71)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(42, 22)
         Me.Label3.TabIndex = 2
@@ -488,7 +488,7 @@ Partial Class PatientManagement
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(186, 56)
+        Me.Label2.Location = New System.Drawing.Point(186, 20)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(97, 36)
         Me.Label2.TabIndex = 1

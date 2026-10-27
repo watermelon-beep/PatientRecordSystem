@@ -138,7 +138,6 @@
     <Compile Include="DrConsultation.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="DrSettings.vb" />
     <Compile Include="LogForm.Designer.vb">
       <DependentUpon>LogForm.vb</DependentUpon>
     </Compile>
@@ -167,6 +166,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PatientInfo.Designer.vb">
+      <DependentUpon>PatientInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PatientManagement.Designer.vb">
       <DependentUpon>PatientManagement.vb</DependentUpon>
     </Compile>
@@ -185,6 +190,12 @@
     </Compile>
     <Compile Include="RegisterFrm.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="StaffManagement.Designer.vb">
       <DependentUpon>StaffManagement.vb</DependentUpon>
@@ -242,6 +253,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PatientInfo.resx">
+      <DependentUpon>PatientInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PatientManagement.resx">
       <DependentUpon>PatientManagement.vb</DependentUpon>
     </EmbeddedResource>
@@ -250,6 +264,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterFrm.resx">
       <DependentUpon>RegisterFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StaffManagement.resx">
       <DependentUpon>StaffManagement.vb</DependentUpon>
@@ -431,6 +448,7 @@
     <None Include="Resources\dsafgfdgafdgafdgadf.png" />
     <None Include="Resources\calendar-days1.png" />
     <None Include="Resources\calendar-days %281%29.png" />
+    <None Include="Resources\circle-plus %281%29.png" />
     <Content Include="Resources\eye-closed.png" />
     <None Include="Resources\eye1.png" />
     <None Include="Resources\eye-closed1.png" />

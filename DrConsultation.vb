@@ -1,13 +1,5 @@
 ﻿Public Class DrConsultation
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Guna2ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs)
+    Private Sub Guna2CirclePictureBox3_Click(sender As Object, e As EventArgs) Handles Guna2CirclePictureBox3.Click
 
     End Sub
 End Class

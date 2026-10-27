@@ -71,10 +71,10 @@ Partial Class DoctorFrm
         Me.Guna2Panel3.CustomizableEdges.BottomRight = False
         Me.Guna2Panel3.CustomizableEdges.TopRight = False
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(232, 95)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(232, 102)
         Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 586)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 579)
         Me.Guna2Panel3.TabIndex = 4
         '
         'Guna2ShadowPanel2
@@ -96,7 +96,7 @@ Partial Class DoctorFrm
         Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel2.ShadowDepth = 10
         Me.Guna2ShadowPanel2.ShadowShift = 3
-        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(1032, 95)
+        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(1032, 102)
         Me.Guna2ShadowPanel2.TabIndex = 3
         '
         'Guna2CirclePictureBox2

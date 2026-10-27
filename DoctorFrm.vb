@@ -51,25 +51,25 @@ Public Class DoctorFrm
     End Sub
 
     Private Sub patientRecbtn_Click(sender As Object, e As EventArgs) Handles patientRecbtn.Click
-        patientRecbtn.BackColor = Color.FromArgb(4, 196, 80)
+
         Dim PatientRecordDctr As New PatientRecordDctr()
 
         ChangeUsrCnrl(PatientRecordDctr, Guna2Panel3)
     End Sub
 
     Private Sub DrConsultation_Click(Sender As Object, e As EventArgs) Handles DrConsultation.Click
-        DrConsultation.BackColor = Color.FromArgb(4, 196, 80)
 
         Dim consultationForm As New DrConsultation()
         ChangeUsrCnrl(consultationForm, Guna2Panel3)
     End Sub
 
+    Private Sub Guna2ShadowPanel2_Paint(sender As Object, e As PaintEventArgs) Handles Guna2ShadowPanel2.Paint
+
+    End Sub
+
     Private Sub DrSettings_Click(sender As Object, e As EventArgs) Handles DrSettings.Click
-        DrSettings.BackColor = Color.FromArgb(4, 196, 80)
+        Dim DrSettings As New Settings()
 
-        Dim SettingsForm As New DrSettings()
-
-        ChangeUsrCnrl(SettingsForm, Guna2Panel3)
-
+        ChangeUsrCnrl(DrSettings, Guna2Panel3)
     End Sub
 End Class
