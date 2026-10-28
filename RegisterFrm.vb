@@ -239,9 +239,7 @@ Public Class RegisterFrm
     End Sub
 
     Private Sub frstnmtxbx_TextChanged(sender As Object, e As EventArgs) Handles frstnmtxbx.TextChanged
-        If Regex.IsMatch(frstnmtxbx.Text, "[0-9]") Then
-            Guna2MessageDialog1.Show("First name cannot contain numbers.", "Invalid Input")
-        End If
+
     End Sub
 
     Private Sub OpenFileDialog1_FileOk(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles OpenFileDialog1.FileOk

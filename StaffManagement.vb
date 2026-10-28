@@ -64,7 +64,7 @@ Public Class StaffManagement
 
     Private Sub SearchUser()
         Try
-            query = "SELECT * FROM staff_information WHERE Position LIKE @search"
+            query = "SELECT * FROM staff_information WHERE staff_code LIKE @search"
 
             stafftbl.Rows.Clear()
 

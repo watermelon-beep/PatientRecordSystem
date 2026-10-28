@@ -27,7 +27,6 @@ Partial Class PatientInfo
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.regprogress = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -55,7 +54,6 @@ Partial Class PatientInfo
         Me.phnumtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.rolecbx = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.addrtxbx = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.birthtxbx = New Guna.UI2.WinForms.Guna2TextBox()
@@ -103,7 +101,6 @@ Partial Class PatientInfo
         '
         Me.Guna2Panel2.Controls.Add(Me.Label20)
         Me.Guna2Panel2.Controls.Add(Me.regprogress)
-        Me.Guna2Panel2.Controls.Add(Me.Label19)
         Me.Guna2Panel2.Controls.Add(Me.Label18)
         Me.Guna2Panel2.Controls.Add(Me.Label17)
         Me.Guna2Panel2.Controls.Add(Me.Label16)
@@ -131,7 +128,6 @@ Partial Class PatientInfo
         Me.Guna2Panel2.Controls.Add(Me.phnumtxbx)
         Me.Guna2Panel2.Controls.Add(Me.Label9)
         Me.Guna2Panel2.Controls.Add(Me.Guna2Shapes2)
-        Me.Guna2Panel2.Controls.Add(Me.rolecbx)
         Me.Guna2Panel2.Controls.Add(Me.addrtxbx)
         Me.Guna2Panel2.Controls.Add(Me.Label7)
         Me.Guna2Panel2.Controls.Add(Me.birthtxbx)
@@ -190,19 +186,6 @@ Partial Class PatientInfo
         Me.regprogress.TabIndex = 63
         Me.regprogress.Text = "Guna2CircleProgressBar1"
         Me.regprogress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
-        '
-        'Label19
-        '
-        Me.Label19.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label19.Location = New System.Drawing.Point(1042, 235)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(78, 22)
-        Me.Label19.TabIndex = 62
-        Me.Label19.Text = "Job title"
         '
         'Label18
         '
@@ -633,29 +616,6 @@ Partial Class PatientInfo
         Me.Guna2Shapes2.Text = "Guna2Shapes2"
         Me.Guna2Shapes2.Zoom = 100
         '
-        'rolecbx
-        '
-        Me.rolecbx.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.rolecbx.BackColor = System.Drawing.Color.Transparent
-        Me.rolecbx.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.rolecbx.BorderRadius = 10
-        Me.rolecbx.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.rolecbx.DropDownHeight = 100
-        Me.rolecbx.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.rolecbx.FillColor = System.Drawing.Color.WhiteSmoke
-        Me.rolecbx.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.rolecbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.rolecbx.Font = New System.Drawing.Font("Segoe UI", 10.0!)
-        Me.rolecbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
-        Me.rolecbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.rolecbx.IntegralHeight = False
-        Me.rolecbx.ItemHeight = 40
-        Me.rolecbx.Location = New System.Drawing.Point(1020, 223)
-        Me.rolecbx.Name = "rolecbx"
-        Me.rolecbx.Size = New System.Drawing.Size(223, 46)
-        Me.rolecbx.TabIndex = 30
-        Me.rolecbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'addrtxbx
         '
         Me.addrtxbx.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -674,12 +634,12 @@ Partial Class PatientInfo
         Me.addrtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.addrtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.addrtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.addrtxbx.Location = New System.Drawing.Point(603, 223)
+        Me.addrtxbx.Location = New System.Drawing.Point(694, 218)
         Me.addrtxbx.Margin = New System.Windows.Forms.Padding(4)
         Me.addrtxbx.Name = "addrtxbx"
         Me.addrtxbx.PlaceholderText = "House no., street, purok, barangay"
         Me.addrtxbx.SelectedText = ""
-        Me.addrtxbx.Size = New System.Drawing.Size(410, 45)
+        Me.addrtxbx.Size = New System.Drawing.Size(543, 45)
         Me.addrtxbx.TabIndex = 29
         Me.addrtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -689,7 +649,7 @@ Partial Class PatientInfo
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(599, 200)
+        Me.Label7.Location = New System.Drawing.Point(696, 195)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(63, 19)
         Me.Label7.TabIndex = 28
@@ -718,7 +678,7 @@ Partial Class PatientInfo
         Me.birthtxbx.Name = "birthtxbx"
         Me.birthtxbx.PlaceholderText = "City/municipality"
         Me.birthtxbx.SelectedText = ""
-        Me.birthtxbx.Size = New System.Drawing.Size(410, 45)
+        Me.birthtxbx.Size = New System.Drawing.Size(469, 45)
         Me.birthtxbx.TabIndex = 27
         Me.birthtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -1151,7 +1111,6 @@ Partial Class PatientInfo
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label20 As Label
     Friend WithEvents regprogress As Guna.UI2.WinForms.Guna2CircleProgressBar
-    Friend WithEvents Label19 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label16 As Label
@@ -1179,7 +1138,6 @@ Partial Class PatientInfo
     Friend WithEvents phnumtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents rolecbx As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents addrtxbx As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents birthtxbx As Guna.UI2.WinForms.Guna2TextBox
