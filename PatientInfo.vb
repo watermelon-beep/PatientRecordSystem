@@ -1,5 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
+Imports System.Text.RegularExpressions
 
 Public Class PatientInfo
     Sub addPat()
@@ -61,5 +62,31 @@ Public Class PatientInfo
 
     Private Sub regbtn_Click(sender As Object, e As EventArgs) Handles regbtn.Click
         addPat()
+    End Sub
+
+    Private Sub daycmbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles daycmbx.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub mnthcbx_SelectedIndexChanged(sender As Object, e As EventArgs) Handles mnthcbx.SelectedIndexChanged
+        If mnthcbx.SelectedIndex <> -1 Then
+            Label8.Visible = False
+        Else
+            Label8.Visible = True
+
+        End If
+    End Sub
+
+    Private Sub phnumtxbx_TextChanged(sender As Object, e As EventArgs) Handles phnumtxbx.TextChanged
+        If phnumtxbx.Text.Length > 11 Then
+            phnumtxbx.Text = phnumtxbx.Text.Substring(0, phnumtxbx.Text.Length - 1)
+            MsgBox("sobra kana")
+        End If
+
+        If Regex.IsMatch(phnumtxbx.Text, "[^0-9]") Then
+            phnumtxbx.Text = Regex.Replace(phnumtxbx.Text, "[^0-9]", "")
+            phnumtxbx.SelectionStart = phnumtxbx.Text.Length
+            MsgBox("Bawal ang letters")
+        End If
     End Sub
 End Class

@@ -67,7 +67,7 @@ Public Class DoctorFrm
 
     End Sub
 
-    Private Sub DrSettings_Click(sender As Object, e As EventArgs) Handles DrSettings.Click
+    Private Sub DrSettings_Click(sender As Object, e As EventArgs) 
         Dim DrSettings As New Settings()
 
         ChangeUsrCnrl(DrSettings, Guna2Panel3)

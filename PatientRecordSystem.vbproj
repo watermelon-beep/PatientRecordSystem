@@ -362,6 +362,7 @@
     <None Include="Resources\lock-keyhole.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\user-pen %281%29.png" />
     <None Include="Resources\stethoscope.png" />
     <None Include="Resources\search.png" />
     <None Include="Resources\zxcxzczxcd1.png" />

@@ -775,11 +775,12 @@ Partial Class PatientInfo
         Me.mnthcbx.FillColor = System.Drawing.Color.WhiteSmoke
         Me.mnthcbx.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.mnthcbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.mnthcbx.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.mnthcbx.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
         Me.mnthcbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.mnthcbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.mnthcbx.IntegralHeight = False
         Me.mnthcbx.ItemHeight = 40
+        Me.mnthcbx.Items.AddRange(New Object() {"2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003", "2002", "2001", "2000", "1999", "1998", "1997", "1996", "1995", "1994", "1993", "1992", "1991", "1990", "1989", "1988", "1987", "1986", "1985", "1984", "1983", "1982", "1981", "1980", "1979", "1978", "1977", "1976", "1975", "1974", "1973", "1972", "1971", "1970", "1969", "1968", "1967", "1966", "1965", "1964", "1963", "1962", "1961", "1960", "1959", "1958", "1957", "1956", "1955", "1954", "1953", "1952", "1951", "1950", "1949", "1948", "1947", "1946", "1945", "1944", "1943", "1942", "1941", "1940"})
         Me.mnthcbx.Location = New System.Drawing.Point(366, 136)
         Me.mnthcbx.Name = "mnthcbx"
         Me.mnthcbx.Size = New System.Drawing.Size(175, 46)
@@ -826,11 +827,12 @@ Partial Class PatientInfo
         Me.daycmbx.FillColor = System.Drawing.Color.WhiteSmoke
         Me.daycmbx.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.daycmbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.daycmbx.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.daycmbx.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
         Me.daycmbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.daycmbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.daycmbx.IntegralHeight = False
         Me.daycmbx.ItemHeight = 40
+        Me.daycmbx.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
         Me.daycmbx.Location = New System.Drawing.Point(185, 136)
         Me.daycmbx.Name = "daycmbx"
         Me.daycmbx.Size = New System.Drawing.Size(175, 46)

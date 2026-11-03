@@ -36,7 +36,6 @@ Partial Class DoctorFrm
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
-        Me.DrSettings = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
         Me.DrConsultation = New Guna.UI2.WinForms.Guna2Button()
         Me.patientRecbtn = New Guna.UI2.WinForms.Guna2Button()
@@ -201,7 +200,6 @@ Partial Class DoctorFrm
         '
         Me.TableLayoutPanel2.ColumnCount = 1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel2.Controls.Add(Me.DrSettings, 0, 3)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 5)
         Me.TableLayoutPanel2.Controls.Add(Me.DrConsultation, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.patientRecbtn, 0, 1)
@@ -220,28 +218,6 @@ Partial Class DoctorFrm
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel2.Size = New System.Drawing.Size(232, 529)
         Me.TableLayoutPanel2.TabIndex = 1
-        '
-        'DrSettings
-        '
-        Me.DrSettings.Animated = True
-        Me.DrSettings.BorderColor = System.Drawing.Color.Transparent
-        Me.DrSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.DrSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.DrSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.DrSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.DrSettings.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DrSettings.FillColor = System.Drawing.Color.Transparent
-        Me.DrSettings.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DrSettings.ForeColor = System.Drawing.Color.White
-        Me.DrSettings.Image = Global.PatientRecordSystem.My.Resources.Resources.settings
-        Me.DrSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.DrSettings.Location = New System.Drawing.Point(0, 150)
-        Me.DrSettings.Margin = New System.Windows.Forms.Padding(0)
-        Me.DrSettings.Name = "DrSettings"
-        Me.DrSettings.Size = New System.Drawing.Size(232, 50)
-        Me.DrSettings.TabIndex = 19
-        Me.DrSettings.Text = "Settings"
-        Me.DrSettings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button8
         '
@@ -405,7 +381,6 @@ Partial Class DoctorFrm
     Friend WithEvents Label4 As Label
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
-    Friend WithEvents DrSettings As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents DrConsultation As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents patientRecbtn As Guna.UI2.WinForms.Guna2Button
