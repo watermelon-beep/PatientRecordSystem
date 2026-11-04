@@ -38,7 +38,7 @@ Partial Class AdminFrm
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.appointmentbtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Adminrep = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
         Me.staffmanagementbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.patmangementbtn = New Guna.UI2.WinForms.Guna2Button()
@@ -203,7 +203,7 @@ Partial Class AdminFrm
         Me.TableLayoutPanel2.ColumnCount = 1
         Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
         Me.TableLayoutPanel2.Controls.Add(Me.appointmentbtn, 0, 3)
-        Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button6, 0, 4)
+        Me.TableLayoutPanel2.Controls.Add(Me.Adminrep, 0, 4)
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Button8, 0, 7)
         Me.TableLayoutPanel2.Controls.Add(Me.staffmanagementbtn, 0, 2)
         Me.TableLayoutPanel2.Controls.Add(Me.patmangementbtn, 0, 1)
@@ -244,26 +244,26 @@ Partial Class AdminFrm
         Me.appointmentbtn.Text = "Appointment"
         Me.appointmentbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'Guna2Button6
+        'Adminrep
         '
-        Me.Guna2Button6.Animated = True
-        Me.Guna2Button6.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Button6.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Button6.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button6.Image = Global.PatientRecordSystem.My.Resources.Resources.notebook_dot
-        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button6.Location = New System.Drawing.Point(3, 171)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(226, 36)
-        Me.Guna2Button6.TabIndex = 20
-        Me.Guna2Button6.Text = "Reports"
-        Me.Guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Adminrep.Animated = True
+        Me.Adminrep.BorderColor = System.Drawing.Color.Transparent
+        Me.Adminrep.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Adminrep.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Adminrep.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Adminrep.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Adminrep.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Adminrep.FillColor = System.Drawing.Color.Transparent
+        Me.Adminrep.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Adminrep.ForeColor = System.Drawing.Color.White
+        Me.Adminrep.Image = Global.PatientRecordSystem.My.Resources.Resources.notebook_dot
+        Me.Adminrep.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Adminrep.Location = New System.Drawing.Point(3, 171)
+        Me.Adminrep.Name = "Adminrep"
+        Me.Adminrep.Size = New System.Drawing.Size(226, 36)
+        Me.Adminrep.TabIndex = 20
+        Me.Adminrep.Text = "Reports"
+        Me.Adminrep.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
         'Guna2Button8
         '
@@ -425,7 +425,7 @@ Partial Class AdminFrm
     Friend WithEvents Guna2CirclePictureBox3 As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Label6 As Label
     Friend WithEvents appointmentbtn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Adminrep As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label7 As Label
     Friend WithEvents Panel1 As Panel

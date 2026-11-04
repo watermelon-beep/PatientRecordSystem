@@ -88,4 +88,10 @@ Public Class AdminFrm
     Private Sub appointmentbtn_Leave(sender As Object, e As EventArgs) Handles appointmentbtn.Leave
         appointmentbtn.BackColor = Color.Transparent
     End Sub
+
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Adminrep.Click
+        Adminrep.BackColor = Color.FromArgb(4, 196, 80)
+        Dim Adminreports As New Adminreports
+        ChangeUsrCnrl(Adminreports, Guna2Panel3)
+    End Sub
 End Class
