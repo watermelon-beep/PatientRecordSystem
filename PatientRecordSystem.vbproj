@@ -113,6 +113,12 @@
     <Compile Include="BarangayAssistanceFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Barangayreports.Designer.vb">
+      <DependentUpon>Barangayreports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Barangayreports.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Barangay_Assistance_Dashboard.Designer.vb">
       <DependentUpon>Barangay_Assistance_Dashboard.vb</DependentUpon>
     </Compile>
@@ -172,12 +178,6 @@
     <Compile Include="PatientInfo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PatientManagement.Designer.vb">
-      <DependentUpon>PatientManagement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PatientManagement.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="PatientRecord.Designer.vb">
       <DependentUpon>PatientRecord.vb</DependentUpon>
     </Compile>
@@ -203,12 +203,6 @@
     <Compile Include="StaffManagement.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PatientRecordDctr.Designer.vb">
-      <DependentUpon>PatientRecordDctr.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PatientRecordDctr.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="UserLog.Designer.vb">
       <DependentUpon>UserLog.vb</DependentUpon>
     </Compile>
@@ -228,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BarangayAssistanceFrm.resx">
       <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barangayreports.resx">
+      <DependentUpon>Barangayreports.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Barangay_Assistance_Dashboard.resx">
       <DependentUpon>Barangay_Assistance_Dashboard.vb</DependentUpon>
@@ -256,9 +253,6 @@
     <EmbeddedResource Include="PatientInfo.resx">
       <DependentUpon>PatientInfo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PatientManagement.resx">
-      <DependentUpon>PatientManagement.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PatientRecord.resx">
       <DependentUpon>PatientRecord.vb</DependentUpon>
     </EmbeddedResource>
@@ -270,9 +264,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StaffManagement.resx">
       <DependentUpon>StaffManagement.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PatientRecordDctr.resx">
-      <DependentUpon>PatientRecordDctr.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLog.resx">
       <DependentUpon>UserLog.vb</DependentUpon>

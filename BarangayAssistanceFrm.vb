@@ -49,7 +49,7 @@ Class BarangayAssistanceFrm
 
     Private Sub patrecbtn_Click(sender As Object, e As EventArgs) Handles patrecbtn.Click
         patrecbtn.BackColor = Color.FromArgb(4, 196, 80)
-        Dim patmanagement As New PatientManagement
+        Dim patmanagement As New PatientRecord()
         ChangeUsrCnrl(patmanagement, Guna2Panel3)
     End Sub
 
@@ -69,5 +69,10 @@ Class BarangayAssistanceFrm
         Guna2Panel3.Controls.Clear()
         bardb.Dock = DockStyle.Fill
         Guna2Panel3.Controls.Add(bardb)
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        Me.Hide()
+        LogForm.Show()
     End Sub
 End Class

@@ -24,7 +24,6 @@ Public Class PatientRecord
                                       dataRead("Gender"),
                                       dataRead("Address"),
                                       dataRead("EmergencyContactInformation"),
-                                      dataRead("PhoneNumber"),
                                       dataRead("civilstatus"),
                                       dataRead("Phonenumber"),
                                       dataRead("PatientImage"),

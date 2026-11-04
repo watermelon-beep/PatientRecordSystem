@@ -52,7 +52,7 @@ Public Class DoctorFrm
 
     Private Sub patientRecbtn_Click(sender As Object, e As EventArgs) Handles patientRecbtn.Click
 
-        Dim PatientRecordDctr As New PatientRecordDctr()
+        Dim PatientRecordDctr As New PatientRecord()
 
         ChangeUsrCnrl(PatientRecordDctr, Guna2Panel3)
     End Sub
