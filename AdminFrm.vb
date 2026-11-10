@@ -90,7 +90,7 @@ Public Class AdminFrm
     End Sub
 
     Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Adminrep.Click
-        Adminrep.BackColor = Color.FromArgb(4, 196, 80)
+        Adminrep.BackColor = Color.Transparent
         Dim Adminreports As New Adminreports
         ChangeUsrCnrl(Adminreports, Guna2Panel3)
     End Sub
