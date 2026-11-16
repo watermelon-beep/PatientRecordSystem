@@ -83,8 +83,9 @@ Partial Class Appointment
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel2)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1032, 586)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1376, 721)
         Me.Guna2Panel1.TabIndex = 0
         '
         'appoint
@@ -112,10 +113,12 @@ Partial Class Appointment
         Me.appoint.DefaultCellStyle = DataGridViewCellStyle3
         Me.appoint.Dock = System.Windows.Forms.DockStyle.Fill
         Me.appoint.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.appoint.Location = New System.Drawing.Point(0, 333)
+        Me.appoint.Location = New System.Drawing.Point(0, 409)
+        Me.appoint.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.appoint.Name = "appoint"
         Me.appoint.RowHeadersVisible = False
-        Me.appoint.Size = New System.Drawing.Size(1032, 253)
+        Me.appoint.RowHeadersWidth = 51
+        Me.appoint.Size = New System.Drawing.Size(1376, 312)
         Me.appoint.TabIndex = 2
         Me.appoint.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.appoint.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
@@ -126,26 +129,31 @@ Partial Class Appointment
         'Column1
         '
         Me.Column1.HeaderText = "Date & Time "
+        Me.Column1.MinimumWidth = 6
         Me.Column1.Name = "Column1"
         '
         'Column2
         '
         Me.Column2.HeaderText = "Patient Name"
+        Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
         '
         'Column3
         '
         Me.Column3.HeaderText = "Service"
+        Me.Column3.MinimumWidth = 6
         Me.Column3.Name = "Column3"
         '
         'Column4
         '
         Me.Column4.HeaderText = "Status"
+        Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
         '
         'Column5
         '
         Me.Column5.HeaderText = "Action"
+        Me.Column5.MinimumWidth = 6
         Me.Column5.Name = "Column5"
         '
         'Guna2Panel8
@@ -153,9 +161,10 @@ Partial Class Appointment
         Me.Guna2Panel8.Controls.Add(Me.Label11)
         Me.Guna2Panel8.Controls.Add(Me.Guna2PictureBox6)
         Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel8.Location = New System.Drawing.Point(0, 284)
+        Me.Guna2Panel8.Location = New System.Drawing.Point(0, 349)
+        Me.Guna2Panel8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Size = New System.Drawing.Size(1032, 49)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(1376, 60)
         Me.Guna2Panel8.TabIndex = 3
         '
         'Label11
@@ -164,9 +173,10 @@ Partial Class Appointment
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(61, 14)
+        Me.Label11.Location = New System.Drawing.Point(81, 17)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(205, 20)
+        Me.Label11.Size = New System.Drawing.Size(246, 25)
         Me.Label11.TabIndex = 4
         Me.Label11.Text = "Upcoming Appointments"
         '
@@ -174,9 +184,10 @@ Partial Class Appointment
         '
         Me.Guna2PictureBox6.Image = Global.PatientRecordSystem.My.Resources.Resources.calendar_days__2_
         Me.Guna2PictureBox6.ImageRotate = 0!
-        Me.Guna2PictureBox6.Location = New System.Drawing.Point(11, 6)
+        Me.Guna2PictureBox6.Location = New System.Drawing.Point(15, 7)
+        Me.Guna2PictureBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Me.Guna2PictureBox6.Size = New System.Drawing.Size(45, 37)
+        Me.Guna2PictureBox6.Size = New System.Drawing.Size(60, 46)
         Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox6.TabIndex = 3
         Me.Guna2PictureBox6.TabStop = False
@@ -185,9 +196,10 @@ Partial Class Appointment
         '
         Me.Guna2Panel3.Controls.Add(Me.TableLayoutPanel1)
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 100)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 123)
+        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 184)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1376, 226)
         Me.Guna2Panel3.TabIndex = 1
         '
         'TableLayoutPanel1
@@ -203,10 +215,11 @@ Partial Class Appointment
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel5, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 184)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1376, 226)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Guna2Panel7
@@ -220,18 +233,20 @@ Partial Class Appointment
         Me.Guna2Panel7.Controls.Add(Me.Guna2PictureBox5)
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel7.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel7.Location = New System.Drawing.Point(777, 3)
+        Me.Guna2Panel7.Location = New System.Drawing.Point(1036, 4)
+        Me.Guna2Panel7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(252, 178)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(336, 218)
         Me.Guna2Panel7.TabIndex = 9
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(13, 116)
+        Me.Label9.Location = New System.Drawing.Point(17, 143)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(49, 33)
+        Me.Label9.Size = New System.Drawing.Size(62, 42)
         Me.Label9.TabIndex = 2
         Me.Label9.Text = "18"
         '
@@ -240,9 +255,10 @@ Partial Class Appointment
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Gray
-        Me.Label10.Location = New System.Drawing.Point(15, 81)
+        Me.Label10.Location = New System.Drawing.Point(20, 100)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(71, 15)
+        Me.Label10.Size = New System.Drawing.Size(82, 18)
         Me.Label10.TabIndex = 1
         Me.Label10.Text = "Cancelled"
         '
@@ -250,9 +266,10 @@ Partial Class Appointment
         '
         Me.Guna2PictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.circle_x
         Me.Guna2PictureBox5.ImageRotate = 0!
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(18, 14)
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(24, 17)
+        Me.Guna2PictureBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Me.Guna2PictureBox5.Size = New System.Drawing.Size(54, 52)
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(72, 64)
         Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox5.TabIndex = 0
         Me.Guna2PictureBox5.TabStop = False
@@ -268,18 +285,20 @@ Partial Class Appointment
         Me.Guna2Panel6.Controls.Add(Me.Guna2PictureBox4)
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel6.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel6.Location = New System.Drawing.Point(519, 3)
+        Me.Guna2Panel6.Location = New System.Drawing.Point(692, 4)
+        Me.Guna2Panel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(252, 178)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(336, 218)
         Me.Guna2Panel6.TabIndex = 8
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(13, 116)
+        Me.Label7.Location = New System.Drawing.Point(17, 143)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(49, 33)
+        Me.Label7.Size = New System.Drawing.Size(62, 42)
         Me.Label7.TabIndex = 2
         Me.Label7.Text = "18"
         '
@@ -288,9 +307,10 @@ Partial Class Appointment
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Gray
-        Me.Label8.Location = New System.Drawing.Point(15, 81)
+        Me.Label8.Location = New System.Drawing.Point(20, 100)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(64, 15)
+        Me.Label8.Size = New System.Drawing.Size(73, 18)
         Me.Label8.TabIndex = 1
         Me.Label8.Text = "Pending "
         '
@@ -298,9 +318,10 @@ Partial Class Appointment
         '
         Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.hourglass__1_
         Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(18, 14)
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(24, 17)
+        Me.Guna2PictureBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(54, 52)
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(72, 64)
         Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox4.TabIndex = 0
         Me.Guna2PictureBox4.TabStop = False
@@ -316,18 +337,20 @@ Partial Class Appointment
         Me.Guna2Panel4.Controls.Add(Me.Guna2PictureBox3)
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel4.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel4.Location = New System.Drawing.Point(261, 3)
+        Me.Guna2Panel4.Location = New System.Drawing.Point(348, 4)
+        Me.Guna2Panel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(252, 178)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(336, 218)
         Me.Guna2Panel4.TabIndex = 7
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(13, 116)
+        Me.Label5.Location = New System.Drawing.Point(17, 143)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(49, 33)
+        Me.Label5.Size = New System.Drawing.Size(62, 42)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "18"
         '
@@ -336,9 +359,10 @@ Partial Class Appointment
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Gray
-        Me.Label6.Location = New System.Drawing.Point(15, 81)
+        Me.Label6.Location = New System.Drawing.Point(20, 100)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(73, 15)
+        Me.Label6.Size = New System.Drawing.Size(86, 18)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "Confirmed"
         '
@@ -346,9 +370,10 @@ Partial Class Appointment
         '
         Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.circle_check__1_
         Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(18, 14)
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(24, 17)
+        Me.Guna2PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(54, 52)
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(72, 64)
         Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox3.TabIndex = 0
         Me.Guna2PictureBox3.TabStop = False
@@ -364,18 +389,20 @@ Partial Class Appointment
         Me.Guna2Panel5.Controls.Add(Me.Guna2PictureBox2)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel5.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel5.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(252, 178)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(336, 218)
         Me.Guna2Panel5.TabIndex = 6
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(13, 116)
+        Me.Label3.Location = New System.Drawing.Point(17, 143)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(49, 33)
+        Me.Label3.Size = New System.Drawing.Size(62, 42)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "18"
         '
@@ -384,9 +411,10 @@ Partial Class Appointment
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(15, 81)
+        Me.Label4.Location = New System.Drawing.Point(20, 100)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(130, 15)
+        Me.Label4.Size = New System.Drawing.Size(153, 18)
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Total Appointments"
         '
@@ -394,9 +422,10 @@ Partial Class Appointment
         '
         Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.calendar_days__2_
         Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(18, 14)
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(24, 17)
+        Me.Guna2PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(54, 52)
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(72, 64)
         Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox2.TabIndex = 0
         Me.Guna2PictureBox2.TabStop = False
@@ -410,8 +439,9 @@ Partial Class Appointment
         Me.Guna2Panel2.Controls.Add(Me.Label1)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1032, 100)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1376, 123)
         Me.Guna2Panel2.TabIndex = 0
         '
         'Guna2PictureBox1
@@ -419,9 +449,10 @@ Partial Class Appointment
         Me.Guna2PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.calendar_days__1_2
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(29, 19)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(39, 23)
+        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(52, 55)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(69, 68)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 3
         Me.Guna2PictureBox1.TabStop = False
@@ -432,9 +463,10 @@ Partial Class Appointment
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(89, 58)
+        Me.Label2.Location = New System.Drawing.Point(119, 71)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(240, 16)
+        Me.Label2.Size = New System.Drawing.Size(298, 20)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Manage and view patient appointments"
         '
@@ -444,19 +476,21 @@ Partial Class Appointment
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(87, 33)
+        Me.Label1.Location = New System.Drawing.Point(116, 41)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(143, 25)
+        Me.Label1.Size = New System.Drawing.Size(177, 31)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Appointment"
         '
         'Appointment
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Guna2Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Appointment"
-        Me.Size = New System.Drawing.Size(1032, 586)
+        Me.Size = New System.Drawing.Size(1376, 721)
         Me.Guna2Panel1.ResumeLayout(False)
         CType(Me.appoint, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel8.ResumeLayout(False)
