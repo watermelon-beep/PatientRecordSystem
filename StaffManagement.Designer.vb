@@ -97,8 +97,9 @@ Partial Class StaffManagement
         Me.Guna2Panel1.Controls.Add(Me.TableLayoutPanel1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1032, 586)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1376, 721)
         Me.Guna2Panel1.TabIndex = 1
         '
         'TableLayoutPanel1
@@ -109,22 +110,22 @@ Partial Class StaffManagement
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel2, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.30375!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 72.69624!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 586)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1376, 721)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Guna2Panel3
         '
         Me.Guna2Panel3.Controls.Add(Me.TableLayoutPanel2)
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(3, 159)
-        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(4, 196)
+        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1026, 424)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1368, 521)
         Me.Guna2Panel3.TabIndex = 1
         '
         'TableLayoutPanel2
@@ -135,12 +136,12 @@ Partial Class StaffManagement
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Panel4, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.85714!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.14286!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1026, 424)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1368, 521)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'Guna2Panel5
@@ -148,9 +149,10 @@ Partial Class StaffManagement
         Me.Guna2Panel5.Controls.Add(Me.viewallbtn)
         Me.Guna2Panel5.Controls.Add(Me.addpatbtn)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel5.Location = New System.Drawing.Point(3, 375)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(4, 461)
+        Me.Guna2Panel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(1020, 46)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(1360, 56)
         Me.Guna2Panel5.TabIndex = 2
         '
         'viewallbtn
@@ -166,9 +168,10 @@ Partial Class StaffManagement
         Me.viewallbtn.FillColor = System.Drawing.Color.Transparent
         Me.viewallbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.viewallbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.viewallbtn.Location = New System.Drawing.Point(3, 0)
+        Me.viewallbtn.Location = New System.Drawing.Point(4, 0)
+        Me.viewallbtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.viewallbtn.Name = "viewallbtn"
-        Me.viewallbtn.Size = New System.Drawing.Size(169, 45)
+        Me.viewallbtn.Size = New System.Drawing.Size(225, 55)
         Me.viewallbtn.TabIndex = 1
         Me.viewallbtn.Text = "View all"
         '
@@ -183,9 +186,10 @@ Partial Class StaffManagement
         Me.addpatbtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.addpatbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addpatbtn.ForeColor = System.Drawing.Color.White
-        Me.addpatbtn.Location = New System.Drawing.Point(848, 1)
+        Me.addpatbtn.Location = New System.Drawing.Point(1131, 1)
+        Me.addpatbtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.addpatbtn.Name = "addpatbtn"
-        Me.addpatbtn.Size = New System.Drawing.Size(169, 45)
+        Me.addpatbtn.Size = New System.Drawing.Size(225, 55)
         Me.addpatbtn.TabIndex = 0
         Me.addpatbtn.Text = "Add Staff"
         '
@@ -193,10 +197,10 @@ Partial Class StaffManagement
         '
         Me.Guna2Panel4.Controls.Add(Me.TableLayoutPanel3)
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel4.Location = New System.Drawing.Point(3, 0)
-        Me.Guna2Panel4.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
+        Me.Guna2Panel4.Location = New System.Drawing.Point(4, 0)
+        Me.Guna2Panel4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(1020, 369)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(1360, 453)
         Me.Guna2Panel4.TabIndex = 1
         '
         'TableLayoutPanel3
@@ -207,22 +211,22 @@ Partial Class StaffManagement
         Me.TableLayoutPanel3.Controls.Add(Me.Guna2Panel6, 0, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.84058!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.15942!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1020, 369)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1360, 453)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'Guna2Panel7
         '
         Me.Guna2Panel7.Controls.Add(Me.stafftbl)
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel7.Location = New System.Drawing.Point(0, 69)
+        Me.Guna2Panel7.Location = New System.Drawing.Point(0, 85)
         Me.Guna2Panel7.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(1020, 300)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(1360, 368)
         Me.Guna2Panel7.TabIndex = 2
         '
         'stafftbl
@@ -256,15 +260,17 @@ Partial Class StaffManagement
         Me.stafftbl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.stafftbl.GridColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(201, Byte), Integer))
         Me.stafftbl.Location = New System.Drawing.Point(0, 0)
+        Me.stafftbl.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.stafftbl.Name = "stafftbl"
         Me.stafftbl.ReadOnly = True
         Me.stafftbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.stafftbl.RowHeadersVisible = False
+        Me.stafftbl.RowHeadersWidth = 51
         Me.stafftbl.RowTemplate.Height = 60
         Me.stafftbl.RowTemplate.ReadOnly = True
         Me.stafftbl.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.stafftbl.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.stafftbl.Size = New System.Drawing.Size(1020, 300)
+        Me.stafftbl.Size = New System.Drawing.Size(1360, 368)
         Me.stafftbl.TabIndex = 0
         Me.stafftbl.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green
         Me.stafftbl.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
@@ -285,6 +291,7 @@ Partial Class StaffManagement
         '
         Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column1.HeaderText = "Staff ID"
+        Me.Column1.MinimumWidth = 6
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         Me.Column1.Width = 90
@@ -293,14 +300,16 @@ Partial Class StaffManagement
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
         Me.Column2.HeaderText = "First name"
+        Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
-        Me.Column2.Width = 93
+        Me.Column2.Width = 116
         '
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column3.HeaderText = "Middle name"
+        Me.Column3.MinimumWidth = 6
         Me.Column3.Name = "Column3"
         Me.Column3.ReadOnly = True
         Me.Column3.Width = 130
@@ -309,30 +318,34 @@ Partial Class StaffManagement
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column4.HeaderText = "Surname"
+        Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
-        Me.Column4.Width = 91
+        Me.Column4.Width = 113
         '
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
         Me.Column5.HeaderText = "Extension"
+        Me.Column5.MinimumWidth = 6
         Me.Column5.Name = "Column5"
         Me.Column5.ReadOnly = True
-        Me.Column5.Width = 95
+        Me.Column5.Width = 120
         '
         'Column6
         '
         Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column6.HeaderText = "Birthdate"
+        Me.Column6.MinimumWidth = 6
         Me.Column6.Name = "Column6"
         Me.Column6.ReadOnly = True
-        Me.Column6.Width = 94
+        Me.Column6.Width = 117
         '
         'Column7
         '
         Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column7.HeaderText = "Age"
+        Me.Column7.MinimumWidth = 6
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
         Me.Column7.Width = 50
@@ -341,22 +354,25 @@ Partial Class StaffManagement
         '
         Me.Column20.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column20.HeaderText = "Birth place"
+        Me.Column20.MinimumWidth = 6
         Me.Column20.Name = "Column20"
         Me.Column20.ReadOnly = True
-        Me.Column20.Width = 95
+        Me.Column20.Width = 118
         '
         'Column8
         '
         Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column8.HeaderText = "Address"
+        Me.Column8.MinimumWidth = 6
         Me.Column8.Name = "Column8"
         Me.Column8.ReadOnly = True
-        Me.Column8.Width = 86
+        Me.Column8.Width = 105
         '
         'Column12
         '
         Me.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column12.HeaderText = "Gender"
+        Me.Column12.MinimumWidth = 6
         Me.Column12.Name = "Column12"
         Me.Column12.ReadOnly = True
         Me.Column12.Width = 70
@@ -365,6 +381,7 @@ Partial Class StaffManagement
         '
         Me.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column11.HeaderText = "Civil status"
+        Me.Column11.MinimumWidth = 6
         Me.Column11.Name = "Column11"
         Me.Column11.ReadOnly = True
         Me.Column11.Width = 120
@@ -373,14 +390,16 @@ Partial Class StaffManagement
         '
         Me.Column18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column18.HeaderText = "Position"
+        Me.Column18.MinimumWidth = 6
         Me.Column18.Name = "Column18"
         Me.Column18.ReadOnly = True
-        Me.Column18.Width = 86
+        Me.Column18.Width = 106
         '
         'Column9
         '
         Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.Column9.HeaderText = "Phone number"
+        Me.Column9.MinimumWidth = 6
         Me.Column9.Name = "Column9"
         Me.Column9.ReadOnly = True
         Me.Column9.Width = 150
@@ -389,25 +408,28 @@ Partial Class StaffManagement
         '
         Me.Column17.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column17.HeaderText = "Email"
+        Me.Column17.MinimumWidth = 6
         Me.Column17.Name = "Column17"
         Me.Column17.ReadOnly = True
-        Me.Column17.Width = 68
+        Me.Column17.Width = 84
         '
         'Column10
         '
         Me.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column10.HeaderText = "Username"
+        Me.Column10.MinimumWidth = 6
         Me.Column10.Name = "Column10"
         Me.Column10.ReadOnly = True
-        Me.Column10.Width = 99
+        Me.Column10.Width = 123
         '
         'Column13
         '
         Me.Column13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column13.HeaderText = "Password"
+        Me.Column13.MinimumWidth = 6
         Me.Column13.Name = "Column13"
         Me.Column13.ReadOnly = True
-        Me.Column13.Width = 96
+        Me.Column13.Width = 117
         '
         'editbtn
         '
@@ -417,9 +439,10 @@ Partial Class StaffManagement
         Me.editbtn.DefaultCellStyle = DataGridViewCellStyle3
         Me.editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.editbtn.HeaderText = "Edit"
+        Me.editbtn.MinimumWidth = 6
         Me.editbtn.Name = "editbtn"
         Me.editbtn.ReadOnly = True
-        Me.editbtn.Width = 38
+        Me.editbtn.Width = 47
         '
         'deletebtn
         '
@@ -429,9 +452,10 @@ Partial Class StaffManagement
         Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle4
         Me.deletebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.deletebtn.HeaderText = "Delete"
+        Me.deletebtn.MinimumWidth = 6
         Me.deletebtn.Name = "deletebtn"
         Me.deletebtn.ReadOnly = True
-        Me.deletebtn.Width = 56
+        Me.deletebtn.Width = 69
         '
         'viewbtn
         '
@@ -441,9 +465,10 @@ Partial Class StaffManagement
         Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle5
         Me.viewbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.viewbtn.HeaderText = "View"
+        Me.viewbtn.MinimumWidth = 6
         Me.viewbtn.Name = "viewbtn"
         Me.viewbtn.ReadOnly = True
-        Me.viewbtn.Width = 45
+        Me.viewbtn.Width = 55
         '
         'Guna2Panel6
         '
@@ -457,7 +482,7 @@ Partial Class StaffManagement
         Me.Guna2Panel6.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel6.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(1020, 69)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(1360, 85)
         Me.Guna2Panel6.TabIndex = 1
         '
         'selectionposcmbx
@@ -474,9 +499,10 @@ Partial Class StaffManagement
         Me.selectionposcmbx.ItemHeight = 30
         Me.selectionposcmbx.Items.AddRange(New Object() {"All", "Admin", "Doctor", "Barangay assistance"})
         Me.selectionposcmbx.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.selectionposcmbx.Location = New System.Drawing.Point(288, 24)
+        Me.selectionposcmbx.Location = New System.Drawing.Point(384, 30)
+        Me.selectionposcmbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.selectionposcmbx.Name = "selectionposcmbx"
-        Me.selectionposcmbx.Size = New System.Drawing.Size(220, 36)
+        Me.selectionposcmbx.Size = New System.Drawing.Size(292, 36)
         Me.selectionposcmbx.StartIndex = 0
         Me.selectionposcmbx.TabIndex = 3
         Me.selectionposcmbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -495,10 +521,11 @@ Partial Class StaffManagement
         Me.searchbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.searchbtn.ForeColor = System.Drawing.Color.White
         Me.searchbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.search
-        Me.searchbtn.Location = New System.Drawing.Point(950, 24)
+        Me.searchbtn.Location = New System.Drawing.Point(1267, 30)
+        Me.searchbtn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.searchbtn.Name = "searchbtn"
         Me.searchbtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.searchbtn.Size = New System.Drawing.Size(40, 36)
+        Me.searchbtn.Size = New System.Drawing.Size(53, 44)
         Me.searchbtn.TabIndex = 2
         '
         'searchtxbx
@@ -516,11 +543,12 @@ Partial Class StaffManagement
         Me.searchtxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.searchtxbx.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.searchtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.searchtxbx.Location = New System.Drawing.Point(582, 24)
+        Me.searchtxbx.Location = New System.Drawing.Point(776, 30)
+        Me.searchtxbx.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.searchtxbx.Name = "searchtxbx"
         Me.searchtxbx.PlaceholderText = "Search ID, Name, or Username"
         Me.searchtxbx.SelectedText = ""
-        Me.searchtxbx.Size = New System.Drawing.Size(363, 36)
+        Me.searchtxbx.Size = New System.Drawing.Size(484, 44)
         Me.searchtxbx.TabIndex = 1
         '
         'Label1
@@ -530,9 +558,10 @@ Partial Class StaffManagement
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(19, 24)
+        Me.Label1.Location = New System.Drawing.Point(25, 30)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(212, 28)
+        Me.Label1.Size = New System.Drawing.Size(272, 36)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Staff Management"
         '
@@ -555,10 +584,10 @@ Partial Class StaffManagement
         Me.Guna2Panel2.Controls.Add(Me.Label2)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
-        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1026, 156)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1368, 192)
         Me.Guna2Panel2.TabIndex = 0
         '
         'Guna2Panel8
@@ -568,10 +597,11 @@ Partial Class StaffManagement
         Me.Guna2Panel8.BorderThickness = 1
         Me.Guna2Panel8.Controls.Add(Me.profileimg)
         Me.Guna2Panel8.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel8.Location = New System.Drawing.Point(18, 3)
+        Me.Guna2Panel8.Location = New System.Drawing.Point(24, 4)
+        Me.Guna2Panel8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(2)
-        Me.Guna2Panel8.Size = New System.Drawing.Size(162, 150)
+        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(216, 185)
         Me.Guna2Panel8.TabIndex = 12
         '
         'profileimg
@@ -579,10 +609,11 @@ Partial Class StaffManagement
         Me.profileimg.Dock = System.Windows.Forms.DockStyle.Fill
         Me.profileimg.FillColor = System.Drawing.Color.Transparent
         Me.profileimg.ImageRotate = 0!
-        Me.profileimg.Location = New System.Drawing.Point(2, 2)
+        Me.profileimg.Location = New System.Drawing.Point(3, 2)
+        Me.profileimg.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.profileimg.Name = "profileimg"
         Me.profileimg.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.profileimg.Size = New System.Drawing.Size(158, 146)
+        Me.profileimg.Size = New System.Drawing.Size(210, 181)
         Me.profileimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.profileimg.TabIndex = 0
         Me.profileimg.TabStop = False
@@ -593,9 +624,10 @@ Partial Class StaffManagement
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(202, 130)
+        Me.Label12.Location = New System.Drawing.Point(269, 160)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(96, 16)
+        Me.Label12.Size = New System.Drawing.Size(122, 19)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "Created account"
         '
@@ -605,9 +637,10 @@ Partial Class StaffManagement
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(892, 114)
+        Me.Label11.Location = New System.Drawing.Point(1189, 140)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(36, 16)
+        Me.Label11.Size = New System.Drawing.Size(47, 19)
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "Email"
         '
@@ -617,9 +650,10 @@ Partial Class StaffManagement
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(202, 43)
+        Me.Label10.Location = New System.Drawing.Point(269, 53)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(63, 19)
+        Me.Label10.Size = New System.Drawing.Size(79, 24)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "Position"
         '
@@ -629,9 +663,10 @@ Partial Class StaffManagement
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(659, 114)
+        Me.Label9.Location = New System.Drawing.Point(879, 140)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(59, 16)
+        Me.Label9.Size = New System.Drawing.Size(75, 19)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Birthdate"
         '
@@ -641,9 +676,10 @@ Partial Class StaffManagement
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(891, 92)
+        Me.Label8.Location = New System.Drawing.Point(1188, 113)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(129, 22)
+        Me.Label8.Size = New System.Drawing.Size(161, 27)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Phone number"
         '
@@ -653,9 +689,10 @@ Partial Class StaffManagement
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(658, 92)
+        Me.Label7.Location = New System.Drawing.Point(877, 113)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(101, 22)
+        Me.Label7.Size = New System.Drawing.Size(124, 27)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Civil Status"
         '
@@ -665,9 +702,10 @@ Partial Class StaffManagement
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(658, 68)
+        Me.Label6.Location = New System.Drawing.Point(877, 84)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(68, 22)
+        Me.Label6.Size = New System.Drawing.Size(85, 27)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Gender"
         '
@@ -677,9 +715,10 @@ Partial Class StaffManagement
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(890, 64)
+        Me.Label5.Location = New System.Drawing.Point(1187, 79)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(97, 28)
+        Me.Label5.Size = New System.Drawing.Size(124, 36)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Address"
         '
@@ -689,9 +728,10 @@ Partial Class StaffManagement
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(202, 114)
+        Me.Label4.Location = New System.Drawing.Point(269, 140)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(20, 16)
+        Me.Label4.Size = New System.Drawing.Size(25, 19)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "ID"
         '
@@ -701,9 +741,10 @@ Partial Class StaffManagement
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(201, 92)
+        Me.Label3.Location = New System.Drawing.Point(268, 113)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(42, 22)
+        Me.Label3.Size = New System.Drawing.Size(52, 27)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Age"
         '
@@ -713,19 +754,21 @@ Partial Class StaffManagement
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(199, 56)
+        Me.Label2.Location = New System.Drawing.Point(265, 69)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 36)
+        Me.Label2.Size = New System.Drawing.Size(122, 45)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Name"
         '
         'StaffManagement
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Guna2Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "StaffManagement"
-        Me.Size = New System.Drawing.Size(1032, 586)
+        Me.Size = New System.Drawing.Size(1376, 721)
         Me.Guna2Panel1.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)

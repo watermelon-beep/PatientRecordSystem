@@ -1,8 +1,8 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
-Imports System.Text
 Imports Guna.UI2.WinForms
-
+Imports iText = iTextSharp.text
+Imports iPdf = iTextSharp.text.pdf
 
 Public Class Adminreports
 
@@ -14,6 +14,7 @@ Public Class Adminreports
         LoadReports()
     End Sub
 
+    ' ---------- GRID SETUP ----------
     Private Sub SetupGrid()
         With Guna2DataGridView1
 
@@ -25,7 +26,6 @@ Public Class Adminreports
             .Columns.Add(New DataGridViewTextBoxColumn With {.HeaderText = "Status", .DataPropertyName = "Status"})
             .AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
 
-
             .EnableHeadersVisualStyles = False
             .ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(0, 128, 0)
             .ColumnHeadersDefaultCellStyle.ForeColor = Color.White
@@ -33,13 +33,11 @@ Public Class Adminreports
             .ColumnHeadersDefaultCellStyle.SelectionForeColor = Color.White
             .ColumnHeadersDefaultCellStyle.Font = New Font("Segoe UI", 10, FontStyle.Bold)
 
-
             .DefaultCellStyle.BackColor = Color.White
             .DefaultCellStyle.ForeColor = Color.Black
             .DefaultCellStyle.Font = New Font("Segoe UI", 10)
             .DefaultCellStyle.SelectionBackColor = Color.FromArgb(220, 245, 230)
             .DefaultCellStyle.SelectionForeColor = Color.Black
-
 
             .AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(244, 250, 246)
             .AlternatingRowsDefaultCellStyle.ForeColor = Color.Black
@@ -47,14 +45,12 @@ Public Class Adminreports
             .AlternatingRowsDefaultCellStyle.SelectionBackColor = Color.FromArgb(220, 245, 230)
             .AlternatingRowsDefaultCellStyle.SelectionForeColor = Color.Black
 
-
             .RowHeadersVisible = False
             .AllowUserToAddRows = False
             .ReadOnly = True
             .RowTemplate.Height = 36
             .BackgroundColor = Color.White
             .BorderStyle = BorderStyle.None
-
 
             .ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(0, 128, 0)
             .ThemeStyle.HeaderStyle.ForeColor = Color.White
@@ -65,6 +61,7 @@ Public Class Adminreports
         End With
     End Sub
 
+    ' ---------- LOAD DATA ----------
     Private Sub LoadReports()
         Dim dt As New DataTable()
         Using con As New SqlConnection(connStr)
@@ -76,123 +73,92 @@ Public Class Adminreports
         Guna2DataGridView1.DataSource = dt
     End Sub
 
+    ' ---------- GENERATE REPORT BUTTON ----------
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-
         Try
-
-
-            If Guna2DataGridView1.Rows.Count = 0 OrElse
-       Guna2DataGridView1.Rows.Cast(Of DataGridViewRow)().
-       All(Function(r) r.IsNewRow) Then
-
-                MessageBox.Show(
-            "No report data available!",
-            "Generate Report",
-            MessageBoxButtons.OK,
-            MessageBoxIcon.Warning
-        )
+            If Guna2DataGridView1.Rows.Count = 0 Then
+                MessageBox.Show("No report data available!", "Generate Report",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Return
             End If
 
-
             Using save As New SaveFileDialog()
-
                 save.Title = "Generate Clinic Report"
-                save.Filter = "DOCS File (*.docs)|*.docs"
-                save.FileName = "Barangay_Health_Clinic_Report_" &
-                        DateTime.Now.ToString("yyyyMMdd") & ".docs"
+                save.Filter = "PDF file (*.pdf)|*.pdf"
+                save.FileName = "Barangay_Health_Clinic_Report_" & DateTime.Now.ToString("yyyyMMdd")
 
                 If save.ShowDialog() = DialogResult.OK Then
-
-                    Dim sb As New StringBuilder()
-
-
-                    sb.AppendLine("BARANGAY HEALTH CLINIC")
-                    sb.AppendLine("CLINIC REPORT")
-                    sb.AppendLine("Generated: " &
-                           DateTime.Now.ToString("MMMM dd, yyyy hh:mm tt"))
-                    sb.AppendLine()
-
-
-                    For i As Integer = 0 To Guna2DataGridView1.Columns.Count - 1
-
-                        Dim header As String =
-                    Guna2DataGridView1.Columns(i).HeaderText
-
-                        sb.Append("""" & header.Replace("""", """""") & """")
-
-                        If i < Guna2DataGridView1.Columns.Count - 1 Then
-                            sb.Append(",")
-                        End If
-
-                    Next
-
-                    sb.AppendLine()
-
-
-                    For Each row As DataGridViewRow In Guna2DataGridView1.Rows
-
-                        If Not row.IsNewRow Then
-
-                            For i As Integer = 0 To Guna2DataGridView1.Columns.Count - 1
-
-                                Dim value As String = ""
-
-                                If row.Cells(i).Value IsNot Nothing Then
-                                    value = row.Cells(i).Value.ToString()
-                                End If
-
-
-                                sb.Append("""" & value.Replace("""", """""") & """")
-
-                                If i < Guna2DataGridView1.Columns.Count - 1 Then
-                                    sb.Append(",")
-                                End If
-
-                            Next
-
-                            sb.AppendLine()
-
-                        End If
-
-                    Next
-
-
-                    File.WriteAllText(
-                save.FileName,
-                sb.ToString(),
-                New UTF8Encoding(True)
-            )
-
-                    MessageBox.Show(
-                "Report successfully generated!" &
-                vbCrLf & vbCrLf &
-                "Saved Location: " & save.FileName,
-                "Success",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information
-            )
-
-
-                    Process.Start(New ProcessStartInfo() With {
-                .FileName = save.FileName,
-                .UseShellExecute = True
-            })
-
+                    CreatePdf(save.FileName)
+                    Process.Start(New ProcessStartInfo(save.FileName) With {.UseShellExecute = True})
                 End If
-
             End Using
 
         Catch ex As Exception
-
-            MessageBox.Show(
-        "Error generating report: " & ex.Message,
-        "Error",
-        MessageBoxButtons.OK,
-        MessageBoxIcon.Error
-    )
-
+            MessageBox.Show("Error generating report: " & ex.Message, "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
-
     End Sub
+
+    ' ---------- PDF ----------
+    Private Sub CreatePdf(path As String)
+        Dim titleFont = iText.FontFactory.GetFont(iText.FontFactory.TIMES_BOLD, 14)
+        Dim subFont = iText.FontFactory.GetFont(iText.FontFactory.TIMES_BOLD, 11)
+        Dim noteFont = iText.FontFactory.GetFont(iText.FontFactory.HELVETICA, 8, New iText.BaseColor(90, 90, 90))
+        Dim headFont = iText.FontFactory.GetFont(iText.FontFactory.HELVETICA_BOLD, 9, iText.BaseColor.BLACK)
+        Dim bodyFont = iText.FontFactory.GetFont(iText.FontFactory.HELVETICA, 9, iText.BaseColor.BLACK)
+        Dim gray As New iText.BaseColor(128, 128, 128)
+        Dim border As New iText.BaseColor(170, 170, 170)
+
+        Dim doc As New iText.Document(iText.PageSize.A4, 40, 40, 40, 40)
+        Using fs As New FileStream(path, FileMode.Create)
+            iPdf.PdfWriter.GetInstance(doc, fs)
+            doc.Open()
+
+            ' Header
+            doc.Add(New iText.Paragraph("BARANGAY HEALTH CLINIC", titleFont))
+            doc.Add(New iText.Paragraph("PATIENT MANAGEMENT SYSTEM", titleFont))
+            doc.Add(New iText.Paragraph(" ", noteFont))
+            doc.Add(New iText.Paragraph("CLINIC REPORTS SUMMARY", subFont))
+            doc.Add(New iText.Paragraph("Generated: " & DateTime.Now.ToString("MMMM dd, yyyy hh:mm tt"), noteFont))
+            doc.Add(New iText.Chunk(New iPdf.draw.LineSeparator(1.0F, 100.0F, iText.BaseColor.BLACK, iText.Element.ALIGN_CENTER, -4)))
+            doc.Add(New iText.Paragraph(" ", noteFont))
+            doc.Add(New iText.Paragraph(" ", noteFont))
+
+            ' Table galing sa grid
+            Dim colCount As Integer = Guna2DataGridView1.Columns.Count
+            Dim t As New iPdf.PdfPTable(colCount)
+            t.WidthPercentage = 100
+            t.SetWidths(New Single() {20, 40, 24, 16})
+            t.HeaderRows = 1
+
+            For Each col As DataGridViewColumn In Guna2DataGridView1.Columns
+                Dim cell As New iPdf.PdfPCell(New iText.Phrase(col.HeaderText, headFont))
+                cell.BackgroundColor = gray
+                cell.BorderColor = border
+                cell.Padding = 6
+                cell.HorizontalAlignment = iText.Element.ALIGN_CENTER
+                t.AddCell(cell)
+            Next
+
+            For Each row As DataGridViewRow In Guna2DataGridView1.Rows
+                If row.IsNewRow Then Continue For
+                For i As Integer = 0 To colCount - 1
+                    Dim v As String = If(row.Cells(i).Value Is Nothing, "", row.Cells(i).Value.ToString())
+                    Dim cell As New iPdf.PdfPCell(New iText.Phrase(v, bodyFont))
+                    cell.BorderColor = border
+                    cell.Padding = 6
+                    t.AddCell(cell)
+                Next
+            Next
+
+            doc.Add(t)
+
+            ' Footer
+            doc.Add(New iText.Paragraph(" ", noteFont))
+            doc.Add(New iText.Paragraph("Total reports: " & Guna2DataGridView1.Rows.Count, noteFont))
+
+            doc.Close()
+        End Using
+    End Sub
+
 End Class
