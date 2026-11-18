@@ -99,8 +99,9 @@ Partial Class RegisterFrm
         Me.Panel1.Controls.Add(Me.Guna2Panel1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1264, 681)
+        Me.Panel1.Size = New System.Drawing.Size(1683, 828)
         Me.Panel1.TabIndex = 0
         '
         'Guna2Panel2
@@ -159,9 +160,10 @@ Partial Class RegisterFrm
         Me.Guna2Panel2.Controls.Add(Me.Guna2Shapes1)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Panel2.Location = New System.Drawing.Point(0, 54)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(0, 66)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1264, 627)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1683, 762)
         Me.Guna2Panel2.TabIndex = 3
         '
         'Label20
@@ -171,9 +173,10 @@ Partial Class RegisterFrm
         Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Firebrick
-        Me.Label20.Location = New System.Drawing.Point(719, 562)
+        Me.Label20.Location = New System.Drawing.Point(958, 692)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(370, 17)
+        Me.Label20.Size = New System.Drawing.Size(450, 19)
         Me.Label20.TabIndex = 64
         Me.Label20.Text = "at least 6 characters, contain number, contain capital letter"
         Me.Label20.Visible = False
@@ -185,14 +188,15 @@ Partial Class RegisterFrm
         Me.regprogress.FillThickness = 5
         Me.regprogress.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.regprogress.ForeColor = System.Drawing.Color.Gray
-        Me.regprogress.Location = New System.Drawing.Point(1193, 575)
+        Me.regprogress.Location = New System.Drawing.Point(1591, 708)
+        Me.regprogress.Margin = New System.Windows.Forms.Padding(4)
         Me.regprogress.Minimum = 0
         Me.regprogress.Name = "regprogress"
         Me.regprogress.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.regprogress.ProgressThickness = 5
         Me.regprogress.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Me.regprogress.ShowText = True
-        Me.regprogress.Size = New System.Drawing.Size(40, 40)
+        Me.regprogress.Size = New System.Drawing.Size(49, 49)
         Me.regprogress.TabIndex = 63
         Me.regprogress.Text = "Guna2CircleProgressBar1"
         Me.regprogress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit
@@ -204,9 +208,10 @@ Partial Class RegisterFrm
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label19.Location = New System.Drawing.Point(1050, 235)
+        Me.Label19.Location = New System.Drawing.Point(1399, 289)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(78, 22)
+        Me.Label19.Size = New System.Drawing.Size(93, 27)
         Me.Label19.TabIndex = 62
         Me.Label19.Text = "Job title"
         '
@@ -217,9 +222,10 @@ Partial Class RegisterFrm
         Me.Label18.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label18.Location = New System.Drawing.Point(1050, 148)
+        Me.Label18.Location = New System.Drawing.Point(1399, 182)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(99, 22)
+        Me.Label18.Size = New System.Drawing.Size(122, 27)
         Me.Label18.TabIndex = 61
         Me.Label18.Text = "Civil status"
         '
@@ -230,9 +236,10 @@ Partial Class RegisterFrm
         Me.Label17.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label17.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label17.Location = New System.Drawing.Point(843, 148)
+        Me.Label17.Location = New System.Drawing.Point(1123, 182)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(68, 22)
+        Me.Label17.Size = New System.Drawing.Size(85, 27)
         Me.Label17.TabIndex = 60
         Me.Label17.Text = "Gender"
         '
@@ -243,9 +250,10 @@ Partial Class RegisterFrm
         Me.Label16.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label16.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label16.Location = New System.Drawing.Point(1091, 66)
+        Me.Label16.Location = New System.Drawing.Point(1454, 81)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(88, 22)
+        Me.Label16.Size = New System.Drawing.Size(110, 27)
         Me.Label16.TabIndex = 59
         Me.Label16.Text = "Extension"
         '
@@ -256,9 +264,10 @@ Partial Class RegisterFrm
         Me.Label15.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label15.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label15.Location = New System.Drawing.Point(576, 148)
+        Me.Label15.Location = New System.Drawing.Point(767, 182)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(45, 22)
+        Me.Label15.Size = New System.Drawing.Size(57, 27)
         Me.Label15.TabIndex = 58
         Me.Label15.Text = "Year"
         '
@@ -269,9 +278,10 @@ Partial Class RegisterFrm
         Me.Label8.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(391, 148)
+        Me.Label8.Location = New System.Drawing.Point(520, 182)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(64, 22)
+        Me.Label8.Size = New System.Drawing.Size(80, 27)
         Me.Label8.TabIndex = 57
         Me.Label8.Text = "Month"
         '
@@ -282,9 +292,10 @@ Partial Class RegisterFrm
         Me.Label5.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(193, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(207, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(211, 148)
+        Me.Label5.Location = New System.Drawing.Point(280, 182)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(41, 22)
+        Me.Label5.Size = New System.Drawing.Size(51, 27)
         Me.Label5.TabIndex = 56
         Me.Label5.Text = "Day"
         '
@@ -301,9 +312,10 @@ Partial Class RegisterFrm
         Me.clrbtn.FillColor = System.Drawing.Color.Transparent
         Me.clrbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.clrbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.clrbtn.Location = New System.Drawing.Point(12, 562)
+        Me.clrbtn.Location = New System.Drawing.Point(16, 692)
+        Me.clrbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.clrbtn.Name = "clrbtn"
-        Me.clrbtn.Size = New System.Drawing.Size(157, 41)
+        Me.clrbtn.Size = New System.Drawing.Size(209, 50)
         Me.clrbtn.TabIndex = 55
         Me.clrbtn.Text = "Clear"
         '
@@ -320,9 +332,10 @@ Partial Class RegisterFrm
         Me.regbtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.regbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.regbtn.ForeColor = System.Drawing.Color.White
-        Me.regbtn.Location = New System.Drawing.Point(12, 512)
+        Me.regbtn.Location = New System.Drawing.Point(16, 630)
+        Me.regbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.regbtn.Name = "regbtn"
-        Me.regbtn.Size = New System.Drawing.Size(157, 45)
+        Me.regbtn.Size = New System.Drawing.Size(209, 55)
         Me.regbtn.TabIndex = 54
         Me.regbtn.Text = "Register"
         '
@@ -333,20 +346,22 @@ Partial Class RegisterFrm
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Silver
-        Me.Label4.Location = New System.Drawing.Point(1150, 545)
+        Me.Label4.Location = New System.Drawing.Point(1532, 671)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 17)
+        Me.Label4.Size = New System.Drawing.Size(58, 19)
         Me.Label4.TabIndex = 53
         Me.Label4.Text = "empty"
         '
         'passbar
         '
         Me.passbar.BorderRadius = 5
-        Me.passbar.Location = New System.Drawing.Point(722, 552)
+        Me.passbar.Location = New System.Drawing.Point(963, 679)
+        Me.passbar.Margin = New System.Windows.Forms.Padding(4)
         Me.passbar.Name = "passbar"
         Me.passbar.ProgressColor = System.Drawing.Color.Transparent
         Me.passbar.ProgressColor2 = System.Drawing.Color.Transparent
-        Me.passbar.Size = New System.Drawing.Size(420, 5)
+        Me.passbar.Size = New System.Drawing.Size(560, 6)
         Me.passbar.TabIndex = 52
         Me.passbar.Text = "Guna2ProgressBar1"
         Me.passbar.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -356,9 +371,10 @@ Partial Class RegisterFrm
         Me.Guna2PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox4.Image = CType(resources.GetObject("Guna2PictureBox4.Image"), System.Drawing.Image)
         Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(190, 562)
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(253, 692)
+        Me.Guna2PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(18, 17)
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(24, 21)
         Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox4.TabIndex = 51
         Me.Guna2PictureBox4.TabStop = False
@@ -369,9 +385,10 @@ Partial Class RegisterFrm
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Gray
-        Me.Label14.Location = New System.Drawing.Point(207, 562)
+        Me.Label14.Location = New System.Drawing.Point(275, 692)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(151, 17)
+        Me.Label14.Size = New System.Drawing.Size(185, 19)
         Me.Label14.TabIndex = 50
         Me.Label14.Text = "contains numbers [0-9]"
         '
@@ -380,9 +397,10 @@ Partial Class RegisterFrm
         Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox3.Image = CType(resources.GetObject("Guna2PictureBox3.Image"), System.Drawing.Image)
         Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(190, 545)
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(253, 671)
+        Me.Guna2PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(18, 17)
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(24, 21)
         Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox3.TabIndex = 49
         Me.Guna2PictureBox3.TabStop = False
@@ -393,9 +411,10 @@ Partial Class RegisterFrm
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Gray
-        Me.Label13.Location = New System.Drawing.Point(207, 545)
+        Me.Label13.Location = New System.Drawing.Point(275, 671)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(184, 17)
+        Me.Label13.Size = New System.Drawing.Size(222, 19)
         Me.Label13.TabIndex = 48
         Me.Label13.Text = "contains capital letters [A-Z]"
         '
@@ -404,9 +423,10 @@ Partial Class RegisterFrm
         Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), System.Drawing.Image)
         Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(190, 528)
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(253, 650)
+        Me.Guna2PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(18, 17)
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(24, 21)
         Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox2.TabIndex = 47
         Me.Guna2PictureBox2.TabStop = False
@@ -417,9 +437,10 @@ Partial Class RegisterFrm
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Gray
-        Me.Label12.Location = New System.Drawing.Point(207, 528)
+        Me.Label12.Location = New System.Drawing.Point(275, 650)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(130, 17)
+        Me.Label12.Size = New System.Drawing.Size(158, 19)
         Me.Label12.TabIndex = 46
         Me.Label12.Text = "at least 6 characters"
         '
@@ -429,9 +450,10 @@ Partial Class RegisterFrm
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(189, 493)
+        Me.Label11.Location = New System.Drawing.Point(251, 607)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(243, 19)
+        Me.Label11.Size = New System.Drawing.Size(308, 24)
         Me.Label11.TabIndex = 44
         Me.Label11.Text = "Username/Password  requirements"
         '
@@ -440,12 +462,13 @@ Partial Class RegisterFrm
         Me.Guna2Shapes4.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes4.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes4.LineThickness = 2
-        Me.Guna2Shapes4.Location = New System.Drawing.Point(193, 515)
+        Me.Guna2Shapes4.Location = New System.Drawing.Point(257, 634)
+        Me.Guna2Shapes4.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Shapes4.Name = "Guna2Shapes4"
         Me.Guna2Shapes4.PolygonSkip = 1
         Me.Guna2Shapes4.Rotate = 0!
         Me.Guna2Shapes4.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Me.Guna2Shapes4.Size = New System.Drawing.Size(521, 10)
+        Me.Guna2Shapes4.Size = New System.Drawing.Size(695, 12)
         Me.Guna2Shapes4.TabIndex = 45
         Me.Guna2Shapes4.Text = "Guna2Shapes4"
         Me.Guna2Shapes4.Zoom = 100
@@ -468,12 +491,12 @@ Partial Class RegisterFrm
         Me.cnfrmpasstxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.cnfrmpasstxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.cnfrmpasstxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.cnfrmpasstxbx.Location = New System.Drawing.Point(722, 495)
-        Me.cnfrmpasstxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.cnfrmpasstxbx.Location = New System.Drawing.Point(962, 609)
+        Me.cnfrmpasstxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.cnfrmpasstxbx.Name = "cnfrmpasstxbx"
         Me.cnfrmpasstxbx.PlaceholderText = "Confirm password"
         Me.cnfrmpasstxbx.SelectedText = ""
-        Me.cnfrmpasstxbx.Size = New System.Drawing.Size(508, 45)
+        Me.cnfrmpasstxbx.Size = New System.Drawing.Size(677, 55)
         Me.cnfrmpasstxbx.TabIndex = 43
         Me.cnfrmpasstxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -490,9 +513,10 @@ Partial Class RegisterFrm
         Me.cpybtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.cpybtn.ForeColor = System.Drawing.Color.White
         Me.cpybtn.Image = Global.PatientRecordSystem.My.Resources.Resources.copy
-        Me.cpybtn.Location = New System.Drawing.Point(1173, 442)
+        Me.cpybtn.Location = New System.Drawing.Point(1564, 544)
+        Me.cpybtn.Margin = New System.Windows.Forms.Padding(4)
         Me.cpybtn.Name = "cpybtn"
-        Me.cpybtn.Size = New System.Drawing.Size(57, 45)
+        Me.cpybtn.Size = New System.Drawing.Size(76, 55)
         Me.cpybtn.TabIndex = 42
         '
         'randpassbtn
@@ -511,9 +535,10 @@ Partial Class RegisterFrm
         Me.randpassbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.dices
         Me.randpassbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.randpassbtn.IndicateFocus = True
-        Me.randpassbtn.Location = New System.Drawing.Point(1037, 442)
+        Me.randpassbtn.Location = New System.Drawing.Point(1383, 544)
+        Me.randpassbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.randpassbtn.Name = "randpassbtn"
-        Me.randpassbtn.Size = New System.Drawing.Size(130, 45)
+        Me.randpassbtn.Size = New System.Drawing.Size(173, 55)
         Me.randpassbtn.TabIndex = 41
         Me.randpassbtn.Text = "Generate"
         '
@@ -535,12 +560,12 @@ Partial Class RegisterFrm
         Me.regpasstxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.regpasstxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.regpasstxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.regpasstxbx.Location = New System.Drawing.Point(721, 442)
-        Me.regpasstxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.regpasstxbx.Location = New System.Drawing.Point(960, 544)
+        Me.regpasstxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.regpasstxbx.Name = "regpasstxbx"
         Me.regpasstxbx.PlaceholderText = "Password"
         Me.regpasstxbx.SelectedText = ""
-        Me.regpasstxbx.Size = New System.Drawing.Size(309, 45)
+        Me.regpasstxbx.Size = New System.Drawing.Size(412, 55)
         Me.regpasstxbx.TabIndex = 40
         Me.regpasstxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -562,12 +587,12 @@ Partial Class RegisterFrm
         Me.regusrnmtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.regusrnmtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.regusrnmtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.regusrnmtxbx.Location = New System.Drawing.Point(193, 442)
-        Me.regusrnmtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.regusrnmtxbx.Location = New System.Drawing.Point(256, 544)
+        Me.regusrnmtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.regusrnmtxbx.Name = "regusrnmtxbx"
         Me.regusrnmtxbx.PlaceholderText = "Username"
         Me.regusrnmtxbx.SelectedText = ""
-        Me.regusrnmtxbx.Size = New System.Drawing.Size(521, 45)
+        Me.regusrnmtxbx.Size = New System.Drawing.Size(695, 55)
         Me.regusrnmtxbx.TabIndex = 39
         Me.regusrnmtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -577,9 +602,10 @@ Partial Class RegisterFrm
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(189, 403)
+        Me.Label10.Location = New System.Drawing.Point(251, 496)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(63, 19)
+        Me.Label10.Size = New System.Drawing.Size(81, 24)
         Me.Label10.TabIndex = 37
         Me.Label10.Text = "Account"
         '
@@ -588,12 +614,13 @@ Partial Class RegisterFrm
         Me.Guna2Shapes3.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes3.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes3.LineThickness = 2
-        Me.Guna2Shapes3.Location = New System.Drawing.Point(193, 425)
+        Me.Guna2Shapes3.Location = New System.Drawing.Point(257, 523)
+        Me.Guna2Shapes3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Shapes3.Name = "Guna2Shapes3"
         Me.Guna2Shapes3.PolygonSkip = 1
         Me.Guna2Shapes3.Rotate = 0!
         Me.Guna2Shapes3.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Me.Guna2Shapes3.Size = New System.Drawing.Size(1044, 10)
+        Me.Guna2Shapes3.Size = New System.Drawing.Size(1392, 12)
         Me.Guna2Shapes3.TabIndex = 38
         Me.Guna2Shapes3.Text = "Guna2Shapes3"
         Me.Guna2Shapes3.Zoom = 100
@@ -616,12 +643,12 @@ Partial Class RegisterFrm
         Me.emailtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.emailtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.emailtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.emailtxbx.Location = New System.Drawing.Point(722, 335)
-        Me.emailtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.emailtxbx.Location = New System.Drawing.Point(962, 412)
+        Me.emailtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.emailtxbx.Name = "emailtxbx"
         Me.emailtxbx.PlaceholderText = "Email address"
         Me.emailtxbx.SelectedText = ""
-        Me.emailtxbx.Size = New System.Drawing.Size(521, 45)
+        Me.emailtxbx.Size = New System.Drawing.Size(695, 55)
         Me.emailtxbx.TabIndex = 36
         Me.emailtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -643,12 +670,12 @@ Partial Class RegisterFrm
         Me.phnumtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.phnumtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.phnumtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.phnumtxbx.Location = New System.Drawing.Point(193, 335)
-        Me.phnumtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.phnumtxbx.Location = New System.Drawing.Point(256, 412)
+        Me.phnumtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.phnumtxbx.Name = "phnumtxbx"
         Me.phnumtxbx.PlaceholderText = "Phone number"
         Me.phnumtxbx.SelectedText = ""
-        Me.phnumtxbx.Size = New System.Drawing.Size(521, 45)
+        Me.phnumtxbx.Size = New System.Drawing.Size(695, 55)
         Me.phnumtxbx.TabIndex = 35
         Me.phnumtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -658,9 +685,10 @@ Partial Class RegisterFrm
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(194, 296)
+        Me.Label9.Location = New System.Drawing.Point(258, 364)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(143, 19)
+        Me.Label9.Size = New System.Drawing.Size(183, 24)
         Me.Label9.TabIndex = 33
         Me.Label9.Text = "Contact information"
         '
@@ -669,12 +697,13 @@ Partial Class RegisterFrm
         Me.Guna2Shapes2.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes2.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes2.LineThickness = 2
-        Me.Guna2Shapes2.Location = New System.Drawing.Point(198, 318)
+        Me.Guna2Shapes2.Location = New System.Drawing.Point(264, 391)
+        Me.Guna2Shapes2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Shapes2.Name = "Guna2Shapes2"
         Me.Guna2Shapes2.PolygonSkip = 1
         Me.Guna2Shapes2.Rotate = 0!
         Me.Guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Me.Guna2Shapes2.Size = New System.Drawing.Size(1044, 10)
+        Me.Guna2Shapes2.Size = New System.Drawing.Size(1392, 12)
         Me.Guna2Shapes2.TabIndex = 34
         Me.Guna2Shapes2.Text = "Guna2Shapes2"
         Me.Guna2Shapes2.Zoom = 100
@@ -696,9 +725,10 @@ Partial Class RegisterFrm
         Me.rolecbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.rolecbx.IntegralHeight = False
         Me.rolecbx.ItemHeight = 40
-        Me.rolecbx.Location = New System.Drawing.Point(1028, 223)
+        Me.rolecbx.Location = New System.Drawing.Point(1370, 274)
+        Me.rolecbx.Margin = New System.Windows.Forms.Padding(4)
         Me.rolecbx.Name = "rolecbx"
-        Me.rolecbx.Size = New System.Drawing.Size(223, 46)
+        Me.rolecbx.Size = New System.Drawing.Size(296, 46)
         Me.rolecbx.TabIndex = 30
         Me.rolecbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -720,12 +750,12 @@ Partial Class RegisterFrm
         Me.addrtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.addrtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.addrtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.addrtxbx.Location = New System.Drawing.Point(611, 223)
-        Me.addrtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.addrtxbx.Location = New System.Drawing.Point(814, 274)
+        Me.addrtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.addrtxbx.Name = "addrtxbx"
         Me.addrtxbx.PlaceholderText = "House no., street, purok, barangay"
         Me.addrtxbx.SelectedText = ""
-        Me.addrtxbx.Size = New System.Drawing.Size(410, 45)
+        Me.addrtxbx.Size = New System.Drawing.Size(547, 55)
         Me.addrtxbx.TabIndex = 29
         Me.addrtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -735,9 +765,10 @@ Partial Class RegisterFrm
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(607, 200)
+        Me.Label7.Location = New System.Drawing.Point(808, 246)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(63, 19)
+        Me.Label7.Size = New System.Drawing.Size(78, 24)
         Me.Label7.TabIndex = 28
         Me.Label7.Text = "Address"
         '
@@ -759,12 +790,12 @@ Partial Class RegisterFrm
         Me.birthtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.birthtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.birthtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.birthtxbx.Location = New System.Drawing.Point(190, 218)
-        Me.birthtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.birthtxbx.Location = New System.Drawing.Point(252, 268)
+        Me.birthtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.birthtxbx.Name = "birthtxbx"
         Me.birthtxbx.PlaceholderText = "City/municipality"
         Me.birthtxbx.SelectedText = ""
-        Me.birthtxbx.Size = New System.Drawing.Size(410, 45)
+        Me.birthtxbx.Size = New System.Drawing.Size(547, 55)
         Me.birthtxbx.TabIndex = 27
         Me.birthtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -774,9 +805,10 @@ Partial Class RegisterFrm
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(186, 195)
+        Me.Label6.Location = New System.Drawing.Point(247, 240)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(99, 19)
+        Me.Label6.Size = New System.Drawing.Size(124, 24)
         Me.Label6.TabIndex = 26
         Me.Label6.Text = "Place of birth"
         '
@@ -797,9 +829,10 @@ Partial Class RegisterFrm
         Me.gdrcmbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.gdrcmbx.IntegralHeight = False
         Me.gdrcmbx.ItemHeight = 40
-        Me.gdrcmbx.Location = New System.Drawing.Point(823, 136)
+        Me.gdrcmbx.Location = New System.Drawing.Point(1096, 167)
+        Me.gdrcmbx.Margin = New System.Windows.Forms.Padding(4)
         Me.gdrcmbx.Name = "gdrcmbx"
-        Me.gdrcmbx.Size = New System.Drawing.Size(207, 46)
+        Me.gdrcmbx.Size = New System.Drawing.Size(275, 46)
         Me.gdrcmbx.TabIndex = 22
         Me.gdrcmbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -820,9 +853,10 @@ Partial Class RegisterFrm
         Me.cvlcbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.cvlcbx.IntegralHeight = False
         Me.cvlcbx.ItemHeight = 40
-        Me.cvlcbx.Location = New System.Drawing.Point(1036, 138)
+        Me.cvlcbx.Location = New System.Drawing.Point(1380, 170)
+        Me.cvlcbx.Margin = New System.Windows.Forms.Padding(4)
         Me.cvlcbx.Name = "cvlcbx"
-        Me.cvlcbx.Size = New System.Drawing.Size(215, 46)
+        Me.cvlcbx.Size = New System.Drawing.Size(285, 46)
         Me.cvlcbx.TabIndex = 21
         Me.cvlcbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -843,9 +877,10 @@ Partial Class RegisterFrm
         Me.yrcbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.yrcbx.IntegralHeight = False
         Me.yrcbx.ItemHeight = 40
-        Me.yrcbx.Location = New System.Drawing.Point(555, 136)
+        Me.yrcbx.Location = New System.Drawing.Point(739, 167)
+        Me.yrcbx.Margin = New System.Windows.Forms.Padding(4)
         Me.yrcbx.Name = "yrcbx"
-        Me.yrcbx.Size = New System.Drawing.Size(175, 46)
+        Me.yrcbx.Size = New System.Drawing.Size(232, 46)
         Me.yrcbx.TabIndex = 19
         Me.yrcbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -866,9 +901,10 @@ Partial Class RegisterFrm
         Me.mnthcbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.mnthcbx.IntegralHeight = False
         Me.mnthcbx.ItemHeight = 40
-        Me.mnthcbx.Location = New System.Drawing.Point(374, 136)
+        Me.mnthcbx.Location = New System.Drawing.Point(498, 167)
+        Me.mnthcbx.Margin = New System.Windows.Forms.Padding(4)
         Me.mnthcbx.Name = "mnthcbx"
-        Me.mnthcbx.Size = New System.Drawing.Size(175, 46)
+        Me.mnthcbx.Size = New System.Drawing.Size(232, 46)
         Me.mnthcbx.TabIndex = 18
         Me.mnthcbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -890,12 +926,12 @@ Partial Class RegisterFrm
         Me.agetxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.agetxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.agetxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.agetxbx.Location = New System.Drawing.Point(737, 138)
-        Me.agetxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.agetxbx.Location = New System.Drawing.Point(992, 167)
+        Me.agetxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.agetxbx.Name = "agetxbx"
         Me.agetxbx.PlaceholderText = "Age"
         Me.agetxbx.SelectedText = ""
-        Me.agetxbx.Size = New System.Drawing.Size(55, 45)
+        Me.agetxbx.Size = New System.Drawing.Size(73, 55)
         Me.agetxbx.TabIndex = 17
         Me.agetxbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.agetxbx.TextOffset = New System.Drawing.Point(0, -2)
@@ -917,9 +953,10 @@ Partial Class RegisterFrm
         Me.daycmbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.daycmbx.IntegralHeight = False
         Me.daycmbx.ItemHeight = 40
-        Me.daycmbx.Location = New System.Drawing.Point(193, 136)
+        Me.daycmbx.Location = New System.Drawing.Point(256, 167)
+        Me.daycmbx.Margin = New System.Windows.Forms.Padding(4)
         Me.daycmbx.Name = "daycmbx"
-        Me.daycmbx.Size = New System.Drawing.Size(175, 46)
+        Me.daycmbx.Size = New System.Drawing.Size(232, 46)
         Me.daycmbx.TabIndex = 14
         Me.daycmbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -929,9 +966,10 @@ Partial Class RegisterFrm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(193, 114)
+        Me.Label2.Location = New System.Drawing.Point(256, 140)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(94, 19)
+        Me.Label2.Size = New System.Drawing.Size(119, 24)
         Me.Label2.TabIndex = 13
         Me.Label2.Text = "Date of birth"
         '
@@ -952,10 +990,11 @@ Partial Class RegisterFrm
         Me.excbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.excbx.IntegralHeight = False
         Me.excbx.ItemHeight = 40
-        Me.excbx.Location = New System.Drawing.Point(1076, 53)
+        Me.excbx.Location = New System.Drawing.Point(1434, 65)
+        Me.excbx.Margin = New System.Windows.Forms.Padding(4)
         Me.excbx.MaxDropDownItems = 20
         Me.excbx.Name = "excbx"
-        Me.excbx.Size = New System.Drawing.Size(176, 46)
+        Me.excbx.Size = New System.Drawing.Size(233, 46)
         Me.excbx.TabIndex = 12
         Me.excbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -971,9 +1010,10 @@ Partial Class RegisterFrm
         Me.Guna2Panel5.BorderThickness = 1
         Me.Guna2Panel5.Controls.Add(Me.staffimgpcbx)
         Me.Guna2Panel5.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel5.Location = New System.Drawing.Point(12, 25)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(15, 31)
+        Me.Guna2Panel5.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(157, 166)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(209, 204)
         Me.Guna2Panel5.TabIndex = 11
         '
         'staffimgpcbx
@@ -984,8 +1024,9 @@ Partial Class RegisterFrm
         Me.staffimgpcbx.FillColor = System.Drawing.Color.Transparent
         Me.staffimgpcbx.ImageRotate = 0!
         Me.staffimgpcbx.Location = New System.Drawing.Point(0, 0)
+        Me.staffimgpcbx.Margin = New System.Windows.Forms.Padding(4)
         Me.staffimgpcbx.Name = "staffimgpcbx"
-        Me.staffimgpcbx.Size = New System.Drawing.Size(157, 166)
+        Me.staffimgpcbx.Size = New System.Drawing.Size(209, 204)
         Me.staffimgpcbx.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.staffimgpcbx.TabIndex = 0
         Me.staffimgpcbx.TabStop = False
@@ -1008,12 +1049,12 @@ Partial Class RegisterFrm
         Me.srnmtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.srnmtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.srnmtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.srnmtxbx.Location = New System.Drawing.Point(784, 53)
-        Me.srnmtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.srnmtxbx.Location = New System.Drawing.Point(1044, 65)
+        Me.srnmtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.srnmtxbx.Name = "srnmtxbx"
         Me.srnmtxbx.PlaceholderText = "Surname"
         Me.srnmtxbx.SelectedText = ""
-        Me.srnmtxbx.Size = New System.Drawing.Size(285, 45)
+        Me.srnmtxbx.Size = New System.Drawing.Size(380, 55)
         Me.srnmtxbx.TabIndex = 9
         Me.srnmtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -1033,9 +1074,10 @@ Partial Class RegisterFrm
         Me.uploadbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.uploadbtn.Image = CType(resources.GetObject("uploadbtn.Image"), System.Drawing.Image)
         Me.uploadbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.uploadbtn.Location = New System.Drawing.Point(12, 218)
+        Me.uploadbtn.Location = New System.Drawing.Point(15, 268)
+        Me.uploadbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.uploadbtn.Name = "uploadbtn"
-        Me.uploadbtn.Size = New System.Drawing.Size(157, 49)
+        Me.uploadbtn.Size = New System.Drawing.Size(209, 60)
         Me.uploadbtn.TabIndex = 10
         Me.uploadbtn.Text = "Upload Photo"
         Me.uploadbtn.UseTransparentBackground = True
@@ -1058,12 +1100,12 @@ Partial Class RegisterFrm
         Me.mdlnmtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.mdlnmtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.mdlnmtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.mdlnmtxbx.Location = New System.Drawing.Point(491, 53)
-        Me.mdlnmtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.mdlnmtxbx.Location = New System.Drawing.Point(654, 65)
+        Me.mdlnmtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.mdlnmtxbx.Name = "mdlnmtxbx"
         Me.mdlnmtxbx.PlaceholderText = "Middle name"
         Me.mdlnmtxbx.SelectedText = ""
-        Me.mdlnmtxbx.Size = New System.Drawing.Size(285, 45)
+        Me.mdlnmtxbx.Size = New System.Drawing.Size(380, 55)
         Me.mdlnmtxbx.TabIndex = 8
         Me.mdlnmtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -1085,12 +1127,12 @@ Partial Class RegisterFrm
         Me.frstnmtxbx.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.frstnmtxbx.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.frstnmtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.frstnmtxbx.Location = New System.Drawing.Point(198, 53)
-        Me.frstnmtxbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.frstnmtxbx.Location = New System.Drawing.Point(263, 65)
+        Me.frstnmtxbx.Margin = New System.Windows.Forms.Padding(5)
         Me.frstnmtxbx.Name = "frstnmtxbx"
         Me.frstnmtxbx.PlaceholderText = "First name"
         Me.frstnmtxbx.SelectedText = ""
-        Me.frstnmtxbx.Size = New System.Drawing.Size(285, 45)
+        Me.frstnmtxbx.Size = New System.Drawing.Size(380, 55)
         Me.frstnmtxbx.TabIndex = 7
         Me.frstnmtxbx.TextOffset = New System.Drawing.Point(0, -2)
         '
@@ -1100,9 +1142,10 @@ Partial Class RegisterFrm
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(194, 15)
+        Me.Label1.Location = New System.Drawing.Point(258, 18)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(150, 19)
+        Me.Label1.Size = New System.Drawing.Size(190, 24)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Personal information"
         '
@@ -1111,12 +1154,13 @@ Partial Class RegisterFrm
         Me.Guna2Shapes1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2Shapes1.LineThickness = 2
-        Me.Guna2Shapes1.Location = New System.Drawing.Point(198, 37)
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(264, 46)
+        Me.Guna2Shapes1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Shapes1.Name = "Guna2Shapes1"
         Me.Guna2Shapes1.PolygonSkip = 1
         Me.Guna2Shapes1.Rotate = 0!
         Me.Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Me.Guna2Shapes1.Size = New System.Drawing.Size(1044, 10)
+        Me.Guna2Shapes1.Size = New System.Drawing.Size(1392, 12)
         Me.Guna2Shapes1.TabIndex = 32
         Me.Guna2Shapes1.Text = "Guna2Shapes1"
         Me.Guna2Shapes1.Zoom = 100
@@ -1130,9 +1174,10 @@ Partial Class RegisterFrm
         Me.Guna2Panel1.Controls.Add(Me.Label3)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel1.MaximumSize = New System.Drawing.Size(1280, 720)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Panel1.MaximumSize = New System.Drawing.Size(1707, 886)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1264, 54)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1683, 66)
         Me.Guna2Panel1.TabIndex = 2
         '
         'gtloginbtn
@@ -1152,9 +1197,10 @@ Partial Class RegisterFrm
         Me.gtloginbtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.gtloginbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.chevron_left1
         Me.gtloginbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.gtloginbtn.Location = New System.Drawing.Point(12, 6)
+        Me.gtloginbtn.Location = New System.Drawing.Point(15, 7)
+        Me.gtloginbtn.Margin = New System.Windows.Forms.Padding(4)
         Me.gtloginbtn.Name = "gtloginbtn"
-        Me.gtloginbtn.Size = New System.Drawing.Size(170, 42)
+        Me.gtloginbtn.Size = New System.Drawing.Size(227, 52)
         Me.gtloginbtn.TabIndex = 30
         Me.gtloginbtn.Text = "Go back to log in"
         Me.gtloginbtn.UseTransparentBackground = True
@@ -1165,9 +1211,10 @@ Partial Class RegisterFrm
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(974, 18)
+        Me.Label3.Location = New System.Drawing.Point(1298, 22)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(277, 19)
+        Me.Label3.Size = New System.Drawing.Size(357, 24)
         Me.Label3.TabIndex = 29
         Me.Label3.Text = "Barangay health clinic: staff Registration"
         '
@@ -1186,16 +1233,18 @@ Partial Class RegisterFrm
         '
         'RegisterFrm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.ClientSize = New System.Drawing.Size(1683, 828)
         Me.Controls.Add(Me.Panel1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MaximumSize = New System.Drawing.Size(1280, 720)
-        Me.MinimumSize = New System.Drawing.Size(1024, 600)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximumSize = New System.Drawing.Size(1701, 875)
+        Me.MinimumSize = New System.Drawing.Size(1359, 728)
         Me.Name = "RegisterFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "RegisterFrm"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()

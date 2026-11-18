@@ -212,17 +212,19 @@ Partial Class AdminDashboard
         Me.Guna2Panel1.Controls.Add(Me.Guna2Panel2)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1032, 580)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1376, 714)
         Me.Guna2Panel1.TabIndex = 0
         '
         'Guna2Panel3
         '
         Me.Guna2Panel3.Controls.Add(Me.TableLayoutPanel2)
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 251)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(0, 309)
+        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1032, 329)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1376, 405)
         Me.Guna2Panel3.TabIndex = 1
         '
         'TableLayoutPanel2
@@ -234,19 +236,21 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel2.Controls.Add(Me.TableLayoutPanel5, 1, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1032, 329)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1376, 405)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'Guna2Panel4
         '
         Me.Guna2Panel4.Controls.Add(Me.TableLayoutPanel3)
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel4.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel4.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel4.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(745, 323)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(993, 397)
         Me.Guna2Panel4.TabIndex = 0
         '
         'TableLayoutPanel3
@@ -257,11 +261,12 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel3.Controls.Add(Me.TableLayoutPanel4, 0, 1)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(745, 323)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(993, 397)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'Guna2Panel5
@@ -271,9 +276,10 @@ Partial Class AdminDashboard
         Me.Guna2Panel5.Controls.Add(Me.GunaChart1)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel5.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel5.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel5.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(739, 155)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(985, 190)
         Me.Guna2Panel5.TabIndex = 0
         '
         'GunaChart1
@@ -287,12 +293,13 @@ Partial Class AdminDashboard
         ChartFont1.FontName = "Arial"
         Me.GunaChart1.Legend.LabelFont = ChartFont1
         Me.GunaChart1.Location = New System.Drawing.Point(0, 0)
+        Me.GunaChart1.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaChart1.Name = "GunaChart1"
         Me.GunaChart1.PaletteCustomColors.BorderColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.Green})
         Me.GunaChart1.PaletteCustomColors.FillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.PaleGreen})
         Me.GunaChart1.PaletteCustomColors.PointBorderColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.Green})
         Me.GunaChart1.PaletteCustomColors.PointFillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.Green})
-        Me.GunaChart1.Size = New System.Drawing.Size(739, 155)
+        Me.GunaChart1.Size = New System.Drawing.Size(985, 190)
         Me.GunaChart1.TabIndex = 1
         ChartFont2.FontName = "Microsoft YaHei UI"
         ChartFont2.Size = 12
@@ -360,11 +367,12 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel4.Controls.Add(Me.Guna2Panel6, 0, 0)
         Me.TableLayoutPanel4.Controls.Add(Me.Guna2Panel7, 1, 0)
         Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel4.Location = New System.Drawing.Point(3, 164)
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(4, 202)
+        Me.TableLayoutPanel4.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
         Me.TableLayoutPanel4.RowCount = 1
         Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel4.Size = New System.Drawing.Size(739, 156)
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(985, 191)
         Me.TableLayoutPanel4.TabIndex = 1
         '
         'Guna2Panel6
@@ -374,9 +382,10 @@ Partial Class AdminDashboard
         Me.Guna2Panel6.BorderThickness = 2
         Me.Guna2Panel6.Controls.Add(Me.admintbl)
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel6.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel6.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel6.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(484, 150)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(645, 183)
         Me.Guna2Panel6.TabIndex = 0
         '
         'admintbl
@@ -414,6 +423,7 @@ Partial Class AdminDashboard
         Me.admintbl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.admintbl.GridColor = System.Drawing.Color.FromArgb(CType(CType(182, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(216, Byte), Integer))
         Me.admintbl.Location = New System.Drawing.Point(0, 0)
+        Me.admintbl.Margin = New System.Windows.Forms.Padding(4)
         Me.admintbl.Name = "admintbl"
         Me.admintbl.ReadOnly = True
         Me.admintbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
@@ -430,7 +440,7 @@ Partial Class AdminDashboard
         Me.admintbl.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.admintbl.RowTemplate.Height = 50
         Me.admintbl.RowTemplate.ReadOnly = True
-        Me.admintbl.Size = New System.Drawing.Size(484, 150)
+        Me.admintbl.Size = New System.Drawing.Size(645, 183)
         Me.admintbl.TabIndex = 0
         Me.admintbl.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea
         Me.admintbl.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(185, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(218, Byte), Integer))
@@ -456,54 +466,61 @@ Partial Class AdminDashboard
         '
         Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
         Me.Column1.HeaderText = "First name"
+        Me.Column1.MinimumWidth = 6
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
-        Me.Column1.Width = 93
+        Me.Column1.Width = 116
         '
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
         Me.Column2.HeaderText = "Middle name"
+        Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
-        Me.Column2.Width = 110
+        Me.Column2.Width = 136
         '
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
         Me.Column3.HeaderText = "Surname"
+        Me.Column3.MinimumWidth = 6
         Me.Column3.Name = "Column3"
         Me.Column3.ReadOnly = True
-        Me.Column3.Width = 91
+        Me.Column3.Width = 113
         '
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
         Me.Column4.HeaderText = "Extension"
+        Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
-        Me.Column4.Width = 95
+        Me.Column4.Width = 120
         '
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
         Me.Column5.HeaderText = "Age"
+        Me.Column5.MinimumWidth = 6
         Me.Column5.Name = "Column5"
         Me.Column5.ReadOnly = True
-        Me.Column5.Width = 59
+        Me.Column5.Width = 71
         '
         'Column6
         '
         Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
         Me.Column6.HeaderText = "Gender"
+        Me.Column6.MinimumWidth = 6
         Me.Column6.Name = "Column6"
         Me.Column6.ReadOnly = True
-        Me.Column6.Width = 81
+        Me.Column6.Width = 99
         '
         'Column7
         '
         Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column7.HeaderText = "Position"
+        Me.Column7.MinimumWidth = 6
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
         '
@@ -511,9 +528,10 @@ Partial Class AdminDashboard
         '
         Me.Guna2Panel7.Controls.Add(Me.GunaChart3)
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel7.Location = New System.Drawing.Point(493, 3)
+        Me.Guna2Panel7.Location = New System.Drawing.Point(657, 4)
+        Me.Guna2Panel7.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(243, 150)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(324, 183)
         Me.Guna2Panel7.TabIndex = 1
         '
         'GunaChart3
@@ -525,8 +543,9 @@ Partial Class AdminDashboard
         Me.GunaChart3.Legend.LabelFont = ChartFont9
         Me.GunaChart3.Legend.Position = Guna.Charts.WinForms.LegendPosition.Left
         Me.GunaChart3.Location = New System.Drawing.Point(0, 0)
+        Me.GunaChart3.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaChart3.Name = "GunaChart3"
-        Me.GunaChart3.Size = New System.Drawing.Size(243, 150)
+        Me.GunaChart3.Size = New System.Drawing.Size(324, 183)
         Me.GunaChart3.TabIndex = 1
         ChartFont10.FontName = "Arial"
         ChartFont10.Size = 12
@@ -581,12 +600,13 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel5.Controls.Add(Me.Guna2Panel9, 0, 1)
         Me.TableLayoutPanel5.Controls.Add(Me.Guna2Panel8, 0, 0)
         Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel5.Location = New System.Drawing.Point(754, 3)
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(1005, 4)
+        Me.TableLayoutPanel5.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
         Me.TableLayoutPanel5.RowCount = 2
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56.96594!))
         Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.03406!))
-        Me.TableLayoutPanel5.Size = New System.Drawing.Size(275, 323)
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(367, 397)
         Me.TableLayoutPanel5.TabIndex = 1
         '
         'Guna2Panel9
@@ -597,11 +617,12 @@ Partial Class AdminDashboard
         Me.Guna2Panel9.Controls.Add(Me.GunaChart4)
         Me.Guna2Panel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel9.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel9.Location = New System.Drawing.Point(3, 186)
+        Me.Guna2Panel9.Location = New System.Drawing.Point(4, 230)
+        Me.Guna2Panel9.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel9.Name = "Guna2Panel9"
         Me.Guna2Panel9.ShadowDecoration.BorderRadius = 15
         Me.Guna2Panel9.ShadowDecoration.Depth = 10
-        Me.Guna2Panel9.Size = New System.Drawing.Size(269, 134)
+        Me.Guna2Panel9.Size = New System.Drawing.Size(359, 163)
         Me.Guna2Panel9.TabIndex = 1
         '
         'GunaChart4
@@ -613,10 +634,10 @@ Partial Class AdminDashboard
         Me.GunaChart4.Legend.LabelFont = ChartFont17
         Me.GunaChart4.Legend.Position = Guna.Charts.WinForms.LegendPosition.Left
         Me.GunaChart4.Location = New System.Drawing.Point(0, 0)
-        Me.GunaChart4.Margin = New System.Windows.Forms.Padding(3, 3, 3, 10)
+        Me.GunaChart4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 12)
         Me.GunaChart4.Name = "GunaChart4"
         Me.GunaChart4.PaletteCustomColors.FillColors.AddRange(New System.Drawing.Color() {System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer)), System.Drawing.Color.Lime})
-        Me.GunaChart4.Size = New System.Drawing.Size(269, 134)
+        Me.GunaChart4.Size = New System.Drawing.Size(359, 163)
         Me.GunaChart4.TabIndex = 2
         ChartFont18.FontName = "Arial"
         ChartFont18.Size = 12
@@ -660,9 +681,10 @@ Partial Class AdminDashboard
         '
         Me.Guna2Panel8.Controls.Add(Me.Guna2DataGridView2)
         Me.Guna2Panel8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel8.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel8.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel8.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Size = New System.Drawing.Size(269, 177)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(359, 218)
         Me.Guna2Panel8.TabIndex = 0
         '
         'Guna2DataGridView2
@@ -696,6 +718,7 @@ Partial Class AdminDashboard
         Me.Guna2DataGridView2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Guna2DataGridView2.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2DataGridView2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2DataGridView2.Name = "Guna2DataGridView2"
         Me.Guna2DataGridView2.ReadOnly = True
         DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -707,10 +730,11 @@ Partial Class AdminDashboard
         DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Guna2DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.Guna2DataGridView2.RowHeadersVisible = False
+        Me.Guna2DataGridView2.RowHeadersWidth = 51
         Me.Guna2DataGridView2.RowTemplate.Height = 40
         Me.Guna2DataGridView2.RowTemplate.ReadOnly = True
         Me.Guna2DataGridView2.ScrollBars = System.Windows.Forms.ScrollBars.None
-        Me.Guna2DataGridView2.Size = New System.Drawing.Size(269, 177)
+        Me.Guna2DataGridView2.Size = New System.Drawing.Size(359, 218)
         Me.Guna2DataGridView2.TabIndex = 1
         Me.Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -724,6 +748,7 @@ Partial Class AdminDashboard
         'DataGridViewTextBoxColumn1
         '
         Me.DataGridViewTextBoxColumn1.HeaderText = "Notification"
+        Me.DataGridViewTextBoxColumn1.MinimumWidth = 6
         Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
         Me.DataGridViewTextBoxColumn1.ReadOnly = True
         '
@@ -732,8 +757,9 @@ Partial Class AdminDashboard
         Me.Guna2Panel2.Controls.Add(Me.TableLayoutPanel1)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1032, 251)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1376, 309)
         Me.Guna2Panel2.TabIndex = 0
         '
         'TableLayoutPanel1
@@ -754,11 +780,12 @@ Partial Class AdminDashboard
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2ShadowPanel1, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 251)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1376, 309)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Guna2ShadowPanel8
@@ -770,14 +797,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel8.Controls.Add(Me.Label24)
         Me.Guna2ShadowPanel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel8.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel8.Location = New System.Drawing.Point(774, 125)
+        Me.Guna2ShadowPanel8.Location = New System.Drawing.Point(1032, 154)
         Me.Guna2ShadowPanel8.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel8.Name = "Guna2ShadowPanel8"
         Me.Guna2ShadowPanel8.Radius = 5
         Me.Guna2ShadowPanel8.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel8.ShadowDepth = 50
         Me.Guna2ShadowPanel8.ShadowShift = 3
-        Me.Guna2ShadowPanel8.Size = New System.Drawing.Size(258, 126)
+        Me.Guna2ShadowPanel8.Size = New System.Drawing.Size(344, 155)
         Me.Guna2ShadowPanel8.TabIndex = 7
         '
         'Label22
@@ -786,9 +813,10 @@ Partial Class AdminDashboard
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.Gray
-        Me.Label22.Location = New System.Drawing.Point(149, 80)
+        Me.Label22.Location = New System.Drawing.Point(199, 98)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(71, 16)
+        Me.Label22.Size = New System.Drawing.Size(93, 19)
         Me.Label22.TabIndex = 2
         Me.Label22.Text = "vs last week"
         '
@@ -796,9 +824,10 @@ Partial Class AdminDashboard
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(45, 59)
+        Me.Label23.Location = New System.Drawing.Point(60, 73)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(44, 31)
+        Me.Label23.Size = New System.Drawing.Size(55, 40)
         Me.Label23.TabIndex = 1
         Me.Label23.Text = "31"
         '
@@ -808,9 +837,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox8.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox8.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
         Me.Guna2PictureBox8.ImageRotate = 0!
-        Me.Guna2PictureBox8.Location = New System.Drawing.Point(173, 40)
+        Me.Guna2PictureBox8.Location = New System.Drawing.Point(231, 49)
+        Me.Guna2PictureBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox8.Name = "Guna2PictureBox8"
-        Me.Guna2PictureBox8.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox8.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox8.TabIndex = 1
         Me.Guna2PictureBox8.TabStop = False
@@ -820,9 +850,10 @@ Partial Class AdminDashboard
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Gray
-        Me.Label24.Location = New System.Drawing.Point(47, 40)
+        Me.Label24.Location = New System.Drawing.Point(63, 49)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(119, 19)
+        Me.Label24.Size = New System.Drawing.Size(150, 24)
         Me.Label24.TabIndex = 0
         Me.Label24.Text = "Complete Today"
         '
@@ -835,14 +866,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel7.Controls.Add(Me.Label21)
         Me.Guna2ShadowPanel7.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel7.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel7.Location = New System.Drawing.Point(516, 125)
+        Me.Guna2ShadowPanel7.Location = New System.Drawing.Point(688, 154)
         Me.Guna2ShadowPanel7.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel7.Name = "Guna2ShadowPanel7"
         Me.Guna2ShadowPanel7.Radius = 5
         Me.Guna2ShadowPanel7.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel7.ShadowDepth = 50
         Me.Guna2ShadowPanel7.ShadowShift = 3
-        Me.Guna2ShadowPanel7.Size = New System.Drawing.Size(258, 126)
+        Me.Guna2ShadowPanel7.Size = New System.Drawing.Size(344, 155)
         Me.Guna2ShadowPanel7.TabIndex = 6
         '
         'Label19
@@ -851,9 +882,10 @@ Partial Class AdminDashboard
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Gray
-        Me.Label19.Location = New System.Drawing.Point(158, 80)
+        Me.Label19.Location = New System.Drawing.Point(211, 98)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(71, 16)
+        Me.Label19.Size = New System.Drawing.Size(93, 19)
         Me.Label19.TabIndex = 2
         Me.Label19.Text = "vs last week"
         '
@@ -861,9 +893,10 @@ Partial Class AdminDashboard
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(45, 59)
+        Me.Label20.Location = New System.Drawing.Point(60, 73)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(29, 31)
+        Me.Label20.Size = New System.Drawing.Size(36, 40)
         Me.Label20.TabIndex = 1
         Me.Label20.Text = "7"
         '
@@ -873,9 +906,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox7.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox7.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
         Me.Guna2PictureBox7.ImageRotate = 0!
-        Me.Guna2PictureBox7.Location = New System.Drawing.Point(182, 40)
+        Me.Guna2PictureBox7.Location = New System.Drawing.Point(243, 49)
+        Me.Guna2PictureBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox7.Name = "Guna2PictureBox7"
-        Me.Guna2PictureBox7.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox7.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox7.TabIndex = 1
         Me.Guna2PictureBox7.TabStop = False
@@ -885,9 +919,10 @@ Partial Class AdminDashboard
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Gray
-        Me.Label21.Location = New System.Drawing.Point(47, 40)
+        Me.Label21.Location = New System.Drawing.Point(63, 49)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(162, 19)
+        Me.Label21.Size = New System.Drawing.Size(207, 24)
         Me.Label21.TabIndex = 0
         Me.Label21.Text = "Pending Appointments"
         '
@@ -900,14 +935,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel6.Controls.Add(Me.Label18)
         Me.Guna2ShadowPanel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel6.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel6.Location = New System.Drawing.Point(258, 125)
+        Me.Guna2ShadowPanel6.Location = New System.Drawing.Point(344, 154)
         Me.Guna2ShadowPanel6.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel6.Name = "Guna2ShadowPanel6"
         Me.Guna2ShadowPanel6.Radius = 5
         Me.Guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel6.ShadowDepth = 50
         Me.Guna2ShadowPanel6.ShadowShift = 3
-        Me.Guna2ShadowPanel6.Size = New System.Drawing.Size(258, 126)
+        Me.Guna2ShadowPanel6.Size = New System.Drawing.Size(344, 155)
         Me.Guna2ShadowPanel6.TabIndex = 5
         '
         'Label16
@@ -916,9 +951,10 @@ Partial Class AdminDashboard
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Gray
-        Me.Label16.Location = New System.Drawing.Point(140, 80)
+        Me.Label16.Location = New System.Drawing.Point(187, 98)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(80, 16)
+        Me.Label16.Size = New System.Drawing.Size(104, 19)
         Me.Label16.TabIndex = 2
         Me.Label16.Text = "vs last month"
         '
@@ -926,9 +962,10 @@ Partial Class AdminDashboard
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(45, 59)
+        Me.Label17.Location = New System.Drawing.Point(60, 73)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(59, 31)
+        Me.Label17.Size = New System.Drawing.Size(74, 40)
         Me.Label17.TabIndex = 1
         Me.Label17.Text = "321"
         '
@@ -938,9 +975,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox6.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox6.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
         Me.Guna2PictureBox6.ImageRotate = 0!
-        Me.Guna2PictureBox6.Location = New System.Drawing.Point(164, 40)
+        Me.Guna2PictureBox6.Location = New System.Drawing.Point(219, 49)
+        Me.Guna2PictureBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Me.Guna2PictureBox6.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox6.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox6.TabIndex = 1
         Me.Guna2PictureBox6.TabStop = False
@@ -950,9 +988,10 @@ Partial Class AdminDashboard
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Gray
-        Me.Label18.Location = New System.Drawing.Point(47, 40)
+        Me.Label18.Location = New System.Drawing.Point(63, 49)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(152, 19)
+        Me.Label18.Size = New System.Drawing.Size(194, 24)
         Me.Label18.TabIndex = 0
         Me.Label18.Text = "Total Female Patients"
         '
@@ -965,14 +1004,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel5.Controls.Add(Me.Label15)
         Me.Guna2ShadowPanel5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(0, 125)
+        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(0, 154)
         Me.Guna2ShadowPanel5.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
         Me.Guna2ShadowPanel5.Radius = 5
         Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel5.ShadowDepth = 50
         Me.Guna2ShadowPanel5.ShadowShift = 3
-        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(258, 126)
+        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(344, 155)
         Me.Guna2ShadowPanel5.TabIndex = 4
         '
         'Label13
@@ -981,9 +1020,10 @@ Partial Class AdminDashboard
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Gray
-        Me.Label13.Location = New System.Drawing.Point(149, 80)
+        Me.Label13.Location = New System.Drawing.Point(199, 98)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(80, 16)
+        Me.Label13.Size = New System.Drawing.Size(104, 19)
         Me.Label13.TabIndex = 2
         Me.Label13.Text = "vs last month"
         '
@@ -991,9 +1031,10 @@ Partial Class AdminDashboard
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(45, 59)
+        Me.Label14.Location = New System.Drawing.Point(60, 73)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(59, 31)
+        Me.Label14.Size = New System.Drawing.Size(74, 40)
         Me.Label14.TabIndex = 1
         Me.Label14.Text = "552"
         '
@@ -1003,9 +1044,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox5.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox5.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
         Me.Guna2PictureBox5.ImageRotate = 0!
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(173, 40)
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(231, 49)
+        Me.Guna2PictureBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Me.Guna2PictureBox5.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox5.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox5.TabIndex = 1
         Me.Guna2PictureBox5.TabStop = False
@@ -1015,9 +1057,10 @@ Partial Class AdminDashboard
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Gray
-        Me.Label15.Location = New System.Drawing.Point(47, 40)
+        Me.Label15.Location = New System.Drawing.Point(63, 49)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(137, 19)
+        Me.Label15.Size = New System.Drawing.Size(175, 24)
         Me.Label15.TabIndex = 0
         Me.Label15.Text = "Total Male Patients"
         '
@@ -1030,14 +1073,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel4.Controls.Add(Me.Label12)
         Me.Guna2ShadowPanel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(774, 0)
+        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(1032, 0)
         Me.Guna2ShadowPanel4.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
         Me.Guna2ShadowPanel4.Radius = 5
         Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel4.ShadowDepth = 50
         Me.Guna2ShadowPanel4.ShadowShift = 3
-        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(258, 125)
+        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(344, 154)
         Me.Guna2ShadowPanel4.TabIndex = 3
         '
         'Label10
@@ -1046,9 +1089,10 @@ Partial Class AdminDashboard
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Gray
-        Me.Label10.Location = New System.Drawing.Point(149, 78)
+        Me.Label10.Location = New System.Drawing.Point(199, 96)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(80, 16)
+        Me.Label10.Size = New System.Drawing.Size(104, 19)
         Me.Label10.TabIndex = 2
         Me.Label10.Text = "vs last month"
         '
@@ -1056,9 +1100,10 @@ Partial Class AdminDashboard
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(45, 58)
+        Me.Label11.Location = New System.Drawing.Point(60, 71)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(44, 31)
+        Me.Label11.Size = New System.Drawing.Size(55, 40)
         Me.Label11.TabIndex = 1
         Me.Label11.Text = "35"
         '
@@ -1068,9 +1113,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox4.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox4.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
         Me.Guna2PictureBox4.ImageRotate = 0!
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(173, 39)
+        Me.Guna2PictureBox4.Location = New System.Drawing.Point(231, 48)
+        Me.Guna2PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox4.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox4.TabIndex = 1
         Me.Guna2PictureBox4.TabStop = False
@@ -1080,9 +1126,10 @@ Partial Class AdminDashboard
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Gray
-        Me.Label12.Location = New System.Drawing.Point(47, 39)
+        Me.Label12.Location = New System.Drawing.Point(63, 48)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(78, 19)
+        Me.Label12.Size = New System.Drawing.Size(100, 24)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "Total Staff"
         '
@@ -1095,14 +1142,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel3.Controls.Add(Me.Label9)
         Me.Guna2ShadowPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(516, 0)
+        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(688, 0)
         Me.Guna2ShadowPanel3.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
         Me.Guna2ShadowPanel3.Radius = 5
         Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel3.ShadowDepth = 50
         Me.Guna2ShadowPanel3.ShadowShift = 3
-        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(258, 125)
+        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(344, 154)
         Me.Guna2ShadowPanel3.TabIndex = 2
         '
         'Label7
@@ -1111,9 +1158,10 @@ Partial Class AdminDashboard
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Gray
-        Me.Label7.Location = New System.Drawing.Point(158, 78)
+        Me.Label7.Location = New System.Drawing.Point(211, 96)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(73, 16)
+        Me.Label7.Size = New System.Drawing.Size(96, 19)
         Me.Label7.TabIndex = 2
         Me.Label7.Text = "vs yesterday"
         '
@@ -1121,9 +1169,10 @@ Partial Class AdminDashboard
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(45, 58)
+        Me.Label8.Location = New System.Drawing.Point(60, 71)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(44, 31)
+        Me.Label8.Size = New System.Drawing.Size(55, 40)
         Me.Label8.TabIndex = 1
         Me.Label8.Text = "26"
         '
@@ -1133,9 +1182,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox3.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox3.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_down
         Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(182, 39)
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(243, 48)
+        Me.Guna2PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox3.TabIndex = 1
         Me.Guna2PictureBox3.TabStop = False
@@ -1145,9 +1195,10 @@ Partial Class AdminDashboard
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Gray
-        Me.Label9.Location = New System.Drawing.Point(47, 39)
+        Me.Label9.Location = New System.Drawing.Point(63, 48)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(141, 19)
+        Me.Label9.Size = New System.Drawing.Size(180, 24)
         Me.Label9.TabIndex = 0
         Me.Label9.Text = "New Patients Today"
         '
@@ -1160,14 +1211,14 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel2.Controls.Add(Me.Label6)
         Me.Guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(258, 0)
+        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(344, 0)
         Me.Guna2ShadowPanel2.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
         Me.Guna2ShadowPanel2.Radius = 5
         Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel2.ShadowDepth = 50
         Me.Guna2ShadowPanel2.ShadowShift = 3
-        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(258, 125)
+        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(344, 154)
         Me.Guna2ShadowPanel2.TabIndex = 1
         '
         'Label4
@@ -1176,9 +1227,10 @@ Partial Class AdminDashboard
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Gray
-        Me.Label4.Location = New System.Drawing.Point(140, 78)
+        Me.Label4.Location = New System.Drawing.Point(187, 96)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(73, 16)
+        Me.Label4.Size = New System.Drawing.Size(96, 19)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "vs yesterday"
         '
@@ -1186,9 +1238,10 @@ Partial Class AdminDashboard
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(45, 58)
+        Me.Label5.Location = New System.Drawing.Point(60, 71)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(44, 31)
+        Me.Label5.Size = New System.Drawing.Size(55, 40)
         Me.Label5.TabIndex = 1
         Me.Label5.Text = "51"
         '
@@ -1198,9 +1251,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox2.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox2.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
         Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(164, 39)
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(219, 48)
+        Me.Guna2PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox2.TabIndex = 1
         Me.Guna2PictureBox2.TabStop = False
@@ -1210,9 +1264,10 @@ Partial Class AdminDashboard
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Gray
-        Me.Label6.Location = New System.Drawing.Point(47, 39)
+        Me.Label6.Location = New System.Drawing.Point(63, 48)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(152, 19)
+        Me.Label6.Size = New System.Drawing.Size(195, 24)
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Today's Appointment"
         '
@@ -1232,7 +1287,7 @@ Partial Class AdminDashboard
         Me.Guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel1.ShadowDepth = 50
         Me.Guna2ShadowPanel1.ShadowShift = 3
-        Me.Guna2ShadowPanel1.Size = New System.Drawing.Size(258, 125)
+        Me.Guna2ShadowPanel1.Size = New System.Drawing.Size(344, 154)
         Me.Guna2ShadowPanel1.TabIndex = 0
         '
         'Label3
@@ -1241,9 +1296,10 @@ Partial Class AdminDashboard
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Gray
-        Me.Label3.Location = New System.Drawing.Point(149, 69)
+        Me.Label3.Location = New System.Drawing.Point(199, 85)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(71, 16)
+        Me.Label3.Size = New System.Drawing.Size(93, 19)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "vs last week"
         '
@@ -1251,9 +1307,10 @@ Partial Class AdminDashboard
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(45, 49)
+        Me.Label2.Location = New System.Drawing.Point(60, 60)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 31)
+        Me.Label2.Size = New System.Drawing.Size(74, 40)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "421"
         '
@@ -1263,9 +1320,10 @@ Partial Class AdminDashboard
         Me.Guna2PictureBox1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources.trending_up__1_
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(173, 30)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(231, 37)
+        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(47, 50)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(63, 62)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 1
         Me.Guna2PictureBox1.TabStop = False
@@ -1275,9 +1333,10 @@ Partial Class AdminDashboard
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(47, 30)
+        Me.Label1.Location = New System.Drawing.Point(63, 37)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(100, 19)
+        Me.Label1.Size = New System.Drawing.Size(128, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Total Patients"
         '
@@ -1330,11 +1389,12 @@ Partial Class AdminDashboard
         '
         'AdminDashboard
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Guna2Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "AdminDashboard"
-        Me.Size = New System.Drawing.Size(1032, 580)
+        Me.Size = New System.Drawing.Size(1376, 714)
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)
