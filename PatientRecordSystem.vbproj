@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2AE2807B-EBBF-41C2-B8CE-D61B14F53DBD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>PatientRecordSystem.My.MyApplication</StartupObject>
+    <StartupObject>PatientRecordSystem.LogForm</StartupObject>
     <RootNamespace>PatientRecordSystem</RootNamespace>
     <AssemblyName>PatientRecordSystem</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <MyType>WindowsForms</MyType>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>

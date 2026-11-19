@@ -39,8 +39,9 @@ Partial Class LogForm
         Me.Guna2Panel1.Controls.Add(Me.TableLayoutPanel1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1264, 681)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1683, 828)
         Me.Guna2Panel1.TabIndex = 0
         '
         'TableLayoutPanel1
@@ -52,10 +53,11 @@ Partial Class LogForm
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel3, 1, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1264, 681)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1683, 828)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Guna2Panel2
@@ -69,9 +71,10 @@ Partial Class LogForm
         Me.Guna2Panel2.CustomizableEdges.TopLeft = False
         Me.Guna2Panel2.CustomizableEdges.TopRight = False
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(4, 4)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(790, 675)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1051, 820)
         Me.Guna2Panel2.TabIndex = 0
         '
         'Guna2PictureBox1
@@ -81,9 +84,10 @@ Partial Class LogForm
         Me.Guna2PictureBox1.FillColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox1.Image = Global.PatientRecordSystem.My.Resources.Resources._813877714_2507097679772001_791552326465901178_n_removebg_preview
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(777, 551)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(1034, 673)
+        Me.Guna2PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Me.Guna2PictureBox1.Size = New System.Drawing.Size(10, 10)
+        Me.Guna2PictureBox1.Size = New System.Drawing.Size(13, 12)
         Me.Guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Guna2PictureBox1.TabIndex = 1
         Me.Guna2PictureBox1.TabStop = False
@@ -95,35 +99,39 @@ Partial Class LogForm
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(9, 529)
+        Me.Label1.Location = New System.Drawing.Point(12, 640)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Padding = New System.Windows.Forms.Padding(20)
-        Me.Label1.Size = New System.Drawing.Size(534, 140)
+        Me.Label1.Padding = New System.Windows.Forms.Padding(27, 25, 27, 25)
+        Me.Label1.Size = New System.Drawing.Size(660, 178)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Barangay Health Clinic" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Patient Record"
         '
         'Guna2Panel3
         '
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(799, 3)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(1063, 4)
+        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(20, 0, 20, 0)
-        Me.Guna2Panel3.Size = New System.Drawing.Size(462, 675)
+        Me.Guna2Panel3.Padding = New System.Windows.Forms.Padding(27, 0, 27, 0)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(616, 820)
         Me.Guna2Panel3.TabIndex = 1
         '
         'LogForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.ClientSize = New System.Drawing.Size(1683, 828)
         Me.Controls.Add(Me.Guna2Panel1)
-        Me.MaximumSize = New System.Drawing.Size(1280, 720)
-        Me.MinimumSize = New System.Drawing.Size(1024, 600)
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximumSize = New System.Drawing.Size(1701, 875)
+        Me.MinimumSize = New System.Drawing.Size(1359, 728)
         Me.Name = "LogForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form2"
+        Me.Text = "Login"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Guna2Panel1.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
