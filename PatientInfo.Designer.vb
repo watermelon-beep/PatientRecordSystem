@@ -871,10 +871,10 @@ Partial Class PatientInfo
         Me.Guna2TextBox7.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Guna2TextBox7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(179, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2TextBox7.Location = New System.Drawing.Point(190, 218)
+        Me.Guna2TextBox7.Location = New System.Drawing.Point(190, 224)
         Me.Guna2TextBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2TextBox7.Name = "Guna2TextBox7"
-        Me.Guna2TextBox7.PlaceholderText = "City/municipality"
+        Me.Guna2TextBox7.PlaceholderText = "Parents/ Guardian"
         Me.Guna2TextBox7.SelectedText = ""
         Me.Guna2TextBox7.Size = New System.Drawing.Size(410, 45)
         Me.Guna2TextBox7.TabIndex = 27
@@ -886,11 +886,11 @@ Partial Class PatientInfo
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label36.Location = New System.Drawing.Point(186, 195)
+        Me.Label36.Location = New System.Drawing.Point(194, 201)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(99, 19)
+        Me.Label36.Size = New System.Drawing.Size(220, 19)
         Me.Label36.TabIndex = 26
-        Me.Label36.Text = "Place of birth"
+        Me.Label36.Text = "Emergency Contact Information"
         '
         'Guna2ComboBox1
         '
@@ -2175,6 +2175,7 @@ Partial Class PatientInfo
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(1264, 679)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(1023, 599)
         Me.Name = "PatientInfo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -22,12 +22,12 @@ Partial Class PatientRecord
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
@@ -43,13 +43,18 @@ Partial Class PatientRecord
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column17 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.editbtn = New System.Windows.Forms.DataGridViewButtonColumn()
         Me.deletebtn = New System.Windows.Forms.DataGridViewButtonColumn()
@@ -93,9 +98,8 @@ Partial Class PatientRecord
         Me.Guna2Panel1.Controls.Add(Me.TableLayoutPanel1)
         Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1376, 721)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1032, 586)
         Me.Guna2Panel1.TabIndex = 2
         '
         'TableLayoutPanel1
@@ -106,22 +110,22 @@ Partial Class PatientRecord
         Me.TableLayoutPanel1.Controls.Add(Me.Guna2Panel2, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.30375!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 72.69624!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1376, 721)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1032, 586)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'Guna2Panel3
         '
         Me.Guna2Panel3.Controls.Add(Me.TableLayoutPanel2)
         Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel3.Location = New System.Drawing.Point(4, 196)
-        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
+        Me.Guna2Panel3.Location = New System.Drawing.Point(3, 159)
+        Me.Guna2Panel3.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1368, 521)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(1026, 424)
         Me.Guna2Panel3.TabIndex = 1
         '
         'TableLayoutPanel2
@@ -132,12 +136,12 @@ Partial Class PatientRecord
         Me.TableLayoutPanel2.Controls.Add(Me.Guna2Panel4, 0, 0)
         Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.85714!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.14286!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1368, 521)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1026, 424)
         Me.TableLayoutPanel2.TabIndex = 0
         '
         'Guna2Panel5
@@ -145,10 +149,9 @@ Partial Class PatientRecord
         Me.Guna2Panel5.Controls.Add(Me.viewallbtn)
         Me.Guna2Panel5.Controls.Add(Me.addpatbtn)
         Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel5.Location = New System.Drawing.Point(4, 461)
-        Me.Guna2Panel5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(3, 375)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(1360, 56)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(1020, 46)
         Me.Guna2Panel5.TabIndex = 2
         '
         'viewallbtn
@@ -164,10 +167,9 @@ Partial Class PatientRecord
         Me.viewallbtn.FillColor = System.Drawing.Color.Transparent
         Me.viewallbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.viewallbtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.viewallbtn.Location = New System.Drawing.Point(4, 0)
-        Me.viewallbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.viewallbtn.Location = New System.Drawing.Point(3, 0)
         Me.viewallbtn.Name = "viewallbtn"
-        Me.viewallbtn.Size = New System.Drawing.Size(225, 55)
+        Me.viewallbtn.Size = New System.Drawing.Size(169, 45)
         Me.viewallbtn.TabIndex = 1
         Me.viewallbtn.Text = "View all"
         '
@@ -182,10 +184,9 @@ Partial Class PatientRecord
         Me.addpatbtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.addpatbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addpatbtn.ForeColor = System.Drawing.Color.White
-        Me.addpatbtn.Location = New System.Drawing.Point(1131, 1)
-        Me.addpatbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.addpatbtn.Location = New System.Drawing.Point(848, 1)
         Me.addpatbtn.Name = "addpatbtn"
-        Me.addpatbtn.Size = New System.Drawing.Size(225, 55)
+        Me.addpatbtn.Size = New System.Drawing.Size(169, 45)
         Me.addpatbtn.TabIndex = 0
         Me.addpatbtn.Text = "Add Patient"
         '
@@ -193,10 +194,10 @@ Partial Class PatientRecord
         '
         Me.Guna2Panel4.Controls.Add(Me.TableLayoutPanel3)
         Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel4.Location = New System.Drawing.Point(4, 0)
-        Me.Guna2Panel4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
+        Me.Guna2Panel4.Location = New System.Drawing.Point(3, 0)
+        Me.Guna2Panel4.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.Size = New System.Drawing.Size(1360, 453)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(1020, 369)
         Me.Guna2Panel4.TabIndex = 1
         '
         'TableLayoutPanel3
@@ -207,22 +208,22 @@ Partial Class PatientRecord
         Me.TableLayoutPanel3.Controls.Add(Me.Guna2Panel6, 0, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel3.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 4)
+        Me.TableLayoutPanel3.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 2
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.84058!))
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.15942!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1360, 453)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1020, 369)
         Me.TableLayoutPanel3.TabIndex = 0
         '
         'Guna2Panel7
         '
         Me.Guna2Panel7.Controls.Add(Me.PatientTbl)
         Me.Guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Guna2Panel7.Location = New System.Drawing.Point(0, 85)
+        Me.Guna2Panel7.Location = New System.Drawing.Point(0, 69)
         Me.Guna2Panel7.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.Size = New System.Drawing.Size(1360, 368)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(1020, 300)
         Me.Guna2Panel7.TabIndex = 2
         '
         'PatientTbl
@@ -231,32 +232,31 @@ Partial Class PatientRecord
         Me.PatientTbl.AllowUserToDeleteRows = False
         Me.PatientTbl.AllowUserToResizeColumns = False
         Me.PatientTbl.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
-        Me.PatientTbl.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
+        Me.PatientTbl.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
         Me.PatientTbl.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.PatientTbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(80, Byte), Integer))
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.MediumSeaGreen
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.PatientTbl.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.PatientTbl.ColumnHeadersHeight = 70
         Me.PatientTbl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.PatientTbl.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column6, Me.Column7, Me.Column12, Me.Column8, Me.Column18, Me.Column11, Me.Column9, Me.Column17, Me.editbtn, Me.deletebtn, Me.viewbtn})
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(220, Byte), Integer))
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.PatientTbl.DefaultCellStyle = DataGridViewCellStyle6
+        Me.PatientTbl.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column7, Me.Column6, Me.Column12, Me.Column11, Me.Column18, Me.Column8, Me.Column10, Me.Column13, Me.Column14, Me.Column9, Me.Column15, Me.Column17, Me.editbtn, Me.deletebtn, Me.viewbtn})
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(CType(CType(219, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(220, Byte), Integer))
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(135, Byte), Integer), CType(CType(201, Byte), Integer), CType(CType(138, Byte), Integer))
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.PatientTbl.DefaultCellStyle = DataGridViewCellStyle12
         Me.PatientTbl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PatientTbl.GridColor = System.Drawing.Color.FromArgb(CType(CType(199, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(201, Byte), Integer))
         Me.PatientTbl.Location = New System.Drawing.Point(0, 0)
-        Me.PatientTbl.Margin = New System.Windows.Forms.Padding(4)
         Me.PatientTbl.Name = "PatientTbl"
         Me.PatientTbl.ReadOnly = True
         Me.PatientTbl.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
@@ -266,7 +266,7 @@ Partial Class PatientRecord
         Me.PatientTbl.RowTemplate.ReadOnly = True
         Me.PatientTbl.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.PatientTbl.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.PatientTbl.Size = New System.Drawing.Size(1360, 368)
+        Me.PatientTbl.Size = New System.Drawing.Size(1020, 300)
         Me.PatientTbl.TabIndex = 0
         Me.PatientTbl.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Green
         Me.PatientTbl.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(201, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(203, Byte), Integer))
@@ -299,7 +299,7 @@ Partial Class PatientRecord
         Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
-        Me.Column2.Width = 116
+        Me.Column2.Width = 93
         '
         'Column3
         '
@@ -317,16 +317,13 @@ Partial Class PatientRecord
         Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
         Me.Column4.ReadOnly = True
-        Me.Column4.Width = 113
+        Me.Column4.Width = 91
         '
-        'Column6
+        'Column5
         '
-        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column6.HeaderText = "Age"
-        Me.Column6.MinimumWidth = 6
-        Me.Column6.Name = "Column6"
-        Me.Column6.ReadOnly = True
-        Me.Column6.Width = 71
+        Me.Column5.HeaderText = "Extension"
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
         '
         'Column7
         '
@@ -335,7 +332,16 @@ Partial Class PatientRecord
         Me.Column7.MinimumWidth = 6
         Me.Column7.Name = "Column7"
         Me.Column7.ReadOnly = True
-        Me.Column7.Width = 117
+        Me.Column7.Width = 94
+        '
+        'Column6
+        '
+        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column6.HeaderText = "Age"
+        Me.Column6.MinimumWidth = 6
+        Me.Column6.Name = "Column6"
+        Me.Column6.ReadOnly = True
+        Me.Column6.Width = 59
         '
         'Column12
         '
@@ -346,24 +352,6 @@ Partial Class PatientRecord
         Me.Column12.ReadOnly = True
         Me.Column12.Width = 70
         '
-        'Column8
-        '
-        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column8.HeaderText = "Address"
-        Me.Column8.MinimumWidth = 6
-        Me.Column8.Name = "Column8"
-        Me.Column8.ReadOnly = True
-        Me.Column8.Width = 105
-        '
-        'Column18
-        '
-        Me.Column18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
-        Me.Column18.HeaderText = "EmergencyInfo"
-        Me.Column18.MinimumWidth = 6
-        Me.Column18.Name = "Column18"
-        Me.Column18.ReadOnly = True
-        Me.Column18.Width = 167
-        '
         'Column11
         '
         Me.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
@@ -373,14 +361,56 @@ Partial Class PatientRecord
         Me.Column11.ReadOnly = True
         Me.Column11.Width = 120
         '
+        'Column18
+        '
+        Me.Column18.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.Column18.HeaderText = "Emergency Contact"
+        Me.Column18.MinimumWidth = 6
+        Me.Column18.Name = "Column18"
+        Me.Column18.ReadOnly = True
+        Me.Column18.Width = 146
+        '
+        'Column8
+        '
+        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column8.HeaderText = "Address"
+        Me.Column8.MinimumWidth = 6
+        Me.Column8.Name = "Column8"
+        Me.Column8.ReadOnly = True
+        Me.Column8.Width = 86
+        '
+        'Column10
+        '
+        Me.Column10.HeaderText = "Job Title"
+        Me.Column10.Name = "Column10"
+        Me.Column10.ReadOnly = True
+        '
+        'Column13
+        '
+        Me.Column13.HeaderText = "Phone Number"
+        Me.Column13.Name = "Column13"
+        Me.Column13.ReadOnly = True
+        '
+        'Column14
+        '
+        Me.Column14.HeaderText = "Email"
+        Me.Column14.Name = "Column14"
+        Me.Column14.ReadOnly = True
+        '
         'Column9
         '
         Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
-        Me.Column9.HeaderText = "Phone number"
+        Me.Column9.HeaderText = "Username"
         Me.Column9.MinimumWidth = 6
         Me.Column9.Name = "Column9"
         Me.Column9.ReadOnly = True
         Me.Column9.Width = 150
+        '
+        'Column15
+        '
+        Me.Column15.HeaderText = "Password"
+        Me.Column15.Name = "Column15"
+        Me.Column15.ReadOnly = True
         '
         'Column17
         '
@@ -391,40 +421,40 @@ Partial Class PatientRecord
         Me.Column17.ReadOnly = True
         Me.Column17.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Column17.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.Column17.Width = 91
+        Me.Column17.Width = 74
         '
         'editbtn
         '
         Me.editbtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Khaki
-        Me.editbtn.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.Khaki
+        Me.editbtn.DefaultCellStyle = DataGridViewCellStyle9
         Me.editbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.editbtn.HeaderText = "Edit"
         Me.editbtn.MinimumWidth = 6
         Me.editbtn.Name = "editbtn"
         Me.editbtn.ReadOnly = True
-        Me.editbtn.Width = 47
+        Me.editbtn.Width = 38
         '
         'deletebtn
         '
         Me.deletebtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.deletebtn.DefaultCellStyle = DataGridViewCellStyle10
         Me.deletebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.deletebtn.HeaderText = "Delete"
         Me.deletebtn.MinimumWidth = 6
         Me.deletebtn.Name = "deletebtn"
         Me.deletebtn.ReadOnly = True
-        Me.deletebtn.Width = 69
+        Me.deletebtn.Width = 56
         '
         'viewbtn
         '
         Me.viewbtn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.viewbtn.DefaultCellStyle = DataGridViewCellStyle11
         Me.viewbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.viewbtn.HeaderText = "View"
         Me.viewbtn.MinimumWidth = 6
@@ -443,7 +473,7 @@ Partial Class PatientRecord
         Me.Guna2Panel6.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel6.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(1360, 85)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(1020, 69)
         Me.Guna2Panel6.TabIndex = 1
         '
         'selectionposcmbx
@@ -460,10 +490,9 @@ Partial Class PatientRecord
         Me.selectionposcmbx.ItemHeight = 30
         Me.selectionposcmbx.Items.AddRange(New Object() {"All", "Admin", "Doctor", "Barangay assistance"})
         Me.selectionposcmbx.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.selectionposcmbx.Location = New System.Drawing.Point(384, 30)
-        Me.selectionposcmbx.Margin = New System.Windows.Forms.Padding(4)
+        Me.selectionposcmbx.Location = New System.Drawing.Point(288, 24)
         Me.selectionposcmbx.Name = "selectionposcmbx"
-        Me.selectionposcmbx.Size = New System.Drawing.Size(292, 36)
+        Me.selectionposcmbx.Size = New System.Drawing.Size(220, 36)
         Me.selectionposcmbx.StartIndex = 0
         Me.selectionposcmbx.TabIndex = 3
         Me.selectionposcmbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -482,11 +511,10 @@ Partial Class PatientRecord
         Me.searchbtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.searchbtn.ForeColor = System.Drawing.Color.White
         Me.searchbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.search
-        Me.searchbtn.Location = New System.Drawing.Point(1267, 30)
-        Me.searchbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.searchbtn.Location = New System.Drawing.Point(950, 24)
         Me.searchbtn.Name = "searchbtn"
         Me.searchbtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.searchbtn.Size = New System.Drawing.Size(53, 44)
+        Me.searchbtn.Size = New System.Drawing.Size(40, 36)
         Me.searchbtn.TabIndex = 2
         '
         'searchtxbx
@@ -504,12 +532,12 @@ Partial Class PatientRecord
         Me.searchtxbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.searchtxbx.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold)
         Me.searchtxbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.searchtxbx.Location = New System.Drawing.Point(776, 30)
-        Me.searchtxbx.Margin = New System.Windows.Forms.Padding(5)
+        Me.searchtxbx.Location = New System.Drawing.Point(582, 24)
+        Me.searchtxbx.Margin = New System.Windows.Forms.Padding(4)
         Me.searchtxbx.Name = "searchtxbx"
         Me.searchtxbx.PlaceholderText = "Search ID, Name, or Username"
         Me.searchtxbx.SelectedText = ""
-        Me.searchtxbx.Size = New System.Drawing.Size(484, 44)
+        Me.searchtxbx.Size = New System.Drawing.Size(363, 36)
         Me.searchtxbx.TabIndex = 1
         '
         'Label1
@@ -519,10 +547,9 @@ Partial Class PatientRecord
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(25, 30)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(19, 24)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(305, 36)
+        Me.Label1.Size = New System.Drawing.Size(236, 28)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Patient Management"
         '
@@ -545,10 +572,10 @@ Partial Class PatientRecord
         Me.Guna2Panel2.Controls.Add(Me.Label2)
         Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Guna2Panel2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel2.Location = New System.Drawing.Point(4, 4)
-        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 0)
+        Me.Guna2Panel2.Location = New System.Drawing.Point(3, 3)
+        Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(3, 3, 3, 0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.Size = New System.Drawing.Size(1368, 192)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(1026, 156)
         Me.Guna2Panel2.TabIndex = 0
         '
         'Guna2Panel8
@@ -558,11 +585,10 @@ Partial Class PatientRecord
         Me.Guna2Panel8.BorderThickness = 1
         Me.Guna2Panel8.Controls.Add(Me.profileimg)
         Me.Guna2Panel8.FillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Guna2Panel8.Location = New System.Drawing.Point(24, 4)
-        Me.Guna2Panel8.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Panel8.Location = New System.Drawing.Point(18, 3)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Guna2Panel8.Size = New System.Drawing.Size(216, 185)
+        Me.Guna2Panel8.Padding = New System.Windows.Forms.Padding(2)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(162, 150)
         Me.Guna2Panel8.TabIndex = 12
         '
         'profileimg
@@ -570,11 +596,10 @@ Partial Class PatientRecord
         Me.profileimg.Dock = System.Windows.Forms.DockStyle.Fill
         Me.profileimg.FillColor = System.Drawing.Color.Transparent
         Me.profileimg.ImageRotate = 0!
-        Me.profileimg.Location = New System.Drawing.Point(3, 2)
-        Me.profileimg.Margin = New System.Windows.Forms.Padding(4)
+        Me.profileimg.Location = New System.Drawing.Point(2, 2)
         Me.profileimg.Name = "profileimg"
         Me.profileimg.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.profileimg.Size = New System.Drawing.Size(210, 181)
+        Me.profileimg.Size = New System.Drawing.Size(158, 146)
         Me.profileimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.profileimg.TabIndex = 0
         Me.profileimg.TabStop = False
@@ -585,10 +610,9 @@ Partial Class PatientRecord
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(269, 160)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(202, 130)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(122, 19)
+        Me.Label12.Size = New System.Drawing.Size(96, 16)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "Created account"
         '
@@ -598,10 +622,9 @@ Partial Class PatientRecord
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(1189, 140)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(892, 114)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(47, 19)
+        Me.Label11.Size = New System.Drawing.Size(36, 16)
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "Email"
         '
@@ -611,10 +634,9 @@ Partial Class PatientRecord
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(269, 53)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(201, 37)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(79, 24)
+        Me.Label10.Size = New System.Drawing.Size(63, 19)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "Position"
         '
@@ -624,10 +646,9 @@ Partial Class PatientRecord
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label9.Location = New System.Drawing.Point(879, 140)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(659, 114)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(75, 19)
+        Me.Label9.Size = New System.Drawing.Size(59, 16)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Birthdate"
         '
@@ -637,10 +658,9 @@ Partial Class PatientRecord
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(1188, 113)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(891, 92)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(161, 27)
+        Me.Label8.Size = New System.Drawing.Size(129, 22)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Phone number"
         '
@@ -650,10 +670,9 @@ Partial Class PatientRecord
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(877, 113)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(658, 92)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(124, 27)
+        Me.Label7.Size = New System.Drawing.Size(101, 22)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Civil Status"
         '
@@ -663,10 +682,9 @@ Partial Class PatientRecord
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(877, 84)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(658, 68)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(85, 27)
+        Me.Label6.Size = New System.Drawing.Size(68, 22)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Gender"
         '
@@ -676,10 +694,9 @@ Partial Class PatientRecord
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(1187, 79)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(890, 64)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(124, 36)
+        Me.Label5.Size = New System.Drawing.Size(97, 28)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Address"
         '
@@ -689,10 +706,9 @@ Partial Class PatientRecord
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(269, 140)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(202, 114)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(25, 19)
+        Me.Label4.Size = New System.Drawing.Size(20, 16)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "ID"
         '
@@ -702,10 +718,9 @@ Partial Class PatientRecord
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(268, 113)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(201, 92)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 27)
+        Me.Label3.Size = New System.Drawing.Size(42, 22)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Age"
         '
@@ -715,21 +730,19 @@ Partial Class PatientRecord
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(265, 69)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(199, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(122, 45)
+        Me.Label2.Size = New System.Drawing.Size(97, 36)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Name"
         '
         'PatientRecord
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Guna2Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "PatientRecord"
-        Me.Size = New System.Drawing.Size(1376, 721)
+        Me.Size = New System.Drawing.Size(1032, 586)
         Me.Guna2Panel1.ResumeLayout(False)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Guna2Panel3.ResumeLayout(False)
@@ -783,13 +796,18 @@ Partial Class PatientRecord
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column12 As DataGridViewTextBoxColumn
-    Friend WithEvents Column8 As DataGridViewTextBoxColumn
-    Friend WithEvents Column18 As DataGridViewTextBoxColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
+    Friend WithEvents Column18 As DataGridViewTextBoxColumn
+    Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Column10 As DataGridViewTextBoxColumn
+    Friend WithEvents Column13 As DataGridViewTextBoxColumn
+    Friend WithEvents Column14 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
+    Friend WithEvents Column15 As DataGridViewTextBoxColumn
     Friend WithEvents Column17 As DataGridViewImageColumn
     Friend WithEvents editbtn As DataGridViewButtonColumn
     Friend WithEvents deletebtn As DataGridViewButtonColumn
