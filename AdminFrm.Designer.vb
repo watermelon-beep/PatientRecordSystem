@@ -390,6 +390,7 @@ Partial Class AdminFrm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "AdminFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

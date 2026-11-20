@@ -353,6 +353,7 @@ Partial Class DoctorFrm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "DoctorFrm"
         Me.Text = "DoctorFrm"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

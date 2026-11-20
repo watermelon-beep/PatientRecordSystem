@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2AE2807B-EBBF-41C2-B8CE-D61B14F53DBD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>PatientRecordSystem.AdminFrm</StartupObject>
+    <StartupObject>PatientRecordSystem.LogForm</StartupObject>
     <RootNamespace>PatientRecordSystem</RootNamespace>
     <AssemblyName>PatientRecordSystem</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -125,12 +125,6 @@
     <Compile Include="BarangayAssistanceFrm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Barangayreports.Designer.vb">
-      <DependentUpon>Barangayreports.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Barangayreports.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="Barangay_Assistance_Dashboard.Designer.vb">
       <DependentUpon>Barangay_Assistance_Dashboard.vb</DependentUpon>
     </Compile>
@@ -237,9 +231,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BarangayAssistanceFrm.resx">
       <DependentUpon>BarangayAssistanceFrm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Barangayreports.resx">
-      <DependentUpon>Barangayreports.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Barangay_Assistance_Dashboard.resx">
       <DependentUpon>Barangay_Assistance_Dashboard.vb</DependentUpon>

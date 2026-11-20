@@ -39,11 +39,11 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         Me.patrecbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.appointmentbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2CirclePictureBox3 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.appointmentbtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Panel1.SuspendLayout()
         Me.Guna2ShadowPanel2.SuspendLayout()
         CType(Me.Guna2CirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -276,6 +276,27 @@ Partial Class BarangayAssistanceFrm
         Me.Guna2Button1.Text = "Dashboard"
         Me.Guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
+        'appointmentbtn
+        '
+        Me.appointmentbtn.Animated = True
+        Me.appointmentbtn.BorderColor = System.Drawing.Color.Transparent
+        Me.appointmentbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.appointmentbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.appointmentbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.appointmentbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.appointmentbtn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.appointmentbtn.FillColor = System.Drawing.Color.Transparent
+        Me.appointmentbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.appointmentbtn.ForeColor = System.Drawing.Color.White
+        Me.appointmentbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.log_out
+        Me.appointmentbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.appointmentbtn.Location = New System.Drawing.Point(3, 93)
+        Me.appointmentbtn.Name = "appointmentbtn"
+        Me.appointmentbtn.Size = New System.Drawing.Size(226, 39)
+        Me.appointmentbtn.TabIndex = 21
+        Me.appointmentbtn.Text = "Appointment"
+        Me.appointmentbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
         'Guna2Panel2
         '
         Me.Guna2Panel2.BackColor = System.Drawing.Color.Transparent
@@ -315,33 +336,13 @@ Partial Class BarangayAssistanceFrm
         '
         Me.Timer1.Interval = 1000
         '
-        'appointmentbtn
-        '
-        Me.appointmentbtn.Animated = True
-        Me.appointmentbtn.BorderColor = System.Drawing.Color.Transparent
-        Me.appointmentbtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.appointmentbtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.appointmentbtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.appointmentbtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.appointmentbtn.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.appointmentbtn.FillColor = System.Drawing.Color.Transparent
-        Me.appointmentbtn.Font = New System.Drawing.Font("Microsoft YaHei UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.appointmentbtn.ForeColor = System.Drawing.Color.White
-        Me.appointmentbtn.Image = Global.PatientRecordSystem.My.Resources.Resources.log_out
-        Me.appointmentbtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.appointmentbtn.Location = New System.Drawing.Point(3, 93)
-        Me.appointmentbtn.Name = "appointmentbtn"
-        Me.appointmentbtn.Size = New System.Drawing.Size(226, 39)
-        Me.appointmentbtn.TabIndex = 21
-        Me.appointmentbtn.Text = "Appointment"
-        Me.appointmentbtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
         'BarangayAssistanceFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1264, 681)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "BarangayAssistanceFrm"
         Me.Text = "BarangayAssistanceFrm"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
